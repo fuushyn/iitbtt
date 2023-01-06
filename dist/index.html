@@ -2,19 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="panda2.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>IITB tt</title>
     <link href="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/css/tom-select.css" rel="stylesheet">
 
     <!-- <link rel="stylesheet" src="timetablejs.css"> -->
     <!-- <link rel="stylesheet" src="../timetablejs.css"> -->
 
     <!-- <script src="../timetable.js"></script> -->
-    
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="app"></div>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="panda2.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        IITB timetable
+      </a>
+    </nav>
+    
 
     <!-- <div id="header"><h1>iitb tt</h1></div> -->
 
@@ -36,11 +42,19 @@
     
 
     <!-- <div id="autocomplete"></div> -->
-		<button type="button" id="creatett">Create Timetable</button>
+    <br>
+    <div class="btndiv">
+      <button type="button" class="btn btn-dark" id="creatett">Create Timetable</button>
+
+    </div>
 
   <div class="timetable"></div>
   <!-- <a href="javascript:cal.download()">Demo</a> -->
-    <button id="download">Download .ics file</button>
+  <br>
+  <div>
+    <button type="button" class="btn btn-dark" id="download">Download .ics file</button>
+
+  </div>
   <script src="timetable.js"></script>
   <script src="ics.deps.min.js"></script>
   <script src="ics.js"></script>
