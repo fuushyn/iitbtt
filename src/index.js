@@ -6,7 +6,34 @@ import { Tooltip, Toast, Popover } from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './options.js'
 // import './makelist.js'
-import './exporttt.js'
+// import './exporttt.js'
+
+import * as htmlToImage from 'html-to-image';
+import { toPng, toJpeg, toBlob, toPixelData, toSvg } from 'html-to-image';
+
+
+let bt = document.getElementById('ss')
+let el = document.getElementById('iitbtt')
+bt.onclick = function(){
+  el.firstChild.nextElementSibling.firstChild.style.visibility = 'hidden' 
+  el.firstChild.style.visibility = 'hidden' 
+  el.firstChild.firstChild.style.visibility = 'visible'
+
+  htmlToImage.toBlob(el, {width: 2000, height: 2000})
+  .then(function (blob) {
+
+
+    if (window.saveAs) {
+      window.saveAs(blob, 'my-node.png');
+    } else {
+     FileSaver.saveAs(blob, 'my-node.png');
+   }
+   el.firstChild.nextElementSibling.firstChild.style.visibility = 'visible' 
+   el.firstChild.style.visibility = 'visible' 
+  });
+
+}
+
 
 import {courses} from './courses.js';
 // let config = {

@@ -26,7 +26,7 @@
   max-width: 20%;
   padding: 0 !important;
   margin-top: 46px;
-  border-right: 5px solid transparent;
+  /* border-right: 5px solid transparent; */
   position: relative
 }
 
@@ -73,7 +73,7 @@
 .timetable>section time {
   display: block;
   width: 100%;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   -webkit-overflow-scrolling: touch
 }
 
@@ -82,7 +82,7 @@
   top: 0;
   z-index: 3;
   width: 100%;
-  overflow: hidden;
+  /* overflow: scroll; */
   background-color: #fff;
   transform-style: preserve-3d
 }
