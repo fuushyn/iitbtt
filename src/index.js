@@ -5,7 +5,7 @@ import './timetablejs.css';
 import { Tooltip, Toast, Popover } from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './options.js'
-import './makelist.js'
+// import './makelist.js'
 
 import {courses} from './courses.js';
 // let config = {
