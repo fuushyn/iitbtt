@@ -502,10 +502,19 @@ onItemAdd:function(){
 },
 render:{
   option:function(data,escape){
-    return '<div class="d-flex"><span class="ms-auto text-muted">' + escape(data.text) + '</span></div>';
+    // console.log(data)
+    const courseName= courses[data.text]['Name']
+    const courseCode = data.text.split('-')[0]
+    const courseSlot = courses[data.text]['Slot']
+    // return '<div class="d-flex"><span class="ms-auto text-muted">' + escape(data.text) + '</span></div>';
+    return '<div class="d-flex"><span>' + escape(`${courseCode}: ${courseName}`) + '</span><span class="ms-auto text-muted">' + escape(`Slot ${courseSlot}`) + '</span></div>'
   },
   item:function(data,escape){
-    return '<div>' + escape(data.text) + '</div>';
+    const courseName= courses[data.text]['Name']
+    const courseCode = data.text.split('-')[0]
+    const courseSlot = courses[data.text]['Slot']
+
+    return '<div>' + escape(`${courseCode}: ${courseName}`) + '</div>';
   }
 }
 });
