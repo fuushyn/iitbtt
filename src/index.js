@@ -68,7 +68,7 @@ function createEvent(course){
 
 
 
-    timetable.addEvent(course+'\n'+`${day.start} - ${day.end}`, day.name, new Date(2015,7,17,parseInt(start[0]),parseInt(start[1])), new Date(2015,7,17,parseInt(end[0]),parseInt(end[1])));
+    timetable.addEvent(course.split('-')[0]+'\n'+`${day.start} - ${day.end}`, day.name, new Date(2015,7,17,parseInt(start[0]),parseInt(start[1])), new Date(2015,7,17,parseInt(end[0]),parseInt(end[1])));
 
   });
 
