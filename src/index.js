@@ -5,7 +5,7 @@ import './timetablejs.css';
 import { Tooltip, Toast, Popover } from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './options.js'
-// import './makelist.js'
+import './makelist.js'
 
 import {courses} from './courses.js';
 // let config = {
@@ -61,7 +61,7 @@ let firstDate = {
 
 var cal;
 function createEvent(course){
-  slots[courses[course].Slot].days.forEach(day => {
+  slots[courses[course]['Slot']].days.forEach(day => {
 
     let start = day.start.split(':')
     let end = day.end.split(':')
@@ -75,7 +75,7 @@ function createEvent(course){
 }
 
 function createCalEvent(cal, course){
-  slots[courses[course].Slot].days.forEach(day => {
+  slots[courses[course]['Slot']].days.forEach(day => {
 
 
 
@@ -503,16 +503,17 @@ onItemAdd:function(){
 render:{
   option:function(data,escape){
     // console.log(data)
-    const courseName= courses[data.text]['Name']
-    const courseCode = data.text.split('-')[0]
-    const courseSlot = courses[data.text]['Slot']
+    const courseName= courses[data.value]['Name']
+    const courseCode = data.text.split(' ')[0].split('-')[0]
+    const courseSlot = courses[ data.text.split(' ')[0]]['Slot']
+    console.log(`code ${courseCode} slot: ${courseSlot}`);
     // return '<div class="d-flex"><span class="ms-auto text-muted">' + escape(data.text) + '</span></div>';
-    return '<div class="d-flex"><span>' + escape(`${courseCode}: ${courseName}`) + '</span><span class="ms-auto text-muted">' + escape(`Slot ${courseSlot}`) + '</span></div>'
+    return '<div class="d-flex"><span>' + escape(`Slot ${courseSlot}`) + '</span><span class="ms-auto text-muted">' + escape( `${courseCode}: ${courseName}`) + '</span></div>'
   },
   item:function(data,escape){
-    const courseName= courses[data.text]['Name']
-    const courseCode = data.text.split('-')[0]
-    const courseSlot = courses[data.text]['Slot']
+    const courseName= courses[data.value]['Name']
+    const courseCode = data.text.split(' ')[0].split('-')[0]
+    const courseSlot = courses[data.text.split(' ')[0]]['Slot']
 
     return '<div>' + escape(`${courseCode}: ${courseName}`) + '</div>';
   }
