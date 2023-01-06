@@ -16,6 +16,7 @@
   <body>
     <div id="app"></div>
 
+    <div id="header"><h1>iitb tt</h1></div>
 
     <select id="select-tags" name="state[]" multiple placeholder="Select a course..." autocomplete="off" >
 
@@ -27,10 +28,14 @@
     
 
     <!-- <div id="autocomplete"></div> -->
-		<button type="button" id="creatett">Create Timetable</button>
+		<!-- <button type="button" id="creatett">Create Timetable</button> -->
 
   <div class="timetable"></div>
+  <!-- <a href="javascript:cal.download()">Demo</a> -->
+    <button id="download">Download .ics file</button>
   <script src="timetable.js"></script>
+  <script src="ics.deps.min.js"></script>
+  <script src="ics.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/js/tom-select.complete.min.js"></script>
 
     <script type="module" src="bundle.js"></script>

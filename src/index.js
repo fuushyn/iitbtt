@@ -39,6 +39,27 @@ import {courses} from './courses.js';
 // const autoCompleteJS = new autoComplete({ config });
 
 
+function formatTime(tstring){
+  console.log(`formatting: ${tstring}`);
+  let hours = parseInt(tstring.split(':')[0])
+  let mins = parseInt(tstring.split(':')[1])
+  if(hours>11){
+    return `${hours-12}:${mins} pm`
+  }
+  else{
+    return tstring+ ' am';
+  }
+}
+
+let firstDate = {
+  'Monday': '1/2/2023',
+  'Tuesday': '1/3/2023',
+  'Wednesday': '1/4/2023',
+  'Thursday': '1/5/2023',
+  'Friday': '1/6/2023',
+}
+
+var cal;
 function createEvent(course){
   slots[courses[course].Slot].days.forEach(day => {
 
@@ -46,10 +67,29 @@ function createEvent(course){
     let end = day.end.split(':')
 
 
+
     timetable.addEvent(course+'\n'+`${day.start} - ${day.end}`, day.name, new Date(2015,7,17,parseInt(start[0]),parseInt(start[1])), new Date(2015,7,17,parseInt(end[0]),parseInt(end[1])));
 
   });
 
+}
+
+function createCalEvent(cal, course){
+  slots[courses[course].Slot].days.forEach(day => {
+
+
+
+    let start = day.start
+    let end = day.end
+
+    let startDT = firstDate[day.name]+ ' ' + formatTime(start)
+
+    let endDT = firstDate[day.name]+ ' ' + formatTime(end)
+
+
+    cal.addEvent(course, courses[course]['Name'], courses[course]['Venue'], startDT, endDT, {freq: 'WEEKLY'});
+
+  });
 }
 
 // let courses = {
@@ -449,25 +489,13 @@ var options = {
 // timetable.addEvent('Jam Session', 'Monday', new Date(2015,7,17,21,15), new Date(2015,7,17,23,30), options);
 
 
-createEvent('CS695');
-createEvent('CS302');
-createEvent('CS317');
-createEvent('MA214');
-createEvent('CS728');
-createEvent('CS316');
-createEvent('CS753');
-createEvent('CS387');
-
 
 var renderer = new Timetable.Renderer(timetable);
 renderer.draw('.timetable'); // any css selector
 
-
-var settings = {};
 new TomSelect("#select-tags",{
 plugins: ['remove_button'],
 create: true,
-closeAfterSelect: true,
 onItemAdd:function(){
   this.setTextboxValue('');
   this.refreshOptions();
@@ -490,7 +518,9 @@ ttbtn.onclick = function(){
   
   timetable.addLocations(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']);
   
-  
+    
+  cal = ics();
+
   // timetable.addEvent('Frankadelic', 'Monday', new Date(2015,7,17,10,45), new Date(2015,7,17,12,30));
   
   options = {
@@ -507,11 +537,19 @@ ttbtn.onclick = function(){
   let selectedCourses  = document.getElementById('select-tags').selectedOptions;
   var values = Array.from(selectedCourses).map(({ value }) => value);
   values.forEach((course)=>{
-    createEvent(course)
+    createEvent(course);
+    createCalEvent(cal, course);
   })
 
   renderer = new Timetable.Renderer(timetable);
   renderer.draw('.timetable'); // any css selector
   
   
+}
+
+let downbtn = document.getElementById('download')
+
+downbtn.onclick = ()=>{
+cal.download('ics')
+
 }
