@@ -23,7 +23,7 @@
 
 .timetable>aside {
   flex: none;
-  max-width: 30%;
+  max-width: 20%;
   padding: 0 !important;
   margin-top: 46px;
   border-right: 5px solid transparent;
@@ -61,7 +61,7 @@
 
 .timetable aside li,
 .timetable time li {
-  height: 65px
+  height: 75px
 }
 
 .timetable>section {
@@ -97,7 +97,7 @@
   flex: none;
   display: block;
   position: relative;
-  width: 96px
+  width: 136px
 }
 
 .timetable>section>header li .time-label {
@@ -128,7 +128,7 @@
 .timetable ul.room-timeline li {
   position: relative;
   background-color: #f4f4f4;
-  height: 65px
+  height: 75px
 }
 
 .timetable ul.room-timeline li:nth-of-type(odd) {
@@ -148,7 +148,7 @@
 }
 
 .timetable ul.room-timeline li:first-child .time-entry {
-  height: 60px
+  height: 70px
 }
 
 .timetable ul.room-timeline li:after,
@@ -164,29 +164,31 @@
 
 .timetable ul.room-timeline li:before {
   background-image: linear-gradient(90deg, #e5e5e5 1px, transparent 0);
-  background-size: 24px auto
+  background-size: 34px auto
 }
 
 .timetable ul.room-timeline li:after {
   background-image: linear-gradient(90deg, #e5e5e5, #e5e5e5 1px, #f4f4f4 0, #f4f4f4 2px, #e5e5e5 0, #e5e5e5 3px, transparent 0, transparent);
-  background-size: 96px auto;
+  background-size: 136px auto;
   background-position: -2px 0
 }
 
 .timetable .time-entry {
-  background-color: #ec6a5e;
+  background-color: #fd5243;
   transition: background-color .2s;
-  height: 60px;
+  height: 70px;
   display: block;
   position: absolute;
   z-index: 2;
+  font-size: small;
   padding: 0 10px;
   white-space: normal;
   overflow: hidden;
   color: #fff;
-  border: 1px solid #e32c1b;
+  border: 1px solid #fd5243;
   transform-style: preserve-3d;
   white-space: pre-wrap;
+  border-radius: 5px;
 }
 
 .timetable .time-entry small {

@@ -6,6 +6,7 @@ import { Tooltip, Toast, Popover } from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './options.js'
 // import './makelist.js'
+import './exporttt.js'
 
 import {courses} from './courses.js';
 // let config = {
@@ -66,11 +67,15 @@ function createEvent(course){
     let start = day.start.split(':')
     let end = day.end.split(':')
 
+    console.log(parseInt(start[0]))
+    console.log(parseInt(start[1]))
+    console.log(parseInt(end[0]))
+    console.log(parseInt(end[1]))
 
-
-    timetable.addEvent(course.split('-')[0]+'\n'+`${day.start} - ${day.end}`, day.name, new Date(2015,7,17,parseInt(start[0]),parseInt(start[1])), new Date(2015,7,17,parseInt(end[0]),parseInt(end[1])));
+    timetable.addEvent(course.split('-')[0]+'\n'+`${day.start} - ${day.end}`+'\n'+`${courses[course]['Venue']}`, day.name, new Date(2015,7,17,parseInt(start[0]),parseInt(start[1])), new Date(2015,7,17,parseInt(end[0]),parseInt(end[1])));
 
   });
+  document.getElementsByClassName('time-entry').sty
 
 }
 
