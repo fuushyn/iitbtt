@@ -24,9 +24,9 @@ bt.onclick = function(){
 
 
     if (window.saveAs) {
-      window.saveAs(blob, 'my-node.png');
+      window.saveAs(blob, 'timetable.png');
     } else {
-     FileSaver.saveAs(blob, 'my-node.png');
+     FileSaver.saveAs(blob, 'timetable.png');
    }
    el.firstChild.nextElementSibling.firstChild.style.visibility = 'visible' 
    el.firstChild.style.visibility = 'visible' 

@@ -23,7 +23,7 @@
 
 .timetable>aside {
   flex: none;
-  max-width: 20%;
+  max-width: 30%;
   padding: 0 !important;
   margin-top: 46px;
   /* border-right: 5px solid transparent; */
@@ -200,4 +200,11 @@
 
 .timetable .time-entry:hover {
   background-color: #e74030
+}
+
+#btnsdiv{
+  padding-left: 5px;
+}
+#btndiv{
+  padding-left: 5px;
 }
