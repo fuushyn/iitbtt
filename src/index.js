@@ -19,7 +19,7 @@ bt.onclick = function(){
   el.firstChild.style.visibility = 'hidden' 
   el.firstChild.firstChild.style.visibility = 'visible'
 
-  htmlToImage.toBlob(el, {width: 2000, height: 2000})
+  htmlToImage.toBlob(el, {width: 2000, height: 500})
   .then(function (blob) {
 
 
