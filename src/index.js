@@ -253,8 +253,8 @@ var slots = {
       },
       {
         name: 'Thursday',
-        start: '11:35',
-        end: '12:30'
+        start: '8:30',
+        end: '9:25'
       }
 
     ]
@@ -377,13 +377,13 @@ var slots = {
     days: [
       {
         name: 'Tuesday', 
-        start: '15:30',
-        end: '16:55'
+        start: '14:00',
+        end: '15:25'
       },
       {
         name: 'Friday',
-        start: '15:30',
-        end: '16:55'
+        start: '14:100',
+        end: '15:25'
       },
 
 
