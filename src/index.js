@@ -115,10 +115,12 @@ function createEvent(course){
     console.log(parseInt(end[0]))
     console.log(parseInt(end[1]))
 
-    timetable.addEvent(course.split('-')[0]+'\n'+`${day.start} - ${day.end}`+'\n'+`${courses[course]['Venue']}`, day.name, new Date(2015,7,17,parseInt(start[0]),parseInt(start[1])), new Date(2015,7,17,parseInt(end[0]),parseInt(end[1])));
+    timetable.addEvent(course.split('-')[0]+'  S '+course.split('-')[1].split(':')[1]+'\n'+`${day.start} - ${day.end}`+'\n'+`${courses[course]['Venue']}`, day.name, new Date(2015,7,17,parseInt(start[0]),parseInt(start[1])), new Date(2015,7,17,parseInt(end[0]),parseInt(end[1])));
 
+    console.log('Done');
   });
-  document.getElementsByClassName('time-entry').sty
+
+
 
 }
 
@@ -174,6 +176,24 @@ function createCalEvent(cal, course){
 
 // }
 
+let colors  = [
+  '#2f4f4f',
+  '#8b4513',
+  '#483d8b',
+  '#00008b',
+  '#ff4500',
+  '#ba55d3',
+  '#dc143c',
+  '#0000ff',
+  '#ff00ff',
+  '#1e90ff',
+  '#db7093',
+  '#ff1493',
+  '#ffa500',
+  '#3cb371',
+  '#9acd32',
+  '#00bfff',
+]
 
 var slots = {
   '1': {
@@ -195,6 +215,7 @@ var slots = {
       }
 
     ]
+    ,Color: colors[0]
   },
   '2': {
     days: [
@@ -215,6 +236,8 @@ var slots = {
       }
 
     ]
+    ,Color: colors[8]
+
   },
   '3': {
     days: [
@@ -235,6 +258,8 @@ var slots = {
       }
 
     ]
+    ,Color: colors[13]
+
   },
   '4': {
     days: [
@@ -255,6 +280,8 @@ var slots = {
       }
 
     ]
+    ,Color: colors[3]
+
   },
   '5': {
     days: [
@@ -271,6 +298,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[4]
+
   },
   '6': {
     days: [
@@ -287,6 +316,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[5]
+
   },
   '7': {
     days: [
@@ -303,6 +334,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[6]
+
   },
   '8': {
     days: [
@@ -319,6 +352,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[7]
+
   },
   '9': {
     days: [
@@ -335,6 +370,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[1]
+
   },
   '10': {
     days: [
@@ -351,6 +388,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[9]
+
   },
   '11': {
     days: [
@@ -367,6 +406,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[10]
+
   },
   '12': {
     days: [
@@ -383,6 +424,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[11]
+
   },
 
   '14': {
@@ -400,6 +443,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[12]
+
   },
 
 
@@ -418,6 +463,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[2]
+
   },
 
   '15': {
@@ -435,6 +482,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[14]
+
   },
   'X': {
     days: [
@@ -451,6 +500,8 @@ var slots = {
 
 
     ]
+    ,Color: colors[15]
+
   },
   'L1': {
     days: [
@@ -460,6 +511,8 @@ var slots = {
         end: '16:55'
       },
     ]
+    ,Color: colors[0]
+
   },
   'L2': {
     days: [
@@ -469,6 +522,8 @@ var slots = {
         end: '16:55'
       },
     ]
+    ,Color: colors[1]
+
   },
   'LX': {
     days: [
@@ -478,6 +533,8 @@ var slots = {
         end: '16:55'
       },
     ]
+    ,Color: colors[2]
+
   },
   'L3': {
     days: [
@@ -487,6 +544,8 @@ var slots = {
         end: '16:55'
       },
     ]
+    ,Color: colors[3]
+
   },
   'L4': {
     days: [
@@ -496,6 +555,8 @@ var slots = {
         end: '16:55'
       },
     ]
+    ,Color: colors[4]
+
   },
   'L5': {
     days: [
@@ -505,6 +566,8 @@ var slots = {
         end: '12:30'
       },
     ]
+    ,Color: colors[5]
+
   },
   'L6': {
     days: [
@@ -514,6 +577,8 @@ var slots = {
         end: '12:30'
       },
     ]
+    ,Color: colors[6]
+
   },
 
 
@@ -521,6 +586,10 @@ var slots = {
 
 
 }
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 
 var timetable = new Timetable();
 timetable.setScope(8, 21); // optional, only whole hours between 0 and 23
@@ -550,10 +619,10 @@ renderer.draw('.timetable'); // any css selector
 new TomSelect("#select-tags",{
 plugins: ['remove_button'],
 // create: true,
-// onItemAdd:function(){
-//   this.setTextboxValue('');
-//   this.refreshOptions();
-// },
+onItemAdd:function(){
+  this.setTextboxValue('');
+  this.refreshOptions();
+},
 render:{
   option:function(data,escape){
     // console.log(data)
@@ -608,7 +677,16 @@ ttbtn.onclick = function(){
   renderer = new Timetable.Renderer(timetable);
   renderer.draw('.timetable'); // any css selector
   
-  
+  let entries = document.getElementsByClassName('time-entry');
+  // console.log(entries)
+  for(let i=0; i<entries.length; i++){
+    let courseName = entries[i].innerText.split('\n')[0].split(' ')[0]
+    let slot = entries[i].innerText.split('\n')[0].split(' ')[3]
+    console.log(`${courseName}-S:${slot}`)
+    let color = slots[slot].Color
+    entries[i].style.backgroundColor = color
+  }
+
 }
 
 let downbtn = document.getElementById('download')
