@@ -19,18 +19,28 @@ bt.onclick = function(){
   el.firstChild.style.visibility = 'hidden' 
   el.firstChild.firstChild.style.visibility = 'visible'
 
-  htmlToImage.toBlob(el, {width: 500, height: 500})
-  .then(function (blob) {
+  // htmlToImage.toBlob(el, {width: 500, height: 500})
+  // .then(function (blob) {
 
 
-    if (window.saveAs) {
-      window.saveAs(blob, 'timetable.png');
-    } else {
-     FileSaver.saveAs(blob, 'timetable.png');
-   }
-   el.firstChild.nextElementSibling.firstChild.style.visibility = 'visible' 
-   el.firstChild.style.visibility = 'visible' 
+  //   if (window.saveAs) {
+  //     window.saveAs(blob, 'timetable.png');
+  //   } else {
+  //    FileSaver.saveAs(blob, 'timetable.png');
+  //  }
+  //  el.firstChild.nextElementSibling.firstChild.style.visibility = 'visible' 
+  //  el.firstChild.style.visibility = 'visible' 
+  // });
+
+  htmlToImage.toCanvas(el, {width: 3000, height: 1000})
+  .then(function (canvas) {
+    canvas.toBlob(function(blob) {
+      saveAs(blob, "pretty image.png");
+    });
+  
+    document.body.appendChild(canvas);
   });
+
 
 }
 
