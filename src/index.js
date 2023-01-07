@@ -398,7 +398,7 @@ var slots = {
         end: '20:25'
       },
       {
-        name: 'Thursay',
+        name: 'Thursday',
         start: '19:00',
         end: '20:25'
       },
