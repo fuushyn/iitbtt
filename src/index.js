@@ -98,7 +98,14 @@ let firstDate = {
 
 var cal;
 function createEvent(course){
+  let slot = courses[course]['Slot']
+  console.log(`Slot: XX${slot}XX`)
+
+  if(slot=='N/A'){
+    return
+  }
   slots[courses[course]['Slot']].days.forEach(day => {
+
 
     let start = day.start.split(':')
     let end = day.end.split(':')
@@ -116,6 +123,12 @@ function createEvent(course){
 }
 
 function createCalEvent(cal, course){
+  let slot = courses[course]['Slot']
+  console.log(`Slot: XX${slot}XX`)
+
+  if(slot=='N/A'){
+    return
+  }
   slots[courses[course]['Slot']].days.forEach(day => {
 
 
@@ -457,7 +470,7 @@ var slots = {
       },
     ]
   },
-  'Lx': {
+  'LX': {
     days: [
       {
         name: 'Wednesday', 
@@ -536,11 +549,11 @@ renderer.draw('.timetable'); // any css selector
 
 new TomSelect("#select-tags",{
 plugins: ['remove_button'],
-create: true,
-onItemAdd:function(){
-  this.setTextboxValue('');
-  this.refreshOptions();
-},
+// create: true,
+// onItemAdd:function(){
+//   this.setTextboxValue('');
+//   this.refreshOptions();
+// },
 render:{
   option:function(data,escape){
     // console.log(data)
