@@ -32,13 +32,12 @@ bt.onclick = function(){
   //  el.firstChild.style.visibility = 'visible' 
   // });
 
-  htmlToImage.toCanvas(el, {width: 3000, height: 1000})
+  htmlToImage.toCanvas(el, {width: 3000, height: 1000, canvasHeight:2000})
   .then(function (canvas) {
     canvas.toBlob(function(blob) {
-      saveAs(blob, "pretty image.png");
+      saveAs(blob, "timetableiitb.png");
     });
-  
-    document.body.appendChild(canvas);
+
   });
 
 
