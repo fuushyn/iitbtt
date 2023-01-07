@@ -19,26 +19,26 @@ bt.onclick = function(){
   el.firstChild.style.visibility = 'hidden' 
   el.firstChild.firstChild.style.visibility = 'visible'
 
-  // htmlToImage.toBlob(el, {width: 500, height: 500})
-  // .then(function (blob) {
+  htmlToImage.toBlob(el, {width: 500, height: 500})
+  .then(function (blob) {
 
 
-  //   if (window.saveAs) {
-  //     window.saveAs(blob, 'timetable.png');
-  //   } else {
-  //    FileSaver.saveAs(blob, 'timetable.png');
-  //  }
-  //  el.firstChild.nextElementSibling.firstChild.style.visibility = 'visible' 
-  //  el.firstChild.style.visibility = 'visible' 
-  // });
-
-  htmlToImage.toCanvas(el, {width: 3000, height: 1000, canvasHeight:2000})
-  .then(function (canvas) {
-    canvas.toBlob(function(blob) {
-      saveAs(blob, "timetableiitb.png");
-    });
-
+    if (window.saveAs) {
+      window.saveAs(blob, 'timetable.png');
+    } else {
+     FileSaver.saveAs(blob, 'timetable.png');
+   }
+   el.firstChild.nextElementSibling.firstChild.style.visibility = 'visible' 
+   el.firstChild.style.visibility = 'visible' 
   });
+
+  // htmlToImage.toCanvas(el, {width: 3000, height: 1000})
+  // .then(function (canvas) {
+  //   canvas.toBlob(function(blob) {
+  //     saveAs(blob, "timetableiitb.png");
+  //   });
+
+  // });
 
 
 }
@@ -549,7 +549,7 @@ render:{
     const courseSlot = courses[ data.text.split(' ')[0]]['Slot']
     console.log(`code ${courseCode} slot: ${courseSlot}`);
     // return '<div class="d-flex"><span class="ms-auto text-muted">' + escape(data.text) + '</span></div>';
-    return '<div class="d-flex"><span>' + escape(`Slot ${courseSlot}`) + '</span><span class="ms-auto text-muted">' + escape( `${courseCode}: ${courseName}`) + '</span></div>'
+    return '<div class="d-flex"><span>' + escape( `${courseCode}: ${courseName}`)+ '</span><span class="ms-auto text-muted">' +  escape(`Slot ${courseSlot}`)+ '</span></div>'
   },
   item:function(data,escape){
     const courseName= courses[data.value]['Name']
