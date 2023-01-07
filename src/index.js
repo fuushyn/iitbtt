@@ -382,7 +382,7 @@ var slots = {
       },
       {
         name: 'Friday',
-        start: '14:100',
+        start: '14:00',
         end: '15:25'
       },
 
