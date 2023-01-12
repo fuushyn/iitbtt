@@ -618,7 +618,7 @@ renderer.draw('.timetable'); // any css selector
 
 new TomSelect("#select-tags",{
 plugins: ['remove_button'],
-// create: true,
+create: true,
 onItemAdd:function(){
   this.setTextboxValue('');
   this.refreshOptions();
