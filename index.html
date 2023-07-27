@@ -27,13 +27,15 @@
     
         <p class="font-monospace">Choose courses to add: </p>
         
-    
-        <select id="select-tags" name="state[]" multiple placeholder="Search for a course..." autocomplete="off" >
+        <div class="search">
+            <select id="select-tags" name="state[]" multiple placeholder="Search for a course..." autocomplete="off" >
     
                 <option value="">Select a course...</option>
                 <option value="AE234-S:4">AE234-S:4 Aircraft Propulsion</option>
                 <option value="AE236-S:2" searchField="ghosh">AE236-S:2</option>
-        </select>
+            </select>
+
+        </div>
     
         <button id="create">Create Timetable</button>
         <p>(💡 Press again for a new color combo )</p>
