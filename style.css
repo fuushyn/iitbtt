@@ -1,0 +1,169 @@
+
+body {
+  font-family: -apple-system, sans-serif;
+  background-color: #1c1c1e;
+  color: #fff;
+  padding: 0 5px;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+
+
+}
+.content {
+  flex-grow: 1;  /* Makes the content div expanding to take up all available space */
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  background-color: #2c2c2e;
+  font-size: 1.2em;
+  margin: 0; /* Added this line */
+
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  background-color: #2c2c2e;
+  font-size: 1.2em;
+  margin: 0; /* Added this line */
+
+}
+
+.timetable2 {
+  display: grid;
+  grid-template-columns: 150px repeat(5, 1fr); /* First Column for Timing */
+  grid-auto-rows: 3em;
+  gap: 0px;
+  background-color: #2c2c2e;
+  border: #ffffff 2px solid;
+  /* margin: 0 10em; */
+}
+
+.slot {
+  border: 0.1px solid #3a3a3c;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  /* border-radius: 5%; */
+}
+.day-label {
+  border: 0.5px solid #3a3a3c;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 5%;
+  background-color:#1c1c1e;
+
+}
+ .time-label {
+  border: 0.5px solid #3a3a3c;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 5%;
+  background-color:#1c1c1e;
+}
+
+
+@media (max-width: 480px) {
+  .slot, .day-label, .time-label {
+      padding: 2px;
+      font-size: 0.8em;
+  }
+
+  .header {
+      font-size: 1em;
+  }
+
+  .timetable2 {
+      grid-template-columns: 130px repeat(5, 1fr); /* First Column for Timing on small screens*/
+  }
+}
+/* 
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #3a3a3c;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #4a4a4c;
+} */
+
+button {
+  display: block;
+  width: 250px;
+  height: 50px;
+  margin: 20px auto;  /* Centers the button */
+  background-color: #4CAF50;  /* A green color */
+  color: white;  /* White text */
+  border: none;
+  border-radius: 4px;  /* Rounded corners */
+  cursor: pointer;  /* Cursor will change when hovered */
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #45a049;  /* A different green color when hovered */
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-item {
+  /* Optional: Add any additional styles for the spans here */
+}
+
+.text-muted {
+  color: #6c757d; /* Change this to whatever 'muted' color you want */
+}
+a {
+  color: #90a5fa;
+}
+.logo {
+  height: 50px; /* Adjust as needed */
+  margin-right: 10px; /* Creates some space between the logo and the text */
+}
+.header {
+  display: flex;
+  align-items: center; /* Vertically aligns items in the center */
+  justify-content:flex-start;
+  padding: 15px 10px;
+  background-color: #2c2c2e;
+  font-size: 1.5em;
+  margin: 0;
+}
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
+p{
+  text-align: center;
+  color: #afafb0;
+}
