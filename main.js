@@ -666,7 +666,7 @@ let slots = {
         index: 2,
         start: '15:00',
         end: '16:00',
-        start_block: 14,
+        start_block: 15,
         num_blocks: getNumBlocks('15:00', '16:00')
     }],
     color: colors[(Math.floor(Math.random() * colors.length))]
@@ -676,7 +676,7 @@ let slots = {
         index: 2,
         start: '16:00',
         end: '17:00',
-        start_block: 14,
+        start_block: 16,
         num_blocks: getNumBlocks('16:00', '17:00')
     }],
     color: colors[(Math.floor(Math.random() * colors.length))]
