@@ -38,12 +38,12 @@ body {
 .timetable2 {
   display: grid;
   grid-template-columns: 150px repeat(5, 1fr); /* First Column for Timing */
-  grid-auto-rows: 3em;
+  grid-auto-rows: 60px;
   gap: 0px;
   background-color: #2c2c2e;
   border: #ffffff 2px solid;
   /* padding: 10%;/ */
-  margin: 0 10%;
+  /* margin: 0 10%; */
 }
 
 .slot {
@@ -170,5 +170,9 @@ p{
 }
 
 .search{
-  padding: 0 30%;
+  padding: 0 20%;
+}
+
+.tt{
+  padding: 0 20%;
 }

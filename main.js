@@ -1133,9 +1133,10 @@ function downloadSVG(svgString, name) {
 }
 
 document.getElementById('download').addEventListener('click', function() {
-    // let svgString = generatetimetable2Image(courses2);
+    // let svgString = generatetimeta ble2Image(courses2);
     // downloadSVG(svgString, 'timetable2.svg');
-    htmlToImage.toBlob(document.getElementById('timetable2'))
+    let timetable = document.getElementById('timetable2')
+    htmlToImage.toBlob(timetable)
     .then(function (blob) {
       if (window.saveAs) {
         window.saveAs(blob, 'my-node.png');
@@ -1143,7 +1144,7 @@ document.getElementById('download').addEventListener('click', function() {
        FileSaver.saveAs(blob, 'my-node.png');
      }
     });
-    
+
 
 });
 
