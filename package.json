@@ -12,6 +12,8 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
+    "countapi-js": "^1.0.2",
+    "counterapi": "^0.19.0",
     "file-saver": "^2.0.5",
     "html-to-image": "^1.11.11",
     "toastify-js": "^1.12.0",
