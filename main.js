@@ -896,7 +896,7 @@ function getNextDay(dayOfWeek) {
   let futureDate = new Date();
 
   // Correcting the calculation for day difference
-  let daysUntilNext = (dayOfWeek - currentDate.getDay() + 7) % 7;
+  let daysUntilNext = ((dayOfWeek+1)%7 - currentDate.getDay() + 7) % 7;
   futureDate.setDate(currentDate.getDate() + daysUntilNext);
 
   // Returning in MM/DD/YYYY format

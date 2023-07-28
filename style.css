@@ -168,7 +168,9 @@ p{
   text-align: center;
   color: #afafb0;
 }
-
+h3{
+  text-align: center;
+}
 .search{
   padding: 0 20%;
 }
