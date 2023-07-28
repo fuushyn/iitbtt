@@ -1,4 +1,4 @@
-import './public/style.css'
+import 'style.css'
 import * as htmlToImage from 'html-to-image';
 import { toPng, toJpeg, toBlob, toPixelData, toSvg } from 'html-to-image';
 import { saveAs } from 'file-saver';
