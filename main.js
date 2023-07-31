@@ -1143,7 +1143,8 @@ function downloadSVG(svgString, name) {
 document.getElementById('download').addEventListener('click', function() {
     // let svgString = generatetimeta ble2Image(courses2);
     // downloadSVG(svgString, 'timetable2.svg');
-    let timetable = document.getElementById('timetable2')
+    let timetable = document.getElementById('tt')
+    
     htmlToImage.toBlob(timetable)
     .then(function (blob) {
       if (window.saveAs) {
