@@ -1146,8 +1146,8 @@ document.getElementById('download').addEventListener('click', function() {
     let timetable = document.getElementById('tt');
     let og_color = timetable.style.backgroundColor;
     timetable.style.backgroundColor = 'black';
-    timetable.style.paddingTop = "10%";
-    timetable.style.paddingBottom = "10%";
+    timetable.style.paddingTop = "30%";
+    timetable.style.paddingBottom = "30%";
     htmlToImage.toBlob(timetable)
     .then(function (blob) {
       if (window.saveAs) {
