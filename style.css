@@ -176,6 +176,12 @@ h3{
 
 .tt{
   padding: 0 10%;
-  border-left:  20px solid transparent;
-  border-right:  20px solid transparent;
+  /* border-left: black 50px solid ;
+  border-right:black  50px solid; */
+  background: #1c1c1e;
+
+
+background-clip: border-box;
+
+
 }
