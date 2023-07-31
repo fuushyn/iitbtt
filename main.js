@@ -1143,8 +1143,9 @@ function downloadSVG(svgString, name) {
 document.getElementById('download').addEventListener('click', function() {
     // let svgString = generatetimeta ble2Image(courses2);
     // downloadSVG(svgString, 'timetable2.svg');
-    let timetable = document.getElementById('tt')
-    
+    let timetable = document.getElementById('tt');
+    let og_color = timetable.style.backgroundColor;
+    timetable.style.backgroundColor = 'black';
     htmlToImage.toBlob(timetable)
     .then(function (blob) {
       if (window.saveAs) {
@@ -1152,14 +1153,26 @@ document.getElementById('download').addEventListener('click', function() {
       } else {
        FileSaver.saveAs(blob, 'timetable.png');
      }
-    });
+     timetable.style.backgroundColor = og_color;
 
-    const query = new URLSearchParams({
-      p: 'ca74d8b2-db8a-464c-8c95-285e679bcc06',
-      i: 'timetables_downloaded',
+     const query = new URLSearchParams({
+       p: 'ca74d8b2-db8a-464c-8c95-285e679bcc06',
+       i: 'timetables_downloaded',
+     })
+     
+     fetch(`https://app.piratepx.com/ship?${query.toString()}`)
+ 
     })
-    
-    fetch(`https://app.piratepx.com/ship?${query.toString()}`)
+    .catch((error)=>{
+      console.log(error);
+      timetable.style.backgroundColor = og_color;
+      const query = new URLSearchParams({
+        p: 'ca74d8b2-db8a-464c-8c95-285e679bcc06',
+        i: 'download_failed',
+      })
+      fetch(`https://app.piratepx.com/ship?${query.toString()}`)
+ 
+    })
   
 
 });

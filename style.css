@@ -41,7 +41,7 @@ body {
   grid-auto-rows: 50px;
   gap: 0px;
   background-color: #2c2c2e;
-  /* border: #ffffff 2px solid; */
+  border: #ffffff 2px solid;
   /* margin: 0 10%; */
 }
 
