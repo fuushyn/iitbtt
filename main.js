@@ -1146,6 +1146,8 @@ document.getElementById('download').addEventListener('click', function() {
     let timetable = document.getElementById('tt');
     let og_color = timetable.style.backgroundColor;
     timetable.style.backgroundColor = 'black';
+    timetable.style.paddingTop = "10%";
+    timetable.style.paddingBottom = "10%";
     htmlToImage.toBlob(timetable)
     .then(function (blob) {
       if (window.saveAs) {
@@ -1154,7 +1156,9 @@ document.getElementById('download').addEventListener('click', function() {
        FileSaver.saveAs(blob, 'timetable.png');
      }
      timetable.style.backgroundColor = og_color;
-
+     timetable.style.paddingTop = "0";
+     timetable.style.paddingBottom = "0";
+ 
      const query = new URLSearchParams({
        p: 'ca74d8b2-db8a-464c-8c95-285e679bcc06',
        i: 'timetables_downloaded',
@@ -1166,7 +1170,9 @@ document.getElementById('download').addEventListener('click', function() {
     .catch((error)=>{
       console.log(error);
       timetable.style.backgroundColor = og_color;
-      const query = new URLSearchParams({
+      timetable.style.paddingTop = "0";
+      timetable.style.paddingBottom = "0";
+    const query = new URLSearchParams({
         p: 'ca74d8b2-db8a-464c-8c95-285e679bcc06',
         i: 'download_failed',
       })
