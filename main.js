@@ -940,7 +940,7 @@ function createCalEvent(cal, course){
   
       let endDT = getNextDay(day.index)+ ' ' + formatTime(end)
   
-      let description = `${courses[course]['Name']} ${courses[course]['Venue']}  ${courses[course]['Instructors']}`;
+      let description = `Name: ${courses[course]['Name']} Venue: ${courses[course]['Venue']} Instructors: ${courses[course]['Instructors']}`;
 
       cal.addEvent(courses[course]['Code'], description, courses[course]['Venue'], startDT, endDT, {freq: 'WEEKLY'});
       // console.log(`Created cal event for ${courses[course]['Code']}-${slot} start: ${startDT} end: ${endDT}`);
