@@ -35,7 +35,13918 @@ let colors = [
 // console.log(colors);
 
 
-let courses ={"AE103": {"Code": "AE103", "Name": "A historical perspective of Aerospace Engineering", "Venue": "CL 102 ESE", "Slots": ["11B", "11A"], "Instructors": ["Chandra S. Yerramalli"], "Division": null}, "AE152": {"Code": "AE152", "Name": "Introduction to Aerospace Engg.", "Venue": "CL 106 ESE", "Slots": ["5B", "5A"], "Instructors": ["A.M.Pradeep"], "Division": null}, "AE153-M": {"Code": "AE153-M", "Name": "Introduction to Aerospace Engg.", "Venue": "CL 106 ESE", "Slots": ["5B", "5A"], "Instructors": ["A.M.Pradeep"], "Division": "M"}, "AE223": {"Code": "AE223", "Name": "Thermodynamics and Propulsion", "Venue": "CL 113 ESE", "Slots": ["3A", "3C", "3B"], "Instructors": ["Sudarshan Kumar"], "Division": null}, "AE223-M": {"Code": "AE223-M", "Name": "Thermodynamics and Propulsion", "Venue": "CL 113 ESE", "Slots": ["3A", "3C", "3B"], "Instructors": ["Sudarshan Kumar"], "Division": "M"}, "AE227": {"Code": "AE227", "Name": "Solid Mechanics", "Venue": "CL 113 ESE", "Slots": ["4A", "4C", "4B"], "Instructors": ["Krishnendu  Haldar"], "Division": null}, "AE227-M": {"Code": "AE227-M", "Name": "Solid Mechanics", "Venue": "CL 113 ESE", "Slots": ["4A", "4C", "4B"], "Instructors": ["Krishnendu  Haldar"], "Division": "M"}, "AE229": {"Code": "AE229", "Name": "Introduction to Aerodynamics and Propulsion Laboratory", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Dhwanil  Shukla", "P. Ramachandran", "Sudarshan Kumar"], "Division": null}, "AE231": {"Code": "AE231", "Name": "Introduction to Aerospace Structures and Control  Laboratory", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Arnab Maity", "Arya Hemendra", "Krishnendu  Haldar"], "Division": null}, "AE234": {"Code": "AE234", "Name": "Aircraft Propulsion", "Venue": "CL 112 ESE", "Slots": ["8A", "8B"], "Instructors": ["Hrishikesh Gadgil"], "Division": null}, "AE236": {"Code": "AE236", "Name": "Compressible Fluid Mechanics", "Venue": "LT 004", "Slots": ["3A", "3C", "3B"], "Instructors": ["Vineeth Nair"], "Division": null}, "AE308-M": {"Code": "AE308-M", "Name": "Control Theory", "Venue": "LC 102", "Slots": ["14B", "14A"], "Instructors": ["Arnab Maity"], "Division": "M"}, "AE308-S1": {"Code": "AE308-S1", "Name": "Control Theory", "Venue": "LC 101", "Slots": ["14B", "14A"], "Instructors": ["Shashi Ranjan Kumar"], "Division": "S1"}, "AE308-S2": {"Code": "AE308-S2", "Name": "Control Theory", "Venue": "LC 102", "Slots": ["14B", "14A"], "Instructors": ["Arnab Maity"], "Division": "S2"}, "AE314": {"Code": "AE314", "Name": "Aircraft Structures Laboratory", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Krishnendu  Haldar"], "Division": null}, "AE326": {"Code": "AE326", "Name": "Vibrations and Structural Dynamics", "Venue": "LH 102", "Slots": ["9A", "9B"], "Instructors": ["Abhijit  Gogulapati"], "Division": null}, "AE326-M": {"Code": "AE326-M", "Name": "Vibrations and Structural Dynamics", "Venue": "LH 102", "Slots": ["9A", "9B"], "Instructors": ["Abhijit  Gogulapati"], "Division": "M"}, "AE330": {"Code": "AE330", "Name": "Aerospace Propulsion", "Venue": "LC 102", "Slots": ["2A", "2C", "2B"], "Instructors": ["Kowsik V R Bodi"], "Division": null}, "AE330-M": {"Code": "AE330-M", "Name": "Aerospace Propulsion", "Venue": "LC 102", "Slots": ["2A", "2C", "2B"], "Instructors": ["Kowsik V R Bodi"], "Division": "M"}, "AE333": {"Code": "AE333", "Name": "Aerodynamics", "Venue": "CL 103 ESE", "Slots": ["6B", "6A"], "Instructors": ["Viren Menezes"], "Division": null}, "AE333-M": {"Code": "AE333-M", "Name": "Aerodynamics", "Venue": "CL 103 ESE", "Slots": ["6B", "6A"], "Instructors": ["Viren Menezes"], "Division": "M"}, "AE407": {"Code": "AE407", "Name": "Modelling and Simulation", "Venue": "LC 002", "Slots": ["12A", "12B"], "Instructors": ["Arya Hemendra", "Harshad  Khadilkar"], "Division": null}, "AE407-M": {"Code": "AE407-M", "Name": "Modelling and Simulation", "Venue": "LC 002", "Slots": ["12A", "12B"], "Instructors": ["Harshad  Khadilkar", "Arya Hemendra"], "Division": "M"}, "AE410": {"Code": "AE410", "Name": "Navigation and Guidance", "Venue": "VMCC33", "Slots": ["4A", "4C", "4B"], "Instructors": ["Mangal  Kothari"], "Division": null}, "AE410-M": {"Code": "AE410-M", "Name": "Navigation and Guidance", "Venue": "VMCC33", "Slots": ["4A", "4C", "4B"], "Instructors": ["Mangal  Kothari"], "Division": "M"}, "AE429": {"Code": "AE429", "Name": "Aircraft Design Project", "Venue": "LT 005", "Slots": ["6B", "6A"], "Instructors": ["Avijit Chatterjee", "Ganapathi  Bhat"], "Division": null}, "AE501": {"Code": "AE501", "Name": "Virtual Instrumentation for Aerospace Engineers", "Venue": "LT 001", "Slots": ["7B", "L1", "7A"], "Instructors": ["Chandra Sekar  Thyagarajan"], "Division": null}, "AE607": {"Code": "AE607", "Name": "Aerospace Propulsion Laboratory", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Nagendra  Kumar"], "Division": null}, "AE611": {"Code": "AE611", "Name": "Aerodynamics Lab", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Aniruddha Sinha", "Dhwanil  Shukla", "Mandal J.C.", "Viren Menezes", "Vineeth Nair"], "Division": null}, "AE616": {"Code": "AE616", "Name": "Gas Dynamics", "Venue": "LT 004", "Slots": ["3A", "3C", "3B"], "Instructors": ["Vineeth Nair"], "Division": null}, "AE623": {"Code": "AE623", "Name": "Computing  of Turbulent Flows", "Venue": "CL 103 ESE", "Slots": ["9A", "9B"], "Instructors": ["Krishnendu Sinha"], "Division": null}, "AE641": {"Code": "AE641", "Name": "Introduction to Navigation and Guidance", "Venue": "VMCC33", "Slots": ["4A", "4C", "4B"], "Instructors": ["Mangal  Kothari"], "Division": null}, "AE649": {"Code": "AE649", "Name": "Finite Element Method", "Venue": "LT 104", "Slots": ["1A", "1C", "1B"], "Instructors": ["P J Guruprasad"], "Division": null}, "AE651": {"Code": "AE651", "Name": "Aerodynamics of Compressors and Turbines", "Venue": "LT 103", "Slots": ["2A", "2C", "2B"], "Instructors": ["A.M.Pradeep"], "Division": null}, "AE667": {"Code": "AE667", "Name": "Rotary Wing Aerodynamics", "Venue": "LT 105", "Slots": ["3A", "3C", "3B"], "Instructors": ["Dhwanil  Shukla"], "Division": null}, "AE681": {"Code": "AE681", "Name": "Combustion of Solid Propellants", "Venue": "LT 002", "Slots": ["8A", "8B"], "Instructors": ["Nagendra  Kumar"], "Division": null}, "AE695": {"Code": "AE695", "Name": "State Space Methods for Flight Vehicles", "Venue": "LT 005", "Slots": ["9A", "9B"], "Instructors": ["Rohit  Gupta"], "Division": null}, "AE699": {"Code": "AE699", "Name": "Control Systems Lab", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Arnab Maity", "Arya Hemendra", "Shashi Ranjan Kumar", "Rohit  Gupta"], "Division": null}, "AE705": {"Code": "AE705", "Name": "Introduction to Flight", "Venue": "CL 106 ESE", "Slots": ["5B", "5A"], "Instructors": ["A.M.Pradeep"], "Division": null}, "AE707": {"Code": "AE707", "Name": "Aerodynamics of Aerospace Vehicles", "Venue": "LT 202", "Slots": ["1A", "1C", "1B"], "Instructors": ["Aniruddha Sinha"], "Division": null}, "AE708": {"Code": "AE708", "Name": "Aerospace Propulsion", "Venue": "LC 102", "Slots": ["2A", "2C", "2B"], "Instructors": ["Kowsik V R Bodi"], "Division": null}, "AE709": {"Code": "AE709", "Name": "Aerospace Structures", "Venue": "LT 103", "Slots": ["10B", "10A"], "Instructors": ["Mujumdar P. M."], "Division": null}, "AE711": {"Code": "AE711", "Name": "Aircraft Propulsion", "Venue": "CL 112 ESE", "Slots": ["8A", "8B"], "Instructors": ["Hrishikesh Gadgil"], "Division": null}, "AE715": {"Code": "AE715", "Name": "Structural Dynamics", "Venue": "LT 202", "Slots": ["6B", "6A"], "Instructors": ["Mujumdar P. M."], "Division": null}, "AE720": {"Code": "AE720", "Name": "Advanced Numerical Methods for Compressible Flows", "Venue": "LT 006", "Slots": ["15B", "15A"], "Instructors": ["Mandal J.C."], "Division": null}, "AE725": {"Code": "AE725", "Name": "Air Transportation", "Venue": "LH 102", "Slots": ["14B", "14A"], "Instructors": ["Pant R.K."], "Division": null}, "AE727": {"Code": "AE727", "Name": "Aircraft Structural Mechanics Lab.", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Chandra S. Yerramalli"], "Division": null}, "AE775": {"Code": "AE775", "Name": "System Modelling Dynamics and Control", "Venue": "LC 101", "Slots": ["14B", "14A"], "Instructors": ["Shashi Ranjan Kumar"], "Division": null}, "AE780": {"Code": "AE780", "Name": "Computational Heat Transfer and Fluid Flow", "Venue": "LT 006", "Slots": ["13A", "13B"], "Instructors": ["Ganapathi  Bhat"], "Division": null}, "AE899": {"Code": "AE899", "Name": "Communication Skills", "Venue": "nan", "Slots": [], "Instructors": ["Abhijit  Gogulapati", "Hrishikesh Gadgil"], "Division": null}, "BB101-D1": {"Code": "BB101-D1", "Name": "Biology", "Venue": "LH 101", "Slots": ["6B", "6A"], "Instructors": ["Ranjith P.", "Patankar Swati"], "Division": "D1"}, "BB101-D2": {"Code": "BB101-D2", "Name": "Biology", "Venue": "LC 101", "Slots": ["10B", "10A"], "Instructors": ["Ranjith P.", "Patankar Swati"], "Division": "D2"}, "BB402": {"Code": "BB402", "Name": "Cell Biology", "Venue": "CL 113 ESE", "Slots": ["6B", "6A"], "Instructors": ["S. Ghosh"], "Division": null}, "BB405": {"Code": "BB405", "Name": "Molecular Biology", "Venue": "CL 110 ESE", "Slots": ["5B", "5A"], "Instructors": ["Sreelaja  Nair"], "Division": null}, "BB405-M": {"Code": "BB405-M", "Name": "Molecular Biology", "Venue": "CL 110 ESE", "Slots": ["5B", "5A"], "Instructors": ["Sreelaja  Nair"], "Division": "M"}, "BB421": {"Code": "BB421", "Name": "Genetics", "Venue": "CL 102 ESE", "Slots": ["2A", "2C", "2B"], "Instructors": ["Sushil  Kumar"], "Division": null}, "BB427": {"Code": "BB427", "Name": "Introduction to Neural Engineering", "Venue": "LT 204", "Slots": ["11B", "9B"], "Instructors": ["Nivethida  Thirugnanasambandam"], "Division": null}, "BB502": {"Code": "BB502", "Name": "Project Stage II Dissertation", "Venue": "nan", "Slots": [], "Instructors": ["Swapnil Rohidas Shinde"], "Division": null}, "BB505": {"Code": "BB505", "Name": "Molecular Immunology", "Venue": "LT 003", "Slots": ["3A", "3C", "3B"], "Instructors": ["Sushil  Kumar"], "Division": null}, "BB517": {"Code": "BB517", "Name": "Intellectual Property Rights Biosafety and Bioethics", "Venue": "nan", "Slots": [], "Instructors": ["Anuradha  Narasimhan"], "Division": null}, "BB519": {"Code": "BB519", "Name": "Project Proposal Presentation and Dissertation", "Venue": "nan", "Slots": [], "Instructors": ["Swapnil Rohidas Shinde"], "Division": null}, "BB521": {"Code": "BB521", "Name": "Biochemistry and Bioenergetics", "Venue": "LT 003", "Slots": ["1A", "1C", "1B"], "Instructors": ["P.V.Balaji"], "Division": null}, "BB521-M": {"Code": "BB521-M", "Name": "Biochemistry and Bioenergetics", "Venue": "LT 003", "Slots": ["1A", "1C", "1B"], "Instructors": ["P.V.Balaji"], "Division": "M"}, "BB523": {"Code": "BB523", "Name": "Mathematical and Numerical Methods for Biologists", "Venue": "CL 102 ESE", "Slots": ["7B", "7A"], "Instructors": ["Ambarish Kunwar"], "Division": null}, "BB525": {"Code": "BB525", "Name": "Biological Thermodynamics and Kinetics", "Venue": "CL 106 ESE", "Slots": ["2A", "2C", "2B"], "Instructors": ["Ashutosh Kumar"], "Division": null}, "BB527": {"Code": "BB527", "Name": "Molecular Enzymology", "Venue": "LT 203", "Slots": ["14B", "12A"], "Instructors": ["Prasenjit  Bhaumik"], "Division": null}, "BB529": {"Code": "BB529", "Name": "Research Methodology and Scientific Communication Skills", "Venue": "CL 105 ESE", "Slots": ["9A", "9B"], "Instructors": ["Patankar Swati"], "Division": null}, "BB531": {"Code": "BB531", "Name": "Plant Biotechnology", "Venue": "LT 206", "Slots": ["1C", "1B", "LX"], "Instructors": ["Rajesh  Patkar"], "Division": null}, "BB535": {"Code": "BB535", "Name": "Environmental Biotechnology", "Venue": "LT 304", "Slots": ["2A", "2C", "2B"], "Instructors": ["P. S. Phale"], "Division": null}, "BB539": {"Code": "BB539", "Name": "Applied Microbiology Laboratory", "Venue": "nan", "Slots": ["L1", "L2"], "Instructors": ["P. S. Phale"], "Division": null}, "BB553": {"Code": "BB553", "Name": "Bioinformatics", "Venue": "LC 301", "Slots": ["3B", "LX", "XC"], "Instructors": ["Prasenjit  Bhaumik"], "Division": null}, "BB553-M": {"Code": "BB553-M", "Name": "Bioinformatics", "Venue": "LC 301", "Slots": ["3B", "LX", "XC"], "Instructors": ["Prasenjit  Bhaumik"], "Division": "M"}, "BB601": {"Code": "BB601", "Name": "Introduction to Bio-nanotechnology", "Venue": "LT 005", "Slots": ["3A", "3C", "3B"], "Instructors": ["R. Srivastava"], "Division": null}, "BB603": {"Code": "BB603", "Name": "Physiology for Engineers", "Venue": "LA 002", "Slots": ["10B", "10A"], "Instructors": ["Vivek P. Soni", "Nivethida  Thirugnanasambandam"], "Division": null}, "BB603-M": {"Code": "BB603-M", "Name": "Physiology for Engineers", "Venue": "LT 202", "Slots": ["10B", "10A"], "Instructors": ["Vivek P. Soni", "Nivethida  Thirugnanasambandam"], "Division": "M"}, "BB607": {"Code": "BB607", "Name": "Proteomics- Principles and Techniques", "Venue": "LC 202", "Slots": ["6B", "6A"], "Instructors": ["S. Srivastava"], "Division": null}, "BB617": {"Code": "BB617", "Name": "Biophysical Chemistry", "Venue": "LT 304", "Slots": ["11B", "11A"], "Instructors": ["Ashutosh Kumar", "Samir Maji"], "Division": null}, "BB619": {"Code": "BB619", "Name": "Mathematics for Biologists", "Venue": "CL 104 ESE", "Slots": ["7B", "7A"], "Instructors": ["Sandip Laxman Kaledhonkar"], "Division": null}, "BB627": {"Code": "BB627", "Name": "Medical Imaging Methods", "Venue": "CL 105 ESE", "Slots": ["8A", "8B"], "Instructors": ["Hari M. Varma"], "Division": null}, "BB627-M": {"Code": "BB627-M", "Name": "Medical Imaging Methods", "Venue": "CL 105 ESE", "Slots": ["8A", "8B"], "Instructors": ["Hari M. Varma"], "Division": "M"}, "BB633": {"Code": "BB633", "Name": "Movement Neuroscience", "Venue": "CL 109 ESE", "Slots": ["6B", "6A"], "Instructors": ["Neeta Kanekar"], "Division": null}, "BB633-M": {"Code": "BB633-M", "Name": "Movement Neuroscience", "Venue": "CL 109 ESE", "Slots": ["6B", "6A"], "Instructors": ["Neeta Kanekar"], "Division": "M"}, "BB638": {"Code": "BB638", "Name": "Topics in Evolution", "Venue": "LH 102", "Slots": ["5B", "5A"], "Instructors": ["Kiran Kondabagilu"], "Division": null}, "BB647": {"Code": "BB647", "Name": "Introduction to Evolutionary Biology", "Venue": "LH 102", "Slots": ["5B", "5A"], "Instructors": ["Kiran Kondabagilu"], "Division": null}, "BB653": {"Code": "BB653", "Name": "Experimental Techniques in Biomedical Engineering", "Venue": "LT 101", "Slots": ["11A", "LX"], "Instructors": ["Ambarish Kunwar", "Debjani  Paul", "Nivethida  Thirugnanasambandam", "Hari M. Varma"], "Division": null}, "BB657": {"Code": "BB657", "Name": "Regulatory Aspects of Drug Development", "Venue": "LT 305", "Slots": ["9A", "9B"], "Instructors": ["Ashutosh Kumar"], "Division": null}, "BB663": {"Code": "BB663", "Name": "Medical Imaging Physics", "Venue": "CL 110 ESE", "Slots": ["2A", "2C", "2B"], "Instructors": ["Debjani  Paul"], "Division": null}, "BB663-M": {"Code": "BB663-M", "Name": "Medical Imaging Physics", "Venue": "CL 110 ESE", "Slots": ["2A", "2C", "2B"], "Instructors": ["Debjani  Paul"], "Division": "M"}, "BB665": {"Code": "BB665", "Name": "Biomaterials", "Venue": "VMCC33", "Slots": ["5B", "5A"], "Instructors": ["Prakriti Tayalia"], "Division": null}, "BB669": {"Code": "BB669", "Name": "Signals & Systems in Biomedical Engineering", "Venue": "LT 003", "Slots": ["8A", "8B"], "Instructors": ["Ambarish Kunwar"], "Division": null}, "BB673": {"Code": "BB673", "Name": "Medical Sensors", "Venue": "LT 104", "Slots": ["9A", "9B"], "Instructors": ["Mukherji Soumyo"], "Division": null}, "BB679": {"Code": "BB679", "Name": "Drug Delivery", "Venue": "LT 105", "Slots": ["5B", "5A"], "Instructors": ["Prakriti Tayalia"], "Division": null}, "BB681": {"Code": "BB681", "Name": "Biological Physics at Microscopic Scales", "Venue": "IEOR211", "Slots": ["5B", "5A"], "Instructors": ["Ambarish Kunwar"], "Division": null}, "BB681-M": {"Code": "BB681-M", "Name": "Biological Physics at Microscopic Scales", "Venue": "IEOR211", "Slots": ["5B", "5A"], "Instructors": ["Ambarish Kunwar"], "Division": "M"}, "BB701": {"Code": "BB701", "Name": "Research Proposal", "Venue": "nan", "Slots": [], "Instructors": ["Anirban Banerjee"], "Division": null}, "BB705": {"Code": "BB705", "Name": "Fundamental Concepts in Developmental Biology", "Venue": "nan", "Slots": ["6B", "6A"], "Instructors": ["Sreelaja  Nair"], "Division": null}, "BB706": {"Code": "BB706", "Name": "Fundamental and Practical Aspects of Microscopy", "Venue": "- 216", "Slots": ["6B", "6A"], "Instructors": ["Roop  Mallik"], "Division": null}, "BB797": {"Code": "BB797", "Name": "I Stage Project", "Venue": "nan", "Slots": [], "Instructors": ["Hari M. Varma", "Neeta Kanekar"], "Division": null}, "BB899": {"Code": "BB899", "Name": "Communication Skills", "Venue": "CL 109 ESE", "Slots": ["4A", "4C", "4B"], "Instructors": ["Ambarish Kunwar", "Nivethida  Thirugnanasambandam", "Prasenjit  Bhaumik", "P.V.Balaji", "Shamik Sen", "Sreelaja  Nair", "S. Srivastava", "Swapnil Rohidas Shinde", "Rajesh  Patkar"], "Division": null}, "BBS801": {"Code": "BBS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Rajesh  Patkar"], "Division": null}, "CE103": {"Code": "CE103", "Name": "Introduction to Civil Engineering", "Venue": "LH 301", "Slots": ["L4", "L2"], "Instructors": ["Mahesh Kumar Gupta", "Albert  Thomas", "Nagendra Rao Velaga"], "Division": null}, "CE203-S1": {"Code": "CE203-S1", "Name": "Solid Mechanics", "Venue": "- 228", "Slots": ["6B", "6A"], "Instructors": ["Jayadipta Ghosh"], "Division": "S1"}, "CE203-S2": {"Code": "CE203-S2", "Name": "Solid Mechanics", "Venue": "- 233", "Slots": ["6B", "6A"], "Instructors": ["Najeeb Mohammad Shariff"], "Division": "S2"}, "CE203-S3": {"Code": "CE203-S3", "Name": "Solid Mechanics", "Venue": "209", "Slots": ["6B", "6A"], "Instructors": ["Arghadeep Laskar"], "Division": "S3"}, "CE207-S1": {"Code": "CE207-S1", "Name": "Hydromechanics", "Venue": "VMCC32", "Slots": ["3A", "3C", "3B"], "Instructors": ["Srineash  V.K."], "Division": "S1"}, "CE207-S2": {"Code": "CE207-S2", "Name": "Hydromechanics", "Venue": "VMCC33", "Slots": ["3A", "3C", "3B"], "Instructors": ["Basudev  Biswal"], "Division": "S2"}, "CE209-S1": {"Code": "CE209-S1", "Name": "Building Materials and Construction", "Venue": "LC 201", "Slots": ["12A", "12B"], "Instructors": ["Muhammad Salman"], "Division": "S1"}, "CE209-S2": {"Code": "CE209-S2", "Name": "Building Materials and Construction", "Venue": "LC 202", "Slots": ["12A", "12B"], "Instructors": ["Prakash Nanthagopalan"], "Division": "S2"}, "CE219-S1": {"Code": "CE219-S1", "Name": "Solid Mechanics Laboratory", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Najeeb Mohammad Shariff"], "Division": "S1"}, "CE219-S2": {"Code": "CE219-S2", "Name": "Solid Mechanics Laboratory", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Amit Kumar Das"], "Division": "S2"}, "CE235-S1": {"Code": "CE235-S1", "Name": "Artificial Intelligence & Data Science", "Venue": "VMCC31", "Slots": ["1A", "1C", "1B"], "Instructors": ["Arpita Mondal"], "Division": "S1"}, "CE235-S2": {"Code": "CE235-S2", "Name": "Artificial Intelligence & Data Science", "Venue": "VMCC32", "Slots": ["1A", "1C", "1B"], "Instructors": ["Gopal R. Patil"], "Division": "S2"}, "CE310-S1": {"Code": "CE310-S1", "Name": "Transportation Engg. I", "Venue": "VMCC32", "Slots": ["2A", "2C", "2B"], "Instructors": ["Dharamveer Singh"], "Division": "S1"}, "CE310-S2": {"Code": "CE310-S2", "Name": "Transportation Engg. I", "Venue": "VMCC31", "Slots": ["2A", "2C", "2B"], "Instructors": ["Nagendra Rao Velaga"], "Division": "S2"}, "CE317-S1": {"Code": "CE317-S1", "Name": "Structural Mechanics II", "Venue": "LC 101", "Slots": ["1A", "1C", "1B"], "Instructors": ["N.K.Chandiramani"], "Division": "S1"}, "CE317-S2": {"Code": "CE317-S2", "Name": "Structural Mechanics II", "Venue": "LC 001", "Slots": ["1A", "1C", "1B"], "Instructors": ["Jangid R.S."], "Division": "S2"}, "CE317-S3": {"Code": "CE317-S3", "Name": "Structural Mechanics II", "Venue": "LC 002", "Slots": ["1A", "1C", "1B"], "Instructors": ["M.M.Inamdar"], "Division": "S3"}, "CE323-S1": {"Code": "CE323-S1", "Name": "Geotechnical Engineering I", "Venue": "LC 102", "Slots": ["9A", "9B"], "Instructors": ["Viswanadham B.V.S."], "Division": "S1"}, "CE323-S2": {"Code": "CE323-S2", "Name": "Geotechnical Engineering I", "Venue": "LC 101", "Slots": ["9A", "9B"], "Instructors": ["S. Dasaka Murthy"], "Division": "S2"}, "CE324": {"Code": "CE324", "Name": "Engineering Law", "Venue": "209", "Slots": ["12A", "12B"], "Instructors": ["Milind S. Wankhede", "Sinha Ravi"], "Division": null}, "CE325-S1": {"Code": "CE325-S1", "Name": "Structural Design I", "Venue": "VMCC13", "Slots": ["4A", "4C", "4B"], "Instructors": ["Manish Kumar"], "Division": "S1"}, "CE325-S2": {"Code": "CE325-S2", "Name": "Structural Design I", "Venue": "VMCC15", "Slots": ["4A", "4C", "4B"], "Instructors": ["Amit Kumar Das"], "Division": "S2"}, "CE325-S3": {"Code": "CE325-S3", "Name": "Structural Design I", "Venue": "VMCC14", "Slots": ["4A", "4C", "4B"], "Instructors": ["Meera  Raghunandan"], "Division": "S3"}, "CE328-S1": {"Code": "CE328-S1", "Name": "Transportation Engineering Lab I", "Venue": "nan", "Slots": ["L2"], "Instructors": ["P.Vedagiri"], "Division": "S1"}, "CE328-S2": {"Code": "CE328-S2", "Name": "Transportation Engineering Lab I", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Solomon  Debbarma"], "Division": "S2"}, "CE329-S1": {"Code": "CE329-S1", "Name": "Geotechnical Engineering Lab I", "Venue": "nan", "Slots": ["L4"], "Instructors": ["A. Juneja"], "Division": "S1"}, "CE329-S2": {"Code": "CE329-S2", "Name": "Geotechnical Engineering Lab I", "Venue": "nan", "Slots": ["L2"], "Instructors": ["S. Dasaka Murthy"], "Division": "S2"}, "CE401-S1": {"Code": "CE401-S1", "Name": "Water Resources Engineering", "Venue": "- IC1", "Slots": ["3A", "3C", "3B"], "Instructors": ["Jothiprakash V."], "Division": "S1"}, "CE401-S2": {"Code": "CE401-S2", "Name": "Water Resources Engineering", "Venue": "IC 2", "Slots": ["3A", "3C", "3B"], "Instructors": ["M.J.Reddy"], "Division": "S2"}, "CE403": {"Code": "CE403", "Name": "Design of Structures III", "Venue": "LT 203", "Slots": ["9A", "9B"], "Instructors": ["Goyal Alok"], "Division": null}, "CE407-S1": {"Code": "CE407-S1", "Name": "Foundation Engg.", "Venue": "LC 001", "Slots": ["11B", "11A"], "Instructors": ["Prasenjit Basu"], "Division": "S1"}, "CE407-S2": {"Code": "CE407-S2", "Name": "Foundation Engg.", "Venue": "LC 002", "Slots": ["11B", "11A"], "Instructors": ["Santiram Chatterjee"], "Division": "S2"}, "CE410": {"Code": "CE410", "Name": "Introduction to Offshore Engineering", "Venue": "- 228", "Slots": ["8A", "8B"], "Instructors": ["Manasa R. Behera"], "Division": null}, "CE463-S1": {"Code": "CE463-S1", "Name": "Probabilistic and Statistical Methods in Civil Eng", "Venue": "nan", "Slots": ["4A", "4C", "4B"], "Instructors": ["Subimal Ghosh"], "Division": "S1"}, "CE463-S2": {"Code": "CE463-S2", "Name": "Probabilistic and Statistical Methods in Civil Eng", "Venue": "LH 301", "Slots": ["6B", "6A"], "Instructors": ["Swagata Basu"], "Division": "S2"}, "CE482": {"Code": "CE482", "Name": "Construction Management", "Venue": "LC 001", "Slots": ["10B", "10A"], "Instructors": ["Venkata S. Delhi"], "Division": null}, "CE494": {"Code": "CE494", "Name": "BTP I", "Venue": "nan", "Slots": [], "Instructors": ["Choudhury Deepankar"], "Division": null}, "CE603": {"Code": "CE603", "Name": "Numerical Methods", "Venue": "209", "Slots": ["2A", "2C", "2B"], "Instructors": ["Desai Yogesh M."], "Division": null}, "CE605": {"Code": "CE605", "Name": "Applied Statistics", "Venue": "209", "Slots": ["9A", "9B"], "Instructors": ["Bellie  Sivakumar"], "Division": null}, "CE616": {"Code": "CE616", "Name": "Structural Dynamics", "Venue": "209", "Slots": ["4A", "4C", "4B"], "Instructors": ["Banerji P."], "Division": null}, "CE623": {"Code": "CE623", "Name": "Advanced Solids Mechanics", "Venue": "209", "Slots": ["8A", "8B"], "Instructors": ["Sauvik Banerjee"], "Division": null}, "CE626": {"Code": "CE626", "Name": "Groundwater Systems Planning and Management", "Venue": "- 228", "Slots": ["2A", "2C", "2B"], "Instructors": ["Bellie  Sivakumar"], "Division": null}, "CE627": {"Code": "CE627", "Name": "Structural Design", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Sinha Ravi"], "Division": null}, "CE630": {"Code": "CE630", "Name": "Geographical Information Systems in Civil Engineering", "Venue": "- 233", "Slots": ["3A", "3C", "3B"], "Instructors": ["Raaj Ramsankaran"], "Division": null}, "CE641": {"Code": "CE641", "Name": "Environmental Geomechanics", "Venue": "LT 103", "Slots": ["6B", "6A"], "Instructors": ["Singh D.N."], "Division": null}, "CE643": {"Code": "CE643", "Name": "Experimental Geotechnics", "Venue": "nan", "Slots": ["LX"], "Instructors": ["A. Juneja", "Choudhury Deepankar", "Prasenjit Basu", "Santiram Chatterjee", "S. Dasaka Murthy", "Singh D.N.", "Viswanadham B.V.S."], "Division": null}, "CE647": {"Code": "CE647", "Name": "Soil Dynamics and Machine Foundations", "Venue": "- 228", "Slots": ["11B", "11A"], "Instructors": ["Choudhury Deepankar"], "Division": null}, "CE653": {"Code": "CE653", "Name": "Structural Reliability and Risk Analysis", "Venue": "P. G. Lecture  - 238", "Slots": ["6B", "6A"], "Instructors": ["Ghosh Siddhartha"], "Division": null}, "CE675": {"Code": "CE675", "Name": "Advanced Experimental Fluid Mechanics", "Venue": "nan", "Slots": ["LX"], "Instructors": ["M.J.Reddy"], "Division": null}, "CE680": {"Code": "CE680", "Name": "Mechanics of Water Waves", "Venue": "P. G. Lecture  - 238", "Slots": ["3A", "3C", "3B"], "Instructors": ["Deo M.C."], "Division": null}, "CE681": {"Code": "CE681", "Name": "Advance Pavement Engineering Lab", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Dharamveer Singh"], "Division": null}, "CE694": {"Code": "CE694", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Choudhury Deepankar"], "Division": null}, "CE695": {"Code": "CE695", "Name": "R & D Project", "Venue": "nan", "Slots": [], "Instructors": ["Choudhury Deepankar"], "Division": null}, "CE701": {"Code": "CE701", "Name": "Remote Sensing Technology", "Venue": "- 233", "Slots": ["2A", "2C", "2B"], "Instructors": ["Eswar  Rajasekaran"], "Division": null}, "CE702": {"Code": "CE702", "Name": "Geotechnical Constitutive Models", "Venue": "- 233", "Slots": ["8A", "8B"], "Instructors": ["A. Juneja"], "Division": null}, "CE703": {"Code": "CE703", "Name": "Remote Sensing Laboratory", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Eswar  Rajasekaran"], "Division": null}, "CE705": {"Code": "CE705", "Name": "Photogrammetric Engineering", "Venue": "Graphics Lab - 212", "Slots": ["5B", "5A"], "Instructors": ["J. Indu", "Raaj Ramsankaran", "Eswar  Rajasekaran"], "Division": null}, "CE706": {"Code": "CE706", "Name": "Ocean Engineering Laboratory", "Venue": "nan", "Slots": ["LX"], "Instructors": ["R. Balaji", "Srineash  V.K."], "Division": null}, "CE712": {"Code": "CE712", "Name": "Digital Image Processing of Remotely Sensed Data", "Venue": "209", "Slots": ["13A", "13B"], "Instructors": ["J. Indu"], "Division": null}, "CE713": {"Code": "CE713", "Name": "Advanced Concrete Technology", "Venue": "209", "Slots": ["1A", "1C", "1B"], "Instructors": ["Prakash Nanthagopalan"], "Division": null}, "CE717": {"Code": "CE717", "Name": "Construction Planning and Control", "Venue": "P. G. Lecture  - 238", "Slots": ["4A", "4C", "4B"], "Instructors": ["Albert  Thomas"], "Division": null}, "CE718": {"Code": "CE718", "Name": "Construction Materials Laboratory", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Swathy  Manohar", "Muhammad Salman"], "Division": null}, "CE725": {"Code": "CE725", "Name": "Construction Economics and Finance", "Venue": "VMCC31", "Slots": ["5B", "5A"], "Instructors": ["Venkata S. Delhi"], "Division": null}, "CE727": {"Code": "CE727", "Name": "Construction Materials", "Venue": "Graphics Lab - 212", "Slots": ["3A", "3C", "3B"], "Instructors": ["Muhammad Salman"], "Division": null}, "CE731": {"Code": "CE731", "Name": "Mechanics of Fluid Flow", "Venue": "- 233", "Slots": ["5B", "5A"], "Instructors": ["T I Eldho"], "Division": null}, "CE740": {"Code": "CE740", "Name": "Traffic Engineering", "Venue": "- 228", "Slots": ["5B", "5A"], "Instructors": ["Tom V Mathew"], "Division": null}, "CE742": {"Code": "CE742", "Name": "Pavement Systems Engineering", "Venue": "LC 201", "Slots": ["14B", "14A"], "Instructors": ["Dharamveer Singh"], "Division": null}, "CE751": {"Code": "CE751", "Name": "Urban Transportation Systems Planning", "Venue": "- 228", "Slots": ["3A", "3C", "3B"], "Instructors": ["K.V.Krishna Rao"], "Division": null}, "CE766": {"Code": "CE766", "Name": "Watershed Management", "Venue": "209", "Slots": ["14B", "14A"], "Instructors": ["Riddhi Singh"], "Division": null}, "CE769": {"Code": "CE769", "Name": "Coastal and Ocean Environment", "Venue": "209", "Slots": ["11B", "11A"], "Instructors": ["R. Balaji"], "Division": null}, "CE771": {"Code": "CE771", "Name": "Optimization in Civil Engineering", "Venue": "Graphics Lab - 212", "Slots": ["6B", "6A"], "Instructors": ["Avijit Maji"], "Division": null}, "CE781": {"Code": "CE781", "Name": "Advanced Foundation Engineering", "Venue": "P. G. Lecture  - 238", "Slots": ["2A", "2C", "2B"], "Instructors": ["Santiram Chatterjee"], "Division": null}, "CE782": {"Code": "CE782", "Name": "Advanced Soil Mechanics", "Venue": "P. G. Lecture  - 238", "Slots": ["5B", "5A"], "Instructors": ["Prasenjit Basu"], "Division": null}, "CE899": {"Code": "CE899", "Name": "Communication Skills", "Venue": "LC 001", "Slots": ["12A", "12B"], "Instructors": ["Deo M.C.", "Solomon  Debbarma"], "Division": null}, "CES801": {"Code": "CES801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Choudhury Deepankar"], "Division": null}, "CH111-D1": {"Code": "CH111-D1", "Name": "Chemistry", "Venue": "LA 201", "Slots": ["2A", "2C", "2B"], "Instructors": ["Achintya Kumar Dutta", "Chandra M. R. Volla", "G. Naresh Patwari", "Ishita  Sengupta", "Nandita Madhavan", "Rahul  Maitra", "R. B. Sunoj", "R. Murugavel", "Sanjog Sunil Nagarkar", "Srinivasan  Ramakrishnan", "Santosh J. Gharpure"], "Division": "D1"}, "CH111-D2": {"Code": "CH111-D2", "Name": "Chemistry", "Venue": "LA 201", "Slots": ["9A", "9B"], "Instructors": ["Achintya Kumar Dutta", "Chandra M. R. Volla", "G. Naresh Patwari", "Ishita  Sengupta", "Nandita Madhavan", "Rahul  Maitra", "R. B. Sunoj", "R. Murugavel", "Sanjog Sunil Nagarkar", "Srinivasan  Ramakrishnan", "Santosh J. Gharpure"], "Division": "D2"}, "CH111-D3": {"Code": "CH111-D3", "Name": "Chemistry", "Venue": "LA 202", "Slots": ["1A", "1C", "1B"], "Instructors": ["Achintya Kumar Dutta", "Arnab  Dutta", "Chandra M. R. Volla", "G. Naresh Patwari", "Ishita  Sengupta", "Nandita Madhavan", "R. B. Sunoj", "R. Murugavel", "Sanjog Sunil Nagarkar", "Srinivasan  Ramakrishnan", "Santosh J. Gharpure"], "Division": "D3"}, "CH111-D4": {"Code": "CH111-D4", "Name": "Chemistry", "Venue": "LA 202", "Slots": ["8A", "8B"], "Instructors": ["Achintya Kumar Dutta", "Arnab  Dutta", "Chandra M. R. Volla", "G. Naresh Patwari", "Ishita  Sengupta", "Nandita Madhavan", "R. B. Sunoj", "R. Murugavel", "Sanjog Sunil Nagarkar", "Srinivasan  Ramakrishnan", "Santosh J. Gharpure"], "Division": "D4"}, "CH117-P1": {"Code": "CH117-P1", "Name": "Chemistry Lab", "Venue": "nan", "Slots": ["L2"], "Instructors": ["A.Chowdhury", "D. Maiti", "Ghosh Prasenjit", "Rajarshi Chakrabarti", "Sandip Kar", "Srinivasan  Ramakrishnan", "Subramaniam Chandramouli", "Sanjog Sunil Nagarkar"], "Division": "P1"}, "CH117-P10": {"Code": "CH117-P10", "Name": "Chemistry Lab", "Venue": "nan", "Slots": ["1C", "3C", "4C"], "Instructors": ["A.Chowdhury", "D. Maiti", "Ghosh Prasenjit", "Rajarshi Chakrabarti", "Sandip Kar", "Srinivasan  Ramakrishnan", "Subramaniam Chandramouli", "Sanjog Sunil Nagarkar"], "Division": "P10"}, "CH117-P2": {"Code": "CH117-P2", "Name": "Chemistry Lab", "Venue": "nan", "Slots": ["L4"], "Instructors": ["A.Chowdhury", "D. Maiti", "Ghosh Prasenjit", "Rajarshi Chakrabarti", "Sandip Kar", "Srinivasan  Ramakrishnan", "Subramaniam Chandramouli", "Sanjog Sunil Nagarkar"], "Division": "P2"}, "CH117-P3": {"Code": "CH117-P3", "Name": "Chemistry Lab", "Venue": "nan", "Slots": ["L1"], "Instructors": ["A.Chowdhury", "D. Maiti", "Ghosh Prasenjit", "Rajarshi Chakrabarti", "Sandip Kar", "Srinivasan  Ramakrishnan", "Subramaniam Chandramouli", "Sanjog Sunil Nagarkar"], "Division": "P3"}, "CH117-P4": {"Code": "CH117-P4", "Name": "Chemistry Lab", "Venue": "nan", "Slots": ["L3"], "Instructors": ["A.Chowdhury", "D. Maiti", "Ghosh Prasenjit", "Rajarshi Chakrabarti", "Sandip Kar", "Srinivasan  Ramakrishnan", "Subramaniam Chandramouli", "Sanjog Sunil Nagarkar"], "Division": "P4"}, "CH117-P7": {"Code": "CH117-P7", "Name": "Chemistry Lab", "Venue": "nan", "Slots": ["1B", "2B", "4B"], "Instructors": ["A.Chowdhury", "D. Maiti", "Ghosh Prasenjit", "Rajarshi Chakrabarti", "Sandip Kar", "Srinivasan  Ramakrishnan", "Subramaniam Chandramouli", "Sanjog Sunil Nagarkar"], "Division": "P7"}, "CH117-P8": {"Code": "CH117-P8", "Name": "Chemistry Lab", "Venue": "nan", "Slots": ["5B", "6B"], "Instructors": ["A.Chowdhury", "D. Maiti", "Ghosh Prasenjit", "Rajarshi Chakrabarti", "Sandip Kar", "Srinivasan  Ramakrishnan", "Subramaniam Chandramouli", "Sanjog Sunil Nagarkar"], "Division": "P8"}, "CH117-P9": {"Code": "CH117-P9", "Name": "Chemistry Lab", "Venue": "nan", "Slots": ["1A", "2A", "3A"], "Instructors": ["A.Chowdhury", "D. Maiti", "Ghosh Prasenjit", "Rajarshi Chakrabarti", "Sandip Kar", "Srinivasan  Ramakrishnan", "Subramaniam Chandramouli", "Sanjog Sunil Nagarkar"], "Division": "P9"}, "CH209": {"Code": "CH209", "Name": "Basic Organic Chemistry", "Venue": "LT 101", "Slots": ["3A", "3C", "3B"], "Instructors": ["Venkateswarlu  Yarlagadda"], "Division": null}, "CH209-M": {"Code": "CH209-M", "Name": "Basic Organic Chemistry", "Venue": "LT 101", "Slots": ["3A", "3C", "3B"], "Instructors": ["Venkateswarlu  Yarlagadda"], "Division": "M"}, "CH219": {"Code": "CH219", "Name": "Inorganic Chemistry Lab-I", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Ghosh Prasenjit"], "Division": null}, "CH225": {"Code": "CH225", "Name": "Data Analysis for Chemists", "Venue": "LT 105", "Slots": ["1A", "1C", "1B"], "Instructors": ["Anil Kumar"], "Division": null}, "CH225-M": {"Code": "CH225-M", "Name": "Data Analysis for Chemists", "Venue": "LT 105", "Slots": ["1A", "1C", "1B"], "Instructors": ["Anil Kumar"], "Division": "M"}, "CH231": {"Code": "CH231", "Name": "Organic Chemistry Lab I", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Venkateswarlu  Yarlagadda"], "Division": null}, "CH397": {"Code": "CH397", "Name": "Mini Project I", "Venue": "nan", "Slots": [], "Instructors": ["Chidambar  Kulkarni"], "Division": null}, "CH401": {"Code": "CH401", "Name": "Organic Reactions", "Venue": "LC 102", "Slots": ["1A", "1C", "1B"], "Instructors": ["Kaliappan K P"], "Division": null}, "CH401-M": {"Code": "CH401-M", "Name": "Organic Reactions", "Venue": "LC 102", "Slots": ["1A", "1C", "1B"], "Instructors": ["Kaliappan K P"], "Division": "M"}, "CH403": {"Code": "CH403", "Name": "Electrochemistry of Solutions and Interfaces", "Venue": "LC 001", "Slots": ["2A", "2C", "2B"], "Instructors": ["Subramaniam Chandramouli", "Nand Kishore"], "Division": null}, "CH403-M": {"Code": "CH403-M", "Name": "Electrochemistry of Solutions and Interfaces", "Venue": "LC 001", "Slots": ["2A", "2C", "2B"], "Instructors": ["Subramaniam Chandramouli", "Nand Kishore"], "Division": "M"}, "CH405": {"Code": "CH405", "Name": "Advanced Transition Metal Chemistry", "Venue": "LC 201", "Slots": ["6B", "6A"], "Instructors": ["Gopalan Rajaram", "M. S. Balakrishna"], "Division": null}, "CH405-M": {"Code": "CH405-M", "Name": "Advanced Transition Metal Chemistry", "Venue": "LC 201", "Slots": ["6B", "6A"], "Instructors": ["Gopalan Rajaram", "M. S. Balakrishna"], "Division": "M"}, "CH415": {"Code": "CH415", "Name": "Inorganic Chemistry Lab II", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Maheswaran S.", "Gopalan Rajaram"], "Division": null}, "CH417": {"Code": "CH417", "Name": "Organic Chemistry Lab II", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Chidambar  Kulkarni", "Santosh J. Gharpure"], "Division": null}, "CH425": {"Code": "CH425", "Name": "Chemical Bond and Molecular Geometry", "Venue": "CL 106 ESE", "Slots": ["4A", "4C", "4B"], "Instructors": ["Rajarshi Chakrabarti", "A. Datta"], "Division": null}, "CH425-M": {"Code": "CH425-M", "Name": "Chemical Bond and Molecular Geometry", "Venue": "CL 106 ESE", "Slots": ["4A", "4C", "4B"], "Instructors": ["Rajarshi Chakrabarti", "A. Datta"], "Division": "M"}, "CH433": {"Code": "CH433", "Name": "Physical Chemistry Lab II", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Amber  Jain", "Nand Kishore"], "Division": null}, "CH481": {"Code": "CH481", "Name": "Chemistry and Computers", "Venue": "CL 104 ESE", "Slots": ["5B", "5A"], "Instructors": ["Amber  Jain", "Sandip Kar"], "Division": null}, "CH507": {"Code": "CH507", "Name": "Methods in Organic Synthesis", "Venue": "CL 111 ESE", "Slots": ["3A", "3C", "3B"], "Instructors": ["Rodney Fernandes"], "Division": null}, "CH514": {"Code": "CH514", "Name": "Applied and Industrial Chemistry", "Venue": "LC 102", "Slots": ["13A", "13B"], "Instructors": ["Kamendra P. Sharma"], "Division": null}, "CH521": {"Code": "CH521", "Name": "Interpretative Molecular Spectroscopy", "Venue": "LC 201", "Slots": ["8A", "8B"], "Instructors": ["Goutam K. Lahiri", "R. Murugavel", "Suvarn Kulkarni"], "Division": null}, "CH521-M": {"Code": "CH521-M", "Name": "Interpretative Molecular Spectroscopy", "Venue": "CL 110 ESE", "Slots": ["8A", "8B"], "Instructors": ["Goutam K. Lahiri", "R. Murugavel", "Suvarn Kulkarni"], "Division": "M"}, "CH546": {"Code": "CH546", "Name": "Introduction to Biomolecules", "Venue": "CL 106 ESE", "Slots": ["12A", "12B"], "Instructors": ["Pradeep Kumar P.I."], "Division": null}, "CH547": {"Code": "CH547", "Name": "Organometallic Chemistry", "Venue": "LH 101", "Slots": ["9A", "9B"], "Instructors": ["Arnab  Dutta", "D. Maiti"], "Division": null}, "CH547-M": {"Code": "CH547-M", "Name": "Organometallic Chemistry", "Venue": "LT 306", "Slots": ["9A", "9B"], "Instructors": ["Arnab  Dutta", "D. Maiti"], "Division": "M"}, "CH584": {"Code": "CH584", "Name": "Biophysical Chemistry", "Venue": "LT 206", "Slots": ["2A", "2C", "2B"], "Instructors": ["Shobhna Kapoor", "Ruchi Anand"], "Division": null}, "CH591": {"Code": "CH591", "Name": "Research Project I", "Venue": "nan", "Slots": [], "Instructors": ["Chidambar  Kulkarni"], "Division": null}, "CH593": {"Code": "CH593", "Name": "Project Stage I", "Venue": "nan", "Slots": [], "Instructors": ["Chidambar  Kulkarni"], "Division": null}, "CH595": {"Code": "CH595", "Name": "M.Sc. Project I", "Venue": "nan", "Slots": [], "Instructors": ["Chidambar  Kulkarni"], "Division": null}, "CH801": {"Code": "CH801", "Name": "Symmetry in Chemistry", "Venue": "LT 301", "Slots": ["12A", "12B"], "Instructors": ["Swapan Kumar Pati", "A. Datta"], "Division": null}, "CH812": {"Code": "CH812", "Name": "Funadamentals of  Quantum Chemistry", "Venue": "LT 204", "Slots": ["4A", "4C", "4B"], "Instructors": ["Rajarshi Chakrabarti", "A. Datta"], "Division": null}, "CH817": {"Code": "CH817", "Name": "Advanced Co-ordination Chemistry", "Venue": "LC 201", "Slots": ["6B", "6A"], "Instructors": ["Gopalan Rajaram", "M. S. Balakrishna"], "Division": null}, "CH818": {"Code": "CH818", "Name": "Single Molecule Fluorescence Spectroscopy", "Venue": "LT 005", "Slots": ["15B", "15A"], "Instructors": ["A.Chowdhury"], "Division": null}, "CH827": {"Code": "CH827", "Name": "Inorganic Complexes", "Venue": "LT 302", "Slots": ["14B", "14A"], "Instructors": ["Maheswaran S.", "M. Ravikanth"], "Division": null}, "CH831": {"Code": "CH831", "Name": "Advanced Laboratory Techniques", "Venue": "nan", "Slots": ["LX"], "Instructors": ["G. Naresh Patwari", "Kaliappan K P", "Kamendra P. Sharma", "Goutam K. Lahiri"], "Division": null}, "CH839": {"Code": "CH839", "Name": "Physical Organic and Stereochemistry", "Venue": "LT 202", "Slots": ["11B", "11A"], "Instructors": ["Chidambar  Kulkarni", "Nandita Madhavan"], "Division": null}, "CH845": {"Code": "CH845", "Name": "Organic Reactions and Synthesis", "Venue": "LT 203", "Slots": ["10B", "10A"], "Instructors": ["I.N.N. Namboothiri"], "Division": null}, "CH899": {"Code": "CH899", "Name": "Communication Skills", "Venue": "CL 112 ESE", "Slots": ["5B", "5A"], "Instructors": ["Ishita  Sengupta", "R. B. Sunoj", "Ghosh Prasenjit"], "Division": null}, "CHS801": {"Code": "CHS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Achintya Kumar Dutta", "Srinivasan  Ramakrishnan", "Chandra M. R. Volla"], "Division": null}, "CL202-S1": {"Code": "CL202-S1", "Name": "Introduction to Data Analysis", "Venue": "nan", "Slots": ["4A", "4C", "4B"], "Instructors": ["Sarika Mehra", "Manibhushan"], "Division": "S1"}, "CL202-S2": {"Code": "CL202-S2", "Name": "Introduction to Data Analysis", "Venue": "nan", "Slots": ["4A", "4C", "4B"], "Instructors": ["Manibhushan", "Sarika Mehra"], "Division": "S2"}, "CL203-S1": {"Code": "CL203-S1", "Name": "Introduction to Transport Phenomena", "Venue": "CL 106 ESE", "Slots": ["1A", "1C", "1B"], "Instructors": ["Guruswamy  Kumaraswamy"], "Division": "S1"}, "CL203-S2": {"Code": "CL203-S2", "Name": "Introduction to Transport Phenomena", "Venue": "-112 (Old No118)", "Slots": ["3A", "3C", "3B"], "Instructors": ["Nanavati Hemant"], "Division": "S2"}, "CL205": {"Code": "CL205", "Name": "AI and Data Science", "Venue": "LH 102", "Slots": ["4A", "4C", "4B"], "Instructors": ["Manibhushan", "Sarika Mehra"], "Division": null}, "CL207-S1": {"Code": "CL207-S1", "Name": "Chemical Engineering Thermodynamics", "Venue": "CL 112 ESE", "Slots": ["6B", "6A"], "Instructors": ["Abhijit Chatterjee"], "Division": "S1"}, "CL207-S2": {"Code": "CL207-S2", "Name": "Chemical Engineering Thermodynamics", "Venue": "-112 (Old No118)", "Slots": ["2A", "2C", "2B"], "Instructors": ["Mukta Tripathy"], "Division": "S2"}, "CL250-S1": {"Code": "CL250-S1", "Name": "Chemical Engineering Thermodynamics II", "Venue": "CL 112 ESE", "Slots": ["6B", "6A"], "Instructors": ["Abhijit Chatterjee"], "Division": "S1"}, "CL250-S2": {"Code": "CL250-S2", "Name": "Chemical Engineering Thermodynamics II", "Venue": "-112 (Old No118)", "Slots": ["2A", "2C", "2B"], "Instructors": ["Mukta Tripathy"], "Division": "S2"}, "CL254-S1": {"Code": "CL254-S1", "Name": "Process Fluid Mechanics", "Venue": "LC 202", "Slots": ["2A", "2C", "2B"], "Instructors": ["Jason Ryan Picardo"], "Division": "S1"}, "CL254-S2": {"Code": "CL254-S2", "Name": "Process Fluid Mechanics", "Venue": "LC 101", "Slots": ["6B", "6A"], "Instructors": ["Amol  Subhedar"], "Division": "S2"}, "CL255-S1": {"Code": "CL255-S1", "Name": "Chemical Engineering Thermodynamics I", "Venue": "CL 112 ESE", "Slots": ["6B", "6A"], "Instructors": ["Abhijit Chatterjee"], "Division": "S1"}, "CL255-S2": {"Code": "CL255-S2", "Name": "Chemical Engineering Thermodynamics I", "Venue": "-112 (Old No118)", "Slots": ["2A", "2C", "2B"], "Instructors": ["Mukta Tripathy"], "Division": "S2"}, "CL305-S1": {"Code": "CL305-S1", "Name": "Solid Mechanics", "Venue": "CL 103 ESE", "Slots": ["1A", "1C", "1B"], "Instructors": ["Khakhar D.V."], "Division": "S1"}, "CL305-S2": {"Code": "CL305-S2", "Name": "Solid Mechanics", "Venue": "- 119 (Old No 149)", "Slots": ["12A", "12B"], "Instructors": ["Arindam Sarkar"], "Division": "S2"}, "CL319-S1": {"Code": "CL319-S1", "Name": "Mass Transfer I", "Venue": "CL 105 ESE", "Slots": ["3A", "3C", "3B"], "Instructors": ["Vinjamur Madhu"], "Division": "S1"}, "CL319-S2": {"Code": "CL319-S2", "Name": "Mass Transfer I", "Venue": "CL 113 ESE", "Slots": ["2A", "2C", "2B"], "Instructors": ["Venkat Gundabala"], "Division": "S2"}, "CL324-S1": {"Code": "CL324-S1", "Name": "Chemical Reaction Engineering", "Venue": "CL 109 ESE", "Slots": ["2A", "2C", "2B"], "Instructors": ["Wangikar P."], "Division": "S1"}, "CL324-S2": {"Code": "CL324-S2", "Name": "Chemical Reaction Engineering", "Venue": "CL 113 ESE", "Slots": ["1A", "1C", "1B"], "Instructors": ["Swati Bhattacharya"], "Division": "S2"}, "CL333-S1": {"Code": "CL333-S1", "Name": "Chemical Engineering Lab. II", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Abhijit Majumder", "P.Sunthar", "Sanjay Mahajani", "Suresh A.K."], "Division": "S1"}, "CL333-S2": {"Code": "CL333-S2", "Name": "Chemical Engineering Lab. II", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Abhijit Majumder", "P.Sunthar", "Sanjay Mahajani", "Suresh A.K."], "Division": "S2"}, "CL336": {"Code": "CL336", "Name": "Advanced Transport Phenomena", "Venue": "LT 301", "Slots": ["6B", "6A"], "Instructors": ["Tirumkudulu Mahesh"], "Division": null}, "CL405": {"Code": "CL405", "Name": "Process Equipment Selection", "Venue": "LH 101", "Slots": ["4A", "4C", "4B"], "Instructors": ["Yogendra Shastri"], "Division": null}, "CL409-S1": {"Code": "CL409-S1", "Name": "Material Science", "Venue": "LC 201", "Slots": ["2A", "2C", "2B"], "Instructors": ["Rajdip Bandyopadhyaya"], "Division": "S1"}, "CL409-S2": {"Code": "CL409-S2", "Name": "Material Science", "Venue": "CL 106 ESE", "Slots": ["3A", "3C", "3B"], "Instructors": ["Adhikari J."], "Division": "S2"}, "CL419": {"Code": "CL419", "Name": "Process Economics", "Venue": "LH 101", "Slots": ["4A", "4B"], "Instructors": ["Juvekar V.A."], "Division": null}, "CL433-S1": {"Code": "CL433-S1", "Name": "Chemical Engineering Lab IV", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Juvekar V.A.", "Rahul  Nabar", "Venkatesh K.V.", "Sujit S. Jogwar"], "Division": "S1"}, "CL433-S2": {"Code": "CL433-S2", "Name": "Chemical Engineering Lab IV", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Juvekar V.A.", "Rahul  Nabar", "Venkatesh K.V.", "Sujit S. Jogwar"], "Division": "S2"}, "CL443": {"Code": "CL443", "Name": "Supervised learning I", "Venue": "nan", "Slots": [], "Instructors": ["Jason Ryan Picardo", "Venkat Gundabala"], "Division": null}, "CL455-S1": {"Code": "CL455-S1", "Name": "Design Lab I", "Venue": "nan", "Slots": ["L1", "L3"], "Instructors": ["Partha  S. Goswami", "Moudgalya Kannan."], "Division": "S1"}, "CL455-S2": {"Code": "CL455-S2", "Name": "Design Lab I", "Venue": "nan", "Slots": ["L1", "L3"], "Instructors": ["Partha  S. Goswami", "Moudgalya Kannan."], "Division": "S2"}, "CL461": {"Code": "CL461", "Name": "Colloid & Interfacial Engineering", "Venue": "LT 103", "Slots": ["1A", "1C", "1B"], "Instructors": ["Bellare J."], "Division": null}, "CL464": {"Code": "CL464", "Name": "Process safety and Risk Management", "Venue": "LH 302", "Slots": ["6B", "6A"], "Instructors": ["Roy S."], "Division": null}, "CL491": {"Code": "CL491", "Name": "B.Tech. Project I", "Venue": "nan", "Slots": [], "Instructors": ["Jason Ryan Picardo", "Venkat Gundabala"], "Division": null}, "CL501": {"Code": "CL501", "Name": "Computational Methods in Catalysis", "Venue": "CL 112 ESE", "Slots": ["6B", "6A"], "Instructors": ["Ojus  Mohan"], "Division": null}, "CL601": {"Code": "CL601", "Name": "Advanced Transport Phenomena", "Venue": "- 119 (Old No 149)", "Slots": ["3A", "3C", "3B"], "Instructors": ["Sameer Ralph Jadhav"], "Division": null}, "CL602": {"Code": "CL602", "Name": "Mathematical and Statistical Methods in Chemical Engineering", "Venue": "- 119 (Old No 149)", "Slots": ["4A", "4C", "4B"], "Instructors": ["Rochish Thaokar"], "Division": null}, "CL603": {"Code": "CL603", "Name": "Optimization", "Venue": "LC 101", "Slots": ["13A", "13B"], "Instructors": ["Santosh Noronha"], "Division": null}, "CL605": {"Code": "CL605", "Name": "Advanced Reaction Engineering", "Venue": "- 119 (Old No 149)", "Slots": ["5B", "5A"], "Instructors": ["Ganesh Viswanathan"], "Division": null}, "CL607": {"Code": "CL607", "Name": "Advanced Thermodynamics", "Venue": "- 119 (Old No 149)", "Slots": ["2A", "2C", "2B"], "Instructors": ["Jyoti R. Seth"], "Division": null}, "CL611": {"Code": "CL611", "Name": "Electrochemical Reaction Engineering", "Venue": "CL 112 ESE", "Slots": ["12A", "12B"], "Instructors": ["Bharatkumar  Suthar"], "Division": null}, "CL618": {"Code": "CL618", "Name": "Catalysis and Surface Chemistry", "Venue": "CL 102 ESE", "Slots": ["5B", "5A"], "Instructors": ["Sonali  Das"], "Division": null}, "CL665": {"Code": "CL665", "Name": "Sustainable Engineering Principles", "Venue": "CL 111 ESE", "Slots": ["6B", "6A"], "Instructors": ["Yogendra Shastri"], "Division": null}, "CL671": {"Code": "CL671", "Name": "Multiscale Simulations", "Venue": "LT 305", "Slots": ["12A", "12B"], "Instructors": ["Ateeque Malani"], "Division": null}, "CL674": {"Code": "CL674", "Name": "Theoretical Ecology", "Venue": "LT 002", "Slots": ["5B", "5A"], "Instructors": ["Supreet Saini"], "Division": null}, "CL675": {"Code": "CL675", "Name": "Analytical and Numerical Techniques in Hydrodynamic Stability", "Venue": "LT 001", "Slots": ["13A", "13B"], "Instructors": ["Ratul Dasgupta"], "Division": null}, "CL684": {"Code": "CL684", "Name": "Advanced Process Synthesis", "Venue": "LT 303", "Slots": ["6B", "6A"], "Instructors": ["Sanjay Mahajani"], "Division": null}, "CL688": {"Code": "CL688", "Name": "Artificial Intelligence in Process Engineering", "Venue": "CL 112 ESE", "Slots": ["5B", "5A"], "Instructors": ["Bhartiya S."], "Division": null}, "CL701": {"Code": "CL701", "Name": "Computational Methods in Chemical Engineering", "Venue": "- 119 (Old No 149)", "Slots": ["6B", "6A"], "Instructors": ["Sachin Patwardhan"], "Division": null}, "CL702": {"Code": "CL702", "Name": "Lecture Series", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Rochish Thaokar", "Swati Bhattacharya", "Bharatkumar  Suthar"], "Division": null}, "CL710": {"Code": "CL710", "Name": "Aerosol Technology", "Venue": "LT 001", "Slots": ["5B", "5A"], "Instructors": ["Chandra V", "Y. S.  Mayya"], "Division": null}, "CL718": {"Code": "CL718", "Name": "Introduction to Cell  Mechanics", "Venue": "LT 103", "Slots": ["13A", "13B"], "Instructors": ["Abhijit Majumder"], "Division": null}, "CL899": {"Code": "CL899", "Name": "Communication Skills", "Venue": "- 119 (Old No 149)", "Slots": ["8A", "8B"], "Instructors": ["Supreet Saini"], "Division": null}, "CM402": {"Code": "CM402", "Name": "Earth`s Climate: Past Present and Future", "Venue": "CL 103 ESE", "Slots": ["5B", "5A"], "Instructors": ["Raghu  Murtugudde"], "Division": null}, "CM505": {"Code": "CM505", "Name": "Atmospheric Radiative Transfer and Climate", "Venue": "LT 204", "Slots": ["11B", "11A"], "Instructors": ["Angshuman  Modak"], "Division": null}, "CM612": {"Code": "CM612", "Name": "Climate systems and Climate Modeling", "Venue": "LT 201", "Slots": ["10B", "10A"], "Instructors": ["Vishal  Dixit"], "Division": null}, "CM613": {"Code": "CM613", "Name": "Waves and Instabilities in Geophysical Fluid Dynamics", "Venue": "LT 203", "Slots": ["8A", "8B"], "Instructors": ["S. Ravichandran"], "Division": null}, "CM803": {"Code": "CM803", "Name": "Introduction to Climate Change", "Venue": "CL 104 ESE", "Slots": ["9A", "9B"], "Instructors": ["Pradip P. Kalbar", "Trupti Mishra", "Angshuman  Modak"], "Division": null}, "CM899": {"Code": "CM899", "Name": "Communication Skills", "Venue": "nan", "Slots": ["XC"], "Instructors": ["Harish C. Phuleria"], "Division": null}, "CMS801": {"Code": "CMS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Vishal  Dixit"], "Division": null}, "CMS802": {"Code": "CMS802", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Vishal  Dixit"], "Division": null}, "CS101-D3": {"Code": "CS101-D3", "Name": "Computer Programming and Utilization", "Venue": "LA 202", "Slots": ["6B", "6A"], "Instructors": ["Suyash P. Awate"], "Division": "D3"}, "CS101-D4": {"Code": "CS101-D4", "Name": "Computer Programming and Utilization", "Venue": "LA 202", "Slots": ["10B", "10A"], "Instructors": ["Suyash P. Awate"], "Division": "D4"}, "CS105": {"Code": "CS105", "Name": "Discrete Structures", "Venue": "LA 202", "Slots": ["4A", "4C", "4B"], "Instructors": ["S. Akshay"], "Division": null}, "CS152": {"Code": "CS152", "Name": "Abstractions and Paradigms for Programming", "Venue": "SIC205", "Slots": ["2A", "2C", "2B"], "Instructors": ["Manas  Thakur"], "Division": null}, "CS154": {"Code": "CS154", "Name": "Programming Paradigms Laboratory", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Manas  Thakur"], "Division": null}, "CS207": {"Code": "CS207", "Name": "Discrete Structures", "Venue": "LH 101", "Slots": ["2A", "2C", "2B"], "Instructors": ["Diwan A.A."], "Division": null}, "CS213": {"Code": "CS213", "Name": "Data Structures and Algorithms", "Venue": "LH 101", "Slots": ["1A", "1C", "1B"], "Instructors": ["Ashutosh Kumar Gupta"], "Division": null}, "CS215": {"Code": "CS215", "Name": "Data Analysis and Interpretation", "Venue": "LH 101", "Slots": ["8A", "8B"], "Instructors": ["Ajit V. Rajwade"], "Division": null}, "CS218": {"Code": "CS218", "Name": "Design and Analysis of Algorithms", "Venue": "LA 202", "Slots": ["5B", "5A"], "Instructors": ["Ranade A."], "Division": null}, "CS218-M": {"Code": "CS218-M", "Name": "Design and Analysis of Algorithms", "Venue": "LA 202", "Slots": ["5B", "5A"], "Instructors": ["Ranade A."], "Division": "M"}, "CS224": {"Code": "CS224", "Name": "Computer Networks", "Venue": "LH 101", "Slots": ["5B", "5A"], "Instructors": ["Vinay J. Ribeiro"], "Division": null}, "CS224-M": {"Code": "CS224-M", "Name": "Computer Networks", "Venue": "LH 101", "Slots": ["5B", "5A"], "Instructors": ["Vinay J. Ribeiro"], "Division": "M"}, "CS228": {"Code": "CS228", "Name": "Logic for Computer Science", "Venue": "LH 301", "Slots": ["5B", "5A"], "Instructors": ["Krishna Shankara Narayanan"], "Division": null}, "CS228-M": {"Code": "CS228-M", "Name": "Logic for Computer Science", "Venue": "LH 301", "Slots": ["5B", "5A"], "Instructors": ["Krishna Shankara Narayanan"], "Division": "M"}, "CS230": {"Code": "CS230", "Name": "Digital Logic Design and Computer Architecture", "Venue": "LA 001", "Slots": ["6B", "6A"], "Instructors": ["Biswabandan  Panda"], "Division": null}, "CS232": {"Code": "CS232", "Name": "Digital Logic Design and Computer Architecture Lab", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Biswabandan  Panda"], "Division": null}, "CS293": {"Code": "CS293", "Name": "Data Structures and Algorithms Lab", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Ashutosh Kumar Gupta"], "Division": null}, "CS310": {"Code": "CS310", "Name": "Automata Theory", "Venue": "LA 002", "Slots": ["4A", "4C", "4B"], "Instructors": ["Paritosh K. Pandya"], "Division": null}, "CS333": {"Code": "CS333", "Name": "Operating Systems Lab", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Purushottam Kulkarni"], "Division": null}, "CS335": {"Code": "CS335", "Name": "Artificial Intelligence and Machine Learning (Lab)", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Preethi Jyothi"], "Division": null}, "CS337": {"Code": "CS337", "Name": "Artificial Intelligence and Machine Learning", "Venue": "LH 102", "Slots": ["2A", "2C", "2B"], "Instructors": ["Preethi Jyothi"], "Division": null}, "CS347": {"Code": "CS347", "Name": "Operating Systems", "Venue": "LA 002", "Slots": ["6B", "6A"], "Instructors": ["Purushottam Kulkarni"], "Division": null}, "CS396": {"Code": "CS396", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Uday Khedkar"], "Division": null}, "CS475": {"Code": "CS475", "Name": "Computer Graphics", "Venue": "SIC305", "Slots": ["11B", "11A"], "Instructors": ["Parag Chaudhuri"], "Division": null}, "CS485": {"Code": "CS485", "Name": "R & D Project II", "Venue": "nan", "Slots": [], "Instructors": ["Uday Khedkar"], "Division": null}, "CS490": {"Code": "CS490", "Name": "R & D Project", "Venue": "nan", "Slots": [], "Instructors": ["Uday Khedkar"], "Division": null}, "CS492": {"Code": "CS492", "Name": "BTP I", "Venue": "nan", "Slots": [], "Instructors": ["Uday Khedkar"], "Division": null}, "CS496": {"Code": "CS496", "Name": "BTP II", "Venue": "nan", "Slots": [], "Instructors": ["Uday Khedkar"], "Division": null}, "CS6001": {"Code": "CS6001", "Name": "Game Theory and Algorithmic Mechanism Design", "Venue": "LA 001", "Slots": ["11B", "11A"], "Instructors": ["Swaprava  Nath"], "Division": null}, "CS601": {"Code": "CS601", "Name": "Algorithms and Complexity", "Venue": "LC 002", "Slots": ["8A", "8B"], "Instructors": ["Sujoy  Bhore"], "Division": null}, "CS602": {"Code": "CS602", "Name": "Applied Algorithms", "Venue": "301", "Slots": ["10B", "10A"], "Instructors": ["Rohit Gurjar"], "Division": null}, "CS604": {"Code": "CS604", "Name": "Combinatorics", "Venue": "301", "Slots": ["9A", "9B"], "Instructors": ["Vishwanathan Sundar"], "Division": null}, "CS614": {"Code": "CS614", "Name": "Advanced Compilers", "Venue": "CC 105", "Slots": ["10B", "10A"], "Instructors": ["Manas  Thakur"], "Division": null}, "CS618": {"Code": "CS618", "Name": "Program Analysis", "Venue": "SIC205", "Slots": ["9A", "9B"], "Instructors": ["Uday Khedkar"], "Division": null}, "CS626": {"Code": "CS626", "Name": "Speech and Natural Language Processing and the Web", "Venue": "LH 301", "Slots": ["12A", "12B"], "Instructors": ["Bhattacharya P."], "Division": null}, "CS631": {"Code": "CS631", "Name": "Implementation Techniques for Relational Database Systems", "Venue": "CC 101", "Slots": ["5B", "5A"], "Instructors": ["Sudarshan S."], "Division": null}, "CS635": {"Code": "CS635", "Name": "Information Retrieval & Mining for Hypertext & the Web", "Venue": "LT 002", "Slots": ["11B", "11A"], "Instructors": ["Chakrabarti Soumen"], "Division": null}, "CS663": {"Code": "CS663", "Name": "Fundamentals of Digital Image Processing", "Venue": "LH 101", "Slots": ["12A", "12B"], "Instructors": ["Ajit V. Rajwade"], "Division": null}, "CS675": {"Code": "CS675", "Name": "Computer Graphics", "Venue": "SIC205", "Slots": ["11B", "11A"], "Instructors": ["Parag Chaudhuri"], "Division": null}, "CS683": {"Code": "CS683", "Name": "Advanced Computer Architecture", "Venue": "CC 103", "Slots": ["15B", "15A"], "Instructors": ["Biswabandan  Panda"], "Division": null}, "CS691": {"Code": "CS691", "Name": "R & D Project", "Venue": "nan", "Slots": [], "Instructors": ["Bhaskar Raman", "Preethi Jyothi"], "Division": null}, "CS692": {"Code": "CS692", "Name": "R & D Project II", "Venue": "nan", "Slots": [], "Instructors": ["Bhaskar Raman", "Preethi Jyothi"], "Division": null}, "CS694": {"Code": "CS694", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Bhaskar Raman", "Preethi Jyothi"], "Division": null}, "CS699": {"Code": "CS699", "Name": "Software Lab.", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Bhaskar Raman"], "Division": null}, "CS725": {"Code": "CS725", "Name": "Foundations of Machine Learning", "Venue": "LA 002", "Slots": ["5B", "5A"], "Instructors": ["S. Sarawagi"], "Division": null}, "CS741": {"Code": "CS741", "Name": "Advanced Network Security and Cryptography", "Venue": "CC 105", "Slots": ["12A", "12B"], "Instructors": ["Virendra Singh"], "Division": null}, "CS742": {"Code": "CS742", "Name": "Foundations of Network Security and Cryptography", "Venue": "LA 002", "Slots": ["14B", "14A"], "Instructors": ["Kameswari Chebrolu"], "Division": null}, "CS744": {"Code": "CS744", "Name": "Design and Engineering of Computing Systems", "Venue": "CC 103", "Slots": ["12A", "12B"], "Instructors": ["Varsha Apte"], "Division": null}, "CS747": {"Code": "CS747", "Name": "Foundations of Intelligent  and Learning Agents", "Venue": "LA 001", "Slots": ["14B", "14A"], "Instructors": ["Shivaram Kalyanakrishnan"], "Division": null}, "CS758": {"Code": "CS758", "Name": "Advanced Tools from Modern Cryptography", "Venue": "SIC305", "Slots": ["8A", "8B"], "Instructors": ["Manoj Prabhakaran"], "Division": null}, "CS768": {"Code": "CS768", "Name": "Learning with Graphs", "Venue": "CC 101", "Slots": ["13A", "13B"], "Instructors": ["Abir  De"], "Division": null}, "CS770": {"Code": "CS770", "Name": "Process Engineering", "Venue": "LC 001", "Slots": ["13A", "13B"], "Instructors": ["Joshi Rushikesh K."], "Division": null}, "CS771": {"Code": "CS771", "Name": "Foundations of verification and automated reasoning", "Venue": "SIC205", "Slots": ["1A", "1C", "1B"], "Instructors": ["Bharat Adsul"], "Division": null}, "CS774": {"Code": "CS774", "Name": "Spectral Graph Theory", "Venue": "CC 101", "Slots": ["12A", "12B"], "Instructors": ["Akash  Kumar"], "Division": null}, "CS777": {"Code": "CS777", "Name": "M.S. R&D 1", "Venue": "nan", "Slots": [], "Instructors": ["Preethi Jyothi", "Bhaskar Raman"], "Division": null}, "CS778": {"Code": "CS778", "Name": "M.S. R&D 2", "Venue": "nan", "Slots": [], "Instructors": ["Bhaskar Raman", "Preethi Jyothi"], "Division": null}, "CS781": {"Code": "CS781", "Name": "Formal Methods in Machine Learning", "Venue": "SIC205", "Slots": ["10B", "10A"], "Instructors": ["Supratik Chakraborty"], "Division": null}, "CS782": {"Code": "CS782", "Name": "Algebra and Computation", "Venue": "SIC205", "Slots": ["6B", "6A"], "Instructors": ["Sohoni Milind"], "Division": null}, "CSS801": {"Code": "CSS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Abir  De"], "Division": null}, "CSS802": {"Code": "CSS802", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Abir  De"], "Division": null}, "DH301": {"Code": "DH301", "Name": "Basic Epidemiology", "Venue": "LC 302", "Slots": ["LX"], "Instructors": ["G.Ramakrishnan"], "Division": null}, "DH301-M": {"Code": "DH301-M", "Name": "Basic Epidemiology", "Venue": "LC 302", "Slots": ["LX"], "Instructors": ["G.Ramakrishnan"], "Division": "M"}, "DH302": {"Code": "DH302", "Name": "Introduction to Public Health Informatics", "Venue": "LH 102", "Slots": ["6B", "6A"], "Instructors": ["Kshitij  Jadhav"], "Division": null}, "DH302-M": {"Code": "DH302-M", "Name": "Introduction to Public Health Informatics", "Venue": "LH 102", "Slots": ["6B", "6A"], "Instructors": ["Kshitij  Jadhav"], "Division": "M"}, "DH307": {"Code": "DH307", "Name": "R & D Project", "Venue": "nan", "Slots": [], "Instructors": ["G.Ramakrishnan"], "Division": null}, "DH307-M": {"Code": "DH307-M", "Name": "R & D Project", "Venue": "nan", "Slots": [], "Instructors": ["G.Ramakrishnan"], "Division": "M"}, "DH803": {"Code": "DH803", "Name": "Wearable Health Technologies", "Venue": "LT 001", "Slots": ["9A", "9B"], "Instructors": ["Nirmal S. Punjabi"], "Division": null}, "DH803-M": {"Code": "DH803-M", "Name": "Wearable Health Technologies", "Venue": "LT 001", "Slots": ["9A", "9B"], "Instructors": ["Nirmal S. Punjabi"], "Division": "M"}, "DHS801": {"Code": "DHS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Ashutosh Kumar"], "Division": null}, "DS203": {"Code": "DS203", "Name": "Programming for Data Science", "Venue": "LA 001", "Slots": ["5B", "5A"], "Instructors": ["Manjunath D."], "Division": null}, "DS203-M": {"Code": "DS203-M", "Name": "Programming for Data Science", "Venue": "LA 001", "Slots": ["5B", "5A"], "Instructors": ["Manjunath D."], "Division": "M"}, "DS593": {"Code": "DS593", "Name": "Dual Degree Project 1", "Venue": "nan", "Slots": [], "Instructors": ["Manjunath D."], "Division": null}, "EC101-D1": {"Code": "EC101-D1", "Name": "Economics", "Venue": "LA 001", "Slots": ["2A", "2C", "2B"], "Instructors": ["Saptarshi Prosonno Ghosh", "Aditi Balkrishna Chaubal"], "Division": "D1"}, "EC101-D2": {"Code": "EC101-D2", "Name": "Economics", "Venue": "LA 002", "Slots": ["2A", "2C", "2B"], "Instructors": ["Radeef  Chundakkadan", "Pooja Padhi"], "Division": "D2"}, "EC101-D3": {"Code": "EC101-D3", "Name": "Economics", "Venue": "LA 001", "Slots": ["9A", "9B"], "Instructors": ["Rama Pal", "Neha Gupta"], "Division": "D3"}, "EC101-D4": {"Code": "EC101-D4", "Name": "Economics", "Venue": "LA 002", "Slots": ["9A", "9B"], "Instructors": ["Narayanan K.", "Surajit Bhattacharya"], "Division": "D4"}, "EC221": {"Code": "EC221", "Name": "Intermediate Microeconomics I", "Venue": "LC 201", "Slots": ["11B", "11A"], "Instructors": ["Narayanan K.", "Subrato  Banerjee"], "Division": null}, "EC223": {"Code": "EC223", "Name": "Intermediate Macroeconomics-I", "Venue": "LC 201", "Slots": ["10B", "10A"], "Instructors": ["Surajit Bhattacharya"], "Division": null}, "EC225": {"Code": "EC225", "Name": "Mathematics for Economics", "Venue": "LT 003", "Slots": ["4A", "4C", "4B"], "Instructors": ["Aditi Balkrishna Chaubal"], "Division": null}, "EC227": {"Code": "EC227", "Name": "Statistics I", "Venue": "LC 301", "Slots": ["8A", "8B"], "Instructors": ["Neha Gupta"], "Division": null}, "EC306": {"Code": "EC306", "Name": "Econometrics I", "Venue": "LT 302", "Slots": ["2A", "2C", "2B"], "Instructors": ["Souvik  Banerjee"], "Division": null}, "EC308": {"Code": "EC308", "Name": "Econometrics I Lab", "Venue": "LT 205", "Slots": ["11B", "11A"], "Instructors": ["Souvik  Banerjee"], "Division": null}, "EC311": {"Code": "EC311", "Name": "International Economics I", "Venue": "LT 202", "Slots": ["12A", "12B"], "Instructors": ["Radeef  Chundakkadan"], "Division": null}, "EC313": {"Code": "EC313", "Name": "Development Economics I", "Venue": "LT 101", "Slots": ["14B", "14A"], "Instructors": ["Haripriya Gundimeda"], "Division": null}, "EC315": {"Code": "EC315", "Name": "Public Finance", "Venue": "LT 304", "Slots": ["1A", "1C", "1B"], "Instructors": ["Rama Pal"], "Division": null}, "EC401": {"Code": "EC401", "Name": "Behavioral Foundations of Decision Making", "Venue": "LC 202", "Slots": ["10B", "10A"], "Instructors": ["Subrato  Banerjee"], "Division": null}, "EC402": {"Code": "EC402", "Name": "Game Theory and Economic Analysis", "Venue": "LC 001", "Slots": ["4A", "4C", "4B"], "Instructors": ["Saptarshi Prosonno Ghosh"], "Division": null}, "EC638": {"Code": "EC638", "Name": "Financial Econometrics", "Venue": "LC 301", "Slots": ["9A", "9B"], "Instructors": ["Pooja Padhi"], "Division": null}, "EC707": {"Code": "EC707", "Name": "Empirical Analysis of Corporate Governance", "Venue": "LT 001", "Slots": ["15B", "15A"], "Instructors": ["Tara S. Shaw"], "Division": null}, "EC802": {"Code": "EC802", "Name": "Advanced Economic Theory", "Venue": "LT 002", "Slots": ["12A", "12B"], "Instructors": ["Haripriya Gundimeda", "Narayanan K.", "Tara S. Shaw"], "Division": null}, "ECS801": {"Code": "ECS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Tara S. Shaw"], "Division": null}, "EE101": {"Code": "EE101", "Name": "Introduction to Electrical and Electronics Circuits", "Venue": "LC 101", "Slots": ["4A", "4C", "4B"], "Instructors": ["Narendra Shiradkar"], "Division": null}, "EE101-M": {"Code": "EE101-M", "Name": "Introduction to Electrical and Electronics Circuits", "Venue": "EEG-101", "Slots": ["5B", "5A"], "Instructors": ["Chatterjee Kishore"], "Division": "M"}, "EE103": {"Code": "EE103", "Name": "Introduction to Electrical Engineering", "Venue": "LA 202", "Slots": ["11B", "11A"], "Instructors": ["Fernandes B.G.", "J.John", "Sibi Raj B. Pillai", "M Belur"], "Division": null}, "EE114": {"Code": "EE114", "Name": "Power Engineering - I", "Venue": "EEG-101", "Slots": ["12A", "12B"], "Instructors": ["Soman S.A."], "Division": null}, "EE204-S1": {"Code": "EE204-S1", "Name": "Analog Circuits", "Venue": "LC 001", "Slots": ["6B", "6A"], "Instructors": ["M.Shojaei Baghini"], "Division": "S1"}, "EE204-S2": {"Code": "EE204-S2", "Name": "Analog Circuits", "Venue": "VMCC33", "Slots": ["6B", "6A"], "Instructors": ["Sandip  Mondal"], "Division": "S2"}, "EE207": {"Code": "EE207", "Name": "Electronic Devices & Circuits", "Venue": "LT 106", "Slots": ["5B", "5A"], "Instructors": ["Debanjan  Bhowmik"], "Division": null}, "EE207-M": {"Code": "EE207-M", "Name": "Electronic Devices & Circuits", "Venue": "LT 106", "Slots": ["5B", "5A"], "Instructors": ["Debanjan  Bhowmik"], "Division": "M"}, "EE214": {"Code": "EE214", "Name": "Digital Circuits Lab", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Siddharth Tallur"], "Division": null}, "EE224": {"Code": "EE224", "Name": "Digital Systems", "Venue": "LH 302", "Slots": ["3A", "3C", "3B"], "Instructors": ["Virendra Singh"], "Division": null}, "EE229-S1": {"Code": "EE229-S1", "Name": "Signal Processing \u2013 I", "Venue": "LC 301", "Slots": ["1A", "1C", "1B"], "Instructors": ["Gadre V.M."], "Division": "S1"}, "EE229-S2": {"Code": "EE229-S2", "Name": "Signal Processing \u2013 I", "Venue": "LC 302", "Slots": ["1A", "1C", "1B"], "Instructors": ["Jayakrishnan Nair"], "Division": "S2"}, "EE236": {"Code": "EE236", "Name": "Electronic Devices Lab", "Venue": "nan", "Slots": ["L1", "L2"], "Instructors": ["Apurba Laha", "Saurabh Lodha"], "Division": null}, "EE301-S1": {"Code": "EE301-S1", "Name": "Electromagnetic Waves", "Venue": "VMCC32", "Slots": ["6B", "6A"], "Instructors": ["Bhaskaran Muralidharan"], "Division": "S1"}, "EE301-S2": {"Code": "EE301-S2", "Name": "Electromagnetic Waves", "Venue": "VMCC31", "Slots": ["6B", "6A"], "Instructors": ["Shevgaonkar R.K."], "Division": "S2"}, "EE324": {"Code": "EE324", "Name": "Control Systems Lab", "Venue": "nan", "Slots": [], "Instructors": ["Debasattam Pal", "Debraj Chakraborty"], "Division": null}, "EE325-S1": {"Code": "EE325-S1", "Name": "Probability and Random Processes", "Venue": "LH 302", "Slots": ["4A", "4C", "4B"], "Instructors": ["Manjunath D."], "Division": "S1"}, "EE325-S2": {"Code": "EE325-S2", "Name": "Probability and Random Processes", "Venue": "LH 302", "Slots": ["4A", "4C", "4B"], "Instructors": ["Sharayu Moharir"], "Division": "S2"}, "EE340": {"Code": "EE340", "Name": "Communications Lab", "Venue": "nan", "Slots": ["L4", "L3"], "Instructors": ["Jayakrishnan Nair"], "Division": null}, "EE341-S1": {"Code": "EE341-S1", "Name": "Communication Systems - I", "Venue": "LC 201", "Slots": ["1A", "1C", "1B"], "Instructors": ["B.K.Dey"], "Division": "S1"}, "EE341-S2": {"Code": "EE341-S2", "Name": "Communication Systems - I", "Venue": "LC 202", "Slots": ["1A", "1C", "1B"], "Instructors": ["Gaurav S. Kasbekar"], "Division": "S2"}, "EE451": {"Code": "EE451", "Name": "Supervised Research Exposition", "Venue": "nan", "Slots": [], "Instructors": ["Chatterjee Kishore"], "Division": null}, "EE457": {"Code": "EE457", "Name": "Compound Semiconductor Material and Devices", "Venue": "EEG-002", "Slots": ["15B", "15A"], "Instructors": ["Dipankar Saha"], "Division": null}, "EE491": {"Code": "EE491", "Name": "BTP I", "Venue": "nan", "Slots": [], "Instructors": ["Chatterjee Kishore"], "Division": null}, "EE501": {"Code": "EE501", "Name": "Spin-Based Computing", "Venue": "EEG-002", "Slots": ["12A", "12B"], "Instructors": ["Debanjan  Bhowmik"], "Division": null}, "EE601": {"Code": "EE601", "Name": "Statistical Signal Analysis", "Venue": "EEG-002", "Slots": ["3A", "3C", "3B"], "Instructors": ["P.Chaporkar"], "Division": null}, "EE603": {"Code": "EE603", "Name": "Digital Signal Processing and its Applications", "Venue": "VMCC32", "Slots": ["5B", "5A"], "Instructors": ["Satish  Mulleti"], "Division": null}, "EE605": {"Code": "EE605", "Name": "Error Correcting Codes", "Venue": "EEG-001", "Slots": ["13A", "13B"], "Instructors": ["Nikhil Karamchandani"], "Division": null}, "EE609": {"Code": "EE609", "Name": "Radiating Systems", "Venue": "LC 001", "Slots": ["15B", "15A"], "Instructors": ["J.Mukherjee", "Kushal R. Tuckley"], "Division": null}, "EE610": {"Code": "EE610", "Name": "Image Processing", "Venue": "LC 001", "Slots": ["14B", "14A"], "Instructors": ["V Raj Babu"], "Division": null}, "EE6101": {"Code": "EE6101", "Name": "Nonlinear Fiber Optics and Devices", "Venue": "EEG-001", "Slots": ["4A", "4C", "4B"], "Instructors": ["Arun  Surendran"], "Division": null}, "EE6102": {"Code": "EE6102", "Name": "High-Frequency Magnetics for Power Electronics", "Venue": "LT 102", "Slots": ["3A", "3C", "3B"], "Instructors": ["Shiladri  Chakraborty"], "Division": null}, "EE6105": {"Code": "EE6105", "Name": "Power System Modeling and Control", "Venue": "EEG-002", "Slots": ["9A", "9B"], "Instructors": ["Anupama Kowli"], "Division": null}, "EE611": {"Code": "EE611", "Name": "Microwave Integrated Circuits", "Venue": "EEG-002", "Slots": ["13A", "13B"], "Instructors": ["J.Mukherjee"], "Division": null}, "EE613": {"Code": "EE613", "Name": "Nonlinear Dynamical Systems", "Venue": "LT 004", "Slots": ["13A", "13B"], "Instructors": ["Debasattam Pal"], "Division": null}, "EE616": {"Code": "EE616", "Name": "Electronic Systems Design", "Venue": "EEG-001", "Slots": ["12A", "12B"], "Instructors": ["Pandey P.C."], "Division": null}, "EE617": {"Code": "EE617", "Name": "Sensors in Instrumentation", "Venue": "EEG-303", "Slots": ["5B", "5A"], "Instructors": ["Siddharth Tallur"], "Division": null}, "EE618": {"Code": "EE618", "Name": "CMOS Analog VLSI Design", "Venue": "EEG-001", "Slots": ["6B", "6A"], "Instructors": ["Rajesh H. Zele"], "Division": null}, "EE635": {"Code": "EE635", "Name": "Applied Linear Algebra", "Venue": "A1 - A2", "Slots": ["12A", "12B"], "Instructors": ["Dwaipayan  Mukherjee"], "Division": null}, "EE638": {"Code": "EE638", "Name": "Estimation and Identification", "Venue": "EEG-002", "Slots": ["6B", "6A"], "Instructors": ["Debraj Chakraborty"], "Division": null}, "EE640": {"Code": "EE640", "Name": "Multivariable Control Systems", "Venue": "EEG-001", "Slots": ["2A", "2C", "2B"], "Instructors": ["M Belur"], "Division": null}, "EE653": {"Code": "EE653", "Name": "Power Electronics -I", "Venue": "EEG-001", "Slots": ["5B", "5A"], "Instructors": ["M. Chandorkar"], "Division": null}, "EE657": {"Code": "EE657", "Name": "Electric Drives", "Venue": "LT 104", "Slots": ["6B", "6A"], "Instructors": ["Chatterjee Kishore"], "Division": null}, "EE658": {"Code": "EE658", "Name": "Power System Dynamics and Control", "Venue": "LT 106", "Slots": ["3A", "3C", "3B"], "Instructors": ["Kulkarni A.M."], "Division": null}, "EE659": {"Code": "EE659", "Name": "A First Course in Optimization", "Venue": "EEG-001", "Slots": ["3A", "3C", "3B"], "Instructors": ["Pillai Harish"], "Division": null}, "EE660": {"Code": "EE660", "Name": "Application of Power Electronics to Power Systems", "Venue": "EEG-001", "Slots": ["8A", "8B"], "Instructors": ["Anshuman Shukla"], "Division": null}, "EE669": {"Code": "EE669", "Name": "VLSI Technology", "Venue": "EEG-001", "Slots": ["1A", "1C", "1B"], "Instructors": ["Anil K.G."], "Division": null}, "EE671": {"Code": "EE671", "Name": "VLSI Design", "Venue": "LH 301", "Slots": ["2A", "2C", "2B"], "Instructors": ["Sharma Dinesh"], "Division": null}, "EE673": {"Code": "EE673", "Name": "Power Systems & Power Electronics Laboratory", "Venue": "EEG-001", "Slots": ["L4"], "Instructors": ["Prashant Navalkar", "Sandeep  Anand"], "Division": null}, "EE675": {"Code": "EE675", "Name": "Microprocessor Applications in Power Electronics", "Venue": "EEG-002", "Slots": ["1A", "1C", "1B"], "Instructors": ["Himanshu J. Bahirat"], "Division": null}, "EE678": {"Code": "EE678", "Name": "Wavelets", "Venue": "LT 005", "Slots": ["13A", "13B"], "Instructors": ["Gadre V.M."], "Division": null}, "EE679": {"Code": "EE679", "Name": "Speech Processing", "Venue": "EEG-101", "Slots": ["2A", "2C", "2B"], "Instructors": ["Preeti Rao"], "Division": null}, "EE691": {"Code": "EE691", "Name": "R & D Project", "Venue": "nan", "Slots": [], "Instructors": ["Chatterjee Kishore"], "Division": null}, "EE694": {"Code": "EE694", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Chatterjee Kishore"], "Division": null}, "EE703": {"Code": "EE703", "Name": "Digital Message Transmission", "Venue": "LT 205", "Slots": ["1A", "1C", "1B"], "Instructors": ["Sibi Raj B. Pillai"], "Division": null}, "EE720": {"Code": "EE720", "Name": "An Introduction to Number Theory and Cryptography", "Venue": "EEG-002", "Slots": ["5B", "5A"], "Instructors": ["S. Vijayakumaran"], "Division": null}, "EE721": {"Code": "EE721", "Name": "Hardware Description", "Venue": "LC 102", "Slots": ["15B", "15A"], "Instructors": ["Patkar Sachin"], "Division": null}, "EE723": {"Code": "EE723", "Name": "Physics of Nanoelectronic Devices - I", "Venue": "EEG-001", "Slots": ["9A", "9B"], "Instructors": ["Kasturi Saha"], "Division": null}, "EE733": {"Code": "EE733", "Name": "Solid State Devices", "Venue": "EEG-101", "Slots": ["3A", "3C", "3B"], "Instructors": ["Pradeep R. Nair"], "Division": null}, "EE735": {"Code": "EE735", "Name": "Microelectronics Simulations Lab", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Saurabh Lodha"], "Division": null}, "EE739": {"Code": "EE739", "Name": "Processor Design", "Venue": "LC 002", "Slots": ["4A", "4C", "4B"], "Instructors": ["Virendra Singh"], "Division": null}, "EE746": {"Code": "EE746", "Name": "Neuromorphic Engineering", "Venue": "LH 302", "Slots": ["12A", "12B"], "Instructors": ["Udayan Ganguli"], "Division": null}, "EE748": {"Code": "EE748", "Name": "Advanced Topics in Computer Architecture", "Venue": "LT 004", "Slots": ["14B", "14A"], "Instructors": ["Virendra Singh"], "Division": null}, "EE781": {"Code": "EE781", "Name": "Integrated Circuit  Design for Sensor Systems", "Venue": "EEG-002", "Slots": ["14B", "14A"], "Instructors": ["Laxmeesha  Somappa"], "Division": null}, "EE782": {"Code": "EE782", "Name": "Advanced Topics in Machine Learning", "Venue": "LA 001", "Slots": ["12A", "12B"], "Instructors": ["Amit Sethi"], "Division": null}, "EE788": {"Code": "EE788", "Name": "Advanced CMOS Logic and Flash Memory  Devices", "Venue": "EEG-303", "Slots": ["10B", "10A"], "Instructors": ["Souvik Mahapatra", "Sandip  Mondal"], "Division": null}, "EE789": {"Code": "EE789", "Name": "Algorithmic Design of Digital Systems", "Venue": "LC 302", "Slots": ["3A", "3C", "3B"], "Instructors": ["Desai Madhav"], "Division": null}, "EE899": {"Code": "EE899", "Name": "Communication Skills", "Venue": "LA 001", "Slots": ["4A", "4C", "4B"], "Instructors": ["Prashant Navalkar", "Swaroop Ganguly"], "Division": null}, "EN110": {"Code": "EN110", "Name": "Energy Engineering Fundamentals", "Venue": "LT 106", "Slots": ["4A", "4C", "4B"], "Instructors": ["Kedare S B", "Suneet Singh"], "Division": null}, "EN203": {"Code": "EN203", "Name": "Thermodynamics and Energy Conversion", "Venue": "CL 104 ESE", "Slots": ["11B", "11A"], "Instructors": ["Asish  Sarangi"], "Division": null}, "EN204": {"Code": "EN204", "Name": "Material Science for Energy Applications", "Venue": "CL 110 ESE", "Slots": ["3A", "3C", "3B"], "Instructors": ["K.R. Balasubramaniam"], "Division": null}, "EN213": {"Code": "EN213", "Name": "Electrical Networks and Machines", "Venue": "CL 105 ESE", "Slots": ["6B", "6A"], "Instructors": ["D. Suryanarayana", "Venkatramanan  D."], "Division": null}, "EN309": {"Code": "EN309", "Name": "Thermal & Fluid Engineering Lab", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Manaswita Bose"], "Division": null}, "EN313": {"Code": "EN313", "Name": "Power Electronics", "Venue": "CL 105 ESE", "Slots": ["2A", "2C", "2B"], "Instructors": ["Ravi Prakash Reddy  Siddavatam"], "Division": null}, "EN315": {"Code": "EN315", "Name": "Reaction Engineering & Combustion", "Venue": "CL 112 ESE", "Slots": ["4A", "4C", "4B"], "Instructors": ["Seethamraju Srinivas"], "Division": null}, "EN317": {"Code": "EN317", "Name": "Thermo-Fluid Devices", "Venue": "CL 105 ESE", "Slots": ["12A", "12B"], "Instructors": ["Anish Modi"], "Division": null}, "EN319": {"Code": "EN319", "Name": "Electrical Machines & Power Electronics Lab", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Ravi Prakash Reddy  Siddavatam", "V.S.S. Pavan Kumar Hari"], "Division": null}, "EN321": {"Code": "EN321", "Name": "Supervised Learning Project", "Venue": "nan", "Slots": ["6B", "6A"], "Instructors": ["Gurubalan  Annadurai"], "Division": null}, "EN401": {"Code": "EN401", "Name": "Energy Systems modelling and analysis", "Venue": "CL 109 ESE", "Slots": ["1C", "2C", "1B", "2B"], "Instructors": ["Venkatasailanathan Ramadesigan"], "Division": null}, "EN405": {"Code": "EN405", "Name": "Energy Innovation Lab", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Sandeep Kumar"], "Division": null}, "EN406": {"Code": "EN406", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["V.S.S. Pavan Kumar Hari"], "Division": null}, "EN407": {"Code": "EN407", "Name": "Chemistry for Energy Science", "Venue": "CL 103 ESE", "Slots": ["8A", "8B"], "Instructors": ["M.Neergat"], "Division": null}, "EN409": {"Code": "EN409", "Name": "Mathematical Foundation for Energy Science", "Venue": "LT 203", "Slots": ["2A", "2C", "2B"], "Instructors": ["Lalit Kumar"], "Division": null}, "EN411": {"Code": "EN411", "Name": "Physics for Energy Science", "Venue": "CL 112 ESE", "Slots": ["9A", "9B"], "Instructors": ["Karthik  Sasihithlu"], "Division": null}, "EN413": {"Code": "EN413", "Name": "Materials Science for Energy", "Venue": "LT 203", "Slots": ["6B", "6A"], "Instructors": ["Shaibal Sarkar"], "Division": null}, "EN415": {"Code": "EN415", "Name": "Energy Laboratory I", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Lalit Kumar"], "Division": null}, "EN417": {"Code": "EN417", "Name": "Computer Programming", "Venue": "LT 104", "Slots": ["3A", "4A", "3C", "4C"], "Instructors": ["V.S.S. Pavan Kumar Hari"], "Division": null}, "EN601": {"Code": "EN601", "Name": "Nonconventional Energy Sources", "Venue": "CL 109 ESE", "Slots": ["9A", "9B"], "Instructors": ["Kedare S B"], "Division": null}, "EN602": {"Code": "EN602", "Name": "Foundation for Energy Engineering", "Venue": "LT 306", "Slots": ["5B", "5A"], "Instructors": ["D. Suryanarayana", "Manaswita Bose"], "Division": null}, "EN606": {"Code": "EN606", "Name": "Energy Resources Economics and Environment", "Venue": "CL 104 ESE", "Slots": ["6B", "6A"], "Instructors": ["Bandyopadhyay Santanu"], "Division": null}, "EN609": {"Code": "EN609", "Name": "Energy Systems Laboratory", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Anish Modi"], "Division": null}, "EN618": {"Code": "EN618", "Name": "Energy Systems Modelling & Analysis", "Venue": "CL 109 ESE", "Slots": ["1C", "2C", "1B", "2B"], "Instructors": ["Venkatasailanathan Ramadesigan"], "Division": null}, "EN624": {"Code": "EN624", "Name": "Conservation of Energy in Buildings", "Venue": "CL 102 ESE", "Slots": ["10B", "10A"], "Instructors": ["Gurubalan  Annadurai"], "Division": null}, "EN632": {"Code": "EN632", "Name": "Waste to Energy", "Venue": "CC 103", "Slots": ["6B", "6A"], "Instructors": ["Sandeep Kumar"], "Division": null}, "EN637": {"Code": "EN637", "Name": "Principles and Applications of Hydrogen storage", "Venue": "CL 102 ESE", "Slots": ["8A", "8B"], "Instructors": ["Sankara Sarma V. Tatiparti"], "Division": null}, "EN649": {"Code": "EN649", "Name": "Introduction to Particulate Flow", "Venue": "CL 105 ESE", "Slots": ["14B", "14A"], "Instructors": ["Manaswita Bose"], "Division": null}, "EN655": {"Code": "EN655", "Name": "Energy Laboratory III", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Pratibha  Sharma"], "Division": null}, "EN658": {"Code": "EN658", "Name": "Electrochemical Energy Storage", "Venue": "CL 102 ESE", "Slots": ["15B", "15A"], "Instructors": ["Sagar Mitra"], "Division": null}, "EN663": {"Code": "EN663", "Name": "Electric Vehicle Grid Integration", "Venue": "LT 106", "Slots": ["1A", "1C", "1B"], "Instructors": ["Zakir H. Rather"], "Division": null}, "EN703": {"Code": "EN703", "Name": "Advanced Concepts in Solar Cell Technologies", "Venue": "LT 005", "Slots": ["12A", "12B"], "Instructors": ["Rajesh Gupta"], "Division": null}, "EN899": {"Code": "EN899", "Name": "Communication Skills", "Venue": "CL 111 ESE", "Slots": ["4A", "4C", "4B"], "Instructors": ["P.C.Ghosh"], "Division": null}, "ENT101": {"Code": "ENT101", "Name": "Introduction to Innovation & Entrepreneurship", "Venue": "LA 201", "Slots": ["3B", "5A"], "Instructors": ["P Kumaresan", "Ramesh  Mangaleswaran", "Anuradha  Narasimhan"], "Division": null}, "ENT602": {"Code": "ENT602", "Name": "Technology Venture Creation", "Venue": "301", "Slots": ["12A", "12B"], "Instructors": ["Milind  Kopikare", "Nishant  Tikekar", "Sankalp  Pratap"], "Division": null}, "ENT602-M": {"Code": "ENT602-M", "Name": "Technology Venture Creation", "Venue": "301", "Slots": ["12A", "12B"], "Instructors": ["Milind  Kopikare", "Nishant  Tikekar", "Sankalp  Pratap"], "Division": "M"}, "ENT603": {"Code": "ENT603", "Name": "Introduction to Entrepreneurship", "Venue": "LH 101", "Slots": ["13A", "13B"], "Instructors": ["Nishant  Tikekar", "Rajen Jaswa", "Rajkumar R. Hirwani", "Anuradha  Narasimhan"], "Division": null}, "ENT603-M": {"Code": "ENT603-M", "Name": "Introduction to Entrepreneurship", "Venue": "LH 101", "Slots": ["13A", "13B"], "Instructors": ["Nishant  Tikekar", "Rajen Jaswa", "Rajkumar R. Hirwani", "Anuradha  Narasimhan"], "Division": "M"}, "ENT606": {"Code": "ENT606", "Name": "Developing a Proof of Concept- Basic", "Venue": "LC 202", "Slots": ["LX"], "Instructors": ["Sankalp  Pratap", "P Kumaresan"], "Division": null}, "ENT606-M": {"Code": "ENT606-M", "Name": "Developing a Proof of Concept- Basic", "Venue": "LC 202", "Slots": ["LX"], "Instructors": ["Sankalp  Pratap", "P Kumaresan"], "Division": "M"}, "ENT609": {"Code": "ENT609", "Name": "Marketing & Finance for Entrepreneurs", "Venue": "LT 106", "Slots": ["12A", "12B"], "Instructors": ["Umakant  Jayaram", "Devdip Purkayastha"], "Division": null}, "ENT609-M": {"Code": "ENT609-M", "Name": "Marketing & Finance for Entrepreneurs", "Venue": "LT 106", "Slots": ["12A", "12B"], "Instructors": ["Umakant  Jayaram", "Devdip Purkayastha"], "Division": "M"}, "ES101": {"Code": "ES101", "Name": "Introduction to Environmental Science & Engineering", "Venue": "A1 - A2", "Slots": ["4A", "4C", "4B"], "Instructors": ["S.R.Asolekar"], "Division": null}, "ES200-S2": {"Code": "ES200-S2", "Name": "Environmental Studies: Science and Engineering", "Venue": "nan", "Slots": [], "Instructors": ["Anurag Garg", "Tabish  Nawaz", "Manoranjan  Sahu"], "Division": "S2"}, "ES201": {"Code": "ES201", "Name": "Applied Environmental Microbiology and Ecology", "Venue": "CL 106 ESE", "Slots": ["6B", "6A"], "Instructors": ["Indrajit  Chakraborty", "Suparna Mukherji"], "Division": null}, "ES203-M": {"Code": "ES203-M", "Name": "Water and Wastewater Engineering", "Venue": "LT 102", "Slots": ["5B", "5A"], "Instructors": ["Venkata Sai Vamsi  Botlaguduru"], "Division": "M"}, "ES250": {"Code": "ES250", "Name": "Environmental Studies : Science and Engineering", "Venue": "nan", "Slots": [], "Instructors": ["Srinidhi  Balasubramanian", "Swatantra Pratap  Singh", "Tabish  Nawaz", "Virendra Sethi"], "Division": null}, "ES253": {"Code": "ES253", "Name": "Environmental Microbiology Laboratory", "Venue": "nan", "Slots": ["L1", "L2"], "Instructors": ["Suparna Mukherji"], "Division": null}, "ES296": {"Code": "ES296", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Abhishek  Chakraborty", "Swatantra Pratap  Singh"], "Division": null}, "ES301": {"Code": "ES301", "Name": "Introduction to Fluid Mechanics", "Venue": "CL 104 ESE", "Slots": ["8A", "8B"], "Instructors": ["Venkata Sai Vamsi  Botlaguduru", "Subhankar Karmakar"], "Division": null}, "ES303-M": {"Code": "ES303-M", "Name": "Municipal waste and biomedical waste management", "Venue": "nan", "Slots": ["5B", "5A"], "Instructors": ["Munish Kumar Chandel"], "Division": "M"}, "ES307": {"Code": "ES307", "Name": "Wastewater Engineering", "Venue": "LT 006", "Slots": ["4A", "4C", "4B"], "Instructors": ["Indrajit  Chakraborty", "Abhishek  Chakraborty"], "Division": null}, "ES315": {"Code": "ES315", "Name": "Solid Waste Management - Basic Principles and Technical Aspects", "Venue": "CL 112 ESE", "Slots": ["2A", "2C", "2B"], "Instructors": ["Anurag Garg"], "Division": null}, "ES317": {"Code": "ES317", "Name": "Fundamentals of Air Pollution Science and Engineering", "Venue": "CL 105 ESE", "Slots": ["1A", "1C", "1B"], "Instructors": ["Virendra Sethi", "Srinidhi  Balasubramanian"], "Division": null}, "ES319": {"Code": "ES319", "Name": "Computational Laboratory for Environmental Engineering", "Venue": "nan", "Slots": ["12A", "12B"], "Instructors": ["Tabish  Nawaz"], "Division": null}, "ES321": {"Code": "ES321", "Name": "Energy and Environmental Sustainability", "Venue": "CL 110 ESE", "Slots": ["9A", "9B"], "Instructors": ["Munish Kumar Chandel"], "Division": null}, "ES351-S1": {"Code": "ES351-S1", "Name": "Air Pollution Monitoring Laboratory", "Venue": "nan", "Slots": ["L4", "L2"], "Instructors": ["Harish C. Phuleria", "Abhishek  Chakraborty"], "Division": "S1"}, "ES351-S2": {"Code": "ES351-S2", "Name": "Air Pollution Monitoring Laboratory", "Venue": "nan", "Slots": ["L1", "L2"], "Instructors": ["Harish C. Phuleria", "Abhishek  Chakraborty"], "Division": "S2"}, "ES401-M": {"Code": "ES401-M", "Name": "Environmental management", "Venue": "LT 206", "Slots": ["5B", "5A"], "Instructors": ["Srinidhi  Balasubramanian", "Amritanshu Shriwastav"], "Division": "M"}, "ES404": {"Code": "ES404", "Name": "Planning and Design of Environmental Engineering Facilities", "Venue": "LT 301", "Slots": ["1B", "L2"], "Instructors": ["Sanjeev Chaudhari"], "Division": null}, "ES407": {"Code": "ES407", "Name": "Simulation & Optimization Techniques in Environmental Systems", "Venue": "CL 103 ESE", "Slots": ["14B", "14A"], "Instructors": ["Subhankar Karmakar", "Tabish  Nawaz"], "Division": null}, "ES451": {"Code": "ES451", "Name": "Field Studies", "Venue": "LT 305", "Slots": ["L4"], "Instructors": ["Swatantra Pratap  Singh", "Amritanshu Shriwastav"], "Division": null}, "ES494": {"Code": "ES494", "Name": "MSc-PhD Project II", "Venue": "nan", "Slots": [], "Instructors": ["Abhishek  Chakraborty", "Swatantra Pratap  Singh"], "Division": null}, "ES593": {"Code": "ES593", "Name": "Dual Degree Project Stage  I", "Venue": "nan", "Slots": [], "Instructors": ["Tabish  Nawaz"], "Division": null}, "ES601": {"Code": "ES601", "Name": "Environmental Health and Safety", "Venue": "CL 102 ESE", "Slots": ["12A", "12B"], "Instructors": ["Harish C. Phuleria"], "Division": null}, "ES631": {"Code": "ES631", "Name": "Environmental Chemistry", "Venue": "LT 006", "Slots": ["3A", "3C", "3B"], "Instructors": ["Harish C. Phuleria", "Tabish  Nawaz"], "Division": null}, "ES633": {"Code": "ES633", "Name": "Enviornmental Microbiology and Ecology", "Venue": "CL 110 ESE", "Slots": ["12A", "12B"], "Instructors": ["Swatantra Pratap  Singh"], "Division": null}, "ES635": {"Code": "ES635", "Name": "Air Pollution Science and Engineering", "Venue": "CL 102 ESE", "Slots": ["14B", "14A"], "Instructors": ["Manoranjan  Sahu", "Abhishek  Chakraborty"], "Division": null}, "ES637": {"Code": "ES637", "Name": "Municipal Water and Wastewater Systems", "Venue": "CL 110 ESE", "Slots": ["6B", "6A"], "Instructors": ["Sanjeev Chaudhari"], "Division": null}, "ES639": {"Code": "ES639", "Name": "Physico-Chemical Treatment Technologies", "Venue": "CL 110 ESE", "Slots": ["4A", "4C", "4B"], "Instructors": ["", "Suparna Mukherji"], "Division": null}, "ES645": {"Code": "ES645", "Name": "Environmental Law and Policy", "Venue": "CL 103 ESE", "Slots": ["7B", "7A"], "Instructors": ["S.R.Asolekar"], "Division": null}, "ES647": {"Code": "ES647", "Name": "Municipal Solid and Biomedical Waste Management", "Venue": "LT 102", "Slots": ["1A", "1C", "1B"], "Instructors": ["Munish Kumar Chandel", "A.K.Dikshit"], "Division": null}, "ES649": {"Code": "ES649", "Name": "Atmospheric Processes and Climate Change", "Venue": "CL 111 ESE", "Slots": ["2A", "2C", "2B"], "Instructors": ["Abhishek  Chakraborty"], "Division": null}, "ES651": {"Code": "ES651", "Name": "Environmental Monitoring Laboratory", "Venue": "nan", "Slots": ["L4", "LX"], "Instructors": ["Amritanshu Shriwastav", "Manoranjan  Sahu", "Swatantra Pratap  Singh"], "Division": null}, "ES653": {"Code": "ES653", "Name": "Environmental Impact Assessment", "Venue": "CL 112 ESE", "Slots": ["3A", "3C", "3B"], "Instructors": ["A.K.Dikshit"], "Division": null}, "ES655": {"Code": "ES655", "Name": "Environmental Management", "Venue": "LC 302", "Slots": ["9A", "9B"], "Instructors": ["Srinidhi  Balasubramanian", "Amritanshu Shriwastav"], "Division": null}, "ES657": {"Code": "ES657", "Name": "Water Resources and Environmental Hydraulics\u201d", "Venue": "LT 204", "Slots": ["8A", "8B"], "Instructors": ["Venkata Sai Vamsi  Botlaguduru", "Subhankar Karmakar"], "Division": null}, "ES659": {"Code": "ES659", "Name": "Mathematics and Statistics for Environmental Engineering\u201d", "Venue": "LT 006", "Slots": ["5B", "5A"], "Instructors": ["Manoranjan  Sahu", "Amritanshu Shriwastav"], "Division": null}, "ES691": {"Code": "ES691", "Name": "R & D Project I", "Venue": "nan", "Slots": [], "Instructors": ["Venkata Sai Vamsi  Botlaguduru", "Tabish  Nawaz"], "Division": null}, "ES694": {"Code": "ES694", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Manoranjan  Sahu", "Munish Kumar Chandel"], "Division": null}, "ES797": {"Code": "ES797", "Name": "I Stage Project", "Venue": "nan", "Slots": [], "Instructors": ["Manoranjan  Sahu", "Munish Kumar Chandel"], "Division": null}, "ES899": {"Code": "ES899", "Name": "Communication Skills", "Venue": "nan", "Slots": ["XC"], "Instructors": ["Harish C. Phuleria", "Virendra Sethi"], "Division": null}, "ESS801": {"Code": "ESS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Tabish  Nawaz", "Swatantra Pratap  Singh"], "Division": null}, "ET601": {"Code": "ET601", "Name": "Introduction to Educational Technology", "Venue": "LT 101", "Slots": ["6B", "6A"], "Instructors": ["Ramkumar  Rajendran"], "Division": null}, "ET606": {"Code": "ET606", "Name": "Educational Technology -Tools Lab", "Venue": "- IC1", "Slots": ["LX"], "Instructors": ["Syaamantak  Das"], "Division": null}, "ET610": {"Code": "ET610", "Name": "Learning Analytics and Educational Data Mining", "Venue": "LT 104", "Slots": ["5B", "5A"], "Instructors": ["Ramkumar  Rajendran"], "Division": null}, "ET612": {"Code": "ET612", "Name": "Statistical Methods for Educational Research", "Venue": "LT 202", "Slots": ["9A", "9B"], "Instructors": ["Ritayan Mitra"], "Division": null}, "ET613": {"Code": "ET613", "Name": "Human-Computer Interaction for Educational Technology", "Venue": "LT 001", "Slots": ["8A", "8B"], "Instructors": ["S. R. Iyer"], "Division": null}, "ET619": {"Code": "ET619", "Name": "Field Work in Educational Technology", "Venue": "nan", "Slots": [], "Instructors": ["Ramkumar  Rajendran"], "Division": null}, "ET621": {"Code": "ET621", "Name": "Basics of Educational Technology", "Venue": "LT 001", "Slots": ["6B", "6A"], "Instructors": ["Sahana Murthy"], "Division": null}, "ET622": {"Code": "ET622", "Name": "Educational Text Data Analysis", "Venue": "LT 001", "Slots": ["12A", "12B"], "Instructors": ["Syaamantak  Das"], "Division": null}, "ET899": {"Code": "ET899", "Name": "Communication Skills", "Venue": "LT 104", "Slots": ["10A"], "Instructors": ["S. R. Iyer"], "Division": null}, "GNR401-M": {"Code": "GNR401-M", "Name": "Remote sensing and Image Processing", "Venue": "LT 204", "Slots": ["5B", "5A"], "Instructors": ["Biplab  Banerjee", "Gulab Singh", "Avik Bhattacharya"], "Division": "M"}, "GNR403": {"Code": "GNR403", "Name": "Geoinformatics Lab", "Venue": "nan", "Slots": ["XD"], "Instructors": ["Mohan B.Krishna"], "Division": null}, "GNR405-M": {"Code": "GNR405-M", "Name": "Mini Project", "Venue": "nan", "Slots": ["XD"], "Instructors": ["Mohan B.Krishna"], "Division": "M"}, "GNR407-M": {"Code": "GNR407-M", "Name": "Natural Hazards and Disaster Management", "Venue": "nan", "Slots": ["5B", "5A"], "Instructors": ["Gulab Singh", "Alok Porwal"], "Division": "M"}, "GNR409-M": {"Code": "GNR409-M", "Name": "Terrain Evaluation and Landuse Planning", "Venue": "nan", "Slots": ["5B", "5A"], "Instructors": ["Adinarayana J.", "Gedam S.S."], "Division": "M"}, "GNR603": {"Code": "GNR603", "Name": "Principles of Remote Sensing", "Venue": "CL 102 ESE", "Slots": ["3A", "3C", "3B"], "Instructors": ["Avik Bhattacharya", "Alok Porwal"], "Division": null}, "GNR605": {"Code": "GNR605", "Name": "Principles of Geographic Information Systems", "Venue": "VMCC15", "Slots": ["5B", "5A"], "Instructors": ["Surya Durbha"], "Division": null}, "GNR607": {"Code": "GNR607", "Name": "Principles of Satellite Image Processing", "Venue": "LC 101", "Slots": ["2A", "2C", "2B"], "Instructors": ["Mohan B.Krishna"], "Division": null}, "GNR615": {"Code": "GNR615", "Name": "GIS Laboratory", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Surya Durbha"], "Division": null}, "GNR617": {"Code": "GNR617", "Name": "Image Interpretation Laboratory", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Rao Y.S.", "Adinarayana J."], "Division": null}, "GNR619": {"Code": "GNR619", "Name": "Natural Resources : Lithosphere and Biosphere", "Venue": "CL 110 ESE", "Slots": ["1A", "1C", "1B"], "Instructors": ["Alok Porwal", "Adinarayana J."], "Division": null}, "GNR621": {"Code": "GNR621", "Name": "Natural Resources: Hydroshpere Cryosphere and Atmosphere", "Venue": "LC 101", "Slots": ["11B", "11A"], "Instructors": ["Deepak  Singh", "Karthikeyan  Lanka", "Gulab Singh"], "Division": null}, "GNR623": {"Code": "GNR623", "Name": "GPS : Principles and Applications", "Venue": "LT 106", "Slots": ["6B", "6A"], "Instructors": ["Gedam S.S."], "Division": null}, "GNR627": {"Code": "GNR627", "Name": "Geospatial Predictive Modelling", "Venue": "LT 102", "Slots": ["14B", "14A"], "Instructors": ["Alok Porwal"], "Division": null}, "GNR642": {"Code": "GNR642", "Name": "Scattering Models in Microwave Remote Sensing", "Venue": "LT 303", "Slots": ["2A", "2C", "2B"], "Instructors": ["Gulab Singh"], "Division": null}, "GNR650": {"Code": "GNR650", "Name": "Advanced topics in deep learning for image analysis", "Venue": "LT 002", "Slots": ["15B", "15A"], "Instructors": ["Biplab  Banerjee"], "Division": null}, "GNR653": {"Code": "GNR653", "Name": "Data Analysis Methods for Geospatial Applications", "Venue": "LT 206", "Slots": ["10B", "10A"], "Instructors": ["Avik Bhattacharya", "Deepak  Singh", "Mohan B.Krishna", "Karthikeyan  Lanka"], "Division": null}, "GNR797": {"Code": "GNR797", "Name": "I Stage Project", "Venue": "nan", "Slots": [], "Instructors": ["Avik Bhattacharya"], "Division": null}, "GNR798": {"Code": "GNR798", "Name": "II Stage Project", "Venue": "nan", "Slots": [], "Instructors": ["Avik Bhattacharya"], "Division": null}, "GNR805": {"Code": "GNR805", "Name": "Advanced Concepts in Polarimetric SAR Image Analysis", "Venue": "LT 102", "Slots": ["15B", "15A"], "Instructors": ["Rao Y.S.", "Avik Bhattacharya"], "Division": null}, "GNR899": {"Code": "GNR899", "Name": "Communication Skills", "Venue": "LT 202", "Slots": ["4A", "4C", "4B"], "Instructors": ["Deepak  Singh", "Avik Bhattacharya"], "Division": null}, "GNRS01": {"Code": "GNRS01", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Karthikeyan  Lanka"], "Division": null}, "GP401": {"Code": "GP401", "Name": "Global Geophysics", "Venue": "LT 103", "Slots": ["3A", "3C", "3B"], "Instructors": ["Kumar Hemant Singh"], "Division": null}, "GP403": {"Code": "GP403", "Name": "Earthquake and Engineering Seismology", "Venue": "LT 102", "Slots": ["4A", "4C", "4B"], "Instructors": ["Satish Maurya"], "Division": null}, "GP407": {"Code": "GP407", "Name": "Seismology Lab", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Satish Maurya"], "Division": null}, "GP413": {"Code": "GP413", "Name": "Mineralogy & Petrology", "Venue": "LT 201", "Slots": ["2A", "2C", "2B"], "Instructors": ["Prabhakar Naraga"], "Division": null}, "GP415": {"Code": "GP415", "Name": "Mineralogy & Petrology Lab", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Patel S.C."], "Division": null}, "GP503": {"Code": "GP503", "Name": "Geophysical Signal Processing", "Venue": "LT 202", "Slots": ["2A", "2C", "2B"], "Instructors": ["E. Chandrasekhar"], "Division": null}, "GP505": {"Code": "GP505", "Name": "Electromagnetic Methods", "Venue": "LT 204", "Slots": ["6B", "6A"], "Instructors": ["E. Chandrasekhar"], "Division": null}, "GP517": {"Code": "GP517", "Name": "Exploration Seismology II", "Venue": "LT 103", "Slots": ["4A", "4C", "4B"], "Instructors": ["Bharath C. Shekar"], "Division": null}, "GP519": {"Code": "GP519", "Name": "Engineering & Ground Water Geology Lab", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Vikram Vishal", "D. Ramakrishnan"], "Division": null}, "GP521": {"Code": "GP521", "Name": "Electromagnetic Lab", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Anand  Singh"], "Division": null}, "GP523": {"Code": "GP523", "Name": "Industrial Training", "Venue": "nan", "Slots": [], "Instructors": ["Bharath C. Shekar"], "Division": null}, "GP525": {"Code": "GP525", "Name": "Computational Geophysics", "Venue": "LT 102", "Slots": ["13A", "13B"], "Instructors": ["Anand  Singh"], "Division": null}, "GS407": {"Code": "GS407", "Name": "Strucural Geology", "Venue": "LT 002", "Slots": ["4A", "4C", "4B"], "Instructors": ["Malay Mukul"], "Division": null}, "GS413": {"Code": "GS413", "Name": "Structural Geology Lab", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Malay Mukul"], "Division": null}, "GS415": {"Code": "GS415", "Name": "Applied Mineralogy and X-Ray Crystallography", "Venue": "LT 002", "Slots": ["6B", "6A"], "Instructors": ["Mathew George"], "Division": null}, "GS421": {"Code": "GS421", "Name": "Palaeontology", "Venue": "LT 002", "Slots": ["2A", "2C", "2B"], "Instructors": ["Nibedita  Rakshit", "Jahnavi Punekar"], "Division": null}, "GS433": {"Code": "GS433", "Name": "Palaeontology Lab", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Jahnavi Punekar", "Nibedita  Rakshit"], "Division": null}, "GS435": {"Code": "GS435", "Name": "Mineralogy Crystallography and Optics Lab", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Mathew George"], "Division": null}, "GS507": {"Code": "GS507", "Name": "Engineering & Ground Water Geology", "Venue": "LC 301", "Slots": ["12A", "12B"], "Instructors": ["Vikram Vishal", "D. Ramakrishnan"], "Division": null}, "GS517": {"Code": "GS517", "Name": "Solid Earth and Exploration Geophysics", "Venue": "LT 104", "Slots": ["2A", "2C", "2B"], "Instructors": ["M. Radhakrishna", "Mohan G."], "Division": null}, "GS519": {"Code": "GS519", "Name": "Ore Petrography Lab", "Venue": "- IC1", "Slots": ["L3"], "Instructors": ["Sakthi Saravanan Chinnasamy"], "Division": null}, "GS527": {"Code": "GS527", "Name": "Ore Petrology", "Venue": "LT 004", "Slots": ["1A", "1C", "1B"], "Instructors": ["Sakthi Saravanan Chinnasamy"], "Division": null}, "GS535": {"Code": "GS535", "Name": "Statistical Methods in Geosciences", "Venue": "CL 109 ESE", "Slots": ["5B", "5A"], "Instructors": ["Kumar Hemant Singh"], "Division": null}, "GS537": {"Code": "GS537", "Name": "Geochemistry and Geochemical Thermodynamics", "Venue": "LT 001", "Slots": ["4A", "4C", "4B"], "Instructors": ["Prabhakar Naraga", "Sheth C Hetu"], "Division": null}, "GS539": {"Code": "GS539", "Name": "Engineering Geology and Groundwater Lab", "Venue": "LT 305", "Slots": ["L2"], "Instructors": ["Vikram Vishal", "D. Ramakrishnan"], "Division": null}, "GS541": {"Code": "GS541", "Name": "Analytical Geochemistry Lab", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Patel S.C."], "Division": null}, "GS543": {"Code": "GS543", "Name": "Computer Programming for Geosciences", "Venue": "LC 302", "Slots": ["5B", "5A"], "Instructors": ["Anand  Singh"], "Division": null}, "GS551": {"Code": "GS551", "Name": "Industrial Training", "Venue": "nan", "Slots": [], "Instructors": ["Prabhakar Naraga"], "Division": null}, "GS647": {"Code": "GS647", "Name": "Principles and Applications in Isotope Geology", "Venue": "209", "Slots": ["5B", "5A"], "Instructors": ["Bivin Geo George", "Sameer  Ranjan"], "Division": null}, "GS649": {"Code": "GS649", "Name": "Tectonics and Mechanism of Mobile Belts", "Venue": "LT 306", "Slots": ["2A", "2C", "2B"], "Instructors": ["Patel S.C."], "Division": null}, "GS663": {"Code": "GS663", "Name": "Exploration Geophysics", "Venue": "LT 202", "Slots": ["8A", "8B"], "Instructors": ["M. Radhakrishna"], "Division": null}, "GS666": {"Code": "GS666", "Name": "Applied Ichnology", "Venue": "LT 103", "Slots": ["15B", "15A"], "Instructors": ["Sudipta Dasgupta"], "Division": null}, "GS671": {"Code": "GS671", "Name": "Groundwater Exploration", "Venue": "LC 301", "Slots": ["12A", "12B"], "Instructors": ["D. Ramakrishnan"], "Division": null}, "GS673": {"Code": "GS673", "Name": "Mineral Exploration", "Venue": "LT 104", "Slots": ["3A", "3C", "3B"], "Instructors": ["Sameer  Ranjan", "Sakthi Saravanan Chinnasamy"], "Division": null}, "GS675": {"Code": "GS675", "Name": "Petroleum Exploration", "Venue": "301", "Slots": ["6B", "6A"], "Instructors": ["Sudipta Dasgupta", "Banerjee Santanu"], "Division": null}, "GS679": {"Code": "GS679", "Name": "Basin Analysis and Applied Micropalaeontology", "Venue": "LT 006", "Slots": ["1A", "1C", "1B"], "Instructors": ["Jahnavi Punekar", "Banerjee Santanu"], "Division": null}, "GS687": {"Code": "GS687", "Name": "Methods in Structural Geology", "Venue": "LT 306", "Slots": ["10B", "10A"], "Instructors": ["Soumyajit Mukherjee"], "Division": null}, "GS688": {"Code": "GS688", "Name": "Petroleum Geochemistry", "Venue": "LT 201", "Slots": ["5B", "5A"], "Instructors": ["Suryendu Dutta"], "Division": null}, "GS691": {"Code": "GS691", "Name": "R & D Project", "Venue": "nan", "Slots": [], "Instructors": ["Satish Maurya"], "Division": null}, "GS694": {"Code": "GS694", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Vikram Vishal", "Kumar Hemant Singh"], "Division": null}, "GS701": {"Code": "GS701", "Name": "Seismic Data Processing and Seismic Stratigraphy", "Venue": "LT 006", "Slots": ["9A", "9B"], "Instructors": ["Bharath C. Shekar"], "Division": null}, "GS703": {"Code": "GS703", "Name": "Structural Geology and Subsurface Geological Mapping", "Venue": "LT 306", "Slots": ["11B", "11A"], "Instructors": ["Soumyajit Mukherjee"], "Division": null}, "GS709": {"Code": "GS709", "Name": "Reservoir Geomechanics", "Venue": "LT 106", "Slots": ["2A", "2C", "2B"], "Instructors": ["Vikram Vishal"], "Division": null}, "GS809": {"Code": "GS809", "Name": "Computational Methods in Exploration Seismology", "Venue": "nan", "Slots": [], "Instructors": ["Sakthi Saravanan Chinnasamy"], "Division": null}, "GS813": {"Code": "GS813", "Name": "Topics in Igneous Petrology and Volcanology", "Venue": "LT 104", "Slots": ["15B", "15A"], "Instructors": ["Sheth C Hetu"], "Division": null}, "GS827": {"Code": "GS827", "Name": "Seismology and Earth Structure", "Venue": "LT 203", "Slots": ["4A", "4C", "4B"], "Instructors": ["Satish Maurya", "Mohan G."], "Division": null}, "GS831": {"Code": "GS831", "Name": "Global Tectonics", "Venue": "LT 106", "Slots": ["11B", "11A"], "Instructors": ["M. Radhakrishna"], "Division": null}, "GS833": {"Code": "GS833", "Name": "Advanced Ichnology in Palaeoenvironmental Characterization", "Venue": "LT 105", "Slots": ["15B", "15A"], "Instructors": ["Sudipta Dasgupta"], "Division": null}, "GS859": {"Code": "GS859", "Name": "Topics in Ore Petrology", "Venue": "nan", "Slots": [], "Instructors": ["Sakthi Saravanan Chinnasamy"], "Division": null}, "GS899": {"Code": "GS899", "Name": "Communication Skills", "Venue": "LC 202", "Slots": ["14B", "14A"], "Instructors": ["Kumar Hemant Singh", "Banerjee Santanu"], "Division": null}, "GSS801": {"Code": "GSS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Jahnavi Punekar"], "Division": null}, "HS108-S1": {"Code": "HS108-S1", "Name": "Doing Sociology", "Venue": "LC 001", "Slots": ["3B", "5A"], "Instructors": ["Ramesh Bairy"], "Division": "S1"}, "HS108-S2": {"Code": "HS108-S2", "Name": "Doing Sociology", "Venue": "LC 001", "Slots": ["3C", "X3"], "Instructors": ["Ilito H. Achumi"], "Division": "S2"}, "HS109-S1": {"Code": "HS109-S1", "Name": "Introduction to Philosophy", "Venue": "LC 002", "Slots": ["3B", "5A"], "Instructors": ["Amrita Banerjee"], "Division": "S1"}, "HS109-S2": {"Code": "HS109-S2", "Name": "Introduction to Philosophy", "Venue": "LC 002", "Slots": ["3C", "X3"], "Instructors": ["Rajkishore Nath"], "Division": "S2"}, "HS200-S2": {"Code": "HS200-S2", "Name": "Environmental Studies", "Venue": "nan", "Slots": [], "Instructors": ["Haripriya Gundimeda", "Mahendra Dindayal Shahare", "Vikram Singh Sirola"], "Division": "S2"}, "HS207-M": {"Code": "HS207-M", "Name": "Social Psychology", "Venue": "LT 303", "Slots": ["5B", "5A"], "Instructors": ["Mrinmoyi Kulkarni"], "Division": "M"}, "HS250": {"Code": "HS250", "Name": "Environmental Studies", "Venue": "nan", "Slots": [], "Instructors": ["Haripriya Gundimeda", "Mahendra Dindayal Shahare", "Vikram Singh Sirola"], "Division": null}, "HS301": {"Code": "HS301", "Name": "Philosophy", "Venue": "LA 001", "Slots": ["3A", "3C", "3B"], "Instructors": ["C.D. Sebastian"], "Division": null}, "HS303": {"Code": "HS303", "Name": "Psychology", "Venue": "LA 002", "Slots": ["3A", "3C", "3B"], "Instructors": ["A. Khan"], "Division": null}, "HS305": {"Code": "HS305", "Name": "Reading Literature", "Venue": "LH 302", "Slots": ["3A", "3C", "3B"], "Instructors": ["Sharmistha Saha", "Sharmila"], "Division": null}, "HS307-S1": {"Code": "HS307-S1", "Name": "Sociology", "Venue": "LA 202", "Slots": ["3A", "3C", "3B"], "Instructors": ["Suryakant Waghmore"], "Division": "S1"}, "HS307-S2": {"Code": "HS307-S2", "Name": "Sociology", "Venue": "LH 102", "Slots": ["3A", "3C", "3B"], "Instructors": ["Raile Rocky Ziipao"], "Division": "S2"}, "HS412": {"Code": "HS412", "Name": "Social Movement and Social Change: Contemporary Reflections", "Venue": "LT 105", "Slots": ["2A", "2C", "2B"], "Instructors": ["Sarmistha Pattanaik"], "Division": null}, "HS436": {"Code": "HS436", "Name": "Indian Culture and Tradition", "Venue": "LT 101", "Slots": ["2A", "2C", "2B"], "Instructors": ["Kulkarni A Malhar"], "Division": null}, "HS443": {"Code": "HS443", "Name": "Philosophy and History of Science", "Venue": "LT 102", "Slots": ["2A", "2C", "2B"], "Instructors": ["Vikram Singh Sirola"], "Division": null}, "HS467": {"Code": "HS467", "Name": "Indian Philosophy", "Venue": "LT 301", "Slots": ["2A", "2C", "2B"], "Instructors": ["Ratikanta Panda"], "Division": null}, "HS501": {"Code": "HS501", "Name": "Vedanta Philosophy in the Vedic Tradition", "Venue": "LT 104", "Slots": ["14B", "14A"], "Instructors": ["Mrinal  Kaul"], "Division": null}, "HS503": {"Code": "HS503", "Name": "Philosophy in the Age of the Greeks", "Venue": "LT 205", "Slots": ["10B", "10A"], "Instructors": ["Pravesh Jung Golay"], "Division": null}, "HS505": {"Code": "HS505", "Name": "Western Philosophy and the Advent of Modern Science", "Venue": "LT 201", "Slots": ["8A", "8B"], "Instructors": ["R.K. Panda"], "Division": null}, "HS558": {"Code": "HS558", "Name": "Introduction to Philosophical Hermeneutics", "Venue": "LT 104", "Slots": ["11B", "11A"], "Instructors": ["Arun A. Iyer"], "Division": null}, "HS597": {"Code": "HS597", "Name": "Project Stage I", "Venue": "LT 204", "Slots": ["14B", "14A"], "Instructors": ["Pravesh Jung Golay"], "Division": null}, "HS599": {"Code": "HS599", "Name": "Project Stage III", "Venue": "LT 101", "Slots": ["15B", "15A"], "Instructors": ["Amrita Banerjee"], "Division": null}, "HS626": {"Code": "HS626", "Name": "Framing Caste", "Venue": "LT 205", "Slots": ["6B", "6A"], "Instructors": ["Ramesh Bairy"], "Division": null}, "HS635": {"Code": "HS635", "Name": "Managerial Psychology", "Venue": "nan", "Slots": ["6B", "6A"], "Instructors": ["Pooja Purang"], "Division": null}, "HS636": {"Code": "HS636", "Name": "Development of Mathematics in India", "Venue": "LT 201", "Slots": ["6B", "6A"], "Instructors": ["K. Ramasubramanian"], "Division": null}, "HS637": {"Code": "HS637", "Name": "Anthropology  and  Disaster", "Venue": "LT 304", "Slots": ["6B", "6A"], "Instructors": ["Mahendra Dindayal Shahare"], "Division": null}, "HS642": {"Code": "HS642", "Name": "Notation and Musical Analysis", "Venue": "LC 302", "Slots": ["12A", "12B"], "Instructors": ["Suddhaseel Sen"], "Division": null}, "HS647": {"Code": "HS647", "Name": "Social Theory - I", "Venue": "LT 205", "Slots": ["8A", "8B"], "Instructors": ["Anush Kapadia", "Robinson Rowena"], "Division": null}, "HS650": {"Code": "HS650", "Name": "Research Methods: Expository Writing & Analysis", "Venue": "LT 301", "Slots": ["10B"], "Instructors": ["A.P. Rajaram", "Sharmila", "Sarma Vaijayanthi"], "Division": null}, "HS651": {"Code": "HS651", "Name": "Research Methods: Critical Reading", "Venue": "LT 201", "Slots": ["11B"], "Instructors": ["A.P. Rajaram", "Sarma Vaijayanthi", "Sharmila"], "Division": null}, "HS652": {"Code": "HS652", "Name": "Research Methods: Qualitative Methods", "Venue": "nan", "Slots": ["X1"], "Instructors": ["Robinson Rowena"], "Division": null}, "HS653": {"Code": "HS653", "Name": "Research Methods : Sources and Methods and the Past", "Venue": "nan", "Slots": ["X3"], "Instructors": ["Naina  Manjrekar", "Smriti  Haricharan"], "Division": null}, "HS659": {"Code": "HS659", "Name": "Shakespeare`s Plays and their Afterlives", "Venue": "LT 003", "Slots": ["2A", "2C", "2B"], "Instructors": ["Shastri Sudha"], "Division": null}, "HS668": {"Code": "HS668", "Name": "Studying Literature", "Venue": "LT 205", "Slots": ["5B", "5A"], "Instructors": ["Sharmila"], "Division": null}, "HS669": {"Code": "HS669", "Name": "Studying Performance", "Venue": "VMCC13", "Slots": ["6B", "6A"], "Instructors": ["A.P. Rajaram"], "Division": null}, "HS670": {"Code": "HS670", "Name": "Studying Media", "Venue": "VMCC13", "Slots": ["6B", "6A"], "Instructors": ["A.P. Rajaram"], "Division": null}, "HS671": {"Code": "HS671", "Name": "Historicising Society State and Culture", "Venue": "LT 205", "Slots": ["9A", "9B"], "Instructors": ["Naina  Manjrekar"], "Division": null}, "HS672": {"Code": "HS672", "Name": "From the ground up: Basics of History and Archaeology", "Venue": "LT 206", "Slots": ["9A", "9B"], "Instructors": ["Smriti  Haricharan"], "Division": null}, "HS673": {"Code": "HS673", "Name": "Affective Neuroscience", "Venue": "VMCC14", "Slots": ["6B", "6A"], "Instructors": ["Rashmi Gupta"], "Division": null}, "HS674": {"Code": "HS674", "Name": "Fundamentals of Language Science", "Venue": "LT 205", "Slots": ["5B", "5A"], "Instructors": ["Sarma Vaijayanthi"], "Division": null}, "HS711": {"Code": "HS711", "Name": "Philosophy of Janasabdavada", "Venue": "LT 301", "Slots": ["14B", "14A"], "Instructors": ["Kulkarni A Malhar"], "Division": null}, "HS800": {"Code": "HS800", "Name": "Research Methods in Social Sciences", "Venue": "LT 202", "Slots": ["14B", "14A"], "Instructors": ["Ahonaa Roy"], "Division": null}, "HS809": {"Code": "HS809", "Name": "Practice and Theory of  Literary Research", "Venue": "LT 105", "Slots": ["8A", "8B"], "Instructors": ["Vibhushan  Subba", "A.P. Rajaram"], "Division": null}, "HS835": {"Code": "HS835", "Name": "Performance Theory and Praxis", "Venue": "LT 006", "Slots": ["12A", "12B"], "Instructors": ["Sharmistha Saha"], "Division": null}, "HS842": {"Code": "HS842", "Name": "Philosophy of Language in Sanskrit Literature", "Venue": "LT 101", "Slots": ["12A", "12B"], "Instructors": ["Kulkarni A Malhar"], "Division": null}, "HS851": {"Code": "HS851", "Name": "Topics in Phonology and Morphology", "Venue": "nan", "Slots": ["6B", "6A"], "Instructors": ["Sarma Vaijayanthi"], "Division": null}, "HS861": {"Code": "HS861", "Name": "Advanced Course on Historiography", "Venue": "LT 203", "Slots": ["11B", "11A"], "Instructors": ["Naina  Manjrekar"], "Division": null}, "HS862": {"Code": "HS862", "Name": "Archaeological methods and theory", "Venue": "LT 206", "Slots": ["12A", "12B"], "Instructors": ["Smriti  Haricharan"], "Division": null}, "HS863": {"Code": "HS863", "Name": "Philosophy of Indian Aesthetics", "Venue": "LT 106", "Slots": ["10B", "10A"], "Instructors": ["Mrinal  Kaul"], "Division": null}, "HS899": {"Code": "HS899", "Name": "Communication Skills", "Venue": "LT 201", "Slots": ["4A", "4C", "4B"], "Instructors": ["A.P. Rajaram", "Arun A. Iyer", "K. Ramasubramanian", "Smriti  Haricharan", "Robinson Rowena"], "Division": null}, "HSS801": {"Code": "HSS801", "Name": "Seminar", "Venue": "LT 101", "Slots": ["13A", "13B"], "Instructors": ["Rajkishore Nath"], "Division": null}, "DE101": {"Code": "DE101", "Name": "Art and Design Fundamental 2D", "Venue": "nan", "Slots": [], "Instructors": ["K. B. Jinan", "Mohanty Raja"], "Division": null}, "DE109-S1": {"Code": "DE109-S1", "Name": "Introduction to Design", "Venue": "LC 102", "Slots": ["3B", "5A"], "Instructors": ["Prasad  Bokil"], "Division": "S1"}, "DE109-S2": {"Code": "DE109-S2", "Name": "Introduction to Design", "Venue": "LC 102", "Slots": ["3C", "X3"], "Instructors": ["Unni Mohan  Mohanan"], "Division": "S2"}, "DE111": {"Code": "DE111", "Name": "Communication through Sculptural Forms", "Venue": "nan", "Slots": [], "Instructors": ["Arun Mascarenhas"], "Division": null}, "DE113": {"Code": "DE113", "Name": "Introduction to Film Making", "Venue": "nan", "Slots": [], "Instructors": ["Bharat Chhitubhai Parmar"], "Division": null}, "DE115": {"Code": "DE115", "Name": "Drawing Tools Lines and Forms", "Venue": "nan", "Slots": [], "Instructors": ["Amitesh Sant Shrivastava"], "Division": null}, "DE117": {"Code": "DE117", "Name": "Introduction to Writing", "Venue": "nan", "Slots": [], "Instructors": ["Sampurna  Chattarji"], "Division": null}, "DE119": {"Code": "DE119", "Name": "Material Exploration", "Venue": "nan", "Slots": [], "Instructors": ["Arun Mascarenhas", "Avinash Shende", "Latha  Tummuru", "Mohanty Raja"], "Division": null}, "DE121": {"Code": "DE121", "Name": "Design Studio I - Problem Identification", "Venue": "nan", "Slots": [], "Instructors": ["Avinash Shende", "Mohanty Raja"], "Division": null}, "DE123": {"Code": "DE123", "Name": "Introduction to Writing", "Venue": "nan", "Slots": [], "Instructors": ["Sampurna  Chattarji"], "Division": null}, "DE125": {"Code": "DE125", "Name": "Drawing Tools Lines and Forms", "Venue": "nan", "Slots": [], "Instructors": ["Amitesh Sant Shrivastava"], "Division": null}, "DE135": {"Code": "DE135", "Name": "Design Studio Project I", "Venue": "nan", "Slots": [], "Instructors": ["Avinash Shende", "Parag  Vyas", "Mohanty Raja"], "Division": null}, "DE201": {"Code": "DE201", "Name": "2D Visual Studies I - Word and Image", "Venue": "nan", "Slots": [], "Instructors": ["Shilpa Ranade"], "Division": null}, "DE203": {"Code": "DE203", "Name": "3D Form Studies I - Aesthetics  Identity and Expressions", "Venue": "nan", "Slots": [], "Instructors": ["Dinesh Korjan"], "Division": null}, "DE205": {"Code": "DE205", "Name": "Creative Thinking Process and Methods", "Venue": "nan", "Slots": [], "Instructors": ["Shilpa Ranade"], "Division": null}, "DE207": {"Code": "DE207", "Name": "Understanding Space and Perspective", "Venue": "nan", "Slots": [], "Instructors": ["Amitesh Sant Shrivastava"], "Division": null}, "DE209": {"Code": "DE209", "Name": "Sculptural Ceramics", "Venue": "nan", "Slots": [], "Instructors": ["Arun Mascarenhas", "Mohanty Raja"], "Division": null}, "DE215": {"Code": "DE215", "Name": "Reading the World through Many Lenses", "Venue": "nan", "Slots": [], "Instructors": ["Sampurna  Chattarji"], "Division": null}, "DE221": {"Code": "DE221", "Name": "Design Studio III - Creative Explorations", "Venue": "nan", "Slots": [], "Instructors": ["Shilpa Ranade", "Mohanty Raja"], "Division": null}, "DE224": {"Code": "DE224", "Name": "Natural Dyeing Techniques", "Venue": "nan", "Slots": [], "Instructors": ["Latha  Tummuru"], "Division": null}, "DE231": {"Code": "DE231", "Name": "Design Society Culture and Environment", "Venue": "nan", "Slots": [], "Instructors": ["Arun Mascarenhas", "Mohanty Raja"], "Division": null}, "DE302": {"Code": "DE302", "Name": "Animation Design", "Venue": "nan", "Slots": [], "Instructors": ["Shilpa Ranade"], "Division": null}, "DE303": {"Code": "DE303", "Name": "Information Graphics and Visualisation", "Venue": "nan", "Slots": [], "Instructors": ["Venkatesh Rajamanickam"], "Division": null}, "DE304": {"Code": "DE304", "Name": "Communication Design", "Venue": "nan", "Slots": [], "Instructors": ["Prasad  Bokil"], "Division": null}, "DE305": {"Code": "DE305", "Name": "Moving Image Design", "Venue": "nan", "Slots": [], "Instructors": ["Mazhar Kamran"], "Division": null}, "DE307": {"Code": "DE307", "Name": "Product Design - I", "Venue": "nan", "Slots": [], "Instructors": ["B.K.Chakravarthy"], "Division": null}, "DE311": {"Code": "DE311", "Name": "Mobility and Vehicle Design", "Venue": "nan", "Slots": [], "Instructors": ["Kanika  Jolly", "Sugandh Malhotra"], "Division": null}, "DE315": {"Code": "DE315", "Name": "Applied Ergonomics", "Venue": "nan", "Slots": [], "Instructors": ["Joshi Anirudha"], "Division": null}, "DE319": {"Code": "DE319", "Name": "Interaction Design Process and Methods", "Venue": "nan", "Slots": [], "Instructors": ["Joshi Anirudha"], "Division": null}, "DE320": {"Code": "DE320", "Name": "Designing Books for children", "Venue": "nan", "Slots": [], "Instructors": ["Deepa  Balsavar", "Mandar S.Rane"], "Division": null}, "DE331": {"Code": "DE331", "Name": "Design Technology and Innovation", "Venue": "nan", "Slots": [], "Instructors": ["B.K.Chakravarthy"], "Division": null}, "DE403-M": {"Code": "DE403-M", "Name": "Studio Project I", "Venue": "nan", "Slots": [], "Instructors": ["Mohanty Raja"], "Division": "M"}, "DE405-M": {"Code": "DE405-M", "Name": "Studio Project II", "Venue": "nan", "Slots": [], "Instructors": ["Mohanty Raja"], "Division": "M"}, "DE431": {"Code": "DE431", "Name": "Global Design Thoughts and Discourse", "Venue": "nan", "Slots": [], "Instructors": ["Kanika  Jolly"], "Division": null}, "DE601": {"Code": "DE601", "Name": "Introduction to Studio Photography", "Venue": "nan", "Slots": [], "Instructors": ["Sudesh Balan"], "Division": null}, "DE603": {"Code": "DE603", "Name": "Presentation and Communication Skills", "Venue": "nan", "Slots": [], "Instructors": ["G.V.Sreekumar"], "Division": null}, "DE605": {"Code": "DE605", "Name": "Workshop Skills", "Venue": "nan", "Slots": [], "Instructors": ["Nishant  Kamboj"], "Division": null}, "DE607": {"Code": "DE607", "Name": "Studies in Form-1", "Venue": "nan", "Slots": [], "Instructors": ["Avinash Shende"], "Division": null}, "DE609": {"Code": "DE609", "Name": "Product Design-1", "Venue": "nan", "Slots": [], "Instructors": ["Bapat V.P."], "Division": null}, "DE610": {"Code": "DE610", "Name": "Nature of Materials and Processes", "Venue": "nan", "Slots": [], "Instructors": ["Purba Joshi"], "Division": null}, "DE611": {"Code": "DE611", "Name": "Elements of Design", "Venue": "nan", "Slots": [], "Instructors": ["Avinash Shende", "Poovaiah Ravi"], "Division": null}, "DE613": {"Code": "DE613", "Name": "Visual Language Syntactics", "Venue": "nan", "Slots": [], "Instructors": ["Poovaiah Ravi"], "Division": null}, "DE615": {"Code": "DE615", "Name": "Studies in Typography", "Venue": "nan", "Slots": [], "Instructors": ["G.V.Sreekumar"], "Division": null}, "DE617": {"Code": "DE617", "Name": "Introduction to Advanced Photography", "Venue": "nan", "Slots": [], "Instructors": ["Sudesh Balan"], "Division": null}, "DE619": {"Code": "DE619", "Name": "The Speaking Image", "Venue": "nan", "Slots": [], "Instructors": ["Mohanty Raja"], "Division": null}, "DE621": {"Code": "DE621", "Name": "Media Technology", "Venue": "nan", "Slots": [], "Instructors": ["Prasad  Bokil", "Jayesh S. Pillai"], "Division": null}, "DE623": {"Code": "DE623", "Name": "Visual Design", "Venue": "nan", "Slots": [], "Instructors": ["Mandar S.Rane"], "Division": null}, "DE625": {"Code": "DE625", "Name": "Introduction to Filmmaking", "Venue": "nan", "Slots": [], "Instructors": ["Bharat Chhitubhai Parmar"], "Division": null}, "DE626": {"Code": "DE626", "Name": "Human Factors in Interaction Design", "Venue": "nan", "Slots": [], "Instructors": ["Swati  Pal"], "Division": null}, "DE627": {"Code": "DE627", "Name": "Indian Thought and Tradition", "Venue": "nan", "Slots": [], "Instructors": ["Sumant Rao"], "Division": null}, "DE629": {"Code": "DE629", "Name": "Introduction to Photography", "Venue": "nan", "Slots": [], "Instructors": ["Mazhar Kamran"], "Division": null}, "DE630": {"Code": "DE630", "Name": "Trends in Interactive Technologies", "Venue": "nan", "Slots": [], "Instructors": ["Jayesh S. Pillai"], "Division": null}, "DE631": {"Code": "DE631", "Name": "Introduction to Typography", "Venue": "nan", "Slots": [], "Instructors": ["Sumant Rao"], "Division": null}, "DE637": {"Code": "DE637", "Name": "User Studies", "Venue": "nan", "Slots": [], "Instructors": ["Joshi Anirudha"], "Division": null}, "DE641": {"Code": "DE641", "Name": "Interactions Media Senses", "Venue": "nan", "Slots": [], "Instructors": ["Poovaiah Ravi"], "Division": null}, "DE643": {"Code": "DE643", "Name": "Digital Animation-1", "Venue": "nan", "Slots": [], "Instructors": ["Prosenjit  Ganguly", "Sumant Rao"], "Division": null}, "DE645": {"Code": "DE645", "Name": "Animation Theory-1", "Venue": "nan", "Slots": [], "Instructors": ["Abhishek  Verma"], "Division": null}, "DE647": {"Code": "DE647", "Name": "Animation Principles-1", "Venue": "nan", "Slots": [], "Instructors": ["Sumant Rao"], "Division": null}, "DE649": {"Code": "DE649", "Name": "Animation Design-1", "Venue": "nan", "Slots": [], "Instructors": ["Abhishek  Verma", "Swati  Agarwal", "Prosenjit  Ganguly"], "Division": null}, "DE651": {"Code": "DE651", "Name": "Sketching and Anatomy-1", "Venue": "nan", "Slots": [], "Instructors": ["Sumant Rao"], "Division": null}, "DE653": {"Code": "DE653", "Name": "Material and Manufacturing", "Venue": "nan", "Slots": [], "Instructors": ["Sugandh Malhotra"], "Division": null}, "DE655": {"Code": "DE655", "Name": "Automobile Engineering and Technology", "Venue": "nan", "Slots": [], "Instructors": ["Unni Mohan  Mohanan", "Sugandh Malhotra"], "Division": null}, "DE657": {"Code": "DE657", "Name": "Vehicle Ergonomics", "Venue": "nan", "Slots": [], "Instructors": ["Swati  Pal"], "Division": null}, "DE659": {"Code": "DE659", "Name": "Forms Space and Order", "Venue": "nan", "Slots": [], "Instructors": ["Unni Mohan  Mohanan", "Nishant Sharma"], "Division": null}, "DE661": {"Code": "DE661", "Name": "Mobility Design-1", "Venue": "nan", "Slots": [], "Instructors": ["Nishant Sharma", "Sugandh Malhotra"], "Division": null}, "DE663": {"Code": "DE663", "Name": "Sketching-1", "Venue": "nan", "Slots": [], "Instructors": ["Vinayak  Nabar"], "Division": null}, "DE665": {"Code": "DE665", "Name": "Model Making-1", "Venue": "nan", "Slots": [], "Instructors": ["Unni Mohan  Mohanan", "Sugandh Malhotra"], "Division": null}, "DE669": {"Code": "DE669", "Name": "Packaging and Label Design", "Venue": "nan", "Slots": [], "Instructors": ["Mandar S.Rane", "Purba Joshi"], "Division": null}, "DE675": {"Code": "DE675", "Name": "Sketchning for Mobilty and Vehicle Design", "Venue": "nan", "Slots": [], "Instructors": ["Kanika  Jolly", "Sugandh Malhotra"], "Division": null}, "DE677": {"Code": "DE677", "Name": "Design for Virtual Reality - Basic", "Venue": "nan", "Slots": [], "Instructors": ["Jayesh S. Pillai"], "Division": null}, "DE679": {"Code": "DE679", "Name": "Experimental Animation", "Venue": "nan", "Slots": [], "Instructors": ["Aditi  Chitre"], "Division": null}, "DE688": {"Code": "DE688", "Name": "Sketching for Communication Design", "Venue": "nan", "Slots": [], "Instructors": ["Aditi  Chitre"], "Division": null}, "DE689": {"Code": "DE689", "Name": "Theoretical Perspectives in Design", "Venue": "nan", "Slots": [], "Instructors": ["Girish V. Dalvi"], "Division": null}, "DE692": {"Code": "DE692", "Name": "Advanced Topics in Service Design", "Venue": "nan", "Slots": [], "Instructors": ["Pramod Khambete"], "Division": null}, "DE693": {"Code": "DE693", "Name": "Experimental Film", "Venue": "nan", "Slots": [], "Instructors": ["Bharat Chhitubhai Parmar"], "Division": null}, "DE698": {"Code": "DE698", "Name": "Introduction to Pottery", "Venue": "nan", "Slots": [], "Instructors": ["Mohanty Raja"], "Division": null}, "DE701": {"Code": "DE701", "Name": "Visual Ergonomics & Human Perception", "Venue": "nan", "Slots": [], "Instructors": ["Swati  Pal"], "Division": null}, "DE702": {"Code": "DE702", "Name": "Arts Design and Society-1", "Venue": "nan", "Slots": [], "Instructors": ["Mazhar Kamran", "Mohanty Raja"], "Division": null}, "DE705": {"Code": "DE705", "Name": "Interactive Data Visualization", "Venue": "nan", "Slots": [], "Instructors": ["Pratap  Vardhan", "Venkatesh Rajamanickam", "Rasagy  Sharma"], "Division": null}, "DE708": {"Code": "DE708", "Name": "Introduction to Interface Design", "Venue": "nan", "Slots": [], "Instructors": ["Sudhir Ram Bhatia", "Jayesh S. Pillai"], "Division": null}, "DE709": {"Code": "DE709", "Name": "Sound and Camera", "Venue": "nan", "Slots": [], "Instructors": ["P M Satheesh", "Mazhar Kamran"], "Division": null}, "DE710": {"Code": "DE710", "Name": "Design Evaluation", "Venue": "nan", "Slots": [], "Instructors": ["Vidhya  Appu"], "Division": null}, "DE711": {"Code": "DE711", "Name": "Animation Production", "Venue": "nan", "Slots": [], "Instructors": ["Abhishek  Verma", "Prosenjit  Ganguly"], "Division": null}, "DE713": {"Code": "DE713", "Name": "Seminar and Critical Writing", "Venue": "nan", "Slots": [], "Instructors": ["Lalit Kumar Das", "Sugandh Malhotra"], "Division": null}, "DE721": {"Code": "DE721", "Name": "Representation Techniques for Animation", "Venue": "nan", "Slots": [], "Instructors": ["Aditi  Chitre"], "Division": null}, "DE801": {"Code": "DE801", "Name": "Mini Project-I", "Venue": "nan", "Slots": [], "Instructors": ["Prasad  Bokil"], "Division": null}, "DE802": {"Code": "DE802", "Name": "Mini Project-II", "Venue": "nan", "Slots": [], "Instructors": ["Prasad  Bokil"], "Division": null}, "DE803": {"Code": "DE803", "Name": "Quantitative Design Research Methods", "Venue": "nan", "Slots": [], "Instructors": ["Girish V. Dalvi", "Joshi Anirudha"], "Division": null}, "DE804": {"Code": "DE804", "Name": "Qualitative Design Research Menthods", "Venue": "nan", "Slots": [], "Instructors": ["Girish V. Dalvi"], "Division": null}, "DE899": {"Code": "DE899", "Name": "Communication Skills", "Venue": "nan", "Slots": [], "Instructors": ["Prasad  Bokil"], "Division": null}, "DEP102": {"Code": "DEP102", "Name": "Self-Initiated Summer Project", "Venue": "nan", "Slots": [], "Instructors": ["Shilpa Ranade"], "Division": null}, "DEP301": {"Code": "DEP301", "Name": "Collaborative Design Project", "Venue": "nan", "Slots": [], "Instructors": ["Vinayak  Nabar", "Poovaiah Ravi"], "Division": null}, "DEP405": {"Code": "DEP405", "Name": "BDes Design Project - 1", "Venue": "nan", "Slots": [], "Instructors": ["Avinash Shende", "Bharat Chhitubhai Parmar"], "Division": null}, "DEP501": {"Code": "DEP501", "Name": "Design Research Project-Part I", "Venue": "nan", "Slots": [], "Instructors": ["Avinash Shende", "Girish V. Dalvi", "G.V.Sreekumar"], "Division": null}, "DEP702": {"Code": "DEP702", "Name": "M.Des. Project- 2", "Venue": "nan", "Slots": [], "Instructors": ["Avinash Shende", "Girish V. Dalvi", "G.V.Sreekumar", "Sugandh Malhotra", "Sumant Rao"], "Division": null}, "IE501": {"Code": "IE501", "Name": "Optimization Models", "Venue": "LH 302", "Slots": ["5B", "5A"], "Instructors": ["Avinash  Bhardwaj"], "Division": null}, "IE501-M": {"Code": "IE501-M", "Name": "Optimization Models", "Venue": "LH 302", "Slots": ["5B", "5A"], "Instructors": ["Avinash  Bhardwaj"], "Division": "M"}, "IE503": {"Code": "IE503", "Name": "Operations Analysis", "Venue": "LA 002", "Slots": ["1A", "1C", "1B"], "Instructors": ["Ashutosh  Mahajan"], "Division": null}, "IE503-M": {"Code": "IE503-M", "Name": "Operations Analysis", "Venue": "LA 002", "Slots": ["1A", "1C", "1B"], "Instructors": ["Ashutosh  Mahajan"], "Division": "M"}, "IE507": {"Code": "IE507", "Name": "Modeling & Computation Lab", "Venue": "nan", "Slots": ["LX"], "Instructors": ["N. Hemachandra", "J. Venkateswaran"], "Division": null}, "IE509": {"Code": "IE509", "Name": "Computer Programming Lab", "Venue": "IEOR011", "Slots": ["L2"], "Instructors": ["Rangaraj Narayan"], "Division": null}, "IE605": {"Code": "IE605", "Name": "Engineering Statistics", "Venue": "LH 102", "Slots": ["12A", "12B"], "Instructors": ["Manjesh K. Hanawal"], "Division": null}, "IE609": {"Code": "IE609", "Name": "Mathematical Optimisation Techniques", "Venue": "301", "Slots": ["8A", "8B"], "Instructors": ["V. Narayanan"], "Division": null}, "IE609-M": {"Code": "IE609-M", "Name": "Mathematical Optimisation Techniques", "Venue": "301", "Slots": ["8A", "8B"], "Instructors": ["V. Narayanan"], "Division": "M"}, "IE619": {"Code": "IE619", "Name": "Combinatorial Game Theory", "Venue": "IEOR211", "Slots": ["9A", "9B"], "Instructors": ["Urban  Larsson"], "Division": null}, "IE619-M": {"Code": "IE619-M", "Name": "Combinatorial Game Theory", "Venue": "IEOR211", "Slots": ["9A", "9B"], "Instructors": ["Urban  Larsson"], "Division": "M"}, "IE621": {"Code": "IE621", "Name": "Probability and Stochastic Processes I", "Venue": "LC 002", "Slots": ["6B", "6A"], "Instructors": ["K.S.Mallikarjuna Rao"], "Division": null}, "IE621-M": {"Code": "IE621-M", "Name": "Probability and Stochastic Processes I", "Venue": "LC 002", "Slots": ["6B", "6A"], "Instructors": ["K.S.Mallikarjuna Rao"], "Division": "M"}, "IE643": {"Code": "IE643", "Name": "Deep Learning - Theory and Practice", "Venue": "LH 101", "Slots": ["10B", "10A"], "Instructors": ["P. Balamurugan"], "Division": null}, "IE685": {"Code": "IE685", "Name": "MSc.Phd. Research Project I", "Venue": "nan", "Slots": [], "Instructors": ["Manjesh K. Hanawal"], "Division": null}, "IE688": {"Code": "IE688", "Name": "R & D Project", "Venue": "nan", "Slots": [], "Instructors": ["P. Balamurugan"], "Division": null}, "IE708": {"Code": "IE708", "Name": "Markov Decision Processes", "Venue": "IEOR011", "Slots": ["6B", "6A"], "Instructors": ["N. Hemachandra"], "Division": null}, "IE708-M": {"Code": "IE708-M", "Name": "Markov Decision Processes", "Venue": "IEOR011", "Slots": ["6B", "6A"], "Instructors": ["N. Hemachandra"], "Division": "M"}, "IE714": {"Code": "IE714", "Name": "Quantitative Models for Supply Chain Management", "Venue": "CL 111 ESE", "Slots": ["5B", "5A"], "Instructors": ["Rangaraj Narayan", "J. Venkateswaran"], "Division": null}, "IE714-M": {"Code": "IE714-M", "Name": "Quantitative Models for Supply Chain Management", "Venue": "CL 111 ESE", "Slots": ["5B", "5A"], "Instructors": ["Rangaraj Narayan", "J. Venkateswaran"], "Division": "M"}, "IE797": {"Code": "IE797", "Name": "I Stage Project", "Venue": "nan", "Slots": [], "Instructors": ["K.S.Mallikarjuna Rao"], "Division": null}, "IE899": {"Code": "IE899", "Name": "Communication Skills", "Venue": "IEOR011", "Slots": ["2A", "2C", "2B"], "Instructors": ["Ashutosh  Mahajan"], "Division": null}, "IES801": {"Code": "IES801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Ashutosh  Mahajan"], "Division": null}, "MA105-D1": {"Code": "MA105-D1", "Name": "Calculus", "Venue": "LA 201", "Slots": ["1A", "1C", "1B"], "Instructors": ["Mayukh  Mukherjee", "Sandip Singh"], "Division": "D1"}, "MA105-D2": {"Code": "MA105-D2", "Name": "Calculus", "Venue": "LA 201", "Slots": ["8A", "8B"], "Instructors": ["Bata K. Das", "Ravi Raghunathan"], "Division": "D2"}, "MA105-D3": {"Code": "MA105-D3", "Name": "Calculus", "Venue": "LA 202", "Slots": ["2A", "2C", "2B"], "Instructors": ["Mayukh  Mukherjee", "Ravi Raghunathan"], "Division": "D3"}, "MA105-D4": {"Code": "MA105-D4", "Name": "Calculus", "Venue": "LA 202", "Slots": ["9A", "9B"], "Instructors": ["Bata K. Das", "Sandip Singh"], "Division": "D4"}, "MA109-D1": {"Code": "MA109-D1", "Name": "Calculus I", "Venue": "LA 201", "Slots": ["1A", "1C", "1B"], "Instructors": ["Mayukh  Mukherjee", "Sandip Singh"], "Division": "D1"}, "MA109-D2": {"Code": "MA109-D2", "Name": "Calculus I", "Venue": "LA 201", "Slots": ["8A", "8B"], "Instructors": ["Bata K. Das", "Ravi Raghunathan"], "Division": "D2"}, "MA109-D3": {"Code": "MA109-D3", "Name": "Calculus I", "Venue": "LA 202", "Slots": ["2A", "2C", "2B"], "Instructors": ["Mayukh  Mukherjee", "Ravi Raghunathan"], "Division": "D3"}, "MA109-D4": {"Code": "MA109-D4", "Name": "Calculus I", "Venue": "LA 202", "Slots": ["9A", "9B"], "Instructors": ["Bata K. Das", "Sandip Singh"], "Division": "D4"}, "MA111-D1": {"Code": "MA111-D1", "Name": "Calculus II", "Venue": "LA 201", "Slots": ["1A", "1C", "1B"], "Instructors": ["Mayukh  Mukherjee", "Sandip Singh"], "Division": "D1"}, "MA111-D2": {"Code": "MA111-D2", "Name": "Calculus II", "Venue": "LA 201", "Slots": ["8A", "8B"], "Instructors": ["Bata K. Das", "Ravi Raghunathan"], "Division": "D2"}, "MA111-D3": {"Code": "MA111-D3", "Name": "Calculus II", "Venue": "LA 202", "Slots": ["2A", "2C", "2B"], "Instructors": ["Mayukh  Mukherjee", "Sandip Singh"], "Division": "D3"}, "MA111-D4": {"Code": "MA111-D4", "Name": "Calculus II", "Venue": "LA 202", "Slots": ["9A", "9B"], "Instructors": ["Bata K. Das", "Ravi Raghunathan"], "Division": "D4"}, "MA113": {"Code": "MA113", "Name": "Mathematics and Its History", "Venue": "LT 105", "Slots": ["11B", "11A"], "Instructors": ["Madhusudan Manjunath"], "Division": null}, "MA114": {"Code": "MA114", "Name": "An Introduction to Mathematical Concepts", "Venue": "LT 105", "Slots": ["6B", "6A"], "Instructors": ["Ghorpade S.R."], "Division": null}, "MA401": {"Code": "MA401", "Name": "Linear Algebra", "Venue": "- 216", "Slots": ["4A", "4C", "4B"], "Instructors": ["Sivaji Ganesh S."], "Division": null}, "MA403": {"Code": "MA403", "Name": "Real Analysis", "Venue": "LC 202", "Slots": ["11B", "11A"], "Instructors": ["Sudarshan Gurjar"], "Division": null}, "MA403-M": {"Code": "MA403-M", "Name": "Real Analysis", "Venue": "- 105", "Slots": ["5B", "5A"], "Instructors": ["G. K. Srinivasan"], "Division": "M"}, "MA417": {"Code": "MA417", "Name": "Ordinary Differential Equations", "Venue": "LC 202", "Slots": ["9A", "9B"], "Instructors": ["Saikat  Mazumdar"], "Division": null}, "MA419": {"Code": "MA419", "Name": "Basic Algebra", "Venue": "- 114", "Slots": ["12A", "12B"], "Instructors": ["Puthenpurakal J Tony"], "Division": null}, "MA419-M": {"Code": "MA419-M", "Name": "Basic Algebra", "Venue": "- 113", "Slots": ["5B", "5A"], "Instructors": ["Preeti Raman"], "Division": "M"}, "MA503": {"Code": "MA503", "Name": "Functional Analysis", "Venue": "- 216", "Slots": ["3A", "3C", "3B"], "Instructors": ["Mallesham  Kummari"], "Division": null}, "MA5101": {"Code": "MA5101", "Name": "Algebra II", "Venue": "- 113", "Slots": ["6B", "6A"], "Instructors": ["Saurav Bhaumik"], "Division": null}, "MA5102": {"Code": "MA5102", "Name": "Basic Algebraic Topology", "Venue": "- 105", "Slots": ["4A", "4C", "4B"], "Instructors": ["Rekha Santhanam"], "Division": null}, "MA5109": {"Code": "MA5109", "Name": "Graph Theory", "Venue": "- 114", "Slots": ["10B", "10A"], "Instructors": ["Niranjan  Balachandran"], "Division": null}, "MA5112": {"Code": "MA5112", "Name": "Introduction to Mathematical Methods", "Venue": "- 105", "Slots": ["14B", "14A"], "Instructors": ["Sanjoy Pusti"], "Division": null}, "MA5115": {"Code": "MA5115", "Name": "Hopf Algebras", "Venue": "LC 101", "Slots": ["15B", "15A"], "Instructors": ["Swapneel A. Mahajan"], "Division": null}, "MA515": {"Code": "MA515", "Name": "Partial Differential Equations", "Venue": "- 216", "Slots": ["1A", "1C", "1B"], "Instructors": ["Harsha  Hutridurga Ramaiah"], "Division": null}, "MA521": {"Code": "MA521", "Name": "Theory of Analytic Functions", "Venue": "- 105", "Slots": ["13A", "13B"], "Instructors": ["Sourav Pal"], "Division": null}, "MA538": {"Code": "MA538", "Name": "Representation Theory of Finite Groups", "Venue": "- 105", "Slots": ["8A", "8B"], "Instructors": ["K. Sivasubramanian"], "Division": null}, "MA811": {"Code": "MA811", "Name": "Algebra I", "Venue": "- 105", "Slots": ["6B", "6A"], "Instructors": ["Verma J.K."], "Division": null}, "MA813": {"Code": "MA813", "Name": "Measure Theory", "Venue": "- 113", "Slots": ["14B", "14A"], "Instructors": ["Dipendra  Prasad"], "Division": null}, "MA815": {"Code": "MA815", "Name": "Differential Topology", "Venue": "- 105", "Slots": ["3A", "3C", "3B"], "Instructors": ["Manoj Kumar keshari"], "Division": null}, "MA817": {"Code": "MA817", "Name": "Partial Differential Equations I", "Venue": "LT 304", "Slots": ["10B", "10A"], "Instructors": ["Debanjana  Mitra"], "Division": null}, "MA841": {"Code": "MA841", "Name": "Topics in Algebra I", "Venue": "- 113", "Slots": ["12A", "12B"], "Instructors": ["Swapneel A. Mahajan"], "Division": null}, "MA855": {"Code": "MA855", "Name": "Topics in Numerical Analysis I", "Venue": "LT 206", "Slots": ["8A", "8B"], "Instructors": ["Nataraj Neela"], "Division": null}, "MA861": {"Code": "MA861", "Name": "Combinatorics I", "Venue": "- 105", "Slots": ["2A", "2C", "2B"], "Instructors": ["K. Sivasubramanian"], "Division": null}, "MA863": {"Code": "MA863", "Name": "Theoretical Statistics I", "Venue": "- 105", "Slots": ["12A", "12B"], "Instructors": ["Vellaisamy P."], "Division": null}, "MA899": {"Code": "MA899", "Name": "Communication Skills", "Venue": "- 105", "Slots": ["9A", "9B"], "Instructors": ["Ronnie M. Sebastain"], "Division": null}, "SI419": {"Code": "SI419", "Name": "Combinatorics", "Venue": "LT 001", "Slots": ["10B", "10A"], "Instructors": ["Srinivasan M.K."], "Division": null}, "SI423": {"Code": "SI423", "Name": "Linear Algebra and its Applications", "Venue": "LC 302", "Slots": ["8A", "8B"], "Instructors": ["Ananthnarayan Hariharan"], "Division": null}, "SI424-M": {"Code": "SI424-M", "Name": "Statistical Inference I", "Venue": "LT 202", "Slots": ["5B", "5A"], "Instructors": ["Debraj  Das"], "Division": "M"}, "SI427-M": {"Code": "SI427-M", "Name": "Probability I", "Venue": "- 114", "Slots": ["5B", "5A"], "Instructors": ["Koushik Saha"], "Division": "M"}, "SI427-S1": {"Code": "SI427-S1", "Name": "Probability I", "Venue": "- 114", "Slots": ["5B", "5A"], "Instructors": ["Koushik Saha"], "Division": "S1"}, "SI427-S2": {"Code": "SI427-S2", "Name": "Probability I", "Venue": "LC 301", "Slots": ["6B", "6A"], "Instructors": ["S.Baskar"], "Division": "S2"}, "SI429": {"Code": "SI429", "Name": "Real analysis", "Venue": "LT 003", "Slots": ["11B", "11A"], "Instructors": ["Prachi Mahajan"], "Division": null}, "SI431": {"Code": "SI431", "Name": "Introduction to Data Analysis using R", "Venue": "LC 002", "Slots": ["9A", "9B"], "Instructors": ["Sabnis S.V."], "Division": null}, "SI503": {"Code": "SI503", "Name": "Categorical Data Analysis", "Venue": "LT 003", "Slots": ["13A", "13B"], "Instructors": ["Ashish Das"], "Division": null}, "SI505": {"Code": "SI505", "Name": "Multivariate Analysis", "Venue": "LT 002", "Slots": ["3A", "3C", "3B"], "Instructors": ["S. Mukhopadhyay"], "Division": null}, "SI515": {"Code": "SI515", "Name": "Statistical Techniques in Data Mining", "Venue": "- 216", "Slots": ["5B", "5A"], "Instructors": ["Radhendushka Srivastava"], "Division": null}, "SI537": {"Code": "SI537", "Name": "Probability II", "Venue": "LT 102", "Slots": ["11B", "11A"], "Instructors": ["Ayan  Bhattacharya"], "Division": null}, "SI543": {"Code": "SI543", "Name": "Asymptotic Statistics", "Venue": "LT 203", "Slots": ["14B", "14A"], "Instructors": ["Monika  Bhattacharjee"], "Division": null}, "ME103": {"Code": "ME103", "Name": "Mechanical Department Introductory Course I", "Venue": "LA 201", "Slots": ["4A", "4C", "4B"], "Instructors": ["Neeraj Kumbhakarna", "Date P.P."], "Division": null}, "ME209-S1": {"Code": "ME209-S1", "Name": "Thermodynamics", "Venue": "- IC1", "Slots": ["4A", "4C", "4B"], "Instructors": ["Abhijeet  Kumar"], "Division": "S1"}, "ME209-S2": {"Code": "ME209-S2", "Name": "Thermodynamics", "Venue": "IC 2", "Slots": ["4A", "4C", "4B"], "Instructors": ["Sandip  Kumar Saha"], "Division": "S2"}, "ME209-S3": {"Code": "ME209-S3", "Name": "Thermodynamics", "Venue": "IC 3", "Slots": ["4A", "4C", "4B"], "Instructors": ["Upendra Bhandarkar"], "Division": "S3"}, "ME218-S1": {"Code": "ME218-S1", "Name": "Solid Mechanics Lab", "Venue": "nan", "Slots": ["L1"], "Instructors": ["V. Kartik"], "Division": "S1"}, "ME218-S2": {"Code": "ME218-S2", "Name": "Solid Mechanics Lab", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Nitesh  Yelve"], "Division": "S2"}, "ME221-S1": {"Code": "ME221-S1", "Name": "Structural Materials", "Venue": "IC 3", "Slots": ["6B", "6A"], "Instructors": ["Pradeep Dixit"], "Division": "S1"}, "ME221-S2": {"Code": "ME221-S2", "Name": "Structural Materials", "Venue": "IC 2", "Slots": ["6B", "6A"], "Instructors": ["Date P.P."], "Division": "S2"}, "ME221-S3": {"Code": "ME221-S3", "Name": "Structural Materials", "Venue": "- IC1", "Slots": ["6B", "6A"], "Instructors": ["Soham Mujumdar"], "Division": "S3"}, "ME223-M": {"Code": "ME223-M", "Name": "Solid Mechanics and Strength of Materials", "Venue": "VMCC13", "Slots": ["5B", "5A"], "Instructors": ["R. Ganesh"], "Division": "M"}, "ME223-S1": {"Code": "ME223-S1", "Name": "Solid Mechanics and Strength of Materials", "Venue": "VMCC13", "Slots": ["5B", "5A"], "Instructors": ["R. Ganesh"], "Division": "S1"}, "ME223-S2": {"Code": "ME223-S2", "Name": "Solid Mechanics and Strength of Materials", "Venue": "LC 201", "Slots": ["3A", "3C", "3B"], "Instructors": ["Darshan Sunil Shah"], "Division": "S2"}, "ME223-S3": {"Code": "ME223-S3", "Name": "Solid Mechanics and Strength of Materials", "Venue": "LC 202", "Slots": ["3A", "3C", "3B"], "Instructors": ["D.N. Pawaskar"], "Division": "S3"}, "ME307-S1": {"Code": "ME307-S1", "Name": "Mechanical Measurements Lab", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Ankit  Jain", "Dipanshu  Bansal", "Neeraj Kumbhakarna", "Prabhu S V"], "Division": "S1"}, "ME307-S2": {"Code": "ME307-S2", "Name": "Mechanical Measurements Lab", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Ankit  Jain", "Dipanshu  Bansal", "Neeraj Kumbhakarna", "Prabhu S V"], "Division": "S2"}, "ME311-S1": {"Code": "ME311-S1", "Name": "Microprocessors and Automatic Control", "Venue": "LH 301", "Slots": ["1A", "1C", "1B"], "Instructors": ["Vivek Sangwan"], "Division": "S1"}, "ME311-S2": {"Code": "ME311-S2", "Name": "Microprocessors and Automatic Control", "Venue": "LH 302", "Slots": ["1A", "1C", "1B"], "Instructors": ["Abhishek  Gupta"], "Division": "S2"}, "ME338-M": {"Code": "ME338-M", "Name": "Manufacturing Processes II", "Venue": "LC 202", "Slots": ["5B", "5A"], "Instructors": ["Deepak Marla"], "Division": "M"}, "ME338-S1": {"Code": "ME338-S1", "Name": "Manufacturing Processes II", "Venue": "LC 202", "Slots": ["4A", "4C", "4B"], "Instructors": ["Gurminder  Singh"], "Division": "S1"}, "ME338-S2": {"Code": "ME338-S2", "Name": "Manufacturing Processes II", "Venue": "LC 201", "Slots": ["4A", "4C", "4B"], "Instructors": ["Pande S.S."], "Division": "S2"}, "ME338-S3": {"Code": "ME338-S3", "Name": "Manufacturing Processes II", "Venue": "LC 202", "Slots": ["5B", "5A"], "Instructors": ["Deepak Marla"], "Division": "S3"}, "ME346-S1": {"Code": "ME346-S1", "Name": "Heat Transfer", "Venue": "IC 2", "Slots": ["2A", "2C", "2B"], "Instructors": ["Prabhu S V"], "Division": "S1"}, "ME346-S2": {"Code": "ME346-S2", "Name": "Heat Transfer", "Venue": "- IC1", "Slots": ["2A", "2C", "2B"], "Instructors": ["Shankar Krishnan"], "Division": "S2"}, "ME346-S3": {"Code": "ME346-S3", "Name": "Heat Transfer", "Venue": "IC 3", "Slots": ["2A", "2C", "2B"], "Instructors": ["Ankit  Jain"], "Division": "S3"}, "ME350": {"Code": "ME350", "Name": "Refrigeration and Airconditioning", "Venue": "LT 102", "Slots": ["10B", "10A"], "Instructors": ["M.D.Atrey"], "Division": null}, "ME374-S1": {"Code": "ME374-S1", "Name": "Manufacturing Processes Lab", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Amol A. Gokhale", "Asim Tewari", "De Amitava", "Gurminder  Singh", "Pradeep Dixit", "Sushil Mishra", "Shyamprasad Karagadde"], "Division": "S1"}, "ME374-S2": {"Code": "ME374-S2", "Name": "Manufacturing Processes Lab", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Amol A. Gokhale", "Asim Tewari", "De Amitava", "Gurminder  Singh", "Pradeep Dixit", "Sushil Mishra", "Shyamprasad Karagadde"], "Division": "S2"}, "ME409": {"Code": "ME409", "Name": "Intelligent Manufacturing Systems Lab", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Asim Tewari", "Deepak Marla", "Makarand S. Kulkarni", "Shyamprasad Karagadde", "Sushil Mishra", "Soham Mujumdar"], "Division": null}, "ME423": {"Code": "ME423", "Name": "Machine Design", "Venue": "LA 001", "Slots": ["10B", "10A"], "Instructors": ["R.K.Singh"], "Division": null}, "ME438": {"Code": "ME438", "Name": "Introduction to modeling of materials from atomistics to continuum", "Venue": "LT 306", "Slots": ["12A", "12B"], "Instructors": ["Amit  Singh"], "Division": null}, "ME441-S1": {"Code": "ME441-S1", "Name": "Applied Thermodynamics Lab", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Abhijeet  Kumar", "Janani S. Murallidharan", "Sreedhara Sheshadri", "Rane Milind"], "Division": "S1"}, "ME441-S2": {"Code": "ME441-S2", "Name": "Applied Thermodynamics Lab", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Abhijeet  Kumar", "Janani S. Murallidharan", "Sreedhara Sheshadri", "Rane Milind"], "Division": "S2"}, "ME460": {"Code": "ME460", "Name": "Solid State Joining", "Venue": "ME-F24", "Slots": ["14B", "14A"], "Instructors": ["Amber Shrivastava"], "Division": null}, "ME601": {"Code": "ME601", "Name": "Stress Analysis", "Venue": "ME-F24", "Slots": ["7B", "7A"], "Instructors": ["Salil Kulkarni"], "Division": null}, "ME603": {"Code": "ME603", "Name": "Kinematics and Dynamics of Machinery", "Venue": "LC 001", "Slots": ["9A", "9B"], "Instructors": ["Sripriya Ramamoorthy", "Guha Anirban"], "Division": null}, "ME6101": {"Code": "ME6101", "Name": "Lattice Dynamics and Thermal Energy Transport", "Venue": "ME-F24", "Slots": ["12A", "12B"], "Instructors": ["Dipanshu  Bansal"], "Division": null}, "ME6110": {"Code": "ME6110", "Name": "Nanomanufacturing Processes", "Venue": "LT 303", "Slots": ["11B", "11A"], "Instructors": ["Rakesh G. Mote"], "Division": null}, "ME6116": {"Code": "ME6116", "Name": "Design of Fiber-Reinforced Composites", "Venue": "LT 105", "Slots": ["14B", "14A"], "Instructors": ["Nitesh  Yelve"], "Division": null}, "ME613": {"Code": "ME613", "Name": "Finite Element and Boundary Element Methods", "Venue": "CC 101", "Slots": ["6B", "6A"], "Instructors": ["Seshu P."], "Division": null}, "ME617": {"Code": "ME617", "Name": "Rapid Product Development", "Venue": "LT 004", "Slots": ["12A", "12B"], "Instructors": ["Karunakaran K.P."], "Division": null}, "ME618": {"Code": "ME618", "Name": "Pressure Vessel Design", "Venue": "LT 103", "Slots": ["8A", "8B"], "Instructors": ["De Amitava"], "Division": null}, "ME621": {"Code": "ME621", "Name": "Mathematical Methods for Mechanics and Dynamics", "Venue": "LT 305", "Slots": ["6B", "6A"], "Instructors": ["D.N. Pawaskar"], "Division": null}, "ME651": {"Code": "ME651", "Name": "Fluid Dynamics", "Venue": "LC 002", "Slots": ["14B", "14A"], "Instructors": ["Rajneesh Bhardwaj"], "Division": null}, "ME661": {"Code": "ME661", "Name": "Advanced Thermodynamics & Combustion", "Venue": "ME-F24", "Slots": ["1A", "1C", "1B"], "Instructors": ["Sreedhara Sheshadri"], "Division": null}, "ME662": {"Code": "ME662", "Name": "Convective Heat and Mass Transfer", "Venue": "ME-F24", "Slots": ["11B", "11A"], "Instructors": ["Avishek  Ranjan"], "Division": null}, "ME663": {"Code": "ME663", "Name": "Advanced Heat Transfer", "Venue": "ME-F24", "Slots": ["10B", "10A"], "Instructors": ["Atul Srivastava"], "Division": null}, "ME669": {"Code": "ME669", "Name": "Design for Manufacturing", "Venue": "VMCC14", "Slots": ["5B", "5A"], "Instructors": ["De Amitava"], "Division": null}, "ME673-S1": {"Code": "ME673-S1", "Name": "Mathematical Methods in Engineering", "Venue": "LC 201", "Slots": ["5B", "5A"], "Instructors": ["Vedula R.P."], "Division": "S1"}, "ME673-S2": {"Code": "ME673-S2", "Name": "Mathematical Methods in Engineering", "Venue": "LT 003", "Slots": ["10B", "10A"], "Instructors": ["Alankar Alankar"], "Division": "S2"}, "ME681": {"Code": "ME681", "Name": "Thermal Environmental Engg", "Venue": "LT 101", "Slots": ["10B", "10A"], "Instructors": ["Rane Milind"], "Division": null}, "ME704": {"Code": "ME704", "Name": "Computational Methods in Thermal & Fluid Engg", "Venue": "LC 101", "Slots": ["12A", "12B"], "Instructors": ["Sharma Atul"], "Division": null}, "ME710": {"Code": "ME710", "Name": "Vibration Engg.", "Venue": "LT 306", "Slots": ["14B", "14A"], "Instructors": ["V. Kartik"], "Division": null}, "ME721": {"Code": "ME721", "Name": "Design Engg. Lab", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Sripriya Ramamoorthy"], "Division": null}, "ME724": {"Code": "ME724", "Name": "Essentials of Turbulence", "Venue": "ME-F24", "Slots": ["6B", "6A"], "Instructors": ["Abhilash Chandy"], "Division": null}, "ME751": {"Code": "ME751", "Name": "Mechanics of Deformable Bodies", "Venue": "LT 306", "Slots": ["4A", "4C", "4B"], "Instructors": ["Tanmay  K. Bhandakkar"], "Division": null}, "ME758": {"Code": "ME758", "Name": "Microfluidics", "Venue": "LT 101", "Slots": ["9A", "9B"], "Instructors": ["Amit Agrawal"], "Division": null}, "ME773": {"Code": "ME773", "Name": "Reliability Modelling and Analysis for Engineering Systems", "Venue": "VMCC15", "Slots": ["6B", "6A"], "Instructors": ["Makarand S. Kulkarni"], "Division": null}, "ME774": {"Code": "ME774", "Name": "Processing of Aerospace Materials-II", "Venue": "LT 106", "Slots": ["9A", "9B"], "Instructors": ["Amol A. Gokhale"], "Division": null}, "ME781": {"Code": "ME781", "Name": "Statistical Machine Learning and Data Mining", "Venue": "LA 001", "Slots": ["15B", "15A"], "Instructors": ["Asim Tewari"], "Division": null}, "ME782": {"Code": "ME782", "Name": "Design Optimization", "Venue": "LT 002", "Slots": ["1A", "1C", "1B"], "Instructors": ["Manik Dhanesh"], "Division": null}, "ME785": {"Code": "ME785", "Name": "Machining Processes", "Venue": "ME-F24", "Slots": ["8A", "8B"], "Instructors": ["Rakesh G. Mote"], "Division": null}, "ME786": {"Code": "ME786", "Name": "Welding Processes", "Venue": "ME-F24", "Slots": ["9A", "9B"], "Instructors": ["De Amitava"], "Division": null}, "ME787": {"Code": "ME787", "Name": "Deformation Processes", "Venue": "LT 101", "Slots": ["8A", "8B"], "Instructors": ["Sushil Mishra"], "Division": null}, "ME788": {"Code": "ME788", "Name": "Liquid Material Processing", "Venue": "ME-F24", "Slots": ["9A", "9B"], "Instructors": ["Shyamprasad Karagadde"], "Division": null}, "ME899-S1": {"Code": "ME899-S1", "Name": "Communication Skills", "Venue": "LC 102", "Slots": ["11B", "11A"], "Instructors": ["Parag Tandaiya"], "Division": "S1"}, "ME899-S2": {"Code": "ME899-S2", "Name": "Communication Skills", "Venue": "IC 2", "Slots": ["12A", "12B"], "Instructors": ["Alankar Alankar", "Amber Shrivastava", "Makarand S. Kulkarni", "Shyamprasad Karagadde", "Sushil Mishra"], "Division": "S2"}, "MES801": {"Code": "MES801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Sharma Atul"], "Division": null}, "MS101-P1": {"Code": "MS101-P1", "Name": "Makerspace", "Venue": "nan", "Slots": ["L1", "L3", "3A"], "Instructors": ["Avinash  Bhardwaj", "Janani S. Murallidharan", "Krishna Jonnalagadda", "Kushal R. Tuckley", "Pandey P.C.", "Sharma Dinesh", "Arunkumar Sridharan", "J.John"], "Division": "P1"}, "MS101-P10": {"Code": "MS101-P10", "Name": "Makerspace", "Venue": "nan", "Slots": ["5B", "6B", "1B", "2B", "4B", "6A"], "Instructors": ["Avinash  Bhardwaj", "Janani S. Murallidharan", "Kushal R. Tuckley", "Pandey P.C.", "Sharma Dinesh", "Arunkumar Sridharan", "J.John", "Krishna Jonnalagadda"], "Division": "P10"}, "MS101-P2": {"Code": "MS101-P2", "Name": "Makerspace", "Venue": "LA 201", "Slots": ["3A"], "Instructors": ["Avinash  Bhardwaj", "Janani S. Murallidharan", "Kushal R. Tuckley", "Pandey P.C.", "Sharma Dinesh", "Arunkumar Sridharan", "J.John", "Krishna Jonnalagadda"], "Division": "P2"}, "MS101-P3": {"Code": "MS101-P3", "Name": "Makerspace", "Venue": "nan", "Slots": ["L4", "L2", "3A"], "Instructors": ["Avinash  Bhardwaj", "Janani S. Murallidharan", "Kushal R. Tuckley", "Pandey P.C.", "Sharma Dinesh", "Arunkumar Sridharan", "J.John", "Krishna Jonnalagadda"], "Division": "P3"}, "MS101-P4": {"Code": "MS101-P4", "Name": "Makerspace", "Venue": "nan", "Slots": ["L4", "L2", "3A"], "Instructors": ["Avinash  Bhardwaj", "Janani S. Murallidharan", "Kushal R. Tuckley", "Pandey P.C.", "Sharma Dinesh", "Arunkumar Sridharan", "J.John", "Krishna Jonnalagadda"], "Division": "P4"}, "MS101-P7": {"Code": "MS101-P7", "Name": "Makerspace", "Venue": "nan", "Slots": ["1A", "2A", "3A", "1C", "3C", "4C", "6A"], "Instructors": ["Avinash  Bhardwaj", "Janani S. Murallidharan", "Kushal R. Tuckley", "Pandey P.C.", "Sharma Dinesh", "Arunkumar Sridharan", "J.John", "Krishna Jonnalagadda"], "Division": "P7"}, "MS101-P8": {"Code": "MS101-P8", "Name": "Makerspace", "Venue": "nan", "Slots": ["1A", "2A", "3A", "1C", "3C", "4C"], "Instructors": ["Avinash  Bhardwaj", "Janani S. Murallidharan", "Kushal R. Tuckley", "Pandey P.C.", "Sharma Dinesh", "Arunkumar Sridharan", "J.John", "Krishna Jonnalagadda"], "Division": "P8"}, "MS101-P9": {"Code": "MS101-P9", "Name": "Makerspace", "Venue": "nan", "Slots": ["5B", "6B", "1B", "2B", "4B"], "Instructors": ["Avinash  Bhardwaj", "Janani S. Murallidharan", "Krishna Jonnalagadda", "Kushal R. Tuckley", "Pandey P.C.", "Sharma Dinesh", "Arunkumar Sridharan", "J.John"], "Division": "P9"}, "IWE706": {"Code": "IWE706", "Name": "Managerial Economics", "Venue": "nan", "Slots": [], "Instructors": ["S.V.D.Nageswara Rao"], "Division": null}, "IWE708": {"Code": "IWE708", "Name": "Operations and Manufacturing Management", "Venue": "nan", "Slots": [], "Instructors": ["Indrajit Mukherjee"], "Division": null}, "IWE709": {"Code": "IWE709", "Name": "Strategic Cost Analysis", "Venue": "nan", "Slots": [], "Instructors": ["S.V.D.Nageswara Rao"], "Division": null}, "IWE713": {"Code": "IWE713", "Name": "Managing Power and Influence in Organizations", "Venue": "nan", "Slots": [], "Instructors": ["S.V.D.Nageswara Rao"], "Division": null}, "IWE716": {"Code": "IWE716", "Name": "Macroeconomics", "Venue": "nan", "Slots": [], "Instructors": ["Vinish Kathuria"], "Division": null}, "MG401-M": {"Code": "MG401-M", "Name": "Marketing Management", "Venue": "- IC1", "Slots": ["5B", "5A"], "Instructors": ["Dinesh Sharma", "Arti D Kalro"], "Division": "M"}, "MG403": {"Code": "MG403", "Name": "Accounting and Finance", "Venue": "IC 2", "Slots": ["5B", "5A"], "Instructors": ["Rohan  Chinchwadkar", "Varadraj B. Bapat"], "Division": null}, "MG403-M": {"Code": "MG403-M", "Name": "Accounting and Finance", "Venue": "IC 2", "Slots": ["5B", "5A"], "Instructors": ["Rohan  Chinchwadkar", "Bapat V.P."], "Division": "M"}, "MGT801": {"Code": "MGT801", "Name": "Introduction to Research Methods", "Venue": "nan", "Slots": [], "Instructors": ["Ashish Singh"], "Division": null}, "MGT805": {"Code": "MGT805", "Name": "Survey Research & Experimentation", "Venue": "nan", "Slots": [], "Instructors": ["Arti D Kalro"], "Division": null}, "MGT806": {"Code": "MGT806", "Name": "Behavioral Operations Management", "Venue": "nan", "Slots": [], "Instructors": ["T.T. Niranjan"], "Division": null}, "MNG802": {"Code": "MNG802", "Name": "Statistics for Management Research", "Venue": "nan", "Slots": [], "Instructors": ["Indrajit Mukherjee"], "Division": null}, "MNG803": {"Code": "MNG803", "Name": "Economics", "Venue": "nan", "Slots": [], "Instructors": ["Sarthak Gaurav"], "Division": null}, "SOM101-S1": {"Code": "SOM101-S1", "Name": "Introduction to Management", "Venue": "LC 101", "Slots": ["3B", "5A"], "Instructors": ["Ashish Pandey"], "Division": "S1"}, "SOM101-S2": {"Code": "SOM101-S2", "Name": "Introduction to Management", "Venue": "LC 101", "Slots": ["3C", "X3"], "Instructors": ["Mayank  Pareek"], "Division": "S2"}, "SOM601": {"Code": "SOM601", "Name": "Communication and Interpersonal Skill", "Venue": "nan", "Slots": [], "Instructors": ["Ashish Pandey"], "Division": null}, "SOM602": {"Code": "SOM602", "Name": "Microeconomics", "Venue": "nan", "Slots": [], "Instructors": ["Trupti Mishra"], "Division": null}, "SOM603": {"Code": "SOM603", "Name": "Fundamentals of Financial and Managerial Accounting", "Venue": "nan", "Slots": [], "Instructors": ["Varadraj B. Bapat"], "Division": null}, "SOM604": {"Code": "SOM604", "Name": "Marketing Management - I", "Venue": "nan", "Slots": [], "Instructors": ["Arti D Kalro"], "Division": null}, "SOM605": {"Code": "SOM605", "Name": "Statistical Methods", "Venue": "nan", "Slots": [], "Instructors": ["Usha Ananthakumar"], "Division": null}, "SOM606": {"Code": "SOM606", "Name": "Corporate Finance - I", "Venue": "nan", "Slots": [], "Instructors": ["Piyush  Pandey"], "Division": null}, "SOM607": {"Code": "SOM607", "Name": "Macroeconomics", "Venue": "nan", "Slots": [], "Instructors": ["Vinish Kathuria"], "Division": null}, "SOM608": {"Code": "SOM608", "Name": "Decision Models in Management", "Venue": "nan", "Slots": [], "Instructors": ["Pankaj Dutta"], "Division": null}, "SOM609": {"Code": "SOM609", "Name": "Information Systems", "Venue": "nan", "Slots": [], "Instructors": ["Sonar M Rajendra"], "Division": null}, "SOM610": {"Code": "SOM610", "Name": "Marketing Management - II", "Venue": "nan", "Slots": [], "Instructors": ["Dinesh Sharma"], "Division": null}, "SOM611": {"Code": "SOM611", "Name": "Operations Management \u2013 I", "Venue": "nan", "Slots": [], "Instructors": ["Gajendra Adil", "Indrajit Mukherjee"], "Division": null}, "SOM620": {"Code": "SOM620", "Name": "Business and Sustainable Development", "Venue": "nan", "Slots": [], "Instructors": ["Trupti Mishra"], "Division": null}, "SOM622": {"Code": "SOM622", "Name": "Strategic Marketing", "Venue": "nan", "Slots": [], "Instructors": ["Mayank  Pareek"], "Division": null}, "SOM624": {"Code": "SOM624", "Name": "Warehouse Operations", "Venue": "nan", "Slots": [], "Instructors": ["Gajendra Adil"], "Division": null}, "SOM625": {"Code": "SOM625", "Name": "Summer Project Work", "Venue": "nan", "Slots": [], "Instructors": ["Varadraj B. Bapat"], "Division": null}, "SOM634": {"Code": "SOM634", "Name": "Purchasing and Supply Management", "Venue": "nan", "Slots": [], "Instructors": ["Atul Kanyalkar"], "Division": null}, "SOM635": {"Code": "SOM635", "Name": "Operations Strategy", "Venue": "nan", "Slots": [], "Instructors": ["Gajendra Adil"], "Division": null}, "SOM636": {"Code": "SOM636", "Name": "Innovation Management", "Venue": "nan", "Slots": [], "Instructors": ["Karuna Jain"], "Division": null}, "SOM637": {"Code": "SOM637", "Name": "Project Management", "Venue": "nan", "Slots": [], "Instructors": ["Karuna Jain"], "Division": null}, "SOM642": {"Code": "SOM642", "Name": "Business Forecasting", "Venue": "nan", "Slots": [], "Instructors": ["Pankaj Dutta"], "Division": null}, "SOM650": {"Code": "SOM650", "Name": "Mergers Acquisitions and Business Valuation", "Venue": "nan", "Slots": [], "Instructors": ["S.N.Rao"], "Division": null}, "SOM651": {"Code": "SOM651", "Name": "International Finance", "Venue": "nan", "Slots": [], "Instructors": ["S.V.D.Nageswara Rao"], "Division": null}, "SOM653": {"Code": "SOM653", "Name": "Security Analysis and Portfolio Management", "Venue": "nan", "Slots": [], "Instructors": ["S.N.Rao"], "Division": null}, "SOM654": {"Code": "SOM654", "Name": "Fixed Income Securities", "Venue": "nan", "Slots": [], "Instructors": ["Piyush  Pandey"], "Division": null}, "SOM655": {"Code": "SOM655", "Name": "Derivatives and Risk Management", "Venue": "nan", "Slots": [], "Instructors": ["Piyush  Pandey"], "Division": null}, "SOM661": {"Code": "SOM661", "Name": "Advertising and Media Management", "Venue": "nan", "Slots": [], "Instructors": ["Arti D Kalro"], "Division": null}, "SOM663": {"Code": "SOM663", "Name": "Brand Management", "Venue": "nan", "Slots": [], "Instructors": ["Dinesh Sharma"], "Division": null}, "SOM671": {"Code": "SOM671", "Name": "International Competitiveness", "Venue": "LC 302", "Slots": ["6B", "6A"], "Instructors": ["Kiran Kumar Momaya"], "Division": null}, "SOM690": {"Code": "SOM690", "Name": "Software Project Management", "Venue": "nan", "Slots": [], "Instructors": ["Sonar M Rajendra"], "Division": null}, "SOM697": {"Code": "SOM697", "Name": "Electronic Business Strategies and Implementation", "Venue": "nan", "Slots": [], "Instructors": ["Sonar M Rajendra"], "Division": null}, "SOM698": {"Code": "SOM698", "Name": "Management of Banking and Financial Services", "Venue": "nan", "Slots": [], "Instructors": ["Piyush  Pandey"], "Division": null}, "SOM703": {"Code": "SOM703", "Name": "Sales and Distribution Management", "Venue": "nan", "Slots": [], "Instructors": ["Mayank  Pareek"], "Division": null}, "SOM704": {"Code": "SOM704", "Name": "Foundations of Private Equity and Venture Capital", "Venue": "nan", "Slots": [], "Instructors": ["Rohan  Chinchwadkar"], "Division": null}, "SOM705": {"Code": "SOM705", "Name": "Supply Chain Optimization", "Venue": "nan", "Slots": [], "Instructors": ["Rahul Patil"], "Division": null}, "SOM709": {"Code": "SOM709", "Name": "International Business", "Venue": "nan", "Slots": [], "Instructors": ["Snehal  Awate"], "Division": null}, "SOM710": {"Code": "SOM710", "Name": "Economics of Development in India", "Venue": "nan", "Slots": [], "Instructors": ["Ashish Singh"], "Division": null}, "SOM793": {"Code": "SOM793", "Name": "Compulsory IDDDP Project", "Venue": "nan", "Slots": [], "Instructors": ["Piyush  Pandey", "Indrajit Mukherjee"], "Division": null}, "SOM794": {"Code": "SOM794", "Name": "Optional IDDDP Project", "Venue": "nan", "Slots": [], "Instructors": ["Piyush  Pandey", "Indrajit Mukherjee"], "Division": null}, "SOM801": {"Code": "SOM801", "Name": "Core Topics in Strategic Management", "Venue": "nan", "Slots": [], "Instructors": ["Snehal  Awate"], "Division": null}, "SOM899": {"Code": "SOM899", "Name": "Communication Skills", "Venue": "nan", "Slots": [], "Instructors": ["Sarthak Gaurav"], "Division": null}, "MM201-M": {"Code": "MM201-M", "Name": "Structure of Materials", "Venue": "LC 102", "Slots": ["8A", "8B"], "Instructors": ["Avradeep  Pal", "Abhijeet  Sangle"], "Division": "M"}, "MM202-M": {"Code": "MM202-M", "Name": "Thermodynamics of Materials", "Venue": "VMCC31", "Slots": ["3A", "3C", "3B"], "Instructors": ["N.N.Viswanathan", "Aswani Yella"], "Division": "M"}, "MM219-S1": {"Code": "MM219-S1", "Name": "Structure of Materials", "Venue": "LC 101", "Slots": ["8A", "8B"], "Instructors": ["Avradeep  Pal"], "Division": "S1"}, "MM219-S2": {"Code": "MM219-S2", "Name": "Structure of Materials", "Venue": "LC 102", "Slots": ["8A", "8B"], "Instructors": ["Abhijeet  Sangle"], "Division": "S2"}, "MM221": {"Code": "MM221", "Name": "Sensors and Measurements Lab", "Venue": "nan", "Slots": ["L4", "LX"], "Instructors": ["Khosla N.K.", "Tanushree H. Choudhury", "Titas Dasgupta"], "Division": null}, "MM223": {"Code": "MM223", "Name": "Thermodynamics of Materials", "Venue": "VMCC31", "Slots": ["3A", "3C", "3B"], "Instructors": ["Aswani Yella", "N.N.Viswanathan"], "Division": null}, "MM225": {"Code": "MM225", "Name": "AI and Data Science", "Venue": "LA 001", "Slots": ["1A", "1C", "1B"], "Instructors": ["Hina Amol Gokhale", "M.P. Gururajan"], "Division": null}, "MM301": {"Code": "MM301", "Name": "Phase Transformations", "Venue": "LH 101", "Slots": ["14B", "14A"], "Instructors": ["Prabhu N."], "Division": null}, "MM305-S1": {"Code": "MM305-S1", "Name": "Kinetics of Processes", "Venue": "LC 302", "Slots": ["2A", "2C", "2B"], "Instructors": ["Ajay Singh Panwar"], "Division": "S1"}, "MM305-S2": {"Code": "MM305-S2", "Name": "Kinetics of Processes", "Venue": "LC 301", "Slots": ["2A", "2C", "2B"], "Instructors": ["Triratna  Muneshwar"], "Division": "S2"}, "MM319-S1": {"Code": "MM319-S1", "Name": "Mechanical Behaviour of Materials", "Venue": "LC 302", "Slots": ["4A", "4C", "4B"], "Instructors": ["Anirban Patra"], "Division": "S1"}, "MM319-S2": {"Code": "MM319-S2", "Name": "Mechanical Behaviour of Materials", "Venue": "LC 301", "Slots": ["4A", "4C", "4B"], "Instructors": ["Nagamani J. Balila"], "Division": "S2"}, "MM362-S1": {"Code": "MM362-S1", "Name": "Mech. Testing Lab.", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Prita Pant", "Sanjay  Chandra"], "Division": "S1"}, "MM362-S2": {"Code": "MM362-S2", "Name": "Mech. Testing Lab.", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Prita Pant", "Sanjay  Chandra"], "Division": "S2"}, "MM396": {"Code": "MM396", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Mural S Prasanna Kumar", "Aswani Yella"], "Division": null}, "MM409": {"Code": "MM409", "Name": "Colloidal & Interfacial Science", "Venue": "LT 101", "Slots": ["5B", "5A"], "Instructors": ["Parag Bhargava", "Mithun  Chowdhury"], "Division": null}, "MM433": {"Code": "MM433", "Name": "Manufacturing Process Seminar", "Venue": "LH 102", "Slots": ["10B", "10A"], "Instructors": ["Mithun  Chowdhury", "Amrita  Bhattacharya"], "Division": null}, "MM435-S1": {"Code": "MM435-S1", "Name": "Instrumentation and controls laboratory", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Khosla N.K."], "Division": "S1"}, "MM435-S2": {"Code": "MM435-S2", "Name": "Instrumentation and controls laboratory", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Khosla N.K."], "Division": "S2"}, "MM439-S1": {"Code": "MM439-S1", "Name": "Iron and Steelmaking", "Venue": "VMCC32", "Slots": ["4A", "4C", "4B"], "Instructors": ["Manish M. Pande"], "Division": "S1"}, "MM439-S2": {"Code": "MM439-S2", "Name": "Iron and Steelmaking", "Venue": "VMCC31", "Slots": ["4A", "4C", "4B"], "Instructors": ["Somnath Basu"], "Division": "S2"}, "MM451": {"Code": "MM451", "Name": "Instrumentation and Process Control Theory", "Venue": "LH 302", "Slots": ["2A", "2C", "2B"], "Instructors": ["Khosla N.K."], "Division": null}, "MM452": {"Code": "MM452", "Name": "Plant Engineering", "Venue": "LT 206", "Slots": ["6B", "6A"], "Instructors": ["Sanjay  Chandra"], "Division": null}, "MM453": {"Code": "MM453", "Name": "Engineering Polymers & Composites", "Venue": "LH 102", "Slots": ["1A", "1C", "1B"], "Instructors": ["Arup R. Bhattacharyya", "Mural S Prasanna Kumar"], "Division": null}, "MM474": {"Code": "MM474", "Name": "Science and Technology of Thin Films", "Venue": "- IC1", "Slots": ["12A", "12B"], "Instructors": ["Dusane Rajiv O."], "Division": null}, "MM477": {"Code": "MM477", "Name": "Ceramic Processing Techniques", "Venue": "LT 304", "Slots": ["9A", "9B"], "Instructors": ["Sudhanshu Mallick"], "Division": null}, "MM492": {"Code": "MM492", "Name": "B.Tech Project I", "Venue": "nan", "Slots": [], "Instructors": ["Avradeep  Pal"], "Division": null}, "MM494": {"Code": "MM494", "Name": "B.Tech Project II", "Venue": "nan", "Slots": [], "Instructors": ["Avradeep  Pal"], "Division": null}, "MM611": {"Code": "MM611", "Name": "Processing and Characterization of Steel (Lab.)", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Manish M. Pande", "Samajdar I."], "Division": null}, "MM621": {"Code": "MM621", "Name": "Advanced Physical and Mechanical Metallurgy", "Venue": "LT 204", "Slots": ["12A", "12B"], "Instructors": ["Samajdar I."], "Division": null}, "MM651": {"Code": "MM651", "Name": "Thermodynamics of Materials", "Venue": "IC 3", "Slots": ["3A", "3C", "3B"], "Instructors": ["Prasanna T.R.S."], "Division": null}, "MM654": {"Code": "MM654", "Name": "Advanced Composites", "Venue": "LT 102", "Slots": ["6B", "6A"], "Instructors": ["Amartya Mukhopadhyay", "Mithun  Chowdhury"], "Division": null}, "MM659": {"Code": "MM659", "Name": "Transport Phenomena", "Venue": "LT 004", "Slots": ["5B", "5A"], "Instructors": ["Deepoo  Kumar"], "Division": null}, "MM680": {"Code": "MM680", "Name": "Welding Science and Technology", "Venue": "LT 306", "Slots": ["6B", "6A"], "Instructors": ["K. Bhanumurthy"], "Division": null}, "MM681": {"Code": "MM681", "Name": "Plastic Deformation and Microstructure Evolution", "Venue": "LT 006", "Slots": ["11B", "11A"], "Instructors": ["MJNV Prasad"], "Division": null}, "MM694": {"Code": "MM694", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Triratna  Muneshwar"], "Division": null}, "MM695": {"Code": "MM695", "Name": "High Temperature Corrosion", "Venue": "LT 204", "Slots": ["1A", "1C", "1B"], "Instructors": ["Vijayshankar  Dandapani"], "Division": null}, "MM699": {"Code": "MM699", "Name": "Corrosion Laboratory", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Smrutiranjan Parida", "Vijayshankar  Dandapani"], "Division": null}, "MM713": {"Code": "MM713", "Name": "Aqueous Corrosion and its Control", "Venue": "LT 203", "Slots": ["5B", "5A"], "Instructors": ["Smrutiranjan Parida"], "Division": null}, "MM717": {"Code": "MM717", "Name": "Electrochemical Materials Science", "Venue": "LT 004", "Slots": ["10B", "10A"], "Instructors": ["Raja V. S."], "Division": null}, "MM719": {"Code": "MM719", "Name": "Inttroduction to Ab-initio Methods in Materials Modelling", "Venue": "LT 004", "Slots": ["11B", "11A"], "Instructors": ["Sumit Saxena"], "Division": null}, "MM723": {"Code": "MM723", "Name": "Thermoelectric Materials", "Venue": "LT 104", "Slots": ["8A", "8B"], "Instructors": ["Titas Dasgupta"], "Division": null}, "MM724": {"Code": "MM724", "Name": "Plasma Processing of Materials", "Venue": "LT 106", "Slots": ["8A", "8B"], "Instructors": ["Dinkar S. Patil"], "Division": null}, "MM729": {"Code": "MM729", "Name": "Characterization of Materials for Corrosion Control", "Venue": "LT 204", "Slots": ["2A", "2C", "2B"], "Instructors": ["Raja V. S."], "Division": null}, "MM730": {"Code": "MM730", "Name": "Topics in Mechanical Behaviour of Materials", "Venue": "LT 003", "Slots": ["5B", "5A"], "Instructors": ["Prita Pant"], "Division": null}, "MM731": {"Code": "MM731", "Name": "Experiments in Advanced Materials Processing (Lab)", "Venue": "LH 302", "Slots": ["L2"], "Instructors": ["Dinkar S. Patil", "Triratna  Muneshwar"], "Division": null}, "MM732": {"Code": "MM732", "Name": "Structural Characterization of Materials", "Venue": "LC 002", "Slots": ["2A", "2C", "2B"], "Instructors": ["Amartya Mukhopadhyay"], "Division": null}, "MM733": {"Code": "MM733", "Name": "Mechanical Characterization of Materials", "Venue": "LT 001", "Slots": ["2A", "2C", "2B"], "Instructors": ["MJNV Prasad"], "Division": null}, "MM734": {"Code": "MM734", "Name": "Electrical Characterization of Materials", "Venue": "LT 205", "Slots": ["2A", "2C", "2B"], "Instructors": ["Shobha Shukla"], "Division": null}, "MM735": {"Code": "MM735", "Name": "Material Chracterization at High Temperatures", "Venue": "LT 305", "Slots": ["2A", "2C", "2B"], "Instructors": ["Somnath Basu"], "Division": null}, "MM737": {"Code": "MM737", "Name": "Physical Metallurgy", "Venue": "LT 004", "Slots": ["4A", "4C", "4B"], "Instructors": ["Ashutosh Gandhi"], "Division": null}, "MM738": {"Code": "MM738", "Name": "Physics of Materials", "Venue": "LT 101", "Slots": ["4A", "4C", "4B"], "Instructors": ["Kulkarni Ajit R."], "Division": null}, "MM747": {"Code": "MM747", "Name": "First Principles Approach to Materials Science", "Venue": "LT 006", "Slots": ["6B", "6A"], "Instructors": ["Amrita  Bhattacharya"], "Division": null}, "MM748": {"Code": "MM748", "Name": "Fatigue of Materials", "Venue": "LT 301", "Slots": ["9A", "9B"], "Instructors": ["Aparna Singh"], "Division": null}, "MM751": {"Code": "MM751", "Name": "Engineering Aspects of Desalination", "Venue": "SIC305", "Slots": ["6B", "6A"], "Instructors": ["V. K. Srivastava"], "Division": null}, "MM755": {"Code": "MM755", "Name": "Kinetics of High Temperature processes", "Venue": "LT 102", "Slots": ["9A", "9B"], "Instructors": ["Deepoo  Kumar"], "Division": null}, "MM899": {"Code": "MM899", "Name": "Communication Skills", "Venue": "LC 201", "Slots": ["9A", "9B"], "Instructors": ["Shobha Shukla", "V. K. Srivastava"], "Division": null}, "MMS801": {"Code": "MMS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Dipti Gupta"], "Division": null}, "PH109": {"Code": "PH109", "Name": "Fundamental Themes in Physics", "Venue": "CL 103 ESE", "Slots": ["11B", "11A"], "Instructors": ["Aftab Alam"], "Division": null}, "PH117-P13": {"Code": "PH117-P13", "Name": "Physics Lab", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Mohamad  Aslam"], "Division": "P13"}, "PH117-P14": {"Code": "PH117-P14", "Name": "Physics Lab", "Venue": "nan", "Slots": ["L2"], "Instructors": ["Mohamad  Aslam"], "Division": "P14"}, "PH117-P15": {"Code": "PH117-P15", "Name": "Physics Lab", "Venue": "nan", "Slots": ["L3"], "Instructors": ["Mohamad  Aslam"], "Division": "P15"}, "PH117-P16": {"Code": "PH117-P16", "Name": "Physics Lab", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Mohamad  Aslam"], "Division": "P16"}, "PH117-P19": {"Code": "PH117-P19", "Name": "Physics Lab", "Venue": "nan", "Slots": ["1A", "2A", "3A"], "Instructors": ["Mohamad  Aslam"], "Division": "P19"}, "PH117-P20": {"Code": "PH117-P20", "Name": "Physics Lab", "Venue": "nan", "Slots": ["1B", "2B", "4B"], "Instructors": ["Mohamad  Aslam"], "Division": "P20"}, "PH117-P21": {"Code": "PH117-P21", "Name": "Physics Lab", "Venue": "nan", "Slots": ["1C", "2C", "4C"], "Instructors": ["Mohamad  Aslam"], "Division": "P21"}, "PH117-P22": {"Code": "PH117-P22", "Name": "Physics Lab", "Venue": "nan", "Slots": ["5B", "6B"], "Instructors": ["Mohamad  Aslam"], "Division": "P22"}, "PH217": {"Code": "PH217", "Name": "Classical Mechanics", "Venue": "CL 104 ESE", "Slots": ["4A", "4C", "4B"], "Instructors": ["Nitin  Kumar"], "Division": null}, "PH221": {"Code": "PH221", "Name": "Analog Electronics", "Venue": "nan", "Slots": ["L2", "LX"], "Instructors": ["Pradeep Sarin"], "Division": null}, "PH223": {"Code": "PH223", "Name": "Complex Analysis and Integral Transforms", "Venue": "CL 102 ESE", "Slots": ["6B", "6A"], "Instructors": ["Dibyendu Das"], "Division": null}, "PH225": {"Code": "PH225", "Name": "Quantum Mechanics I", "Venue": "CL 103 ESE", "Slots": ["3A", "3C", "3B"], "Instructors": ["P. Ramadevi"], "Division": null}, "PH251-M": {"Code": "PH251-M", "Name": "Classical Mechanics", "Venue": "LT 305", "Slots": ["5B", "5A"], "Instructors": ["Sumiran Pujari"], "Division": "M"}, "PH253-M": {"Code": "PH253-M", "Name": "Thermal and Statistical Physics", "Venue": "LT 304", "Slots": ["5B", "5A"], "Instructors": ["Raghunath Chelakkot"], "Division": "M"}, "PH303": {"Code": "PH303", "Name": "Supervised Learning", "Venue": "nan", "Slots": [], "Instructors": ["Himadri Shekhar Dhar"], "Division": null}, "PH401": {"Code": "PH401", "Name": "Classical Mechanics", "Venue": "CL 102 ESE", "Slots": ["1A", "1C", "1B"], "Instructors": ["Anirban Sain"], "Division": null}, "PH403": {"Code": "PH403", "Name": "Quantum Mechanics I", "Venue": "CL 113 ESE", "Slots": ["5B", "5A"], "Instructors": ["Shankaranarayanan Subramaniam"], "Division": null}, "PH405": {"Code": "PH405", "Name": "Electronics", "Venue": "CL 104 ESE", "Slots": ["2A", "2C", "2B"], "Instructors": ["Kundu Tapanendu"], "Division": null}, "PH407": {"Code": "PH407", "Name": "Mathematical Physics I", "Venue": "LC 102", "Slots": ["6B", "6A"], "Instructors": ["Siddhartha  Santra"], "Division": null}, "PH421": {"Code": "PH421", "Name": "Photonics", "Venue": "CL 103 ESE", "Slots": ["2A", "2C", "2B"], "Instructors": ["Anshuman Kumar"], "Division": null}, "PH423": {"Code": "PH423", "Name": "Quantum Mechanics II", "Venue": "CL 102 ESE", "Slots": ["4A", "4C", "4B"], "Instructors": ["Asmita Mukherjee"], "Division": null}, "PH434": {"Code": "PH434", "Name": "Programming Lab", "Venue": "nan", "Slots": ["L4", "L2"], "Instructors": ["Himadri Shekhar Dhar"], "Division": null}, "PH435": {"Code": "PH435", "Name": "Electronics Lab  IV (Microprocessors)", "Venue": "nan", "Slots": ["L4", "L2"], "Instructors": ["Pramod Kumar"], "Division": null}, "PH443": {"Code": "PH443", "Name": "Electronics Laboratory", "Venue": "nan", "Slots": ["L1"], "Instructors": ["Maniraj  Mahalingam"], "Division": null}, "PH447": {"Code": "PH447", "Name": "Physics Lab (Optics and Spectroscopy)", "Venue": "nan", "Slots": ["L4"], "Instructors": ["Dinesh Kabra"], "Division": null}, "PH505-S1": {"Code": "PH505-S1", "Name": "Introduction to Nuclear  & Particle Physics", "Venue": "CL 104 ESE", "Slots": ["3A", "3C", "3B"], "Instructors": ["B Nandi"], "Division": "S1"}, "PH505-S2": {"Code": "PH505-S2", "Name": "Introduction to Nuclear  & Particle Physics", "Venue": "CL 109 ESE", "Slots": ["3A", "3C", "3B"], "Instructors": ["Das Pragya"], "Division": "S2"}, "PH515-S1": {"Code": "PH515-S1", "Name": "Introduction  to Atomic and Molecular Physics", "Venue": "CL 105 ESE", "Slots": ["4A", "4C", "4B"], "Instructors": ["Gopal Dixit"], "Division": "S1"}, "PH515-S2": {"Code": "PH515-S2", "Name": "Introduction  to Atomic and Molecular Physics", "Venue": "CL 105 ESE", "Slots": ["5B", "5A"], "Instructors": ["Suresh K.G."], "Division": "S2"}, "PH517": {"Code": "PH517", "Name": "Methods in Analytical Techniques", "Venue": "CL 104 ESE", "Slots": ["1A", "1C", "1B"], "Instructors": ["Mohamad  Aslam"], "Division": null}, "PH523": {"Code": "PH523", "Name": "Quantum Mechanics III", "Venue": "LT 303", "Slots": ["12A", "12B"], "Instructors": ["Kumar Rao"], "Division": null}, "PH527": {"Code": "PH527", "Name": "Physics Lab (Solid State and Nuclear Physics)", "Venue": "nan", "Slots": ["LX"], "Instructors": ["Sunita Srivastava", "Sadhana Dash"], "Division": null}, "PH543": {"Code": "PH543", "Name": "Advanced Statistical Mechanics", "Venue": "LT 004", "Slots": ["8A", "8B"], "Instructors": ["Amitabha Nandi"], "Division": null}, "PH549": {"Code": "PH549", "Name": "Physics of Biological Systems", "Venue": "CL 113 ESE", "Slots": ["9A", "9B"], "Instructors": ["Mithun  K. Mitra"], "Division": null}, "PH557": {"Code": "PH557", "Name": "Theoretical Condensed Matter Physics", "Venue": "CL 111 ESE", "Slots": ["9A", "9B"], "Instructors": ["Singh P.P."], "Division": null}, "PH561": {"Code": "PH561", "Name": "Ultrafast Sciences", "Venue": "LT 205", "Slots": ["14B", "14A"], "Instructors": ["P Vasa"], "Division": null}, "PH565": {"Code": "PH565", "Name": "Semiconductor Physics", "Venue": "LT 006", "Slots": ["14B", "14A"], "Instructors": ["S. Dhar"], "Division": null}, "PH567": {"Code": "PH567", "Name": "Non-linear Dynamics", "Venue": "CL 104 ESE", "Slots": ["12A", "12B"], "Instructors": ["Punit Parmanand"], "Division": null}, "PH569": {"Code": "PH569", "Name": "Applied Solid State Physics", "Venue": "CL 103 ESE", "Slots": ["12A", "12B"], "Instructors": ["Suddhasatta Mahapatra"], "Division": null}, "PH575": {"Code": "PH575", "Name": "Nanoscience: Fundamentals to Fabrication", "Venue": "CL 102 ESE", "Slots": ["9A", "9B"], "Instructors": ["Senthilkumar M."], "Division": null}, "PH587": {"Code": "PH587", "Name": "B.Tech Project I", "Venue": "nan", "Slots": [], "Instructors": ["Himadri Shekhar Dhar"], "Division": null}, "PH595": {"Code": "PH595", "Name": "M.Sc. project stage 1", "Venue": "nan", "Slots": [], "Instructors": ["Himadri Shekhar Dhar"], "Division": null}, "PH807": {"Code": "PH807", "Name": "Current Trends in Physics", "Venue": "301", "Slots": ["14B", "14A"], "Instructors": ["Vikram Rentala"], "Division": null}, "PH819": {"Code": "PH819", "Name": "Advanced Astrophysics", "Venue": "LT 105", "Slots": ["9A", "9B"], "Instructors": ["Archana Pai"], "Division": null}, "PHS801": {"Code": "PHS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Himadri Shekhar Dhar"], "Division": null}, "PS601": {"Code": "PS601", "Name": "Public Policy Theory I", "Venue": "LT 103", "Slots": ["14B", "14A"], "Instructors": ["Prabhir Vishnu  Poruthiyil"], "Division": null}, "PS605": {"Code": "PS605", "Name": "Social Science Perspective in Public Policy", "Venue": "CC 105", "Slots": ["6B", "6A"], "Instructors": ["N.C.Narayanan", "Rahul Suresh Sapkal"], "Division": null}, "PS606": {"Code": "PS606", "Name": "Public Policy in India: History Institutions and Practice", "Venue": "LT 102", "Slots": ["8A", "8B"], "Instructors": ["Jha Shishir Kumar", "Naveen  Bharathi"], "Division": null}, "PS609": {"Code": "PS609", "Name": "Research Methodology and Design", "Venue": "LT 103", "Slots": ["11B", "11A"], "Instructors": ["Anjali  Sharma", "Anupam  Guha"], "Division": null}, "PS621": {"Code": "PS621", "Name": "Internship", "Venue": "nan", "Slots": [], "Instructors": ["Jha Shishir Kumar"], "Division": null}, "PS625": {"Code": "PS625", "Name": "Environmental Governance and Development", "Venue": "LT 201", "Slots": ["9A", "9B"], "Instructors": ["N.C.Narayanan", "Ajay A Deshpande"], "Division": null}, "PS632": {"Code": "PS632", "Name": "Contemporary Issues in Data Policy and Management", "Venue": "IC 3", "Slots": ["5B", "5A"], "Instructors": ["Anupam  Guha", "Sundeep  Oberoi"], "Division": null}, "PS635": {"Code": "PS635", "Name": "Economic Analysis for Public Policy", "Venue": "LT 205", "Slots": ["12A", "12B"], "Instructors": ["Rahul Suresh Sapkal"], "Division": null}, "PS643": {"Code": "PS643", "Name": "Introduction to AI Data and Policy", "Venue": "LC 002", "Slots": ["10B", "10A"], "Instructors": ["Anupam  Guha"], "Division": null}, "PS645": {"Code": "PS645", "Name": "Affirmative Action in India: A Brief Constitutional History", "Venue": "nan", "Slots": [], "Instructors": ["Naveen  Bharathi", "Uday U.  Lalit"], "Division": null}, "PS797": {"Code": "PS797", "Name": "MPP Dissertaion -I Stage", "Venue": "nan", "Slots": [], "Instructors": ["Jha Shishir Kumar"], "Division": null}, "PSS801": {"Code": "PSS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Prabhir Vishnu  Poruthiyil"], "Division": null}, "PSS803": {"Code": "PSS803", "Name": "Internship/Experience Based Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Prabhir Vishnu  Poruthiyil"], "Division": null}, "SC301-M": {"Code": "SC301-M", "Name": "Linear and Nonlinear Systems", "Venue": "LT 103", "Slots": ["5B", "5A"], "Instructors": ["Arpita Sinha"], "Division": "M"}, "SC593": {"Code": "SC593", "Name": "Dual Degree Project I", "Venue": "nan", "Slots": [], "Instructors": ["Debasish Chatterjee"], "Division": null}, "SC618": {"Code": "SC618", "Name": "Analytical and Geometric Dynamics", "Venue": "LT 005", "Slots": ["14B", "14A"], "Instructors": ["Sukumar Srikant"], "Division": null}, "SC618-M": {"Code": "SC618-M", "Name": "Analytical and Geometric Dynamics", "Venue": "LT 005", "Slots": ["14B", "14A"], "Instructors": ["Sukumar Srikant"], "Division": "M"}, "SC625": {"Code": "SC625", "Name": "Systems Theory", "Venue": "LT 103", "Slots": ["12A", "12B"], "Instructors": ["Vivek Natarajan"], "Division": null}, "SC625-M": {"Code": "SC625-M", "Name": "Systems Theory", "Venue": "LT 103", "Slots": ["12A", "12B"], "Instructors": ["Vivek Natarajan"], "Division": "M"}, "SC629": {"Code": "SC629", "Name": "Introduction to Probability and Random Processes", "Venue": "LT 004", "Slots": ["6B", "6A"], "Instructors": ["Debasish Chatterjee"], "Division": null}, "SC629-M": {"Code": "SC629-M", "Name": "Introduction to Probability and Random Processes", "Venue": "LT 004", "Slots": ["6B", "6A"], "Instructors": ["Debasish Chatterjee"], "Division": "M"}, "SC631": {"Code": "SC631", "Name": "Games and Information", "Venue": "LT 006", "Slots": ["10B", "10A"], "Instructors": ["Ankur Kulkarni"], "Division": null}, "SC631-M": {"Code": "SC631-M", "Name": "Games and Information", "Venue": "LT 006", "Slots": ["10B", "10A"], "Instructors": ["Ankur Kulkarni"], "Division": "M"}, "SC639": {"Code": "SC639", "Name": "Mathematical Structures for Control", "Venue": "LC 301", "Slots": ["5B", "5A"], "Instructors": ["Banavar R.N."], "Division": null}, "SC639-M": {"Code": "SC639-M", "Name": "Mathematical Structures for Control", "Venue": "LC 301", "Slots": ["5B", "5A"], "Instructors": ["Banavar R.N."], "Division": "M"}, "SC649": {"Code": "SC649", "Name": "Embedded Control & Robotics", "Venue": "LT 003", "Slots": ["6B", "6A"], "Instructors": ["Leena Vachhani"], "Division": null}, "SC649-M": {"Code": "SC649-M", "Name": "Embedded Control & Robotics", "Venue": "LT 003", "Slots": ["6B", "6A"], "Instructors": ["Leena Vachhani"], "Division": "M"}, "SC650": {"Code": "SC650", "Name": "High Energy Physics and Systems", "Venue": "- 114", "Slots": ["6B", "6A"], "Instructors": ["Navin Khaneja"], "Division": null}, "SC650-M": {"Code": "SC650-M", "Name": "High Energy Physics and Systems", "Venue": "- 114", "Slots": ["6B", "6A"], "Instructors": ["Navin Khaneja"], "Division": "M"}, "SC653": {"Code": "SC653", "Name": "Optimisation for Large Scale Machine Learning", "Venue": "LT 002", "Slots": ["10B", "10A"], "Instructors": ["Avishek  Ghosh"], "Division": null}, "SC653-M": {"Code": "SC653-M", "Name": "Optimisation for Large Scale Machine Learning", "Venue": "LT 002", "Slots": ["10B", "10A"], "Instructors": ["Avishek  Ghosh"], "Division": "M"}, "SC797": {"Code": "SC797", "Name": "I Stage Project", "Venue": "nan", "Slots": [], "Instructors": ["Sukumar Srikant"], "Division": null}, "SC899": {"Code": "SC899", "Name": "Communication Skills", "Venue": "LT 205", "Slots": ["4A", "4C", "4B", "LX"], "Instructors": ["Ankur Kulkarni", "Arpita Sinha", "Avishek  Ghosh", "Banavar R.N.", "Debasish Chatterjee", "Leena Vachhani", "Navin Khaneja", "Sukumar Srikant", "Vivek Natarajan"], "Division": null}, "SCS801": {"Code": "SCS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Debasish Chatterjee"], "Division": null}, "TD390": {"Code": "TD390", "Name": "Supervised Learning - Study", "Venue": "nan", "Slots": [], "Instructors": ["Priyadarshani Jadhav"], "Division": null}, "TD490": {"Code": "TD490", "Name": "Supervised Learning- Analysis", "Venue": "nan", "Slots": [], "Instructors": ["Priyadarshani Jadhav"], "Division": null}, "TD491": {"Code": "TD491", "Name": "Supervised Learning - Design", "Venue": "nan", "Slots": [], "Instructors": ["Priyadarshani Jadhav"], "Division": null}, "TD602": {"Code": "TD602", "Name": "Soil Land Use GIS and Agriculture", "Venue": "LT 005", "Slots": ["11B", "11A"], "Instructors": ["Parmeshwar Digamber Udmale", "Amit  Y. Arora"], "Division": null}, "TD603": {"Code": "TD603", "Name": "Water Resources Management", "Venue": "LT 005", "Slots": ["10B", "10A"], "Instructors": ["Parmeshwar Digamber Udmale"], "Division": null}, "TD607": {"Code": "TD607", "Name": "Energy Sources and their Utilization", "Venue": "LT 005", "Slots": ["8A", "8B"], "Instructors": ["Vishal R. Sardeshpande", "Priyadarshani Jadhav"], "Division": null}, "TD608": {"Code": "TD608", "Name": "Project Management and Project Analysis", "Venue": "301", "Slots": ["5B", "5A"], "Instructors": ["Chaaruchandra  Korde"], "Division": null}, "TD609": {"Code": "TD609", "Name": "Field Work", "Venue": "nan", "Slots": [], "Instructors": ["Anand B. Rao", "Pankajkumar Sekhsaria"], "Division": null}, "TD613": {"Code": "TD613", "Name": "Ecology and Environment", "Venue": "LT 005", "Slots": ["2A", "2C", "2B"], "Instructors": ["Bakul Rao", "Anand B. Rao"], "Division": null}, "TD626": {"Code": "TD626", "Name": "Technology Society and Development", "Venue": "LT 005", "Slots": ["5B", "5A"], "Instructors": ["Vishal R. Sardeshpande", "Pankajkumar Sekhsaria"], "Division": null}, "TD628": {"Code": "TD628", "Name": "Applied Statistical Methods and Data Analysis", "Venue": "LT 004", "Slots": ["9A", "9B"], "Instructors": ["Amit  Y. Arora"], "Division": null}, "TD630": {"Code": "TD630", "Name": "Public Policy: Theory and Practice", "Venue": "LT 101", "Slots": ["4A", "4C", "4B"], "Instructors": ["Satish B. Agnihotri"], "Division": null}, "TD631": {"Code": "TD631", "Name": "Qualitative Data Collection and Analysis Methods", "Venue": "LT 301", "Slots": ["11B", "11A"], "Instructors": ["Pankajkumar Sekhsaria"], "Division": null}, "TD651": {"Code": "TD651", "Name": "Technology in Practice", "Venue": "LT 103", "Slots": ["9A", "9B"], "Instructors": ["Amit  Y. Arora"], "Division": null}, "TD695": {"Code": "TD695", "Name": "I Stage Project", "Venue": "nan", "Slots": [], "Instructors": ["Chaaruchandra  Korde"], "Division": null}, "TD696": {"Code": "TD696", "Name": "II Stage Project", "Venue": "nan", "Slots": [], "Instructors": ["Pankajkumar Sekhsaria"], "Division": null}, "TD899": {"Code": "TD899", "Name": "Communication Skills", "Venue": "LT 005", "Slots": ["1A", "1C", "1B"], "Instructors": ["Pankajkumar Sekhsaria", "Pennan  Chinnasamy"], "Division": null}, "US602": {"Code": "US602", "Name": "Fundamentals of Urban Science & Engineering", "Venue": "VMCC13", "Slots": ["2A", "2C", "2B"], "Instructors": ["Arnab  Jana"], "Division": null}, "US607": {"Code": "US607", "Name": "Sustainability Assessment of Urban Systems", "Venue": "LT 301", "Slots": ["5B", "5A"], "Instructors": ["Pradip P. Kalbar"], "Division": null}, "US609": {"Code": "US609", "Name": "Introduction to Urban Design", "Venue": "LT 002", "Slots": ["9A", "9B"], "Instructors": ["Himanshu  Burte"], "Division": null}, "US611": {"Code": "US611", "Name": "Urban Design and Engineering Laboratory", "Venue": "nan", "Slots": ["L4", "L2"], "Instructors": ["Himanshu  Burte", "Malini  Krishnankutty", "Pradip P. Kalbar", "Arnab  Jana"], "Division": null}, "US613": {"Code": "US613", "Name": "Urban Planning in India: Theory Challenges and Approaches", "Venue": "LT 302", "Slots": ["6B", "6A"], "Instructors": ["Pradip P. Kalbar", "Malini  Krishnankutty"], "Division": null}, "US899": {"Code": "US899", "Name": "Communication Skills", "Venue": "LT 201", "Slots": ["14B", "14A"], "Instructors": ["Arnab  Jana", "Pradip P. Kalbar", "Virendra Sethi", "Himanshu  Burte"], "Division": null}, "USS801": {"Code": "USS801", "Name": "Seminar", "Venue": "nan", "Slots": [], "Instructors": ["Pradip P. Kalbar"], "Division": null}}
+let courses = {
+  "AE152-D2": {
+      "Code": "AE152-D2",
+      "Name": "Introduction to Aerospace Engg.",
+      "Venue": "Class Room : LC 202",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Kowsik V R Bodi"
+      ],
+      "Division": "D2"
+  },
+  "AE153-M": {
+      "Code": "AE153-M",
+      "Name": "Introduction to Aerospace Engg.",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Kowsik V R Bodi"
+      ],
+      "Division": "M"
+  },
+  "AE233": {
+      "Code": "AE233",
+      "Name": "Control Systems Laboratory",
+      "Venue": "Dynamics & Control lab",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Arya Hemendra",
+          " Rohit Gupta",
+          " Shashi Ranjan Kumar",
+          " Arnab Maity"
+      ],
+      "Division": ""
+  },
+  "AE238": {
+      "Code": "AE238",
+      "Name": "Aerospace Structural Mechanics",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " P J Guruprasad"
+      ],
+      "Division": ""
+  },
+  "AE238-M": {
+      "Code": "AE238-M",
+      "Name": "Aerospace Structural Mechanics",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " P J Guruprasad"
+      ],
+      "Division": "M"
+  },
+  "AE244": {
+      "Code": "AE244",
+      "Name": "Low Speed Aerodynamics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Dhwanil Shukla"
+      ],
+      "Division": ""
+  },
+  "AE244-M": {
+      "Code": "AE244-M",
+      "Name": "Low Speed Aerodynamics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Dhwanil Shukla"
+      ],
+      "Division": "M"
+  },
+  "AE246": {
+      "Code": "AE246",
+      "Name": "Aircraft Structures Laboratory",
+      "Venue": "A/C Structure Lab",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Chandra S. Yerramalli",
+          " Krishnendu Haldar"
+      ],
+      "Division": ""
+  },
+  "AE248": {
+      "Code": "AE248",
+      "Name": "AI and Data Science",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " P. Ramachandran"
+      ],
+      "Division": ""
+  },
+  "AE305": {
+      "Code": "AE305",
+      "Name": "Flight Mechanics II",
+      "Venue": "Class Room : LC 202",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Arnab Maity"
+      ],
+      "Division": ""
+  },
+  "AE305-M": {
+      "Code": "AE305-M",
+      "Name": "Flight Mechanics II",
+      "Venue": "Class Room : LC 202",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Arnab Maity"
+      ],
+      "Division": "M"
+  },
+  "AE312": {
+      "Code": "AE312",
+      "Name": "Aerodynamics Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Aniruddha Sinha",
+          " Dhwanil Shukla",
+          " Mandal J.C.",
+          " Viren Menezes",
+          " Vineeth Nair"
+      ],
+      "Division": ""
+  },
+  "AE316": {
+      "Code": "AE316",
+      "Name": "Aircraft Propulsion Laboratory",
+      "Venue": "propulsion Lab - 103",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Nagendra Kumar"
+      ],
+      "Division": ""
+  },
+  "AE330": {
+      "Code": "AE330",
+      "Name": "Aerospace Propulsion",
+      "Venue": "Class Room : LT 001",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Nagendra Kumar"
+      ],
+      "Division": ""
+  },
+  "AE332": {
+      "Code": "AE332",
+      "Name": "Aircraft Design",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Avijit Chatterjee"
+      ],
+      "Division": ""
+  },
+  "BB101-D3": {
+      "Code": "BB101-D3",
+      "Name": "Biology",
+      "Venue": "Class Room : LH 301",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Ranjith P.",
+          " S. Srivastava"
+      ],
+      "Division": "D3"
+  },
+  "AE332-M": {
+      "Code": "AE332-M",
+      "Name": "Aircraft Design",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Avijit Chatterjee"
+      ],
+      "Division": "M"
+  },
+  "AE427": {
+      "Code": "AE427",
+      "Name": "Control Systems Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "L2"
+      ],
+      "Instructors": [
+          " Arya Hemendra",
+          " Rohit Gupta",
+          " Shashi Ranjan Kumar",
+          " Arnab Maity"
+      ],
+      "Division": ""
+  },
+  "AE607": {
+      "Code": "AE607",
+      "Name": "Aerospace Propulsion Laboratory",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Nagendra Kumar"
+      ],
+      "Division": ""
+  },
+  "AE622": {
+      "Code": "AE622",
+      "Name": "Computing of High Speed Flows",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Krishnendu Sinha"
+      ],
+      "Division": ""
+  },
+  "AE624": {
+      "Code": "AE624",
+      "Name": "Hypersonic Flow Theory",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Viren Menezes"
+      ],
+      "Division": ""
+  },
+  "AE656": {
+      "Code": "AE656",
+      "Name": "Aviation Fuels and their Combustion",
+      "Venue": "Class Room : LT 001",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Sudarshan Kumar"
+      ],
+      "Division": ""
+  },
+  "BB411": {
+      "Code": "BB411",
+      "Name": "Molecular Cell Biology",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Swapnil Rohidas Shinde"
+      ],
+      "Division": ""
+  },
+  "AE658": {
+      "Code": "AE658",
+      "Name": "Design of Powerplants for Aircraft",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Chandra Sekar Thyagarajan"
+      ],
+      "Division": ""
+  },
+  "BB411-M": {
+      "Code": "BB411-M",
+      "Name": "Molecular Cell Biology",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Swapnil Rohidas Shinde"
+      ],
+      "Division": "M"
+  },
+  "AE670": {
+      "Code": "AE670",
+      "Name": "Liquid Propellant Rocket Engines",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Hrishikesh Gadgil"
+      ],
+      "Division": ""
+  },
+  "BB412": {
+      "Code": "BB412",
+      "Name": "Genomics and Proteomics",
+      "Venue": "Class Room : LT 001",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Kiran Kondabagilu"
+      ],
+      "Division": ""
+  },
+  "AE673": {
+      "Code": "AE673",
+      "Name": "Fiber Reinforced Composites",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Chandra S. Yerramalli"
+      ],
+      "Division": ""
+  },
+  "CE102-S1": {
+      "Code": "CE102-S1",
+      "Name": "Engineering Mechanics",
+      "Venue": "Class Room : LT 001",
+      "Slots": [
+          "6A"
+      ],
+      "Instructors": [
+          "  ",
+          " Jayadipta  GhoshI ",
+          "  ",
+          " Manish  Kumar"
+      ],
+      "Division": "S1"
+  },
+  "BB503": {
+      "Code": "BB503",
+      "Name": "Genetic Engineering",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Sushil Kumar"
+      ],
+      "Division": ""
+  },
+  "AE678": {
+      "Code": "AE678",
+      "Name": "Aeroelasticity",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Abhijit Gogulapati"
+      ],
+      "Division": ""
+  },
+  "BB503-M": {
+      "Code": "BB503-M",
+      "Name": "Genetic Engineering",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Sushil Kumar"
+      ],
+      "Division": "M"
+  },
+  "AE682": {
+      "Code": "AE682",
+      "Name": "Introduction to Thermoacoustics",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Vineeth Nair"
+      ],
+      "Division": ""
+  },
+  "CE102-S2": {
+      "Code": "CE102-S2",
+      "Name": "Engineering Mechanics",
+      "Venue": "Class Room : LT 002",
+      "Slots": [
+          "6A"
+      ],
+      "Instructors": [
+          " ",
+          " Najeeb Mohammad Shariff"
+      ],
+      "Division": "S2"
+  },
+  "BB520": {
+      "Code": "BB520",
+      "Name": "Analytical Biochemistry",
+      "Venue": "Class Room : LT 003",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " P. S. Phale"
+      ],
+      "Division": ""
+  },
+  "AE700": {
+      "Code": "AE700",
+      "Name": "Guidance & Control of Unmanned Autonomous Vehicles",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Shashi Ranjan Kumar"
+      ],
+      "Division": ""
+  },
+  "BB522": {
+      "Code": "BB522",
+      "Name": "Microbiology",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Rajesh Patkar"
+      ],
+      "Division": ""
+  },
+  "AE705": {
+      "Code": "AE705",
+      "Name": "Introduction to Flight",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Kowsik V R Bodi"
+      ],
+      "Division": ""
+  },
+  "CE102-S3": {
+      "Code": "CE102-S3",
+      "Name": "Engineering Mechanics",
+      "Venue": "Class Room : LT 003",
+      "Slots": [
+          "6A"
+      ],
+      "Instructors": [
+          "  ",
+          " Meera  Raghunandan"
+      ],
+      "Division": "S3"
+  },
+  "BB524": {
+      "Code": "BB524",
+      "Name": "Genetic Engineering",
+      "Venue": "Class Room : LT 004",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Anirban Banerjee"
+      ],
+      "Division": ""
+  },
+  "AE706": {
+      "Code": "AE706",
+      "Name": "Computational Fluid Dynamics",
+      "Venue": "",
+      "Slots": [
+          "15B",
+          "15A"
+      ],
+      "Instructors": [
+          " Mandal J.C."
+      ],
+      "Division": ""
+  },
+  "BB526": {
+      "Code": "BB526",
+      "Name": "Biomolecular Spectroscopy",
+      "Venue": "",
+      "Slots": [
+          "7B",
+          "7A"
+      ],
+      "Instructors": [
+          " Ashutosh Kumar"
+      ],
+      "Division": ""
+  },
+  "AE708": {
+      "Code": "AE708",
+      "Name": "Aerospace Propulsion",
+      "Venue": "Class Room : LT 001",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Nagendra Kumar"
+      ],
+      "Division": ""
+  },
+  "BB528": {
+      "Code": "BB528",
+      "Name": "Integrated Biology Lab",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Ashutosh Kumar",
+          " P. S. Phale",
+          " Anirban Banerjee"
+      ],
+      "Division": ""
+  },
+  "AE710": {
+      "Code": "AE710",
+      "Name": "Aeroacoustics",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Aniruddha Sinha"
+      ],
+      "Division": ""
+  },
+  "CE234-S1": {
+      "Code": "CE234-S1",
+      "Name": "Structural Mechanics",
+      "Venue": "Class Room - 228",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " N.K.Chandiramani"
+      ],
+      "Division": "S1"
+  },
+  "AE713": {
+      "Code": "AE713",
+      "Name": "Space Flight Dynamics",
+      "Venue": "Class Room : LC 001",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Rohit Gupta"
+      ],
+      "Division": ""
+  },
+  "BB536": {
+      "Code": "BB536",
+      "Name": "Cryo-Electron Microscopy",
+      "Venue": "",
+      "Slots": [
+          "7B",
+          "7A"
+      ],
+      "Instructors": [
+          " Sandip Laxman Kaledhonkar"
+      ],
+      "Division": ""
+  },
+  "AE714": {
+      "Code": "AE714",
+      "Name": "Aircraft Design",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Avijit Chatterjee"
+      ],
+      "Division": ""
+  },
+  "BB592": {
+      "Code": "BB592",
+      "Name": "Project Stage II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Swapnil Rohidas Shinde"
+      ],
+      "Division": ""
+  },
+  "CE234-S2": {
+      "Code": "CE234-S2",
+      "Name": "Structural Mechanics",
+      "Venue": "Class Room - 233",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Jangid R.S."
+      ],
+      "Division": "S2"
+  },
+  "BB602": {
+      "Code": "BB602",
+      "Name": "Research philosophy",
+      "Venue": "Class Room : LT 002",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Patankar Swati"
+      ],
+      "Division": ""
+  },
+  "AE717": {
+      "Code": "AE717",
+      "Name": "Aircraft Flight Dynamics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Arya Hemendra"
+      ],
+      "Division": ""
+  },
+  "BB606": {
+      "Code": "BB606",
+      "Name": "Cellular Electricity: Physics & Modeling ",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Manchanda Rohit"
+      ],
+      "Division": ""
+  },
+  "AE738": {
+      "Code": "AE738",
+      "Name": "Tensors for Engineers",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Krishnendu Haldar"
+      ],
+      "Division": ""
+  },
+  "CE234-S3": {
+      "Code": "CE234-S3",
+      "Name": "Structural Mechanics",
+      "Venue": "P. G. Lecture Room - 238",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " M.M.Inamdar"
+      ],
+      "Division": "S3"
+  },
+  "BB610": {
+      "Code": "BB610",
+      "Name": "Biomedical Microsystems",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " R. Srivastava"
+      ],
+      "Division": ""
+  },
+  "AE780": {
+      "Code": "AE780",
+      "Name": "Computational Heat Transfer and Fluid Flow",
+      "Venue": "Seminar Hall",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Ganapathi Bhat"
+      ],
+      "Division": ""
+  },
+  "AE899": {
+      "Code": "AE899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Abhijit Gogulapati",
+          " Hrishikesh Gadgil"
+      ],
+      "Division": ""
+  },
+  "BB610-M": {
+      "Code": "BB610-M",
+      "Name": "Biomedical Microsystems",
+      "Venue": "Class Room : LA 002",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " R. Srivastava"
+      ],
+      "Division": "M"
+  },
+  "CE236": {
+      "Code": "CE236",
+      "Name": "Soil Mechanics",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Singh D.N."
+      ],
+      "Division": ""
+  },
+  "BB612": {
+      "Code": "BB612",
+      "Name": "Cell Mechanics and Mechanobiology",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Shamik Sen"
+      ],
+      "Division": ""
+  },
+  "CE238": {
+      "Code": "CE238",
+      "Name": "Land Surveying: Theory and Practice",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Eswar Rajasekaran",
+          " J. Indu",
+          " Raaj Ramsankaran"
+      ],
+      "Division": ""
+  },
+  "BB612-M": {
+      "Code": "BB612-M",
+      "Name": "Cell Mechanics and Mechanobiology",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Shamik Sen"
+      ],
+      "Division": "M"
+  },
+  "CE238-S1": {
+      "Code": "CE238-S1",
+      "Name": "Land Surveying: Theory and Practice",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Eswar Rajasekaran",
+          " J. Indu",
+          " Raaj Ramsankaran"
+      ],
+      "Division": "S1"
+  },
+  "BB615": {
+      "Code": "BB615",
+      "Name": "General Virology",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Kiran Kondabagilu"
+      ],
+      "Division": ""
+  },
+  "CE238-S2": {
+      "Code": "CE238-S2",
+      "Name": "Land Surveying: Theory and Practice",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Eswar Rajasekaran",
+          " J. Indu",
+          " Raaj Ramsankaran"
+      ],
+      "Division": "S2"
+  },
+  "BB616": {
+      "Code": "BB616",
+      "Name": "Cellular and Tissue Engineering",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Prakriti Tayalia"
+      ],
+      "Division": ""
+  },
+  "CE242-S1": {
+      "Code": "CE242-S1",
+      "Name": "Hydromechanics Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Srineash V.K."
+      ],
+      "Division": "S1"
+  },
+  "BB616-M": {
+      "Code": "BB616-M",
+      "Name": "Cellular and Tissue Engineering",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Prakriti Tayalia"
+      ],
+      "Division": "M"
+  },
+  "CE242-S2": {
+      "Code": "CE242-S2",
+      "Name": "Hydromechanics Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Riddhi Singh"
+      ],
+      "Division": "S2"
+  },
+  "BB621": {
+      "Code": "BB621",
+      "Name": "Biostatistics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Shamik Sen"
+      ],
+      "Division": ""
+  },
+  "BB623": {
+      "Code": "BB623",
+      "Name": "Mechanisms of Bacterial Pathogenesis",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Anirban Banerjee"
+      ],
+      "Division": ""
+  },
+  "CE244-S1": {
+      "Code": "CE244-S1",
+      "Name": "Transportation Engineering",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Avijit Maji"
+      ],
+      "Division": "S1"
+  },
+  "BB625": {
+      "Code": "BB625",
+      "Name": "Motor Control in Health and Disease ",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Neeta Kanekar"
+      ],
+      "Division": ""
+  },
+  "CE244-S2": {
+      "Code": "CE244-S2",
+      "Name": "Transportation Engineering",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Solomon Debbarma"
+      ],
+      "Division": "S2"
+  },
+  "BB625-M": {
+      "Code": "BB625-M",
+      "Name": "Motor Control in Health and Disease ",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Neeta Kanekar"
+      ],
+      "Division": "M"
+  },
+  "CE324": {
+      "Code": "CE324",
+      "Name": "Engineering Law",
+      "Venue": "Class Room -209",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Milind S. Wankhede",
+          " Sinha Ravi"
+      ],
+      "Division": ""
+  },
+  "BB628": {
+      "Code": "BB628",
+      "Name": "Molecular Cell Signaling",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Swapnil Rohidas Shinde"
+      ],
+      "Division": ""
+  },
+  "CE330-S1": {
+      "Code": "CE330-S1",
+      "Name": "Geotechnical Engineering II",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " S. Dasaka Murthy"
+      ],
+      "Division": "S1"
+  },
+  "CE330-S2": {
+      "Code": "CE330-S2",
+      "Name": "Geotechnical Engineering II",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Pinom Ering"
+      ],
+      "Division": "S2"
+  },
+  "BB642": {
+      "Code": "BB642",
+      "Name": "Protein Crystallography",
+      "Venue": "",
+      "Slots": [
+          "3B",
+          "LX"
+      ],
+      "Instructors": [
+          " Prasenjit Bhaumik"
+      ],
+      "Division": ""
+  },
+  "CE332-S1": {
+      "Code": "CE332-S1",
+      "Name": "Structural Design II",
+      "Venue": "",
+      "Slots": [
+          "X2",
+          "X3"
+      ],
+      "Instructors": [
+          " Amit Kumar Das"
+      ],
+      "Division": "S1"
+  },
+  "BB648": {
+      "Code": "BB648",
+      "Name": "Protein Engineering",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Samir Maji"
+      ],
+      "Division": ""
+  },
+  "BB655": {
+      "Code": "BB655",
+      "Name": "Introduction to Biomedical Optics",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Hari M. Varma"
+      ],
+      "Division": ""
+  },
+  "CE332-S2": {
+      "Code": "CE332-S2",
+      "Name": "Structural Design II",
+      "Venue": "",
+      "Slots": [
+          "X2",
+          "X3"
+      ],
+      "Instructors": [
+          " Ghosh Siddhartha"
+      ],
+      "Division": "S2"
+  },
+  "BB655-M": {
+      "Code": "BB655-M",
+      "Name": "Introduction to Biomedical Optics",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Hari M. Varma"
+      ],
+      "Division": "M"
+  },
+  "BB657": {
+      "Code": "BB657",
+      "Name": "Regulatory Aspects of Drug Development",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "X3"
+      ],
+      "Instructors": [
+          " Ashutosh Kumar"
+      ],
+      "Division": ""
+  },
+  "CE334-S1": {
+      "Code": "CE334-S1",
+      "Name": "Transportation Engineering II",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " P.Vedagiri"
+      ],
+      "Division": "S1"
+  },
+  "BB658": {
+      "Code": "BB658",
+      "Name": "Principles of Tissue Engineering",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Prakriti Tayalia"
+      ],
+      "Division": ""
+  },
+  "CE334-S2": {
+      "Code": "CE334-S2",
+      "Name": "Transportation Engineering II",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Nagendra Rao Velaga"
+      ],
+      "Division": "S2"
+  },
+  "BB668": {
+      "Code": "BB668",
+      "Name": "Engineering Principles in Surgical Reconstruction",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "10A"
+      ],
+      "Instructors": [
+          " Vivek P. Soni"
+      ],
+      "Division": ""
+  },
+  "CE336-S1": {
+      "Code": "CE336-S1",
+      "Name": "Geotechnical Engineering Lab II",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " S. Dasaka Murthy"
+      ],
+      "Division": "S1"
+  },
+  "BB694": {
+      "Code": "BB694",
+      "Name": "Seminar ",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Hari M. Varma",
+          " Neeta Kanekar"
+      ],
+      "Division": ""
+  },
+  "CE336-S2": {
+      "Code": "CE336-S2",
+      "Name": "Geotechnical Engineering Lab II",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Pinom Ering"
+      ],
+      "Division": "S2"
+  },
+  "BB701": {
+      "Code": "BB701",
+      "Name": "Research Proposal",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Anirban Banerjee"
+      ],
+      "Division": ""
+  },
+  "CE338-S1": {
+      "Code": "CE338-S1",
+      "Name": "Estimation and Materials Testing Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Prakash Nanthagopalan"
+      ],
+      "Division": "S1"
+  },
+  "BB798": {
+      "Code": "BB798",
+      "Name": "II Stage Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Hari M. Varma",
+          " Neeta Kanekar"
+      ],
+      "Division": ""
+  },
+  "BBS802": {
+      "Code": "BBS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Rajesh Patkar"
+      ],
+      "Division": ""
+  },
+  "CE338-S2": {
+      "Code": "CE338-S2",
+      "Name": "Estimation and Materials Testing Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Venkata S. Delhi"
+      ],
+      "Division": "S2"
+  },
+  "CE448": {
+      "Code": "CE448",
+      "Name": "Prestressed Concrete Design",
+      "Venue": "Class Room - 208",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Arghadeep Laskar"
+      ],
+      "Division": ""
+  },
+  "CE462": {
+      "Code": "CE462",
+      "Name": "Elements of Structural Dynamics",
+      "Venue": "Class Room - 208",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Swagata Basu"
+      ],
+      "Division": ""
+  },
+  "CE465": {
+      "Code": "CE465",
+      "Name": "Numerical Methods in Civil Engineering",
+      "Venue": "P. G. Lecture Room - 238",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Banerji P."
+      ],
+      "Division": ""
+  },
+  "CE484": {
+      "Code": "CE484",
+      "Name": "Concrete Technology",
+      "Venue": "Class Room - 233",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Prakash Nanthagopalan",
+          " Swathy Manohar"
+      ],
+      "Division": ""
+  },
+  "CE495": {
+      "Code": "CE495",
+      "Name": "BTP II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Amit Kumar Das"
+      ],
+      "Division": ""
+  },
+  "CE607": {
+      "Code": "CE607",
+      "Name": "Numerical Techniques in Hydraulic Engg",
+      "Venue": "Class room 212",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " T I Eldho"
+      ],
+      "Division": ""
+  },
+  "CE608": {
+      "Code": "CE608",
+      "Name": "Eco-hydro-Climatology",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Subimal Ghosh"
+      ],
+      "Division": ""
+  },
+  "CE610": {
+      "Code": "CE610",
+      "Name": "Introduction to Earthquake Engineering",
+      "Venue": "Class room 212",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Sinha Ravi"
+      ],
+      "Division": ""
+  },
+  "CE620": {
+      "Code": "CE620",
+      "Name": "Finite Element Methods",
+      "Venue": "Class Room -209",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Desai Yogesh M."
+      ],
+      "Division": ""
+  },
+  "CE629": {
+      "Code": "CE629",
+      "Name": "Elastic Waves in Solids",
+      "Venue": "P. G. Lecture Room - 238",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Sauvik Banerjee"
+      ],
+      "Division": ""
+  },
+  "CE632": {
+      "Code": "CE632",
+      "Name": "Ground Improvement",
+      "Venue": "Class room 212",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " A. Juneja"
+      ],
+      "Division": ""
+  },
+  "CE645": {
+      "Code": "CE645",
+      "Name": "Geotechnical Centrifuge Modelling",
+      "Venue": "Class Room - 208",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Viswanadham B.V.S."
+      ],
+      "Division": ""
+  },
+  "CE651": {
+      "Code": "CE651",
+      "Name": "Bridge Engineering",
+      "Venue": "Class Room -209",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Goyal Alok"
+      ],
+      "Division": ""
+  },
+  "CE652": {
+      "Code": "CE652",
+      "Name": "Foundations of Offshore Structures",
+      "Venue": "Class Room - 233",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Santiram Chatterjee"
+      ],
+      "Division": ""
+  },
+  "CE654": {
+      "Code": "CE654",
+      "Name": "Advanced Hydrological Analysis and Design",
+      "Venue": "Class Room - 208",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Jothiprakash V."
+      ],
+      "Division": ""
+  },
+  "CE658": {
+      "Code": "CE658",
+      "Name": "Hydrogeomorphology",
+      "Venue": "Class Room - 208",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Basudev Biswal"
+      ],
+      "Division": ""
+  },
+  "CE659": {
+      "Code": "CE659",
+      "Name": "Advanced Surveying",
+      "Venue": "Class Room - 228",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Eswar Rajasekaran",
+          " Raaj Ramsankaran"
+      ],
+      "Division": ""
+  },
+  "CE660": {
+      "Code": "CE660",
+      "Name": "Conservation of Heritage Structures",
+      "Venue": "P. G. Lecture Room - 238",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Swathy Manohar"
+      ],
+      "Division": ""
+  },
+  "CE676": {
+      "Code": "CE676",
+      "Name": "Water Resources Systems",
+      "Venue": "Class room 212",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " M.J.Reddy"
+      ],
+      "Division": ""
+  },
+  "CE677": {
+      "Code": "CE677",
+      "Name": "Design and Testing of Pile Foundations",
+      "Venue": "Class Room - 233",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Prasenjit Basu"
+      ],
+      "Division": ""
+  },
+  "CE684": {
+      "Code": "CE684",
+      "Name": "Advanced Geotechnical Earthquake Engineering",
+      "Venue": "Class Room - 233",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Choudhury Deepankar"
+      ],
+      "Division": ""
+  },
+  "CE687": {
+      "Code": "CE687",
+      "Name": "Offshore Construction",
+      "Venue": "Class Room - 228",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " R. Balaji"
+      ],
+      "Division": ""
+  },
+  "CE694": {
+      "Code": "CE694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Choudhury Deepankar"
+      ],
+      "Division": ""
+  },
+  "CE695": {
+      "Code": "CE695",
+      "Name": "R & D Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Choudhury Deepankar"
+      ],
+      "Division": ""
+  },
+  "CE699": {
+      "Code": "CE699",
+      "Name": " Transportation Systems Studio",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " K.V.Krishna Rao",
+          " Tom V Mathew"
+      ],
+      "Division": ""
+  },
+  "CE707": {
+      "Code": "CE707",
+      "Name": "Coastal, Port and Harbor Engineering",
+      "Venue": "Class Room - 233",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Srineash V.K."
+      ],
+      "Division": ""
+  },
+  "CE708": {
+      "Code": "CE708",
+      "Name": "Offshore Engineering",
+      "Venue": "Class Room -209",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Manasa R. Behera"
+      ],
+      "Division": ""
+  },
+  "CE719": {
+      "Code": "CE719",
+      "Name": "Construction Contracts",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Venkata S. Delhi"
+      ],
+      "Division": ""
+  },
+  "CE722": {
+      "Code": "CE722",
+      "Name": "Construction Management Studio",
+      "Venue": "Class Room - 233",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Albert Thomas",
+          " Venkata S. Delhi"
+      ],
+      "Division": ""
+  },
+  "CE729": {
+      "Code": "CE729",
+      "Name": "Quality and Safety in Construction",
+      "Venue": "Class Room - 228",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Albert Thomas"
+      ],
+      "Division": ""
+  },
+  "CE743": {
+      "Code": "CE743",
+      "Name": "Condition Assessment and Rehabilitation of Structures",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Muhammad Salman"
+      ],
+      "Division": ""
+  },
+  "CE745": {
+      "Code": "CE745",
+      "Name": "Sustainable Buildings",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Albert Thomas"
+      ],
+      "Division": ""
+  },
+  "CE749": {
+      "Code": "CE749",
+      "Name": "Freight transportation Planning and Logistics",
+      "Venue": "Class Room - 208",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Gopal R. Patil"
+      ],
+      "Division": ""
+  },
+  "CE757": {
+      "Code": "CE757",
+      "Name": "Remote Sensing of Thermal Radiation",
+      "Venue": "Class Room -209",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Eswar Rajasekaran"
+      ],
+      "Division": ""
+  },
+  "CE761": {
+      "Code": "CE761",
+      "Name": "Blast Resistant Structures",
+      "Venue": "P. G. Lecture Room - 238",
+      "Slots": [
+          "15B",
+          "15A"
+      ],
+      "Instructors": [
+          " Manish Kumar"
+      ],
+      "Division": ""
+  },
+  "CE764": {
+      "Code": "CE764",
+      "Name": "Hydroinformatics",
+      "Venue": "Class Room -209",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Arpita Mondal"
+      ],
+      "Division": ""
+  },
+  "CE770": {
+      "Code": "CE770",
+      "Name": "Ocean Renewable Energy",
+      "Venue": "Class room 212",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Manasa R. Behera"
+      ],
+      "Division": ""
+  },
+  "CE772": {
+      "Code": "CE772",
+      "Name": "Pavement Materials",
+      "Venue": "Class Room - 208",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Solomon Debbarma"
+      ],
+      "Division": ""
+  },
+  "CE773": {
+      "Code": "CE773",
+      "Name": "Geometric Design and Analysis of High-Speed Roadways",
+      "Venue": "Class Room - 228",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Avijit Maji"
+      ],
+      "Division": ""
+  },
+  "CE774": {
+      "Code": "CE774",
+      "Name": "Traffic Management and Design",
+      "Venue": "Class Room - 208",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Tom V Mathew"
+      ],
+      "Division": ""
+  },
+  "CE778": {
+      "Code": "CE778",
+      "Name": "Microwave Remote Sensing: Principles and Applications in Civil Engineering",
+      "Venue": "P. G. Lecture Room - 238",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " J. Indu"
+      ],
+      "Division": ""
+  },
+  "CE780": {
+      "Code": "CE780",
+      "Name": "Behavioural Travel Modelling",
+      "Venue": "Class Room - 228",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " K.V.Krishna Rao"
+      ],
+      "Division": ""
+  },
+  "CE899": {
+      "Code": "CE899",
+      "Name": "Communication Skills",
+      "Venue": "P. G. Lecture Room - 238",
+      "Slots": [
+          "XC",
+          "XD"
+      ],
+      "Instructors": [
+          " Bellie Sivakumar"
+      ],
+      "Division": ""
+  },
+  "CES801": {
+      "Code": "CES801",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Choudhury Deepankar"
+      ],
+      "Division": ""
+  },
+  "CH110": {
+      "Code": "CH110",
+      "Name": "Interpretative Spectroscopy",
+      "Venue": "Class Room : LT 304",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Chandra M. R. Volla",
+          " M. S. Balakrishna"
+      ],
+      "Division": ""
+  },
+  "CH117-P13": {
+      "Code": "CH117-P13",
+      "Name": "Chemistry Lab",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " A.Chowdhury",
+          " Chidambar Kulkarni",
+          " Gopalan Rajaram",
+          " Maheswaran S.",
+          " Rahul Maitra",
+          " R. Murugavel",
+          " Rodney Fernandes",
+          " Sandip Kar",
+          " Rajarshi Chakrabarti"
+      ],
+      "Division": "P13"
+  },
+  "CH117-P14": {
+      "Code": "CH117-P14",
+      "Name": "Chemistry Lab",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " A.Chowdhury",
+          " Chidambar Kulkarni",
+          " Gopalan Rajaram",
+          " Maheswaran S.",
+          " Rahul Maitra",
+          " R. Murugavel",
+          " Rodney Fernandes",
+          " Sandip Kar",
+          " Rajarshi Chakrabarti"
+      ],
+      "Division": "P14"
+  },
+  "CH117-P15": {
+      "Code": "CH117-P15",
+      "Name": "Chemistry Lab",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " A.Chowdhury",
+          " Chidambar Kulkarni",
+          " Gopalan Rajaram",
+          " Maheswaran S.",
+          " Rahul Maitra",
+          " R. Murugavel",
+          " Rodney Fernandes",
+          " Sandip Kar",
+          " Rajarshi Chakrabarti"
+      ],
+      "Division": "P15"
+  },
+  "CH117-P16": {
+      "Code": "CH117-P16",
+      "Name": "Chemistry Lab",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " A.Chowdhury",
+          " Chidambar Kulkarni",
+          " Gopalan Rajaram",
+          " Maheswaran S.",
+          " Rahul Maitra",
+          " R. Murugavel",
+          " Rodney Fernandes",
+          " Sandip Kar",
+          " Rajarshi Chakrabarti"
+      ],
+      "Division": "P16"
+  },
+  "CH117-P19": {
+      "Code": "CH117-P19",
+      "Name": "Chemistry Lab",
+      "Venue": "",
+      "Slots": [
+          "1B",
+          "2B",
+          "4B"
+      ],
+      "Instructors": [
+          " A.Chowdhury",
+          " Chidambar Kulkarni",
+          " Gopalan Rajaram",
+          " Maheswaran S.",
+          " Rahul Maitra",
+          " R. Murugavel",
+          " Rodney Fernandes",
+          " Sandip Kar",
+          " Rajarshi Chakrabarti"
+      ],
+      "Division": "P19"
+  },
+  "CH117-P20": {
+      "Code": "CH117-P20",
+      "Name": "Chemistry Lab",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "6B"
+      ],
+      "Instructors": [
+          " A.Chowdhury",
+          " Chidambar Kulkarni",
+          " Gopalan Rajaram",
+          " Maheswaran S.",
+          " Rahul Maitra",
+          " R. Murugavel",
+          " Rodney Fernandes",
+          " Sandip Kar",
+          " Rajarshi Chakrabarti"
+      ],
+      "Division": "P20"
+  },
+  "CH117-P21": {
+      "Code": "CH117-P21",
+      "Name": "Chemistry Lab",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "3A",
+          "4A"
+      ],
+      "Instructors": [
+          " A.Chowdhury",
+          " Chidambar Kulkarni",
+          " Gopalan Rajaram",
+          " Maheswaran S.",
+          " Rahul Maitra",
+          " R. Murugavel",
+          " Rodney Fernandes",
+          " Sandip Kar",
+          " Rajarshi Chakrabarti"
+      ],
+      "Division": "P21"
+  },
+  "CH117-P22": {
+      "Code": "CH117-P22",
+      "Name": "Chemistry Lab",
+      "Venue": "",
+      "Slots": [
+          "1C",
+          "2C",
+          "4C"
+      ],
+      "Instructors": [
+          " A.Chowdhury",
+          " Chidambar Kulkarni",
+          " Gopalan Rajaram",
+          " Maheswaran S.",
+          " Rahul Maitra",
+          " R. Murugavel",
+          " Rodney Fernandes",
+          " Sandip Kar",
+          " Rajarshi Chakrabarti"
+      ],
+      "Division": "P22"
+  },
+  "CH202": {
+      "Code": "CH202",
+      "Name": "Transition Metal Chemistry",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Gopalan Rajaram",
+          " Goutam K. Lahiri"
+      ],
+      "Division": ""
+  },
+  "CH202-M": {
+      "Code": "CH202-M",
+      "Name": "Transition Metal Chemistry",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Gopalan Rajaram",
+          " Goutam K. Lahiri"
+      ],
+      "Division": "M"
+  },
+  "CH216": {
+      "Code": "CH216",
+      "Name": "Thermodynamics and Chemical Kinetics",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " G. Naresh Patwari",
+          " Shobhna Kapoor"
+      ],
+      "Division": ""
+  },
+  "CH216-M": {
+      "Code": "CH216-M",
+      "Name": "Thermodynamics and Chemical Kinetics",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " G. Naresh Patwari",
+          " Shobhna Kapoor"
+      ],
+      "Division": "M"
+  },
+  "CH226": {
+      "Code": "CH226",
+      "Name": "Inorganic Chemistry Lab-II",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Srinivasan Ramakrishnan",
+          " Sanjog Sunil Nagarkar"
+      ],
+      "Division": ""
+  },
+  "CH228": {
+      "Code": "CH228",
+      "Name": "Organic Chemistry Lab II",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Venkateswarlu Yarlagadda",
+          " Nandita Madhavan"
+      ],
+      "Division": ""
+  },
+  "CH230": {
+      "Code": "CH230",
+      "Name": "Physical Chemistry Lab I",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Ishita Sengupta",
+          " A. Datta"
+      ],
+      "Division": ""
+  },
+  "CH398": {
+      "Code": "CH398",
+      "Name": "Mini Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Chidambar Kulkarni",
+          " Sanjog Sunil Nagarkar"
+      ],
+      "Division": ""
+  },
+  "CH404": {
+      "Code": "CH404",
+      "Name": "Physical Organic Chemistry",
+      "Venue": "Class : CL 113 ESE",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Chidambar Kulkarni"
+      ],
+      "Division": ""
+  },
+  "CH404-M": {
+      "Code": "CH404-M",
+      "Name": "Physical Organic Chemistry",
+      "Venue": "Class : CL 113 ESE",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Chidambar Kulkarni"
+      ],
+      "Division": "M"
+  },
+  "CH406": {
+      "Code": "CH406",
+      "Name": "Thermal and Photochemical Reactions",
+      "Venue": "Class : CL 106 ESE",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Nandita Madhavan"
+      ],
+      "Division": ""
+  },
+  "CH406-M": {
+      "Code": "CH406-M",
+      "Name": "Thermal and Photochemical Reactions",
+      "Venue": "Class : CL 106 ESE",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Nandita Madhavan"
+      ],
+      "Division": "M"
+  },
+  "CH408": {
+      "Code": "CH408",
+      "Name": "Molecular Energetics and Dynamics",
+      "Venue": "Class : CL 113 ESE",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Nand Kishore",
+          " Sandip Kar"
+      ],
+      "Division": ""
+  },
+  "CH408-M": {
+      "Code": "CH408-M",
+      "Name": "Molecular Energetics and Dynamics",
+      "Venue": "Class : CL 113 ESE",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Nand Kishore",
+          " Sandip Kar"
+      ],
+      "Division": "M"
+  },
+  "CH410": {
+      "Code": "CH410",
+      "Name": "Bio-Inorganic Chemistry",
+      "Venue": "Class : CL 113 ESE",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Arnab Dutta",
+          " D. Maiti"
+      ],
+      "Division": ""
+  },
+  "CH418": {
+      "Code": "CH418",
+      "Name": "Organic Chemistry Lab. III",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Pradeep Kumar P.I.",
+          " Chandra M. R. Volla"
+      ],
+      "Division": ""
+  },
+  "CH432": {
+      "Code": "CH432",
+      "Name": "Inorganic Chemistry Lab III",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " M. Ravikanth"
+      ],
+      "Division": ""
+  },
+  "CH434": {
+      "Code": "CH434",
+      "Name": "Physical Chemistry Lab III",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Achintya Kumar Dutta",
+          " G. Naresh Patwari"
+      ],
+      "Division": ""
+  },
+  "CH438": {
+      "Code": "CH438",
+      "Name": "Chemistry of Main Group Elements",
+      "Venue": "Class : CL 113 ESE",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Sanjog Sunil Nagarkar",
+          " R. Murugavel"
+      ],
+      "Division": ""
+  },
+  "CH438-M": {
+      "Code": "CH438-M",
+      "Name": "Chemistry of Main Group Elements",
+      "Venue": "Class : CL 113 ESE",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Sanjog Sunil Nagarkar",
+          " R. Murugavel"
+      ],
+      "Division": "M"
+  },
+  "CH442": {
+      "Code": "CH442",
+      "Name": "Molecular Spectroscopy",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " A. Datta",
+          " A.Chowdhury"
+      ],
+      "Division": ""
+  },
+  "CH442-M": {
+      "Code": "CH442-M",
+      "Name": "Molecular Spectroscopy",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " A. Datta",
+          " A.Chowdhury"
+      ],
+      "Division": "M"
+  },
+  "CH540": {
+      "Code": "CH540",
+      "Name": "Drugs and Biologically Active Compounds",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Pradeep Kumar P.I.",
+          " Venkateswarlu Yarlagadda"
+      ],
+      "Division": ""
+  },
+  "CH560": {
+      "Code": "CH560",
+      "Name": "Quantum Chemistry",
+      "Venue": "",
+      "Slots": [
+          "15B",
+          "15A"
+      ],
+      "Instructors": [
+          " Achintya Kumar Dutta"
+      ],
+      "Division": ""
+  },
+  "CH576": {
+      "Code": "CH576",
+      "Name": "Statistical Mechanics",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Rahul Maitra",
+          " Rajarshi Chakrabarti"
+      ],
+      "Division": ""
+  },
+  "CH578": {
+      "Code": "CH578",
+      "Name": "Topics in Inorganic Chemistry II",
+      "Venue": "Class : CL 112 ESE",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Maheswaran S.",
+          " Ghosh Prasenjit"
+      ],
+      "Division": ""
+  },
+  "CH588": {
+      "Code": "CH588",
+      "Name": "Organic Synthesis",
+      "Venue": "Class Room : LT 004",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Santosh J. Gharpure",
+          " Kaliappan K P"
+      ],
+      "Division": ""
+  },
+  "CH592": {
+      "Code": "CH592",
+      "Name": "Research Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Chidambar Kulkarni",
+          " Sanjog Sunil Nagarkar"
+      ],
+      "Division": ""
+  },
+  "CH594": {
+      "Code": "CH594",
+      "Name": "Project Stage II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Chidambar Kulkarni",
+          " Sanjog Sunil Nagarkar"
+      ],
+      "Division": ""
+  },
+  "CH596": {
+      "Code": "CH596",
+      "Name": "M.Sc. Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Chidambar Kulkarni",
+          " Sanjog Sunil Nagarkar"
+      ],
+      "Division": ""
+  },
+  "CH604": {
+      "Code": "CH604",
+      "Name": "Introduction to NMR Spectroscopy",
+      "Venue": "Class Room : LT 004",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Ishita Sengupta"
+      ],
+      "Division": ""
+  },
+  "CL102": {
+      "Code": "CL102",
+      "Name": "Material and Energy Balances",
+      "Venue": "Class Room : LH 301",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Bellare J.",
+          " Bhartiya S."
+      ],
+      "Division": ""
+  },
+  "CH605": {
+      "Code": "CH605",
+      "Name": "Chemical dynamics: quantum, classical and semiclassical methods",
+      "Venue": "Class Room : LT 003",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Amber Jain"
+      ],
+      "Division": ""
+  },
+  "CL208-S1": {
+      "Code": "CL208-S1",
+      "Name": "Chemical Reaction Engineering",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Sonali Das"
+      ],
+      "Division": "S1"
+  },
+  "CH806": {
+      "Code": "CH806",
+      "Name": "Molecular Photochemistry",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " M. Ravikanth",
+          " Rodney Fernandes",
+          " A. Datta"
+      ],
+      "Division": ""
+  },
+  "CL208-S2": {
+      "Code": "CL208-S2",
+      "Name": "Chemical Reaction Engineering",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Sanjay Mahajani"
+      ],
+      "Division": "S2"
+  },
+  "CH824": {
+      "Code": "CH824",
+      "Name": "Organotransition Metal and Acceptor Ligand Complex",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Srinivasan Ramakrishnan",
+          " M. S. Balakrishna"
+      ],
+      "Division": ""
+  },
+  "CL210": {
+      "Code": "CL210",
+      "Name": "Separation Processes",
+      "Venue": "",
+      "Slots": [
+          "15B",
+          "15A"
+      ],
+      "Instructors": [
+          " Supreet Saini",
+          " Venkatesh K.V."
+      ],
+      "Division": ""
+  },
+  "CM503": {
+      "Code": "CM503",
+      "Name": "Atmospheric Thermodynamics",
+      "Venue": "Class Room : LT 005",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Angshuman Modak"
+      ],
+      "Division": ""
+  },
+  "CH831": {
+      "Code": "CH831",
+      "Name": "Advanced Laboratory Techniques",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Kaliappan K P",
+          " Kamendra P. Sharma",
+          " Ruchi Anand",
+          " Goutam K. Lahiri"
+      ],
+      "Division": ""
+  },
+  "CL232": {
+      "Code": "CL232",
+      "Name": "Chemical Engineering Lab. I",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "L2"
+      ],
+      "Instructors": [
+          " Khakhar D.V.",
+          " Swati Bhattacharya",
+          " Amol Subhedar"
+      ],
+      "Division": ""
+  },
+  "CM504": {
+      "Code": "CM504",
+      "Name": "Monsoons and Tropical Climate",
+      "Venue": "Class Room : LT 006",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Vishal Dixit"
+      ],
+      "Division": ""
+  },
+  "CH848": {
+      "Code": "CH848",
+      "Name": "Advanced Molecular Energetics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Sandip Kar",
+          " Nand Kishore"
+      ],
+      "Division": ""
+  },
+  "CL242": {
+      "Code": "CL242",
+      "Name": "Fundamentals of Heat and Mass Transfer",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Ojus Mohan",
+          " P.Sunthar"
+      ],
+      "Division": ""
+  },
+  "CM611": {
+      "Code": "CM611",
+      "Name": "Introduction to Ocean Atmosphere Dynamics",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Raghu Murtugudde"
+      ],
+      "Division": ""
+  },
+  "CH849": {
+      "Code": "CH849",
+      "Name": "Organic Spectroscopy",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " I.N.N. Namboothiri"
+      ],
+      "Division": ""
+  },
+  "CL244-S1": {
+      "Code": "CL244-S1",
+      "Name": "Introduction to Numerical Analysis",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Santosh Noronha"
+      ],
+      "Division": "S1"
+  },
+  "CM613": {
+      "Code": "CM613",
+      "Name": "Waves and Instabilities in Geophysical Fluid Dynamics",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " S. Ravichandran  "
+      ],
+      "Division": ""
+  },
+  "CL244-S2": {
+      "Code": "CL244-S2",
+      "Name": "Introduction to Numerical Analysis",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Ratul Dasgupta"
+      ],
+      "Division": "S2"
+  },
+  "CH864": {
+      "Code": "CH864",
+      "Name": "Biopolymers",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Ruchi Anand",
+          " Kamendra P. Sharma"
+      ],
+      "Division": ""
+  },
+  "CM801": {
+      "Code": "CM801",
+      "Name": "Introduction to Risk Analysis",
+      "Venue": "Class Room : LT 005",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Subhankar Karmakar"
+      ],
+      "Division": ""
+  },
+  "CL260": {
+      "Code": "CL260",
+      "Name": "Molecular and Statistical Thermodynamics",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Adhikari J."
+      ],
+      "Division": ""
+  },
+  "CH899": {
+      "Code": "CH899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " R. B. Sunoj",
+          " Shobhna Kapoor",
+          " Ghosh Prasenjit"
+      ],
+      "Division": ""
+  },
+  "CHS802": {
+      "Code": "CHS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " A.Chowdhury",
+          " D. Maiti",
+          " R. B. Sunoj"
+      ],
+      "Division": ""
+  },
+  "CMS801": {
+      "Code": "CMS801",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Vishal Dixit"
+      ],
+      "Division": ""
+  },
+  "CL302-S1": {
+      "Code": "CL302-S1",
+      "Name": "Process Control",
+      "Venue": "",
+      "Slots": [
+          "7A"
+      ],
+      "Instructors": [
+          " Bharatkumar Suthar"
+      ],
+      "Division": "S1"
+  },
+  "CMS802": {
+      "Code": "CMS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Vishal Dixit"
+      ],
+      "Division": ""
+  },
+  "CL302-S2": {
+      "Code": "CL302-S2",
+      "Name": "Process Control",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Ravindra D. Gudi"
+      ],
+      "Division": "S2"
+  },
+  "CL306": {
+      "Code": "CL306",
+      "Name": "Chemical Processes",
+      "Venue": "Class Room : LH 101",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Vinjamur Madhu",
+          " Rahul Nabar"
+      ],
+      "Division": ""
+  },
+  "CL310-S1": {
+      "Code": "CL310-S1",
+      "Name": "Mass Transfer II",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Abhijit Majumder"
+      ],
+      "Division": "S1"
+  },
+  "CL310-S2": {
+      "Code": "CL310-S2",
+      "Name": "Mass Transfer II",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Ateeque Malani"
+      ],
+      "Division": "S2"
+  },
+  "CL325": {
+      "Code": "CL325",
+      "Name": "Chemical Reaction Engineering II",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Suresh A.K."
+      ],
+      "Division": ""
+  },
+  "CL335": {
+      "Code": "CL335",
+      "Name": "Chemical Engineering Lab. III",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "L3"
+      ],
+      "Instructors": [
+          " Mehra A.",
+          " Wangikar P.",
+          " Sameer Ralph Jadhav"
+      ],
+      "Division": ""
+  },
+  "CL407": {
+      "Code": "CL407",
+      "Name": "Process Equipment Design",
+      "Venue": "",
+      "Slots": [
+          "7A"
+      ],
+      "Instructors": [
+          " Yogendra Shastri"
+      ],
+      "Division": ""
+  },
+  "CL429": {
+      "Code": "CL429",
+      "Name": "Polymer Science and Engineering",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Nanavati Hemant"
+      ],
+      "Division": ""
+  },
+  "CL445": {
+      "Code": "CL445",
+      "Name": "Supervised learning II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Venkat Gundabala",
+          " Jason Ryan Picardo"
+      ],
+      "Division": ""
+  },
+  "CL451": {
+      "Code": "CL451",
+      "Name": "Chemical Process Design",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Sujit S. Jogwar"
+      ],
+      "Division": ""
+  },
+  "CL452": {
+      "Code": "CL452",
+      "Name": "Process Design Project",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "L3"
+      ],
+      "Instructors": [
+          " Guruswamy Kumaraswamy",
+          " Moudgalya Kannan.",
+          " Rajdip Bandyopadhyaya",
+          " Roy S.",
+          " Venkat Gundabala",
+          " Moudgalya Kannan.",
+          " Rochish Thaokar"
+      ],
+      "Division": ""
+  },
+  "CL494": {
+      "Code": "CL494",
+      "Name": "B.Tech. Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Venkat Gundabala",
+          " Jason Ryan Picardo"
+      ],
+      "Division": ""
+  },
+  "CL610": {
+      "Code": "CL610",
+      "Name": "Experimental Methods",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "L3"
+      ],
+      "Instructors": [
+          " Arindam Sarkar",
+          " Jyoti R. Seth",
+          " Partha S. Goswami"
+      ],
+      "Division": ""
+  },
+  "CL657": {
+      "Code": "CL657",
+      "Name": "Computational Flow Modelling",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Partha S. Goswami"
+      ],
+      "Division": ""
+  },
+  "CL677": {
+      "Code": "CL677",
+      "Name": "Modelling Stochastic and Turbulent Transport",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Jason Ryan Picardo"
+      ],
+      "Division": ""
+  },
+  "CL678": {
+      "Code": "CL678",
+      "Name": "Techno-Commerical Aspects of Fine Chemicals",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Rahul Nabar",
+          " Sanjay Mahajani"
+      ],
+      "Division": ""
+  },
+  "CL686": {
+      "Code": "CL686",
+      "Name": "Advanced Process Control",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Manibhushan"
+      ],
+      "Division": ""
+  },
+  "CL694": {
+      "Code": "CL694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Ratul Dasgupta",
+          " Abhijit Majumder"
+      ],
+      "Division": ""
+  },
+  "CL704": {
+      "Code": "CL704",
+      "Name": "Lecture Series",
+      "Venue": "Class Room : LT 003",
+      "Slots": [
+          "X1",
+          "X2"
+      ],
+      "Instructors": [
+          " Rochish Thaokar",
+          " Swati Bhattacharya",
+          " Bharatkumar Suthar"
+      ],
+      "Division": ""
+  },
+  "CL717": {
+      "Code": "CL717",
+      "Name": "Evolutionary Dynamics",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Supreet Saini"
+      ],
+      "Division": ""
+  },
+  "CL726": {
+      "Code": "CL726",
+      "Name": "Introduction to Genomics",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Sarika Mehra"
+      ],
+      "Division": ""
+  },
+  "CL899": {
+      "Code": "CL899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Mukta Tripathy"
+      ],
+      "Division": ""
+  },
+  "CLS802": {
+      "Code": "CLS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Partha S. Goswami"
+      ],
+      "Division": ""
+  },
+  "DH301": {
+      "Code": "DH301",
+      "Name": "Basic Epidemiology",
+      "Venue": "",
+      "Slots": [
+          "X1",
+          "X2",
+          "X3"
+      ],
+      "Instructors": [
+          " G.Ramakrishnan"
+      ],
+      "Division": ""
+  },
+  "DH301-M": {
+      "Code": "DH301-M",
+      "Name": "Basic Epidemiology",
+      "Venue": "",
+      "Slots": [
+          "X1",
+          "X2",
+          "X3"
+      ],
+      "Instructors": [
+          " G.Ramakrishnan"
+      ],
+      "Division": "M"
+  },
+  "DH304": {
+      "Code": "DH304",
+      "Name": "Economics of Health Care",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Souvik Banerjee"
+      ],
+      "Division": ""
+  },
+  "DH304-M": {
+      "Code": "DH304-M",
+      "Name": "Economics of Health Care",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Souvik Banerjee"
+      ],
+      "Division": "M"
+  },
+  "DH307": {
+      "Code": "DH307",
+      "Name": "R & D Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " G.Ramakrishnan"
+      ],
+      "Division": ""
+  },
+  "DH307-M": {
+      "Code": "DH307-M",
+      "Name": "R & D Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " G.Ramakrishnan"
+      ],
+      "Division": "M"
+  },
+  "DH602": {
+      "Code": "DH602",
+      "Name": "Machine Learning and Statistical Methods in Healthcare",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Kshitij Jadhav"
+      ],
+      "Division": ""
+  },
+  "DH602-M": {
+      "Code": "DH602-M",
+      "Name": "Machine Learning and Statistical Methods in Healthcare",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Kshitij Jadhav"
+      ],
+      "Division": "M"
+  },
+  "DH804": {
+      "Code": "DH804",
+      "Name": "Magnetic Resonance Imaging: From Physics to Physiology",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Ashutosh Kumar"
+      ],
+      "Division": ""
+  },
+  "DH804-M": {
+      "Code": "DH804-M",
+      "Name": "Magnetic Resonance Imaging: From Physics to Physiology",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Ashutosh Kumar"
+      ],
+      "Division": "M"
+  },
+  "DH805": {
+      "Code": "DH805",
+      "Name": "X-ray based Imaging in Healthcare",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A",
+          "XC",
+          "XD"
+      ],
+      "Instructors": [
+          " Bharat Aggarwal",
+          " Hari M. Varma"
+      ],
+      "Division": ""
+  },
+  "DH805-M": {
+      "Code": "DH805-M",
+      "Name": "X-ray based Imaging in Healthcare",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A",
+          "XC",
+          "XD"
+      ],
+      "Instructors": [
+          " Bharat Aggarwal",
+          " Hari M. Varma"
+      ],
+      "Division": "M"
+  },
+  "DH899": {
+      "Code": "DH899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Ambarish Kunwar"
+      ],
+      "Division": ""
+  },
+  "CS101-D1": {
+      "Code": "CS101-D1",
+      "Name": "Computer Programming and Utilization",
+      "Venue": "Class Room : LA 201",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Shivaram Kalyanakrishnan"
+      ],
+      "Division": "D1"
+  },
+  "DH899-M": {
+      "Code": "DH899-M",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Ambarish Kunwar"
+      ],
+      "Division": "M"
+  },
+  "CS101-D2": {
+      "Code": "CS101-D2",
+      "Name": "Computer Programming and Utilization",
+      "Venue": "Class Room : LA 201",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Shivaram Kalyanakrishnan"
+      ],
+      "Division": "D2"
+  },
+  "DHS801": {
+      "Code": "DHS801",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Ashutosh Kumar"
+      ],
+      "Division": ""
+  },
+  "CS104": {
+      "Code": "CS104",
+      "Name": "Software Systems Lab",
+      "Venue": "Class Room : LH 301",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Kameswari Chebrolu"
+      ],
+      "Division": ""
+  },
+  "CS207": {
+      "Code": "CS207",
+      "Name": "Discrete Structures",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Bharat Adsul"
+      ],
+      "Division": ""
+  },
+  "DS203-M": {
+      "Code": "DS203-M",
+      "Name": "Programming for Data Science",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Vinay Kulkarni"
+      ],
+      "Division": "M"
+  },
+  "CS207-M": {
+      "Code": "CS207-M",
+      "Name": "Discrete Structures",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Bharat Adsul"
+      ],
+      "Division": "M"
+  },
+  "DS303-M": {
+      "Code": "DS303-M",
+      "Name": "Introduction to Machine Learning",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Manjesh K. Hanawal"
+      ],
+      "Division": "M"
+  },
+  "DS899": {
+      "Code": "DS899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "XC"
+      ],
+      "Instructors": [
+          " Ankur Kulkarni"
+      ],
+      "Division": ""
+  },
+  "CS208": {
+      "Code": "CS208",
+      "Name": "Automata Theory and Logic",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Supratik Chakraborty"
+      ],
+      "Division": ""
+  },
+  "CS213": {
+      "Code": "CS213",
+      "Name": "Data Structures and Algorithms",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Sohoni Milind"
+      ],
+      "Division": ""
+  },
+  "CS213-M": {
+      "Code": "CS213-M",
+      "Name": "Data Structures and Algorithms",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Sohoni Milind"
+      ],
+      "Division": "M"
+  },
+  "CS217": {
+      "Code": "CS217",
+      "Name": "Artificial Intelligence and Machine Learning",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Swaprava Nath"
+      ],
+      "Division": ""
+  },
+  "CS218": {
+      "Code": "CS218",
+      "Name": "Design and Analysis of Algorithms",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Rohit Gurjar"
+      ],
+      "Division": ""
+  },
+  "CS219": {
+      "Code": "CS219",
+      "Name": "Operating Systems",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Mythili Vutukuru"
+      ],
+      "Division": ""
+  },
+  "CS236": {
+      "Code": "CS236",
+      "Name": "Operating Systems Lab",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Mythili Vutukuru"
+      ],
+      "Division": ""
+  },
+  "CS240": {
+      "Code": "CS240",
+      "Name": "Artificial Intelligence and Machine Learning (Lab)",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Swaprava Nath"
+      ],
+      "Division": ""
+  },
+  "CS302": {
+      "Code": "CS302",
+      "Name": "Implementation of Programming Languages",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Uday Khedkar"
+      ],
+      "Division": ""
+  },
+  "CS310": {
+      "Code": "CS310",
+      "Name": "Automata Theory",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Sivakumar G."
+      ],
+      "Division": ""
+  },
+  "CS310-M": {
+      "Code": "CS310-M",
+      "Name": "Automata Theory",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Sivakumar G."
+      ],
+      "Division": "M"
+  },
+  "CS316": {
+      "Code": "CS316",
+      "Name": "Implementation of Programming Languages Lab",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Uday Khedkar"
+      ],
+      "Division": ""
+  },
+  "CS317": {
+      "Code": "CS317",
+      "Name": "Database and Information Systems",
+      "Venue": "Class Room : LH 102",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " B. L. Menezes"
+      ],
+      "Division": ""
+  },
+  "CS387": {
+      "Code": "CS387",
+      "Name": "Database and Information Systems Lab",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Bhaskar Raman"
+      ],
+      "Division": ""
+  },
+  "CS396": {
+      "Code": "CS396",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Uday Khedkar",
+          " Ashutosh Kumar Gupta"
+      ],
+      "Division": ""
+  },
+  "CS406": {
+      "Code": "CS406",
+      "Name": "Cryptography and Network Security",
+      "Venue": "CC 101 : Class Room",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Manoj Prabhakaran"
+      ],
+      "Division": ""
+  },
+  "CS419": {
+      "Code": "CS419",
+      "Name": "Introducing to Machine Learning",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Abir De"
+      ],
+      "Division": ""
+  },
+  "CS419-M": {
+      "Code": "CS419-M",
+      "Name": "Introducing to Machine Learning",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Abir De"
+      ],
+      "Division": "M"
+  },
+  "CS433": {
+      "Code": "CS433",
+      "Name": "Automated Reasoning",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Ashutosh Kumar Gupta"
+      ],
+      "Division": ""
+  },
+  "CS485": {
+      "Code": "CS485",
+      "Name": "R & D Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Uday Khedkar",
+          " Ashutosh Kumar Gupta"
+      ],
+      "Division": ""
+  },
+  "CS490": {
+      "Code": "CS490",
+      "Name": "R & D Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Uday Khedkar",
+          " Ashutosh Kumar Gupta"
+      ],
+      "Division": ""
+  },
+  "CS492": {
+      "Code": "CS492",
+      "Name": "BTP I",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Uday Khedkar",
+          " Ashutosh Kumar Gupta"
+      ],
+      "Division": ""
+  },
+  "CS496": {
+      "Code": "CS496",
+      "Name": "BTP II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Uday Khedkar",
+          " Ashutosh Kumar Gupta"
+      ],
+      "Division": ""
+  },
+  "CS6004": {
+      "Code": "CS6004",
+      "Name": "Code Optimization for Object-Oriented Languages",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Manas Thakur"
+      ],
+      "Division": ""
+  },
+  "CS603": {
+      "Code": "CS603",
+      "Name": "Geometric Algorithms",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Sujoy Bhore"
+      ],
+      "Division": ""
+  },
+  "CS608": {
+      "Code": "CS608",
+      "Name": "Approximation Algorithms",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Diwan A.A."
+      ],
+      "Division": ""
+  },
+  "CS613": {
+      "Code": "CS613",
+      "Name": "Design & Implementation of Functional Programming Languages",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Sivakumar G."
+      ],
+      "Division": ""
+  },
+  "CS684": {
+      "Code": "CS684",
+      "Name": "Embedded Systems",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " K. Arya",
+          " Paritosh K. Pandya"
+      ],
+      "Division": ""
+  },
+  "CS691": {
+      "Code": "CS691",
+      "Name": "R & D Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Bhaskar Raman",
+          " Preethi Jyothi"
+      ],
+      "Division": ""
+  },
+  "CS692": {
+      "Code": "CS692",
+      "Name": "R & D Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Bhaskar Raman",
+          " Preethi Jyothi"
+      ],
+      "Division": ""
+  },
+  "CS694": {
+      "Code": "CS694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Bhaskar Raman",
+          " Preethi Jyothi"
+      ],
+      "Division": ""
+  },
+  "CS695": {
+      "Code": "CS695",
+      "Name": "Topics in Virtualization and Cloud Computing",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Purushottam Kulkarni"
+      ],
+      "Division": ""
+  },
+  "CS726": {
+      "Code": "CS726",
+      "Name": "Advanced Machine Learning",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " S. Sarawagi"
+      ],
+      "Division": ""
+  },
+  "CS728": {
+      "Code": "CS728",
+      "Name": "Organization of Web Information",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Chakrabarti Soumen"
+      ],
+      "Division": ""
+  },
+  "CS735": {
+      "Code": "CS735",
+      "Name": "Formal Models for Concurrent and Asynchronous Systems",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " S. Akshay"
+      ],
+      "Division": ""
+  },
+  "CS736": {
+      "Code": "CS736",
+      "Name": "Medical Image Computing ",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Suyash P. Awate"
+      ],
+      "Division": ""
+  },
+  "CS738": {
+      "Code": "CS738",
+      "Name": "Concepts, Algorithms and Tools for Model Checking",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Paritosh K. Pandya"
+      ],
+      "Division": ""
+  },
+  "CS745": {
+      "Code": "CS745",
+      "Name": "Principles of Data and System Security",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Virendra Singh"
+      ],
+      "Division": ""
+  },
+  "CS753": {
+      "Code": "CS753",
+      "Name": "Automatic Speech Recognition",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Preethi Jyothi"
+      ],
+      "Division": ""
+  },
+  "CS754": {
+      "Code": "CS754",
+      "Name": "Advanced Image Processing",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Ajit V. Rajwade"
+      ],
+      "Division": ""
+  },
+  "CS757": {
+      "Code": "CS757",
+      "Name": "Design and Re-engineering of Object Oriented Programs",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Joshi Rushikesh K."
+      ],
+      "Division": ""
+  },
+  "CS765": {
+      "Code": "CS765",
+      "Name": "Introduction to Blockchains, Cryptocurrencies and Smart Contracts",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Vinay J. Ribeiro"
+      ],
+      "Division": ""
+  },
+  "CS767": {
+      "Code": "CS767",
+      "Name": "Theoretical Machine Learning",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Ranade A."
+      ],
+      "Division": ""
+  },
+  "CS769": {
+      "Code": "CS769",
+      "Name": "Optimization in Machine Learning",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " G.Ramakrishnan"
+      ],
+      "Division": ""
+  },
+  "CS772": {
+      "Code": "CS772",
+      "Name": "Deep Learning for Natural Language Processing",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Bhattacharya P."
+      ],
+      "Division": ""
+  },
+  "CS778": {
+      "Code": "CS778",
+      "Name": "M.S. R&D 2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Bhaskar Raman",
+          " Preethi Jyothi"
+      ],
+      "Division": ""
+  },
+  "CS779": {
+      "Code": "CS779",
+      "Name": "Extremal Combinatorics",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Vishwanathan Sundar"
+      ],
+      "Division": ""
+  },
+  "CS784": {
+      "Code": "CS784",
+      "Name": "Image Synthesis",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Parag Chaudhuri"
+      ],
+      "Division": ""
+  },
+  "CS786": {
+      "Code": "CS786",
+      "Name": "Randomized Algorithms",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Akash Kumar"
+      ],
+      "Division": ""
+  },
+  "CS899": {
+      "Code": "CS899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "XC",
+          "XD"
+      ],
+      "Instructors": [
+          " K. Arya"
+      ],
+      "Division": ""
+  },
+  "CSS801": {
+      "Code": "CSS801",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Abir De"
+      ],
+      "Division": ""
+  },
+  "CSS802": {
+      "Code": "CSS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Abir De"
+      ],
+      "Division": ""
+  },
+  "EC101": {
+      "Code": "EC101",
+      "Name": "Economics",
+      "Venue": "Class Room : LT 305",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Haripriya Gundimeda",
+          " Neha Gupta"
+      ],
+      "Division": ""
+  },
+  "EC210": {
+      "Code": "EC210",
+      "Name": "Intermediate Microeconomics II",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Neha Gupta",
+          " Saptarshi Prosonno Ghosh"
+      ],
+      "Division": ""
+  },
+  "EC212": {
+      "Code": "EC212",
+      "Name": "Intermediate Macroeconomics II",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Surajit Bhattacharya"
+      ],
+      "Division": ""
+  },
+  "EC214": {
+      "Code": "EC214",
+      "Name": "Statistics II",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Aditi Balkrishna Chaubal"
+      ],
+      "Division": ""
+  },
+  "EC302": {
+      "Code": "EC302",
+      "Name": "International  Economics II",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Radeef Chundakkadan"
+      ],
+      "Division": ""
+  },
+  "EC304": {
+      "Code": "EC304",
+      "Name": "Development Economics II",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Subrato Banerjee",
+          " Saptarshi Prosonno Ghosh"
+      ],
+      "Division": ""
+  },
+  "EC405": {
+      "Code": "EC405",
+      "Name": "Econometrics II",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Tara S. Shaw"
+      ],
+      "Division": ""
+  },
+  "EC407": {
+      "Code": "EC407",
+      "Name": "Econometrics II Lab",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Tara S. Shaw"
+      ],
+      "Division": ""
+  },
+  "EC411": {
+      "Code": "EC411",
+      "Name": "Indian Economy",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Narayanan K."
+      ],
+      "Division": ""
+  },
+  "EC440": {
+      "Code": "EC440",
+      "Name": "Industrial Economics",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Subrato Banerjee"
+      ],
+      "Division": ""
+  },
+  "EC631": {
+      "Code": "EC631",
+      "Name": "Financial Economics",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Pooja Padhi"
+      ],
+      "Division": ""
+  },
+  "EC633": {
+      "Code": "EC633",
+      "Name": "Economtrics of Programme Evaluation",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Rama Pal"
+      ],
+      "Division": ""
+  },
+  "EC821": {
+      "Code": "EC821",
+      "Name": "Applied Econometrics",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Narayanan K.",
+          " Souvik Banerjee",
+          " Surajit Bhattacharya",
+          " Pooja Padhi"
+      ],
+      "Division": ""
+  },
+  "EE114-S1": {
+      "Code": "EE114-S1",
+      "Name": "Power Engineering - I",
+      "Venue": "Class Room : LC 301",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " M. Chandorkar"
+      ],
+      "Division": "S1"
+  },
+  "EE114-S2": {
+      "Code": "EE114-S2",
+      "Name": "Power Engineering - I",
+      "Venue": "Class Room : LC 302",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Sandeep Anand"
+      ],
+      "Division": "S2"
+  },
+  "EE204": {
+      "Code": "EE204",
+      "Name": "Analog Circuits",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " M. B. Patil"
+      ],
+      "Division": ""
+  },
+  "EE204-M": {
+      "Code": "EE204-M",
+      "Name": "Analog Circuits",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " M. B. Patil"
+      ],
+      "Division": "M"
+  },
+  "EE207-S1": {
+      "Code": "EE207-S1",
+      "Name": "Electronic Devices & Circuits",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Ashwin Tulapurkar"
+      ],
+      "Division": "S1"
+  },
+  "EE207-S2": {
+      "Code": "EE207-S2",
+      "Name": "Electronic Devices & Circuits",
+      "Venue": "Class Room : LC 201",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Dipankar Saha"
+      ],
+      "Division": "S2"
+  },
+  "EE229": {
+      "Code": "EE229",
+      "Name": "Signal Processing \u2013 I",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Kumar Appaiah"
+      ],
+      "Division": ""
+  },
+  "EE229-M": {
+      "Code": "EE229-M",
+      "Name": "Signal Processing \u2013 I",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Kumar Appaiah"
+      ],
+      "Division": "M"
+  },
+  "EE230": {
+      "Code": "EE230",
+      "Name": "Analog Lab",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sandip Mondal",
+          " Anil K.G."
+      ],
+      "Division": ""
+  },
+  "EE238-S1": {
+      "Code": "EE238-S1",
+      "Name": "Power Engineering - II",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Fernandes B.G."
+      ],
+      "Division": "S1"
+  },
+  "EE238-S2": {
+      "Code": "EE238-S2",
+      "Name": "Power Engineering - II",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Chatterjee Kishore"
+      ],
+      "Division": "S2"
+  },
+  "EE240": {
+      "Code": "EE240",
+      "Name": "Power Engineering Lab",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Agarwal Vivek",
+          " Fernandes B.G.",
+          " Kulkarni A.M.",
+          " Shiladri Chakraborty",
+          " Soman S.A.",
+          " Sandeep Anand"
+      ],
+      "Division": ""
+  },
+  "EE302-S1": {
+      "Code": "EE302-S1",
+      "Name": "Control Systems",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Pillai Harish"
+      ],
+      "Division": "S1"
+  },
+  "EE302-S2": {
+      "Code": "EE302-S2",
+      "Name": "Control Systems",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " M Belur"
+      ],
+      "Division": "S2"
+  },
+  "EE309": {
+      "Code": "EE309",
+      "Name": "Microprocessors",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Virendra Singh"
+      ],
+      "Division": ""
+  },
+  "EE325": {
+      "Code": "EE325",
+      "Name": "Probability and Random Processes",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Nikhil Karamchandani"
+      ],
+      "Division": ""
+  },
+  "EE325-M": {
+      "Code": "EE325-M",
+      "Name": "Probability and Random Processes",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Nikhil Karamchandani"
+      ],
+      "Division": "M"
+  },
+  "EE337": {
+      "Code": "EE337",
+      "Name": "Microprocessors Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "L2"
+      ],
+      "Instructors": [
+          " Nikhil Karamchandani",
+          " Patkar Sachin"
+      ],
+      "Division": ""
+  },
+  "EE338": {
+      "Code": "EE338",
+      "Name": "Digital Signal Processing",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Gadre V.M."
+      ],
+      "Division": ""
+  },
+  "EE344": {
+      "Code": "EE344",
+      "Name": "Electronic Design Lab",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "L2"
+      ],
+      "Instructors": [
+          " Anil K.G.",
+          " Anupama Kowli",
+          " M. Chandorkar",
+          " Pandey P.C.",
+          " Sandeep Anand",
+          " S. Vijayakumaran",
+          " Veeresh Vidyadhar Deshpande",
+          " V Raj Babu",
+          " J.John",
+          " Siddharth Tallur"
+      ],
+      "Division": ""
+  },
+  "EE350-S1": {
+      "Code": "EE350-S1",
+      "Name": "Technical Communication",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Debanjan Bhowmik"
+      ],
+      "Division": "S1"
+  },
+  "EE350-S2": {
+      "Code": "EE350-S2",
+      "Name": "Technical Communication",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Satish Mulleti"
+      ],
+      "Division": "S2"
+  },
+  "EE350-S3": {
+      "Code": "EE350-S3",
+      "Name": "Technical Communication",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Shiladri Chakraborty"
+      ],
+      "Division": "S3"
+  },
+  "EE350-S4": {
+      "Code": "EE350-S4",
+      "Name": "Technical Communication",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Arun Surendran"
+      ],
+      "Division": "S4"
+  },
+  "EE350-S5": {
+      "Code": "EE350-S5",
+      "Name": "Technical Communication",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Kulkarni S V"
+      ],
+      "Division": "S5"
+  },
+  "EE462": {
+      "Code": "EE462",
+      "Name": "Digital Signal Processing Software and Hardware Lab",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "LX"
+      ],
+      "Instructors": [
+          " V Raj Babu",
+          " Preeti Rao"
+      ],
+      "Division": ""
+  },
+  "EE465": {
+      "Code": "EE465",
+      "Name": "Cryptocurrency and Blockchain Technologies",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " S. Vijayakumaran"
+      ],
+      "Division": ""
+  },
+  "EE606": {
+      "Code": "EE606",
+      "Name": "Fibre Optic Communications",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Shevgaonkar R.K."
+      ],
+      "Division": ""
+  },
+  "EE6104": {
+      "Code": "EE6104",
+      "Name": "Internet of Things",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " V Raj Babu"
+      ],
+      "Division": ""
+  },
+  "EE6106": {
+      "Code": "EE6106",
+      "Name": "Online Learning and Optimisation",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Manjunath D.",
+          " Jayakrishnan Nair"
+      ],
+      "Division": ""
+  },
+  "EE615": {
+      "Code": "EE615",
+      "Name": "Control and Computational Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "L6",
+          "L1",
+          "LM",
+          "L3",
+          "LH",
+          "L2",
+          "LT",
+          "L5",
+          "LX"
+      ],
+      "Instructors": [
+          " Dwaipayan Mukherjee"
+      ],
+      "Division": ""
+  },
+  "EE619": {
+      "Code": "EE619",
+      "Name": "Radio Frequency Microelectronics Chip Design",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Rajesh H. Zele"
+      ],
+      "Division": ""
+  },
+  "EE620": {
+      "Code": "EE620",
+      "Name": "Physics of Transistors",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Sandip Mondal",
+          " Souvik Mahapatra"
+      ],
+      "Division": ""
+  },
+  "EE621": {
+      "Code": "EE621",
+      "Name": "Markov Chains and Queuing Systems",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " P.Chaporkar"
+      ],
+      "Division": ""
+  },
+  "EE622": {
+      "Code": "EE622",
+      "Name": "Optimal Control Systems",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Dwaipayan Mukherjee"
+      ],
+      "Division": ""
+  },
+  "EE636": {
+      "Code": "EE636",
+      "Name": "Matrix Computations",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Debraj Chakraborty"
+      ],
+      "Division": ""
+  },
+  "EE651": {
+      "Code": "EE651",
+      "Name": "Digital Protection of Power Systems",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Prashant Navalkar"
+      ],
+      "Division": ""
+  },
+  "EE654": {
+      "Code": "EE654",
+      "Name": "Power Electronics - II",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Anshuman Shukla"
+      ],
+      "Division": ""
+  },
+  "EE655": {
+      "Code": "EE655",
+      "Name": "Computer Aided Power System Analysis",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Anupama Kowli"
+      ],
+      "Division": ""
+  },
+  "EE656": {
+      "Code": "EE656",
+      "Name": "Electrical Machine Analysis and Control",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Fernandes B.G."
+      ],
+      "Division": ""
+  },
+  "EE672": {
+      "Code": "EE672",
+      "Name": "Microelectronics Lab",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Swaroop Ganguly",
+          " Apurba Laha"
+      ],
+      "Division": ""
+  },
+  "EE686": {
+      "Code": "EE686",
+      "Name": "H V D C Transmission",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Himanshu J. Bahirat"
+      ],
+      "Division": ""
+  },
+  "EE699": {
+      "Code": "EE699",
+      "Name": "Delta Sigma Data Converters and their Applications",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Laxmeesha Somappa"
+      ],
+      "Division": ""
+  },
+  "EE701": {
+      "Code": "EE701",
+      "Name": "Introduction to MEMS",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " S. Duttagupta"
+      ],
+      "Division": ""
+  },
+  "EE705": {
+      "Code": "EE705",
+      "Name": "V L S I Design Lab",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Patkar Sachin"
+      ],
+      "Division": ""
+  },
+  "EE706": {
+      "Code": "EE706",
+      "Name": "Communication Networks",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Gaurav S. Kasbekar"
+      ],
+      "Division": ""
+  },
+  "EE708": {
+      "Code": "EE708",
+      "Name": "Information Theory  & Coding",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " B.K.Dey"
+      ],
+      "Division": ""
+  },
+  "EE709": {
+      "Code": "EE709",
+      "Name": "Testing and Verification of VLSI Circuits",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Desai Madhav"
+      ],
+      "Division": ""
+  },
+  "EE712": {
+      "Code": "EE712",
+      "Name": "Embedded Systems Design",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B",
+          "L3"
+      ],
+      "Instructors": [
+          " Sharma Dinesh",
+          " Laxmeesha Somappa"
+      ],
+      "Division": ""
+  },
+  "EN220": {
+      "Code": "EN220",
+      "Name": "Reactions for Energy",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Asish Sarangi",
+          " M.Neergat"
+      ],
+      "Division": ""
+  },
+  "EE719": {
+      "Code": "EE719",
+      "Name": "Mixed-Signal VLSI Design",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " M.Shojaei Baghini"
+      ],
+      "Division": ""
+  },
+  "EN222": {
+      "Code": "EN222",
+      "Name": "Fluid Mechanics and Heat Transfer",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Manaswita Bose"
+      ],
+      "Division": ""
+  },
+  "EE722": {
+      "Code": "EE722",
+      "Name": "Restructured Power Systems",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Soman S.A."
+      ],
+      "Division": ""
+  },
+  "EN224": {
+      "Code": "EN224",
+      "Name": "Electrical Networks and Machines Lab",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Ravi Prakash Reddy Siddavatam",
+          " Venkatramanan D."
+      ],
+      "Division": ""
+  },
+  "EE724": {
+      "Code": "EE724",
+      "Name": "Nanoelectronics",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Udayan Ganguli"
+      ],
+      "Division": ""
+  },
+  "EN226": {
+      "Code": "EN226",
+      "Name": "Energy Conversion Lab",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Sandeep Kumar"
+      ],
+      "Division": ""
+  },
+  "EE728": {
+      "Code": "EE728",
+      "Name": "Growth and Characterization of Nano-electronic Materials",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Apurba Laha"
+      ],
+      "Division": ""
+  },
+  "EN301": {
+      "Code": "EN301",
+      "Name": "Introduction to Renewable Energy Technologies",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " K.R. Balasubramaniam"
+      ],
+      "Division": ""
+  },
+  "EN302": {
+      "Code": "EN302",
+      "Name": "Power Generation and System Planning",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Seethamraju Srinivas"
+      ],
+      "Division": ""
+  },
+  "EE734": {
+      "Code": "EE734",
+      "Name": "Advanced Probability and Random Processes for Engineers",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Vivek S. Borkar"
+      ],
+      "Division": ""
+  },
+  "EN304": {
+      "Code": "EN304",
+      "Name": "Electrical Energy Systems",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Zakir H. Rather"
+      ],
+      "Division": ""
+  },
+  "EE739": {
+      "Code": "EE739",
+      "Name": "Processor Design",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Virendra Singh"
+      ],
+      "Division": ""
+  },
+  "EN308": {
+      "Code": "EN308",
+      "Name": "Solar Energy Lab",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Anish Modi"
+      ],
+      "Division": ""
+  },
+  "EE747": {
+      "Code": "EE747",
+      "Name": "Simulation of Power System Transients",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Kulkarni A.M."
+      ],
+      "Division": ""
+  },
+  "EN310": {
+      "Code": "EN310",
+      "Name": "IC Engine and Combustion Lab",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Asish Sarangi"
+      ],
+      "Division": ""
+  },
+  "EE755": {
+      "Code": "EE755",
+      "Name": "Quantum Transport in Nanoscale Devices",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Bhaskaran Muralidharan"
+      ],
+      "Division": ""
+  },
+  "EN312": {
+      "Code": "EN312",
+      "Name": "Control & Instrumentation",
+      "Venue": "",
+      "Slots": [
+          "7A"
+      ],
+      "Instructors": [
+          " D. Suryanarayana",
+          " Venkatramanan D."
+      ],
+      "Division": ""
+  },
+  "EE761": {
+      "Code": "EE761",
+      "Name": "Advanced Concentration Inequalities",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Sharayu Moharir"
+      ],
+      "Division": ""
+  },
+  "EE764": {
+      "Code": "EE764",
+      "Name": "Wireless & Mobile Communication",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Sibi Raj B. Pillai"
+      ],
+      "Division": ""
+  },
+  "EN313": {
+      "Code": "EN313",
+      "Name": "Power Electronics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Ravi Prakash Reddy Siddavatam"
+      ],
+      "Division": ""
+  },
+  "EE767": {
+      "Code": "EE767",
+      "Name": "Photonics System Engineering",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Arun Surendran"
+      ],
+      "Division": ""
+  },
+  "EN314": {
+      "Code": "EN314",
+      "Name": "Electrochemistry",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Sagar Mitra"
+      ],
+      "Division": ""
+  },
+  "EE769": {
+      "Code": "EE769",
+      "Name": "Introduction to Machine Learning",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Amit Sethi"
+      ],
+      "Division": ""
+  },
+  "EN408": {
+      "Code": "EN408",
+      "Name": "Energy design project",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Rajesh Gupta"
+      ],
+      "Division": ""
+  },
+  "EE770": {
+      "Code": "EE770",
+      "Name": "Design and Evaluation of Photovoltaic Power Plants",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Narendra Shiradkar"
+      ],
+      "Division": ""
+  },
+  "EN410": {
+      "Code": "EN410",
+      "Name": "Energy Management",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Gurubalan Annadurai"
+      ],
+      "Division": ""
+  },
+  "EN412": {
+      "Code": "EN412",
+      "Name": "Thermodynamics and Statistical Mechanics",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Lalit Kumar"
+      ],
+      "Division": ""
+  },
+  "EE774": {
+      "Code": "EE774",
+      "Name": "Computational Techniques in Electrical Engineering",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Kumar Appaiah"
+      ],
+      "Division": ""
+  },
+  "EN414": {
+      "Code": "EN414",
+      "Name": "Methods in Analytical Techniques",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Sankara Sarma V. Tatiparti"
+      ],
+      "Division": ""
+  },
+  "EE779": {
+      "Code": "EE779",
+      "Name": "Advanced Topics in Signal Processing",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Satish Mulleti"
+      ],
+      "Division": ""
+  },
+  "EN418": {
+      "Code": "EN418",
+      "Name": "Introduction to Transport Phenomena",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Venkatasailanathan Ramadesigan"
+      ],
+      "Division": ""
+  },
+  "EE780": {
+      "Code": "EE780",
+      "Name": "Terahertz : Technology & Applications",
+      "Venue": "",
+      "Slots": [
+          "15B",
+          "15A"
+      ],
+      "Instructors": [
+          " Kushal R. Tuckley"
+      ],
+      "Division": ""
+  },
+  "EN422": {
+      "Code": "EN422",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Karthik Sasihithlu"
+      ],
+      "Division": ""
+  },
+  "EE790": {
+      "Code": "EE790",
+      "Name": "Solar Photovoltaics: Photons to Farms",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Pradeep R. Nair"
+      ],
+      "Division": ""
+  },
+  "EN594": {
+      "Code": "EN594",
+      "Name": "Dual Degree Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Asish Sarangi",
+          " Kedare S B"
+      ],
+      "Division": ""
+  },
+  "EE791": {
+      "Code": "EE791",
+      "Name": "Power Electronic Converters for Renewable Energy",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Agarwal Vivek"
+      ],
+      "Division": ""
+  },
+  "EN604": {
+      "Code": "EN604",
+      "Name": "Fuel Cells",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Dayadeep S. Monder"
+      ],
+      "Division": ""
+  },
+  "EE793": {
+      "Code": "EE793",
+      "Name": "Topics in Cryptology",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Virendra Singh"
+      ],
+      "Division": ""
+  },
+  "EN607": {
+      "Code": "EN607",
+      "Name": "Energy Management",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Gurubalan Annadurai"
+      ],
+      "Division": ""
+  },
+  "EN610": {
+      "Code": "EN610",
+      "Name": "Hydrogen Energy",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Pratibha Sharma"
+      ],
+      "Division": ""
+  },
+  "EE799": {
+      "Code": "EE799",
+      "Name": "Advanced Antennas",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " J.Mukherjee"
+      ],
+      "Division": ""
+  },
+  "EE801": {
+      "Code": "EE801",
+      "Name": "Introduction to Quantum Engineering",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Kasturi Saha"
+      ],
+      "Division": ""
+  },
+  "EN612": {
+      "Code": "EN612",
+      "Name": "Non-conventional Energy Systems Lab.",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Rajesh Gupta"
+      ],
+      "Division": ""
+  },
+  "EN613": {
+      "Code": "EN613",
+      "Name": "Nuclear Reactor Theory",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Suneet Singh"
+      ],
+      "Division": ""
+  },
+  "EN615": {
+      "Code": "EN615",
+      "Name": "Wind Energy Conversion Systems",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Kedare S B"
+      ],
+      "Division": ""
+  },
+  "EN630": {
+      "Code": "EN630",
+      "Name": "Utilisation of Solar Thermal Energy",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Anish Modi"
+      ],
+      "Division": ""
+  },
+  "EN640": {
+      "Code": "EN640",
+      "Name": "Solar Photovoltaic, Fundamentals, Technologies and Applications",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Shaibal Sarkar"
+      ],
+      "Division": ""
+  },
+  "EN642": {
+      "Code": "EN642",
+      "Name": "Power Generation and Systems Planning",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Seethamraju Srinivas"
+      ],
+      "Division": ""
+  },
+  "EN645": {
+      "Code": "EN645",
+      "Name": "Process Integration",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Bandyopadhyay Santanu"
+      ],
+      "Division": ""
+  },
+  "EN659": {
+      "Code": "EN659",
+      "Name": "Energy Efficient Industrial Drives",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " V.S.S. Pavan Kumar Hari"
+      ],
+      "Division": ""
+  },
+  "EN661": {
+      "Code": "EN661",
+      "Name": "Micro and Nanoscale Energy Transport",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Karthik Sasihithlu"
+      ],
+      "Division": ""
+  },
+  "EN692": {
+      "Code": "EN692",
+      "Name": "M.Sc.-Ph.D. Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sagar Mitra"
+      ],
+      "Division": ""
+  },
+  "EN798": {
+      "Code": "EN798",
+      "Name": "II Stage Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Lalit Kumar"
+      ],
+      "Division": ""
+  },
+  "EN899": {
+      "Code": "EN899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " P.C.Ghosh"
+      ],
+      "Division": ""
+  },
+  "ENT101": {
+      "Code": "ENT101",
+      "Name": "Introduction to Innovation & Entrepreneurship",
+      "Venue": "Class Room : LA 202",
+      "Slots": [
+          "3B",
+          "5A"
+      ],
+      "Instructors": [
+          " B.K.Chakravarthy",
+          " Ramesh Mangaleswaran",
+          " Anuradha Narasimhan"
+      ],
+      "Division": ""
+  },
+  "ENT602": {
+      "Code": "ENT602",
+      "Name": "Technology Venture Creation",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Milind Kopikare",
+          " Sankalp Pratap"
+      ],
+      "Division": ""
+  },
+  "ENT602-M": {
+      "Code": "ENT602-M",
+      "Name": "Technology Venture Creation",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Milind Kopikare",
+          " Sankalp Pratap"
+      ],
+      "Division": "M"
+  },
+  "ENT605": {
+      "Code": "ENT605",
+      "Name": "Business Fundamentals for Technopreneurs",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Devdip Purkayastha"
+      ],
+      "Division": ""
+  },
+  "ENT605-M": {
+      "Code": "ENT605-M",
+      "Name": "Business Fundamentals for Technopreneurs",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Devdip Purkayastha"
+      ],
+      "Division": "M"
+  },
+  "ENT610": {
+      "Code": "ENT610",
+      "Name": "Managing Innovation and IP for Entrepreneurs",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Anuradha Narasimhan",
+          " Rajkumar R. Hirwani",
+          " Vinay Dabholkar"
+      ],
+      "Division": ""
+  },
+  "ENT610-M": {
+      "Code": "ENT610-M",
+      "Name": "Managing Innovation and IP for Entrepreneurs",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Anuradha Narasimhan",
+          " Rajkumar R. Hirwani",
+          " Vinay Dabholkar"
+      ],
+      "Division": "M"
+  },
+  "ENT612": {
+      "Code": "ENT612",
+      "Name": "Field Immersion for Researchers and Entrepreneurs",
+      "Venue": "",
+      "Slots": [
+          "X1",
+          "X2",
+          "X3"
+      ],
+      "Instructors": [
+          " Sankalp Pratap"
+      ],
+      "Division": ""
+  },
+  "ENT612-M": {
+      "Code": "ENT612-M",
+      "Name": "Field Immersion for Researchers and Entrepreneurs",
+      "Venue": "",
+      "Slots": [
+          "X1",
+          "X2",
+          "X3"
+      ],
+      "Instructors": [
+          " Sankalp Pratap"
+      ],
+      "Division": "M"
+  },
+  "ENT613": {
+      "Code": "ENT613",
+      "Name": "Social Enterprises & Inclusive Business",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Devdip Purkayastha",
+          " Ramesh Mangaleswaran"
+      ],
+      "Division": ""
+  },
+  "ENT613-M": {
+      "Code": "ENT613-M",
+      "Name": "Social Enterprises & Inclusive Business",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Devdip Purkayastha",
+          " Ramesh Mangaleswaran"
+      ],
+      "Division": "M"
+  },
+  "ES200": {
+      "Code": "ES200",
+      "Name": "Environmental Studies: Science and Engineering",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Amritanshu Shriwastav",
+          " Venkata Sai Vamsi Botlaguduru",
+          " Virendra Sethi"
+      ],
+      "Division": ""
+  },
+  "ES203": {
+      "Code": "ES203",
+      "Name": "Water and Wastewater Engineering",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Abhishek Chakraborty",
+          " Anurag Garg"
+      ],
+      "Division": ""
+  },
+  "ES204": {
+      "Code": "ES204",
+      "Name": "Environmental Chemistry",
+      "Venue": "Class Room : LT 306",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Harish C. Phuleria"
+      ],
+      "Division": ""
+  },
+  "ES204-M": {
+      "Code": "ES204-M",
+      "Name": "Environmental Chemistry",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Tabish Nawaz"
+      ],
+      "Division": "M"
+  },
+  "ES208": {
+      "Code": "ES208",
+      "Name": "Mass Transfer Process in Environmental Systems",
+      "Venue": "",
+      "Slots": [
+          "9B",
+          "2B",
+          "3B"
+      ],
+      "Instructors": [
+          " Suparna Mukherji"
+      ],
+      "Division": ""
+  },
+  "ES250": {
+      "Code": "ES250",
+      "Name": "Environmental Studies : Science and Engineering",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Amritanshu Shriwastav",
+          " Venkata Sai Vamsi Botlaguduru",
+          " Virendra Sethi"
+      ],
+      "Division": ""
+  },
+  "ES252": {
+      "Code": "ES252",
+      "Name": "Environmental Chemistry Lab ",
+      "Venue": "Chemistry Lab",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Amritanshu Shriwastav"
+      ],
+      "Division": ""
+  },
+  "ES302": {
+      "Code": "ES302",
+      "Name": "Environmental Biotechnology",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Indrajit Chakraborty",
+          " Swatantra Pratap Singh"
+      ],
+      "Division": ""
+  },
+  "ES306-M": {
+      "Code": "ES306-M",
+      "Name": "Environment Systems Modeling",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " A.K.Dikshit"
+      ],
+      "Division": "M"
+  },
+  "ES308": {
+      "Code": "ES308",
+      "Name": "Solid and Hazardous Waste Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Munish Kumar Chandel"
+      ],
+      "Division": ""
+  },
+  "ES312": {
+      "Code": "ES312",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Manoranjan Sahu"
+      ],
+      "Division": ""
+  },
+  "ES319": {
+      "Code": "ES319",
+      "Name": "Computational Laboratory for Environmental Engineering",
+      "Venue": "CESE Computer Lab",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Indrajit Chakraborty"
+      ],
+      "Division": ""
+  },
+  "ES404": {
+      "Code": "ES404",
+      "Name": "Planning and Design of Environmental Engineering Facilities",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "2A",
+          "2B"
+      ],
+      "Instructors": [
+          " Sanjeev Chaudhari"
+      ],
+      "Division": ""
+  },
+  "ES458-M": {
+      "Code": "ES458-M",
+      "Name": "Environmental Change and Sustainable Development",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Indrajit Chakraborty",
+          " S.R.Asolekar",
+          " Abhishek Chakraborty"
+      ],
+      "Division": "M"
+  },
+  "ES493": {
+      "Code": "ES493",
+      "Name": "MSc-PhD Project I",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Abhishek Chakraborty",
+          " Swatantra Pratap Singh"
+      ],
+      "Division": ""
+  },
+  "ES495": {
+      "Code": "ES495",
+      "Name": "MSc-PhD Project III",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Abhishek Chakraborty",
+          " Swatantra Pratap Singh"
+      ],
+      "Division": ""
+  },
+  "ES600": {
+      "Code": "ES600",
+      "Name": "Environmental Science and Engineering",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Subhankar Karmakar",
+          " Abhishek Chakraborty"
+      ],
+      "Division": ""
+  },
+  "ES616": {
+      "Code": "ES616",
+      "Name": "Energy Conversion and Environment",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Munish Kumar Chandel",
+          " Virendra Sethi"
+      ],
+      "Division": ""
+  },
+  "ES624": {
+      "Code": "ES624",
+      "Name": "Hazardous Waste Management",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Renuka Verma",
+          " Munish Kumar Chandel"
+      ],
+      "Division": ""
+  },
+  "ES642": {
+      "Code": "ES642",
+      "Name": "Industrial Wastewater Management and Reuse",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Renuka Verma",
+          " Anurag Garg"
+      ],
+      "Division": ""
+  },
+  "ES654": {
+      "Code": "ES654",
+      "Name": "Groundwater Flow & Contaminant Transport through Porous Media",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Venkata Sai Vamsi Botlaguduru"
+      ],
+      "Division": ""
+  },
+  "ES658": {
+      "Code": "ES658",
+      "Name": "Environmental Change and Sustainable Development",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Abhishek Chakraborty",
+          " Indrajit Chakraborty",
+          " S.R.Asolekar"
+      ],
+      "Division": ""
+  },
+  "ES664": {
+      "Code": "ES664",
+      "Name": "Environmental Systems Modelling",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " A.K.Dikshit"
+      ],
+      "Division": ""
+  },
+  "ES666": {
+      "Code": "ES666",
+      "Name": "Biological Treatment Technologies",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Amritanshu Shriwastav",
+          " Suparna Mukherji"
+      ],
+      "Division": ""
+  },
+  "ES668": {
+      "Code": "ES668",
+      "Name": "Environmental Computation Laboratory",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Venkata Sai Vamsi Botlaguduru"
+      ],
+      "Division": ""
+  },
+  "ES670": {
+      "Code": "ES670",
+      "Name": "Environmental Statistics",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Harish C. Phuleria",
+          " Manoranjan Sahu"
+      ],
+      "Division": ""
+  },
+  "ES672": {
+      "Code": "ES672",
+      "Name": "Air Pollution Control Technologies",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "7A"
+      ],
+      "Instructors": [
+          " Manoranjan Sahu"
+      ],
+      "Division": ""
+  },
+  "ES674": {
+      "Code": "ES674",
+      "Name": "Aerosol Science and Engineering",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Abhishek Chakraborty",
+          " Srinidhi Balasubramanian"
+      ],
+      "Division": ""
+  },
+  "ES676": {
+      "Code": "ES676",
+      "Name": "Membrane Processes",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Swatantra Pratap Singh"
+      ],
+      "Division": ""
+  },
+  "ES680": {
+      "Code": "ES680",
+      "Name": "GIS for Environmental Planning and Management",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " A.K.Dikshit",
+          " Srinidhi Balasubramanian"
+      ],
+      "Division": ""
+  },
+  "ES682": {
+      "Code": "ES682",
+      "Name": "Numerical Methods for Environmental Systems",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Amritanshu Shriwastav",
+          " Tabish Nawaz"
+      ],
+      "Division": ""
+  },
+  "ES684": {
+      "Code": "ES684",
+      "Name": "Design of Water and Wastewater Systems",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Sanjeev Chaudhari"
+      ],
+      "Division": ""
+  },
+  "ES798": {
+      "Code": "ES798",
+      "Name": "II Stage Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Manoranjan Sahu",
+          " Munish Kumar Chandel"
+      ],
+      "Division": ""
+  },
+  "ESS801": {
+      "Code": "ESS801",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Tabish Nawaz",
+          " Swatantra Pratap Singh"
+      ],
+      "Division": ""
+  },
+  "ET604": {
+      "Code": "ET604",
+      "Name": "Research Methods in Educational Technology",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " S. R. Iyer"
+      ],
+      "Division": ""
+  },
+  "ET605": {
+      "Code": "ET605",
+      "Name": "Adaptive Tutoring Systems",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " S. R. Iyer",
+          " Ramkumar Rajendran"
+      ],
+      "Division": ""
+  },
+  "ET611": {
+      "Code": "ET611",
+      "Name": "Learning Sciences",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Sahana Murthy"
+      ],
+      "Division": ""
+  },
+  "ET614": {
+      "Code": "ET614",
+      "Name": "Instructional Systems Design",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Syaamantak Das"
+      ],
+      "Division": ""
+  },
+  "ET616": {
+      "Code": "ET616",
+      "Name": "Multimodal Data Analysis",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Ritayan Mitra"
+      ],
+      "Division": ""
+  },
+  "ET623": {
+      "Code": "ET623",
+      "Name": "Learning Analytics",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Ramkumar Rajendran"
+      ],
+      "Division": ""
+  },
+  "ET694": {
+      "Code": "ET694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Ramkumar Rajendran"
+      ],
+      "Division": ""
+  },
+  "ET798": {
+      "Code": "ET798",
+      "Name": "II Stage Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Ramkumar Rajendran"
+      ],
+      "Division": ""
+  },
+  "ETS801": {
+      "Code": "ETS801",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Ramkumar Rajendran"
+      ],
+      "Division": ""
+  },
+  "GNR402": {
+      "Code": "GNR402",
+      "Name": "Introduction to Geographic Information Systems",
+      "Venue": "Class Room : LT 201",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Surya Durbha"
+      ],
+      "Division": ""
+  },
+  "GNR402-M": {
+      "Code": "GNR402-M",
+      "Name": "Introduction to Geographic Information Systems",
+      "Venue": "Class Room : LT 201",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Surya Durbha"
+      ],
+      "Division": "M"
+  },
+  "GNR406-M": {
+      "Code": "GNR406-M",
+      "Name": "Geoinformatics Lab",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Mohan B.Krishna"
+      ],
+      "Division": "M"
+  },
+  "GNR408-M": {
+      "Code": "GNR408-M",
+      "Name": "Mini Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Mohan B.Krishna"
+      ],
+      "Division": "M"
+  },
+  "GNR410-M": {
+      "Code": "GNR410-M",
+      "Name": "Digital Photogrammetry and GPS",
+      "Venue": "Class Room : LC 201",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Gedam S.S."
+      ],
+      "Division": "M"
+  },
+  "GNR602": {
+      "Code": "GNR602",
+      "Name": "Advanced Methods in Satellite Image Processing",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Mohan B.Krishna"
+      ],
+      "Division": ""
+  },
+  "GNR618": {
+      "Code": "GNR618",
+      "Name": "Remote Sensing and GIS Applications to Cryosphere",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Gulab Singh"
+      ],
+      "Division": ""
+  },
+  "GNR628": {
+      "Code": "GNR628",
+      "Name": "Planetary Spectroscopy and Remote Sensing",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Alok Porwal"
+      ],
+      "Division": ""
+  },
+  "GNR629": {
+      "Code": "GNR629",
+      "Name": "Advances in Geospatial Standards, Interoperability and Knowledge Discovery",
+      "Venue": "Class Room : LT 102",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Surya Durbha"
+      ],
+      "Division": ""
+  },
+  "GNR630": {
+      "Code": "GNR630",
+      "Name": "Introduction to Geospatial Technologies",
+      "Venue": "Class Room : LT 104",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Gedam S.S.",
+          " Mohan B.Krishna"
+      ],
+      "Division": ""
+  },
+  "GNR631": {
+      "Code": "GNR631",
+      "Name": "Rural Informatics",
+      "Venue": "Class Room : LT 105",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Adinarayana J."
+      ],
+      "Division": ""
+  },
+  "GNR633": {
+      "Code": "GNR633",
+      "Name": "Remote Sensing and GIS Applications to Mineral and Hydrocarbon Exploration",
+      "Venue": "Class Room : LT 101",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Alok Porwal"
+      ],
+      "Division": ""
+  },
+  "GNR638": {
+      "Code": "GNR638",
+      "Name": "Machine Learning for Remote Sensing - II",
+      "Venue": "",
+      "Slots": [
+          "15B",
+          "15A"
+      ],
+      "Instructors": [
+          " Biplab Banerjee"
+      ],
+      "Division": ""
+  },
+  "GNR640": {
+      "Code": "GNR640",
+      "Name": "Geospatial Statistics",
+      "Venue": "Class Room : LT 102",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Karthikeyan Lanka"
+      ],
+      "Division": ""
+  },
+  "GNR644": {
+      "Code": "GNR644",
+      "Name": "Remote Sensing of Surface Water Resources",
+      "Venue": "Class Room : LT 103",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Karthikeyan Lanka"
+      ],
+      "Division": ""
+  },
+  "GNR647": {
+      "Code": "GNR647",
+      "Name": "Microwave Remote Sensing",
+      "Venue": "Class Room : LT 101",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Avik Bhattacharya",
+          " Rao Y.S."
+      ],
+      "Division": ""
+  },
+  "GNR649": {
+      "Code": "GNR649",
+      "Name": "Planetary Sciences: Earth and Beyond",
+      "Venue": "Class Room : LA 002",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Deepak Singh"
+      ],
+      "Division": ""
+  },
+  "GNR651": {
+      "Code": "GNR651",
+      "Name": "Digital Photogrammetry and Cartography",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Gedam S.S."
+      ],
+      "Division": ""
+  },
+  "GNR694": {
+      "Code": "GNR694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Deepak Singh"
+      ],
+      "Division": ""
+  },
+  "GNR697": {
+      "Code": "GNR697",
+      "Name": "R & D Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Alok Porwal"
+      ],
+      "Division": ""
+  },
+  "GNR798": {
+      "Code": "GNR798",
+      "Name": "II Stage Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Avik Bhattacharya"
+      ],
+      "Division": ""
+  },
+  "GNR899": {
+      "Code": "GNR899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Avik Bhattacharya",
+          " Deepak Singh",
+          " Mohan B.Krishna"
+      ],
+      "Division": ""
+  },
+  "GNRS02": {
+      "Code": "GNRS02",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Karthikeyan Lanka"
+      ],
+      "Division": ""
+  },
+  "GP402": {
+      "Code": "GP402",
+      "Name": "Gravity and Magnetic Methods",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Srinivasa Rao Gangumalla"
+      ],
+      "Division": ""
+  },
+  "GP408": {
+      "Code": "GP408",
+      "Name": "Gravity and Magnetic Lab",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " M. Radhakrishna"
+      ],
+      "Division": ""
+  },
+  "GP414": {
+      "Code": "GP414",
+      "Name": "Electrical Methods",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Anand Singh"
+      ],
+      "Division": ""
+  },
+  "GP416": {
+      "Code": "GP416",
+      "Name": "Structural Geology & Stratigraphy",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Nibedita Rakshit",
+          " Soumyajit Mukherjee"
+      ],
+      "Division": ""
+  },
+  "GP418": {
+      "Code": "GP418",
+      "Name": "Exploration Seismology I",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Bharath C. Shekar"
+      ],
+      "Division": ""
+  },
+  "GP420": {
+      "Code": "GP420",
+      "Name": "Structural Geology & Stratigraphy Lab",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Nibedita Rakshit",
+          " Soumyajit Mukherjee"
+      ],
+      "Division": ""
+  },
+  "GP422": {
+      "Code": "GP422",
+      "Name": "Geological Field Work",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Bivin Geo George",
+          " Prabhakar Naraga"
+      ],
+      "Division": ""
+  },
+  "GP502": {
+      "Code": "GP502",
+      "Name": "Well Logging",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Mohan G."
+      ],
+      "Division": ""
+  },
+  "GP506": {
+      "Code": "GP506",
+      "Name": "Geophysical Inverse Theory",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Satish Maurya"
+      ],
+      "Division": ""
+  },
+  "GP516": {
+      "Code": "GP516",
+      "Name": "Petroleum Geology and Petrophysics",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Kumar Hemant Singh"
+      ],
+      "Division": ""
+  },
+  "GP518": {
+      "Code": "GP518",
+      "Name": "Process Geomorphology, Remote Sensing and GIS",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " D. Ramakrishnan"
+      ],
+      "Division": ""
+  },
+  "GP520": {
+      "Code": "GP520",
+      "Name": "Project Work",
+      "Venue": "",
+      "Slots": [
+          "7B",
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Bharath C. Shekar"
+      ],
+      "Division": ""
+  },
+  "GS318-S1": {
+      "Code": "GS318-S1",
+      "Name": "Applied Geology for Civil Engineers",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "XC"
+      ],
+      "Instructors": [
+          " Sameer Ranjan",
+          " Vikram Vishal"
+      ],
+      "Division": "S1"
+  },
+  "GS318-S2": {
+      "Code": "GS318-S2",
+      "Name": "Applied Geology for Civil Engineers",
+      "Venue": "",
+      "Slots": [
+          "L3",
+          "XC"
+      ],
+      "Instructors": [
+          " Sameer Ranjan",
+          " Vikram Vishal"
+      ],
+      "Division": "S2"
+  },
+  "GS416": {
+      "Code": "GS416",
+      "Name": "Petrology Lab",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Banerjee Santanu",
+          " Prabhakar Naraga",
+          " Sheth C Hetu"
+      ],
+      "Division": ""
+  },
+  "GS422": {
+      "Code": "GS422",
+      "Name": "Geomorphology, Remote Sensing & GIS",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " D. Ramakrishnan"
+      ],
+      "Division": ""
+  },
+  "GS430": {
+      "Code": "GS430",
+      "Name": "Metamorphic Petrology",
+      "Venue": "",
+      "Slots": [
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Prabhakar Naraga"
+      ],
+      "Division": ""
+  },
+  "GS434": {
+      "Code": "GS434",
+      "Name": "Igneous Petrology and Volcanology",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Sheth C Hetu"
+      ],
+      "Division": ""
+  },
+  "GS436": {
+      "Code": "GS436",
+      "Name": "Sedimentlogy ",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Sudipta Dasgupta",
+          " Banerjee Santanu"
+      ],
+      "Division": ""
+  },
+  "GS438": {
+      "Code": "GS438",
+      "Name": "Economic and Mining Geology",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "2C",
+          "5A"
+      ],
+      "Instructors": [
+          " Sakthi Saravanan Chinnasamy"
+      ],
+      "Division": ""
+  },
+  "GS440": {
+      "Code": "GS440",
+      "Name": "Geomorphology, Remote Sensing and GIS lab",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " D. Ramakrishnan"
+      ],
+      "Division": ""
+  },
+  "GS450": {
+      "Code": "GS450",
+      "Name": "Geological field work",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Sudipta Dasgupta",
+          " Malay Mukul"
+      ],
+      "Division": ""
+  },
+  "GS530": {
+      "Code": "GS530",
+      "Name": "Micropalaeontology",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Jahnavi Punekar"
+      ],
+      "Division": ""
+  },
+  "GS534": {
+      "Code": "GS534",
+      "Name": "Tectonics and Crustal Evolution",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Malay Mukul"
+      ],
+      "Division": ""
+  },
+  "GS536": {
+      "Code": "GS536",
+      "Name": "Nuclear Geology and Geochemical Prospecting",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Sameer Ranjan",
+          " Mathew George"
+      ],
+      "Division": ""
+  },
+  "GS538": {
+      "Code": "GS538",
+      "Name": "Petroleum and Coal Geology",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Suryendu Dutta"
+      ],
+      "Division": ""
+  },
+  "GS540": {
+      "Code": "GS540",
+      "Name": "Climate Geology",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Bivin Geo George"
+      ],
+      "Division": ""
+  },
+  "GS542": {
+      "Code": "GS542",
+      "Name": "Isotope Geology",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Bivin Geo George",
+          " Sameer Ranjan"
+      ],
+      "Division": ""
+  },
+  "GS545": {
+      "Code": "GS545",
+      "Name": "Elements of Vertebrate Palaeontology",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Nibedita Rakshit"
+      ],
+      "Division": ""
+  },
+  "GS552": {
+      "Code": "GS552",
+      "Name": "Geological Project",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A",
+          "7A"
+      ],
+      "Instructors": [
+          " Prabhakar Naraga"
+      ],
+      "Division": ""
+  },
+  "GS662": {
+      "Code": "GS662",
+      "Name": "Petroliferous basins of India",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Nibedita Rakshit",
+          " Sudipta Dasgupta"
+      ],
+      "Division": ""
+  },
+  "GS668": {
+      "Code": "GS668",
+      "Name": "Nonlinear and Adaptive Data Analysis Techniques",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " E. Chandrasekhar"
+      ],
+      "Division": ""
+  },
+  "GS672": {
+      "Code": "GS672",
+      "Name": "Reservoir Sedimentology",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Sudipta Dasgupta",
+          " Banerjee Santanu"
+      ],
+      "Division": ""
+  },
+  "GS676": {
+      "Code": "GS676",
+      "Name": "Well Logging",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Mohan G."
+      ],
+      "Division": ""
+  },
+  "GS682": {
+      "Code": "GS682",
+      "Name": "Industrial Mineralogy",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Mathew George"
+      ],
+      "Division": ""
+  },
+  "GS706": {
+      "Code": "GS706",
+      "Name": "Petrophysics ",
+      "Venue": "",
+      "Slots": [
+          "7B",
+          "7A",
+          "X1"
+      ],
+      "Instructors": [
+          " Kumar Hemant Singh"
+      ],
+      "Division": ""
+  },
+  "GS707": {
+      "Code": "GS707",
+      "Name": "Ore Fluid Geochemistry",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Patel S.C."
+      ],
+      "Division": ""
+  },
+  "GS710": {
+      "Code": "GS710",
+      "Name": "Geochemical Analysis and Instrumentation",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Patel S.C."
+      ],
+      "Division": ""
+  },
+  "GS814": {
+      "Code": "GS814",
+      "Name": "Topics in Isotope Geology",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Bivin Geo George",
+          " Sameer Ranjan"
+      ],
+      "Division": ""
+  },
+  "GS816": {
+      "Code": "GS816",
+      "Name": "Spectroscopic Methods in Earth Sciences",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Mathew George"
+      ],
+      "Division": ""
+  },
+  "GSS802": {
+      "Code": "GSS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Jahnavi Punekar"
+      ],
+      "Division": ""
+  },
+  "HS110-S1": {
+      "Code": "HS110-S1",
+      "Name": "Introduction to Psychology",
+      "Venue": "Class Room : LC 301",
+      "Slots": [
+          "3B",
+          "5A"
+      ],
+      "Instructors": [
+          " Pooja Purang"
+      ],
+      "Division": "S1"
+  },
+  "HS110-S2": {
+      "Code": "HS110-S2",
+      "Name": "Introduction to Psychology",
+      "Venue": "Class Room : LC 301",
+      "Slots": [
+          "3C",
+          "X3"
+      ],
+      "Instructors": [
+          " Rashmi Gupta"
+      ],
+      "Division": "S2"
+  },
+  "HS112-S1": {
+      "Code": "HS112-S1",
+      "Name": "Introduction to the Arts",
+      "Venue": "Class Room : LC 302",
+      "Slots": [
+          "3B",
+          "5A"
+      ],
+      "Instructors": [
+          " A.P. Rajaram  "
+      ],
+      "Division": "S1"
+  },
+  "HS112-S2": {
+      "Code": "HS112-S2",
+      "Name": "Introduction to the Arts",
+      "Venue": "Class Room : LC 302",
+      "Slots": [
+          "3C",
+          "X3"
+      ],
+      "Instructors": [
+          " Sharmistha Saha"
+      ],
+      "Division": "S2"
+  },
+  "HS200": {
+      "Code": "HS200",
+      "Name": "Environmental Studies",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Rajkishore Nath",
+          " Suryakant Waghmore"
+      ],
+      "Division": ""
+  },
+  "HS250": {
+      "Code": "HS250",
+      "Name": "Environmental Studies",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Haripriya Gundimeda"
+      ],
+      "Division": ""
+  },
+  "HS401": {
+      "Code": "HS401",
+      "Name": "Introduction to Paninian Grammar",
+      "Venue": "Class Room : LT 102",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Kulkarni A Malhar"
+      ],
+      "Division": ""
+  },
+  "HS4110": {
+      "Code": "HS4110",
+      "Name": "Experimental Archaeology: An Introduction",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Smriti Haricharan"
+      ],
+      "Division": ""
+  },
+  "HS431": {
+      "Code": "HS431",
+      "Name": "Reading Fiction",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Suddhaseel Sen",
+          " Shastri Sudha"
+      ],
+      "Division": ""
+  },
+  "HS465": {
+      "Code": "HS465",
+      "Name": "Moral and Political Philosophy",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Siby K.George"
+      ],
+      "Division": ""
+  },
+  "HS474-M": {
+      "Code": "HS474-M",
+      "Name": "Postmodernism and Philosophy",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Pravesh Jung Golay"
+      ],
+      "Division": "M"
+  },
+  "HS502": {
+      "Code": "HS502",
+      "Name": "Madhyamika Philosophy in the Buddhist Tradition",
+      "Venue": "Class Room : LT 202",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " C.D. Sebastian"
+      ],
+      "Division": ""
+  },
+  "HS504": {
+      "Code": "HS504",
+      "Name": "Western Philosophy in the Time of Crisis",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Arun A. Iyer"
+      ],
+      "Division": ""
+  },
+  "HS506": {
+      "Code": "HS506",
+      "Name": "Writing and Research in Philosophy",
+      "Venue": "Class Room : LT 001",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Mrinal Kaul"
+      ],
+      "Division": ""
+  },
+  "HS551": {
+      "Code": "HS551",
+      "Name": "Introduction to Feminist Philosophy",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Amrita Banerjee"
+      ],
+      "Division": ""
+  },
+  "HS554": {
+      "Code": "HS554",
+      "Name": "Language, Mind and the World",
+      "Venue": "Class Room : LT 105",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " R.K. Panda"
+      ],
+      "Division": ""
+  },
+  "HS598": {
+      "Code": "HS598",
+      "Name": "Project Stage II",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Pravesh Jung Golay"
+      ],
+      "Division": ""
+  },
+  "HS618": {
+      "Code": "HS618",
+      "Name": "Introduction to Indian Astronomy",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " K. Ramasubramanian"
+      ],
+      "Division": ""
+  },
+  "HS621": {
+      "Code": "HS621",
+      "Name": "Contemporary Indian Philosophy",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Ratikanta Panda"
+      ],
+      "Division": ""
+  },
+  "HS624": {
+      "Code": "HS624",
+      "Name": "Contemporary Issues in Philosophy of Mind",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Rajkishore Nath"
+      ],
+      "Division": ""
+  },
+  "HS629": {
+      "Code": "HS629",
+      "Name": "Ecology and Society",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Sarmistha Pattanaik"
+      ],
+      "Division": ""
+  },
+  "HS634": {
+      "Code": "HS634",
+      "Name": "Theories of Verbal Congnition (Shaabdabodha)",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Kulkarni A Malhar"
+      ],
+      "Division": ""
+  },
+  "HS640": {
+      "Code": "HS640",
+      "Name": "Civil Society: Its Foundations and Future",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Suryakant Waghmore"
+      ],
+      "Division": ""
+  },
+  "HS643": {
+      "Code": "HS643",
+      "Name": "Sociology of Infrastructure",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Raile Rocky Ziipao"
+      ],
+      "Division": ""
+  },
+  "HS654": {
+      "Code": "HS654",
+      "Name": "Performance Historiography and Documentation",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Sharmistha Saha",
+          " A.P. Rajaram"
+      ],
+      "Division": ""
+  },
+  "HS660": {
+      "Code": "HS660",
+      "Name": "Author, Authorship and Authority",
+      "Venue": "",
+      "Slots": [
+          "7B",
+          "7A"
+      ],
+      "Instructors": [
+          " Suddhaseel Sen",
+          " Shastri Sudha"
+      ],
+      "Division": ""
+  },
+  "HS661": {
+      "Code": "HS661",
+      "Name": "Social Theory - II",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Anush Kapadia"
+      ],
+      "Division": ""
+  },
+  "HS662": {
+      "Code": "HS662",
+      "Name": "Indian Society",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Ramesh Bairy"
+      ],
+      "Division": ""
+  },
+  "HS666": {
+      "Code": "HS666",
+      "Name": "Quantitative Methods in Social Sciences",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Mahendra Dindayal Shahare"
+      ],
+      "Division": ""
+  },
+  "HS710": {
+      "Code": "HS710",
+      "Name": "Consumer Psychology",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " A. Khan"
+      ],
+      "Division": ""
+  },
+  "HS804": {
+      "Code": "HS804",
+      "Name": "Advanced Theory of Society",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Robinson Rowena",
+          " Ahonaa Roy"
+      ],
+      "Division": ""
+  },
+  "HS805": {
+      "Code": "HS805",
+      "Name": "Theory of Knowledge",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Vikram Singh Sirola"
+      ],
+      "Division": ""
+  },
+  "HS811": {
+      "Code": "HS811",
+      "Name": "Literary Theory",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Sharmila"
+      ],
+      "Division": ""
+  },
+  "HS818": {
+      "Code": "HS818",
+      "Name": "Sociology of Social Stratification in India",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Ilito H. Achumi"
+      ],
+      "Division": ""
+  },
+  "HS828": {
+      "Code": "HS828",
+      "Name": "Phillosophical Points of View & Major Thinkers",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Pravesh Jung Golay"
+      ],
+      "Division": ""
+  },
+  "HS840": {
+      "Code": "HS840",
+      "Name": "Paninian Grammar",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Kulkarni A Malhar"
+      ],
+      "Division": ""
+  },
+  "HS845": {
+      "Code": "HS845",
+      "Name": "Indian Logic",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " K. Ramasubramanian"
+      ],
+      "Division": ""
+  },
+  "HS852": {
+      "Code": "HS852",
+      "Name": "Topics in Syntax and Semantics",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Sarma Vaijayanthi"
+      ],
+      "Division": ""
+  },
+  "HS856": {
+      "Code": "HS856",
+      "Name": "Critical Social Philosophy",
+      "Venue": "",
+      "Slots": [
+          "15B",
+          "15A"
+      ],
+      "Instructors": [
+          " Siby K.George"
+      ],
+      "Division": ""
+  },
+  "HS861": {
+      "Code": "HS861",
+      "Name": "Advanced Course on Historiography",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Naina Manjrekar"
+      ],
+      "Division": ""
+  },
+  "HS864": {
+      "Code": "HS864",
+      "Name": "Advanced Topics in Science and Technology Studies",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Mahendra Dindayal Shahare"
+      ],
+      "Division": ""
+  },
+  "HS899": {
+      "Code": "HS899",
+      "Name": "Communication Skills",
+      "Venue": "Class Room : LT 205",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " K. Ramasubramanian",
+          " Mrinmoyi Kulkarni",
+          " Naina Manjrekar",
+          " Pooja Purang",
+          " Ramesh Bairy",
+          " Smriti Haricharan",
+          " Suryakant Waghmore",
+          " Vibhushan Subba",
+          " Amrita Banerjee"
+      ],
+      "Division": ""
+  },
+  "HSS802": {
+      "Code": "HSS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Rajkishore Nath"
+      ],
+      "Division": ""
+  },
+  "DE102": {
+      "Code": "DE102",
+      "Name": "Art and Design Fundamentals 3D",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Parag Vyas",
+          " G.V.Sreekumar"
+      ],
+      "Division": ""
+  },
+  "DE106": {
+      "Code": "DE106",
+      "Name": "Typography Fundamentals and Exploratory Printing",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " G.V.Sreekumar"
+      ],
+      "Division": ""
+  },
+  "DE107": {
+      "Code": "DE107",
+      "Name": "A Study of the Power of Words",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sampurna Chattarji"
+      ],
+      "Division": ""
+  },
+  "DE108": {
+      "Code": "DE108",
+      "Name": "Exploration in Drawing, Tonalities",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Amitesh Sant Shrivastava"
+      ],
+      "Division": ""
+  },
+  "DE109-S1": {
+      "Code": "DE109-S1",
+      "Name": "Introduction to Design",
+      "Venue": "Class Room : LH 301",
+      "Slots": [
+          "3B",
+          "5A"
+      ],
+      "Instructors": [
+          " Swati Agarwal"
+      ],
+      "Division": "S1"
+  },
+  "DE109-S2": {
+      "Code": "DE109-S2",
+      "Name": "Introduction to Design",
+      "Venue": "Class Room : LH 301",
+      "Slots": [
+          "3C",
+          "X3"
+      ],
+      "Instructors": [
+          " Bapat V.P."
+      ],
+      "Division": "S2"
+  },
+  "DE110": {
+      "Code": "DE110",
+      "Name": "Form Exploration in Pottery",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Mohanty Raja"
+      ],
+      "Division": ""
+  },
+  "DE112": {
+      "Code": "DE112",
+      "Name": "Communication Through Illustrations",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Arun Mascarenhas"
+      ],
+      "Division": ""
+  },
+  "DE114": {
+      "Code": "DE114",
+      "Name": "Basics of Film Editing",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Bharat Chhitubhai Parmar"
+      ],
+      "Division": ""
+  },
+  "DE116": {
+      "Code": "DE116",
+      "Name": "Exploration in Drawing, Tonalities and Textures",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Amitesh Sant Shrivastava"
+      ],
+      "Division": ""
+  },
+  "DE122": {
+      "Code": "DE122",
+      "Name": "Design Studio II - Problem Analysis",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Dhimant Vyas",
+          " Avinash Shende"
+      ],
+      "Division": ""
+  },
+  "DE129": {
+      "Code": "DE129",
+      "Name": "Introduction to Weaving",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Latha Tummuru"
+      ],
+      "Division": ""
+  },
+  "DE134": {
+      "Code": "DE134",
+      "Name": "Knowledge Organisation and Communication",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Prasad Bokil",
+          " Poovaiah Ravi"
+      ],
+      "Division": ""
+  },
+  "DE136": {
+      "Code": "DE136",
+      "Name": "Design Studio Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Dhimant Vyas",
+          " Avinash Shende"
+      ],
+      "Division": ""
+  },
+  "DE202": {
+      "Code": "DE202",
+      "Name": "2D Visual Studies II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Prasad Bokil",
+          " Girish V. Dalvi",
+          " G.V.Sreekumar"
+      ],
+      "Division": ""
+  },
+  "DE204": {
+      "Code": "DE204",
+      "Name": "3D Form Studies II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Dinesh Korjan"
+      ],
+      "Division": ""
+  },
+  "DE206": {
+      "Code": "DE206",
+      "Name": "Communication Theories, Visual Perception and Semiotics",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Mandar S.Rane"
+      ],
+      "Division": ""
+  },
+  "DE208": {
+      "Code": "DE208",
+      "Name": "Design, Storytelling and Narratives",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Aditi Chitre"
+      ],
+      "Division": ""
+  },
+  "DE210": {
+      "Code": "DE210",
+      "Name": "Understanding Human Anatomy",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Amitesh Sant Shrivastava"
+      ],
+      "Division": ""
+  },
+  "DE212": {
+      "Code": "DE212",
+      "Name": "Ceramic Glazes and Colour Development",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Mohanty Raja"
+      ],
+      "Division": ""
+  },
+  "DE214": {
+      "Code": "DE214",
+      "Name": "Writing by Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sampurna Chattarji"
+      ],
+      "Division": ""
+  },
+  "DE216": {
+      "Code": "DE216",
+      "Name": "Classics of  Popular Indian Cinema",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Mazhar Kamran"
+      ],
+      "Division": ""
+  },
+  "DE216-M": {
+      "Code": "DE216-M",
+      "Name": "Classics of  Popular Indian Cinema",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Mazhar Kamran"
+      ],
+      "Division": "M"
+  },
+  "DE222": {
+      "Code": "DE222",
+      "Name": "Design Studio IV - Prototyping",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " B.K.Chakravarthy",
+          " Shilpa Ranade"
+      ],
+      "Division": ""
+  },
+  "DE232": {
+      "Code": "DE232",
+      "Name": "Design, Media and Technology",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Rasagy Sharma",
+          " Vidhya Appu"
+      ],
+      "Division": ""
+  },
+  "DE250-S1": {
+      "Code": "DE250-S1",
+      "Name": "Design Thinking for Innovation",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Nishant Sharma"
+      ],
+      "Division": "S1"
+  },
+  "DE250-S2": {
+      "Code": "DE250-S2",
+      "Name": "Design Thinking for Innovation",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "13A"
+      ],
+      "Instructors": [
+          " Nishant Sharma"
+      ],
+      "Division": "S2"
+  },
+  "DE250-S3": {
+      "Code": "DE250-S3",
+      "Name": "Design Thinking for Innovation",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Nishant Sharma"
+      ],
+      "Division": "S3"
+  },
+  "DE250-S4": {
+      "Code": "DE250-S4",
+      "Name": "Design Thinking for Innovation",
+      "Venue": "",
+      "Slots": [
+          "14A",
+          "15A"
+      ],
+      "Instructors": [
+          " Nishant Sharma"
+      ],
+      "Division": "S4"
+  },
+  "DE250-S5": {
+      "Code": "DE250-S5",
+      "Name": "Design Thinking for Innovation",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Nishant Sharma"
+      ],
+      "Division": "S5"
+  },
+  "DE250-S6": {
+      "Code": "DE250-S6",
+      "Name": "Design Thinking for Innovation",
+      "Venue": "",
+      "Slots": [
+          "12B",
+          "13B"
+      ],
+      "Instructors": [
+          " Nishant Sharma"
+      ],
+      "Division": "S6"
+  },
+  "DE250-S7": {
+      "Code": "DE250-S7",
+      "Name": "Design Thinking for Innovation",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Nishant Sharma"
+      ],
+      "Division": "S7"
+  },
+  "DE250-S8": {
+      "Code": "DE250-S8",
+      "Name": "Design Thinking for Innovation",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "15B"
+      ],
+      "Instructors": [
+          " Nishant Sharma"
+      ],
+      "Division": "S8"
+  },
+  "DE308": {
+      "Code": "DE308",
+      "Name": "Product Design II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Purba Joshi"
+      ],
+      "Division": ""
+  },
+  "DE312": {
+      "Code": "DE312",
+      "Name": "Transportation Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Unni Mohan Mohanan",
+          " Sugandh Malhotra"
+      ],
+      "Division": ""
+  },
+  "DE313": {
+      "Code": "DE313",
+      "Name": "3D Modeling and Prototyping",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Shilpa Ranade"
+      ],
+      "Division": ""
+  },
+  "DE314": {
+      "Code": "DE314",
+      "Name": "Game Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Prasad Bokil"
+      ],
+      "Division": ""
+  },
+  "DE318": {
+      "Code": "DE318",
+      "Name": "Interaction Techniques",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Joshi Anirudha"
+      ],
+      "Division": ""
+  },
+  "DE321": {
+      "Code": "DE321",
+      "Name": "Service Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Pramod Khambete"
+      ],
+      "Division": ""
+  },
+  "DE322": {
+      "Code": "DE322",
+      "Name": "Materials and Processes",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Purba Joshi"
+      ],
+      "Division": ""
+  },
+  "DE323": {
+      "Code": "DE323",
+      "Name": "Stopmotion Animation",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Swati Agarwal"
+      ],
+      "Division": ""
+  },
+  "DE324": {
+      "Code": "DE324",
+      "Name": "Digital Media Technologies",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Jayesh S. Pillai"
+      ],
+      "Division": ""
+  },
+  "IE504": {
+      "Code": "IE504",
+      "Name": "Service and Infrastructure Systems",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Rangaraj Narayan"
+      ],
+      "Division": ""
+  },
+  "DE332": {
+      "Code": "DE332",
+      "Name": "Design Management, Planning and Professional Practice",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Peer Mohideen Sathikh",
+          " Abhishek Verma"
+      ],
+      "Division": ""
+  },
+  "IE504-M": {
+      "Code": "IE504-M",
+      "Name": "Service and Infrastructure Systems",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Rangaraj Narayan"
+      ],
+      "Division": "M"
+  },
+  "IE506": {
+      "Code": "IE506",
+      "Name": "Machine Learning: Principles and Techniques",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " P. Balamurugan"
+      ],
+      "Division": ""
+  },
+  "DE602": {
+      "Code": "DE602",
+      "Name": "Product Interface Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " P Kumaresan"
+      ],
+      "Division": ""
+  },
+  "IE607": {
+      "Code": "IE607",
+      "Name": "Polyhedra and Combinatorial Optimization",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " V. Narayanan"
+      ],
+      "Division": ""
+  },
+  "DE604": {
+      "Code": "DE604",
+      "Name": "Introduction to Product Ergonomics",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Wricha Mishra",
+          " Swati Pal"
+      ],
+      "Division": ""
+  },
+  "IE612": {
+      "Code": "IE612",
+      "Name": "Introduction to Financial Engineering",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " K.S.Mallikarjuna Rao"
+      ],
+      "Division": ""
+  },
+  "DE606": {
+      "Code": "DE606",
+      "Name": "Studies in Form II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " P Kumaresan"
+      ],
+      "Division": ""
+  },
+  "IE614": {
+      "Code": "IE614",
+      "Name": "Linear Systems",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Veeraruna Kavitha"
+      ],
+      "Division": ""
+  },
+  "DE608": {
+      "Code": "DE608",
+      "Name": "Product Design -2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " R. Sandesh"
+      ],
+      "Division": ""
+  },
+  "IE616": {
+      "Code": "IE616",
+      "Name": "Decision Analysis and Game Theory",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Veeraruna Kavitha",
+          " Urban Larsson"
+      ],
+      "Division": ""
+  },
+  "DE612": {
+      "Code": "DE612",
+      "Name": "Design Issues",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Poovaiah Ravi"
+      ],
+      "Division": ""
+  },
+  "IE616-M": {
+      "Code": "IE616-M",
+      "Name": "Decision Analysis and Game Theory",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Veeraruna Kavitha",
+          " Urban Larsson"
+      ],
+      "Division": "M"
+  },
+  "IE620": {
+      "Code": "IE620",
+      "Name": "Reinforcement Learning Algorithms",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " N. Hemachandra"
+      ],
+      "Division": ""
+  },
+  "DE614": {
+      "Code": "DE614",
+      "Name": "Design Workshop",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " G.V.Sreekumar"
+      ],
+      "Division": ""
+  },
+  "IE620-M": {
+      "Code": "IE620-M",
+      "Name": "Reinforcement Learning Algorithms",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " N. Hemachandra"
+      ],
+      "Division": "M"
+  },
+  "DE616": {
+      "Code": "DE616",
+      "Name": "Introduction to User Studies",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Girish V. Dalvi"
+      ],
+      "Division": ""
+  },
+  "IE622": {
+      "Code": "IE622",
+      "Name": "Probability and Stochastic Processes II",
+      "Venue": "Class : IEOR011",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " N. Hemachandra"
+      ],
+      "Division": ""
+  },
+  "DE618": {
+      "Code": "DE618",
+      "Name": "Semantics and Communication Theory",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Mandar S.Rane"
+      ],
+      "Division": ""
+  },
+  "IE622-M": {
+      "Code": "IE622-M",
+      "Name": "Probability and Stochastic Processes II",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " N. Hemachandra"
+      ],
+      "Division": "M"
+  },
+  "IE630": {
+      "Code": "IE630",
+      "Name": "Simulation Modeling and Analysis",
+      "Venue": "Class Room A1 - A2",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " J. Venkateswaran"
+      ],
+      "Division": ""
+  },
+  "DE624": {
+      "Code": "DE624",
+      "Name": "Introduction to Film Making",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sudesh Balan"
+      ],
+      "Division": ""
+  },
+  "IE630-M": {
+      "Code": "IE630-M",
+      "Name": "Simulation Modeling and Analysis",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " J. Venkateswaran"
+      ],
+      "Division": "M"
+  },
+  "DE626": {
+      "Code": "DE626",
+      "Name": "Human Factors in Interaction Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Wricha Mishra",
+          " Swati Pal"
+      ],
+      "Division": ""
+  },
+  "IE684": {
+      "Code": "IE684",
+      "Name": "IEOR Lab",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Manjesh K. Hanawal"
+      ],
+      "Division": ""
+  },
+  "DE628": {
+      "Code": "DE628",
+      "Name": "Interaction Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sudhir Ram Bhatia",
+          " Jayesh S. Pillai"
+      ],
+      "Division": ""
+  },
+  "IE686": {
+      "Code": "IE686",
+      "Name": "MSc.Phd. Research Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Manjesh K. Hanawal"
+      ],
+      "Division": ""
+  },
+  "IE688": {
+      "Code": "IE688",
+      "Name": "R & D Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " P. Balamurugan"
+      ],
+      "Division": ""
+  },
+  "DE632": {
+      "Code": "DE632",
+      "Name": "Acting and Staging",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sumant Rao"
+      ],
+      "Division": ""
+  },
+  "IE694": {
+      "Code": "IE694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " P. Balamurugan"
+      ],
+      "Division": ""
+  },
+  "DE634": {
+      "Code": "DE634",
+      "Name": "Digital Animation 2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sumant Rao"
+      ],
+      "Division": ""
+  },
+  "IE709": {
+      "Code": "IE709",
+      "Name": "IEOR for Health Care",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Ashutosh Mahajan"
+      ],
+      "Division": ""
+  },
+  "DE636": {
+      "Code": "DE636",
+      "Name": "Animation Theory-2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Abhishek Verma"
+      ],
+      "Division": ""
+  },
+  "IE709-M": {
+      "Code": "IE709-M",
+      "Name": "IEOR for Health Care",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Ashutosh Mahajan"
+      ],
+      "Division": "M"
+  },
+  "DE638": {
+      "Code": "DE638",
+      "Name": "Animation Principles-2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Prosenjit Ganguly",
+          " Swati Agarwal"
+      ],
+      "Division": ""
+  },
+  "IE710": {
+      "Code": "IE710",
+      "Name": "OR Applications in Infrastructural and Service Sectors",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Rangaraj Narayan"
+      ],
+      "Division": ""
+  },
+  "IE798": {
+      "Code": "IE798",
+      "Name": "II Stage Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " K.S.Mallikarjuna Rao"
+      ],
+      "Division": ""
+  },
+  "DE640": {
+      "Code": "DE640",
+      "Name": "Animation Design-2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Abhishek Verma",
+          " Swati Agarwal"
+      ],
+      "Division": ""
+  },
+  "IE899": {
+      "Code": "IE899",
+      "Name": "Communication Skills",
+      "Venue": "Class : IEOR011",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " P. Balamurugan"
+      ],
+      "Division": ""
+  },
+  "DE642": {
+      "Code": "DE642",
+      "Name": "Sketching and Anatomy-2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Somnath Pal",
+          " Shyam Subhashrao Wanare"
+      ],
+      "Division": ""
+  },
+  "IES601": {
+      "Code": "IES601",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " V. Narayanan"
+      ],
+      "Division": ""
+  },
+  "IES802": {
+      "Code": "IES802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Ashutosh Mahajan"
+      ],
+      "Division": ""
+  },
+  "DE644": {
+      "Code": "DE644",
+      "Name": "Exposure to Grid System in Visual Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Mandar S.Rane"
+      ],
+      "Division": ""
+  },
+  "DE646": {
+      "Code": "DE646",
+      "Name": "CAID Modeling for Automotive Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sugandh Malhotra"
+      ],
+      "Division": ""
+  },
+  "DE648": {
+      "Code": "DE648",
+      "Name": "Historyof Transportation and Automobile Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Unni Mohan Mohanan",
+          " Sugandh Malhotra"
+      ],
+      "Division": ""
+  },
+  "DE650": {
+      "Code": "DE650",
+      "Name": "Studies in 3D Form",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Unni Mohan Mohanan"
+      ],
+      "Division": ""
+  },
+  "DE652": {
+      "Code": "DE652",
+      "Name": "Mobility Design-2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sridhar Mahadevan",
+          " Sugandh Malhotra"
+      ],
+      "Division": ""
+  },
+  "DE654": {
+      "Code": "DE654",
+      "Name": "Sketching-2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " P Kumaresan"
+      ],
+      "Division": ""
+  },
+  "DE656": {
+      "Code": "DE656",
+      "Name": "Model Making-2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Unni Mohan Mohanan"
+      ],
+      "Division": ""
+  },
+  "DE660": {
+      "Code": "DE660",
+      "Name": "Graphic Narratives",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Aditi Chitre"
+      ],
+      "Division": ""
+  },
+  "DE666": {
+      "Code": "DE666",
+      "Name": "Craft Creativity and Post Modernism",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " R. Sandesh"
+      ],
+      "Division": ""
+  },
+  "DE676": {
+      "Code": "DE676",
+      "Name": "Rendering for Mobility Design ",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sugandh Malhotra"
+      ],
+      "Division": ""
+  },
+  "DE680": {
+      "Code": "DE680",
+      "Name": "Product Detailing",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Avinash Shende"
+      ],
+      "Division": ""
+  },
+  "DE683": {
+      "Code": "DE683",
+      "Name": "Sustainable Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sugandh Malhotra",
+          " Lalit Kumar Das"
+      ],
+      "Division": ""
+  },
+  "DE686": {
+      "Code": "DE686",
+      "Name": "Handmade Character Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Arun Mascarenhas"
+      ],
+      "Division": ""
+  },
+  "DE687": {
+      "Code": "DE687",
+      "Name": "Design Exploration Seminar I",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Jayesh S. Pillai",
+          " Mandar S.Rane"
+      ],
+      "Division": ""
+  },
+  "DE712": {
+      "Code": "DE712",
+      "Name": "Immersive Media Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Jayesh S. Pillai"
+      ],
+      "Division": ""
+  },
+  "DE717": {
+      "Code": "DE717",
+      "Name": "Service Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Pramod Khambete"
+      ],
+      "Division": ""
+  },
+  "DE725": {
+      "Code": "DE725",
+      "Name": "Designing Games for Children",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Prasad Bokil"
+      ],
+      "Division": ""
+  },
+  "DE803": {
+      "Code": "DE803",
+      "Name": "Quantitative Design Research Methods",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Joshi Anirudha",
+          " Girish V. Dalvi"
+      ],
+      "Division": ""
+  },
+  "DEP302": {
+      "Code": "DEP302",
+      "Name": "System Design Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Poovaiah Ravi",
+          " Dinesh Korjan"
+      ],
+      "Division": ""
+  },
+  "DEP403": {
+      "Code": "DEP403",
+      "Name": "Design Research Seminar I",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Jayesh S. Pillai",
+          " Mandar S.Rane"
+      ],
+      "Division": ""
+  },
+  "DEP406": {
+      "Code": "DEP406",
+      "Name": "BDes Design Project - 2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Bharat Chhitubhai Parmar",
+          " Avinash Shende"
+      ],
+      "Division": ""
+  },
+  "DEP408": {
+      "Code": "DEP408",
+      "Name": "Design Research Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Jayesh S. Pillai",
+          " Mandar S.Rane"
+      ],
+      "Division": ""
+  },
+  "DEP410": {
+      "Code": "DEP410",
+      "Name": "B. Des. Design Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Avinash Shende",
+          " Bharat Chhitubhai Parmar"
+      ],
+      "Division": ""
+  },
+  "DEP502": {
+      "Code": "DEP502",
+      "Name": "Design Research Seminar II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Jayesh S. Pillai",
+          " Mandar S.Rane"
+      ],
+      "Division": ""
+  },
+  "DEP504": {
+      "Code": "DEP504",
+      "Name": "Design Research Project-Part II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " B.K.Chakravarthy",
+          " Girish V. Dalvi",
+          " Sugandh Malhotra",
+          " Sumant Rao",
+          " G.V.Sreekumar"
+      ],
+      "Division": ""
+  },
+  "DEP602": {
+      "Code": "DEP602",
+      "Name": "Communication Design Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Mazhar Kamran"
+      ],
+      "Division": ""
+  },
+  "DEP703": {
+      "Code": "DEP703",
+      "Name": "M.Des. Project- 3",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Girish V. Dalvi",
+          " G.V.Sreekumar",
+          " Sugandh Malhotra",
+          " Sumant Rao",
+          " B.K.Chakravarthy"
+      ],
+      "Division": ""
+  },
+  "DEP706": {
+      "Code": "DEP706",
+      "Name": "Design Research Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Jayesh S. Pillai",
+          " Mandar S.Rane"
+      ],
+      "Division": ""
+  },
+  "MA110-D1": {
+      "Code": "MA110-D1",
+      "Name": "Linear Algebra and Differential Equations",
+      "Venue": "Class Room : LA 201",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Rekha Santhanam",
+          " Santanu Dey",
+          " Ananthnarayan Hariharan",
+          " K. Sureshkumar"
+      ],
+      "Division": "D1"
+  },
+  "MA110-D2": {
+      "Code": "MA110-D2",
+      "Name": "Linear Algebra and Differential Equations",
+      "Venue": "Class Room : LT 004",
+      "Slots": [
+          "X1"
+      ],
+      "Instructors": [
+          "  ",
+          " Rekha  SanthanamA ",
+          "  ",
+          " Santanu Mukti DeyI ",
+          "  ",
+          " Ananthnarayan  HariharanI ",
+          "  ",
+          " K.  Sureshkumar"
+      ],
+      "Division": "D2"
+  },
+  "MA110-D3": {
+      "Code": "MA110-D3",
+      "Name": "Linear Algebra and Differential Equations",
+      "Venue": "Class Room : LA 202",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Rekha Santhanam",
+          " Santanu Dey",
+          " Ananthnarayan Hariharan",
+          " K. Sureshkumar"
+      ],
+      "Division": "D3"
+  },
+  "MA110-D4": {
+      "Code": "MA110-D4",
+      "Name": "Linear Algebra and Differential Equations",
+      "Venue": "Class Room : LT 202",
+      "Slots": [
+          "X3"
+      ],
+      "Instructors": [
+          "  ",
+          " Rekha  SanthanamA ",
+          "  ",
+          " Santanu Mukti DeyI ",
+          "  ",
+          " Ananthnarayan  HariharanI ",
+          "  ",
+          " K.  Sureshkumar"
+      ],
+      "Division": "D4"
+  },
+  "MA214": {
+      "Code": "MA214",
+      "Name": "Introduction to Numerical Analysis",
+      "Venue": "Class Room : LT 001",
+      "Slots": [
+          "XC"
+      ],
+      "Instructors": [
+          " ",
+          " Sudarshan Rajendra Gurjar"
+      ],
+      "Division": ""
+  },
+  "MA406": {
+      "Code": "MA406",
+      "Name": "General Topology",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Chandan Biswas"
+      ],
+      "Division": ""
+  },
+  "MA408": {
+      "Code": "MA408",
+      "Name": "Measure Theory",
+      "Venue": "",
+      "Slots": [
+          "XC"
+      ],
+      "Instructors": [
+          " Mallesham Kummari"
+      ],
+      "Division": ""
+  },
+  "MA410": {
+      "Code": "MA410",
+      "Name": "Multivariable Calculus",
+      "Venue": "Class Room - 216",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Preeti Raman"
+      ],
+      "Division": ""
+  },
+  "MA412": {
+      "Code": "MA412",
+      "Name": "Complex Analysis",
+      "Venue": "Class Room - 114",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Garge Shripad M."
+      ],
+      "Division": ""
+  },
+  "MA412-M": {
+      "Code": "MA412-M",
+      "Name": "Complex Analysis",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Sandip Singh"
+      ],
+      "Division": "M"
+  },
+  "MA414": {
+      "Code": "MA414",
+      "Name": "Algebra I",
+      "Venue": "Class Room - 216",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Saurav Bhaumik"
+      ],
+      "Division": ""
+  },
+  "MA504": {
+      "Code": "MA504",
+      "Name": "Operators on Hilbert Spaces",
+      "Venue": "Class Room - 105",
+      "Slots": [
+          "11A"
+      ],
+      "Instructors": [
+          " Bata K. Das"
+      ],
+      "Division": ""
+  },
+  "MA510": {
+      "Code": "MA510",
+      "Name": "Introduction to Algebraic Geometry",
+      "Venue": "Class Room - 113",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Manoj Kumar keshari"
+      ],
+      "Division": ""
+  },
+  "MA5104": {
+      "Code": "MA5104",
+      "Name": "Hyperbolic Conservation Laws",
+      "Venue": "Class Room - 113",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Sivaji Ganesh S."
+      ],
+      "Division": ""
+  },
+  "MA5106": {
+      "Code": "MA5106",
+      "Name": "Introduction to Fourier Analysis",
+      "Venue": "Class Room - 113",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Saikat Mazumdar"
+      ],
+      "Division": ""
+  },
+  "MA5106-M": {
+      "Code": "MA5106-M",
+      "Name": "Introduction to Fourier Analysis",
+      "Venue": "Class Room - 113",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Saikat Mazumdar"
+      ],
+      "Division": "M"
+  },
+  "MA5108": {
+      "Code": "MA5108",
+      "Name": "Lie Groups & Lie Algebras",
+      "Venue": "Class Room - 105",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " G. K. Srinivasan"
+      ],
+      "Division": ""
+  },
+  "MA5110": {
+      "Code": "MA5110",
+      "Name": "Non-commutative Algebra",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Garge Shripad M."
+      ],
+      "Division": ""
+  },
+  "MA5116": {
+      "Code": "MA5116",
+      "Name": "Species and Operads",
+      "Venue": "Class Room - 114",
+      "Slots": [
+          "15B",
+          "15A"
+      ],
+      "Instructors": [
+          " Swapneel A. Mahajan"
+      ],
+      "Division": ""
+  },
+  "MA526": {
+      "Code": "MA526",
+      "Name": "Commutative Algebra",
+      "Venue": "Class Room - 105",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Verma J.K."
+      ],
+      "Division": ""
+  },
+  "MA534": {
+      "Code": "MA534",
+      "Name": "Modern Theory of PDE",
+      "Venue": "Class Room - 105",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Debanjana Mitra"
+      ],
+      "Division": ""
+  },
+  "MA562": {
+      "Code": "MA562",
+      "Name": "Mathematical Theory of Finite Elements",
+      "Venue": "Class Room - 114",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Nataraj Neela"
+      ],
+      "Division": ""
+  },
+  "MA812": {
+      "Code": "MA812",
+      "Name": "Algebra II",
+      "Venue": "Class Room - 105",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Ronnie M. Sebastain"
+      ],
+      "Division": ""
+  },
+  "MA814": {
+      "Code": "MA814",
+      "Name": "Complex Analysis",
+      "Venue": "Class Room - 113",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Prachi Mahajan"
+      ],
+      "Division": ""
+  },
+  "MA816": {
+      "Code": "MA816",
+      "Name": "Algebraic Topology",
+      "Venue": "Class Room - 105",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Dipendra Prasad"
+      ],
+      "Division": ""
+  },
+  "MA818": {
+      "Code": "MA818",
+      "Name": "Partial Differential Equations II",
+      "Venue": "Class Room - 105",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Mayukh Mukherjee"
+      ],
+      "Division": ""
+  },
+  "MA824": {
+      "Code": "MA824",
+      "Name": "Functional Analysis",
+      "Venue": "Class Room - 105",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Sanjoy Pusti"
+      ],
+      "Division": ""
+  },
+  "MA842": {
+      "Code": "MA842",
+      "Name": "Topics in Algebra II",
+      "Venue": "Class Room - 113",
+      "Slots": [
+          "15B",
+          "15A"
+      ],
+      "Instructors": [
+          " Ananthnarayan Hariharan"
+      ],
+      "Division": ""
+  },
+  "MA846": {
+      "Code": "MA846",
+      "Name": "Topics in Combinatories II",
+      "Venue": "Class Room - 105",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Srinivasan M.K."
+      ],
+      "Division": ""
+  },
+  "MA852": {
+      "Code": "MA852",
+      "Name": "Topics in Number Theory II",
+      "Venue": "Class Room - 114",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Ravi Raghunathan"
+      ],
+      "Division": ""
+  },
+  "MA862": {
+      "Code": "MA862",
+      "Name": "Combinatorics II",
+      "Venue": "Class Room - 113",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Niranjan Balachandran"
+      ],
+      "Division": ""
+  },
+  "MA867": {
+      "Code": "MA867",
+      "Name": "Statistical Modelling- I",
+      "Venue": "Class Room - 113",
+      "Slots": [
+          "6A"
+      ],
+      "Instructors": [
+          " Radhendushka Srivastava"
+      ],
+      "Division": ""
+  },
+  "SI404": {
+      "Code": "SI404",
+      "Name": "Applied Stochastic Processes",
+      "Venue": "Class Room - 114",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Koushik Saha"
+      ],
+      "Division": ""
+  },
+  "SI416": {
+      "Code": "SI416",
+      "Name": "Optimization",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Harsha Hutridurga Ramaiah"
+      ],
+      "Division": ""
+  },
+  "SI422": {
+      "Code": "SI422",
+      "Name": "Regression Analysis",
+      "Venue": "Class Room - 216",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " S. Mukhopadhyay"
+      ],
+      "Division": ""
+  },
+  "SI422-M": {
+      "Code": "SI422-M",
+      "Name": "Regression Analysis",
+      "Venue": "Class Room - 216",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " S. Mukhopadhyay"
+      ],
+      "Division": "M"
+  },
+  "SI424": {
+      "Code": "SI424",
+      "Name": "Statistical Inference I",
+      "Venue": "Class Room - 114",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Vellaisamy P."
+      ],
+      "Division": ""
+  },
+  "SI426": {
+      "Code": "SI426",
+      "Name": "Algorithms",
+      "Venue": "",
+      "Slots": [
+          "X3"
+      ],
+      "Instructors": [
+          " Madhusudan Manjunath"
+      ],
+      "Division": ""
+  },
+  "SI509": {
+      "Code": "SI509",
+      "Name": "Time Series Analysis",
+      "Venue": "",
+      "Slots": [
+          "7B"
+      ],
+      "Instructors": [
+          " "
+      ],
+      "Division": ""
+  },
+  "SI526": {
+      "Code": "SI526",
+      "Name": "Experimental Designs",
+      "Venue": "",
+      "Slots": [
+          "2A"
+      ],
+      "Instructors": [
+          " Ashish Das"
+      ],
+      "Division": ""
+  },
+  "SI527": {
+      "Code": "SI527",
+      "Name": "Introduction to Derivative Pricing",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " S.Baskar"
+      ],
+      "Division": ""
+  },
+  "SI527-M": {
+      "Code": "SI527-M",
+      "Name": "Introduction to Derivative Pricing",
+      "Venue": "Class Room - 114",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " S.Baskar"
+      ],
+      "Division": "M"
+  },
+  "SI534": {
+      "Code": "SI534",
+      "Name": "Nonparametric Statistics",
+      "Venue": "Class Room - 114",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Ayan Bhattacharya"
+      ],
+      "Division": ""
+  },
+  "SI539": {
+      "Code": "SI539",
+      "Name": "Random Graphs",
+      "Venue": "Class Room - 114",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Debraj Das",
+          " Koushik Saha"
+      ],
+      "Division": ""
+  },
+  "SI541": {
+      "Code": "SI541",
+      "Name": "Statistical Epidemiology ",
+      "Venue": "Class Room - 216",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " S. Mukhopadhyay",
+          " Sabnis S.V."
+      ],
+      "Division": ""
+  },
+  "SI546": {
+      "Code": "SI546",
+      "Name": "Statistical Inference II",
+      "Venue": "Class Room - 216",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Debraj Das"
+      ],
+      "Division": ""
+  },
+  "IWE701": {
+      "Code": "IWE701",
+      "Name": "Strategic Management",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Snehal Awate"
+      ],
+      "Division": ""
+  },
+  "IWE702": {
+      "Code": "IWE702",
+      "Name": "Organizational Behavior and Design",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "IWE703": {
+      "Code": "IWE703",
+      "Name": "Data Modeling and Decisions",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Usha Ananthakumar"
+      ],
+      "Division": ""
+  },
+  "IWE704": {
+      "Code": "IWE704",
+      "Name": "Introduction to Financial Accounting",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "IWE705": {
+      "Code": "IWE705",
+      "Name": "Marketing Management",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Dinesh Sharma"
+      ],
+      "Division": ""
+  },
+  "IWE706": {
+      "Code": "IWE706",
+      "Name": "Managerial Economics",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "IWE710": {
+      "Code": "IWE710",
+      "Name": "Corporate Finance",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "IWE711": {
+      "Code": "IWE711",
+      "Name": "Leadership",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "IWE712": {
+      "Code": "IWE712",
+      "Name": "Growth, Valuations, and Sustainability",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "IWE714": {
+      "Code": "IWE714",
+      "Name": "Global Supply Chain Management",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " T.T. Niranjan"
+      ],
+      "Division": ""
+  },
+  "IWE715": {
+      "Code": "IWE715",
+      "Name": "Competitive Strategy & Industry Analysis",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "IWE719": {
+      "Code": "IWE719",
+      "Name": "Strategic Management of Innovation",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "IWE720": {
+      "Code": "IWE720",
+      "Name": "Business Start-up Consulting Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "IWE721": {
+      "Code": "IWE721",
+      "Name": "Washington D C Residency",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "IWE722": {
+      "Code": "IWE722",
+      "Name": "Data-Driven Decision Making: Analysis to Action",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "IWE723": {
+      "Code": "IWE723",
+      "Name": "Customer Analytics",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "MG405-M": {
+      "Code": "MG405-M",
+      "Name": "Project Management",
+      "Venue": "Class Room : LT 305",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Gajendra Adil"
+      ],
+      "Division": "M"
+  },
+  "MG406-M": {
+      "Code": "MG406-M",
+      "Name": "Operations Management",
+      "Venue": "Class Room : LT 306",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Rahul Patil"
+      ],
+      "Division": "M"
+  },
+  "ME104-S1": {
+      "Code": "ME104-S1",
+      "Name": "Engineering Mechanics",
+      "Venue": "Class Room : LC 301",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Nitesh Yelve"
+      ],
+      "Division": "S1"
+  },
+  "MG802": {
+      "Code": "MG802",
+      "Name": "Marketing Theory and Contemporary Issues",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Dinesh Sharma"
+      ],
+      "Division": ""
+  },
+  "ME104-S2": {
+      "Code": "ME104-S2",
+      "Name": "Engineering Mechanics",
+      "Venue": "Class Room : LC 302",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Parag Tandaiya"
+      ],
+      "Division": "S2"
+  },
+  "MGS802": {
+      "Code": "MGS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sarthak Gaurav"
+      ],
+      "Division": ""
+  },
+  "ME213": {
+      "Code": "ME213",
+      "Name": "Manufacturing Practice Lab",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "L1",
+          "L2"
+      ],
+      "Instructors": [
+          " Amber Shrivastava"
+      ],
+      "Division": ""
+  },
+  "MGT804": {
+      "Code": "MGT804",
+      "Name": "Qualitative Research Methodologies",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " T.T. Niranjan"
+      ],
+      "Division": ""
+  },
+  "ME219-S1": {
+      "Code": "ME219-S1",
+      "Name": "Fluid Mechanics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Neeraj Kumbhakarna"
+      ],
+      "Division": "S1"
+  },
+  "SOM101-S1": {
+      "Code": "SOM101-S1",
+      "Name": "Introduction to Management",
+      "Venue": "Class Room : LA 201",
+      "Slots": [
+          "3B",
+          "5A"
+      ],
+      "Instructors": [
+          " Mayank Pareek"
+      ],
+      "Division": "S1"
+  },
+  "ME219-S2": {
+      "Code": "ME219-S2",
+      "Name": "Fluid Mechanics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Avishek Ranjan"
+      ],
+      "Division": "S2"
+  },
+  "SOM101-S2": {
+      "Code": "SOM101-S2",
+      "Name": "Introduction to Management",
+      "Venue": "Class Room : LA 201",
+      "Slots": [
+          "3C",
+          "X3"
+      ],
+      "Instructors": [
+          " Ashish Pandey"
+      ],
+      "Division": "S2"
+  },
+  "ME219-S3": {
+      "Code": "ME219-S3",
+      "Name": "Fluid Mechanics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Shivasubramanian Gopalakrishnan"
+      ],
+      "Division": "S3"
+  },
+  "SOM612": {
+      "Code": "SOM612",
+      "Name": "Business Research Methods",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Ashish Singh"
+      ],
+      "Division": ""
+  },
+  "ME224": {
+      "Code": "ME224",
+      "Name": "Fluid Mechanics Lab",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "L3",
+          "L2"
+      ],
+      "Instructors": [
+          " Avishek Ranjan",
+          " Shivasubramanian Gopalakrishnan",
+          " Neeraj Kumbhakarna"
+      ],
+      "Division": ""
+  },
+  "SOM613": {
+      "Code": "SOM613",
+      "Name": "Corporate Finance - II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Rohan Chinchwadkar"
+      ],
+      "Division": ""
+  },
+  "SOM614": {
+      "Code": "SOM614",
+      "Name": "Organization Behavior & Human Resources I",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Ashish Pandey",
+          " Bhargava S"
+      ],
+      "Division": ""
+  },
+  "ME226": {
+      "Code": "ME226",
+      "Name": "Mechanical Measurements",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Amit Agrawal"
+      ],
+      "Division": ""
+  },
+  "SOM615": {
+      "Code": "SOM615",
+      "Name": "Operations Management II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " T.T. Niranjan"
+      ],
+      "Division": ""
+  },
+  "ME228": {
+      "Code": "ME228",
+      "Name": "Applied Data Science and Machine Learning",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Alankar Alankar"
+      ],
+      "Division": ""
+  },
+  "SOM616": {
+      "Code": "SOM616",
+      "Name": "Technology Management",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Karuna Jain"
+      ],
+      "Division": ""
+  },
+  "ME230-M": {
+      "Code": "ME230-M",
+      "Name": "Mechanical Processing of Materials",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " De Amitava"
+      ],
+      "Division": "M"
+  },
+  "SOM617": {
+      "Code": "SOM617",
+      "Name": "Corporate Strategy",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Snehal Awate"
+      ],
+      "Division": ""
+  },
+  "ME230-S1": {
+      "Code": "ME230-S1",
+      "Name": "Mechanical Processing of Materials",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Soham Mujumdar"
+      ],
+      "Division": "S1"
+  },
+  "SOM618": {
+      "Code": "SOM618",
+      "Name": "Organization Behavior & Human Resources II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Ashish Pandey"
+      ],
+      "Division": ""
+  },
+  "ME230-S2": {
+      "Code": "ME230-S2",
+      "Name": "Mechanical Processing of Materials",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Amber Shrivastava"
+      ],
+      "Division": "S2"
+  },
+  "SOM619": {
+      "Code": "SOM619",
+      "Name": "Corporate Governance and Business Ethics",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Varadraj B. Bapat"
+      ],
+      "Division": ""
+  },
+  "ME230-S3": {
+      "Code": "ME230-S3",
+      "Name": "Mechanical Processing of Materials",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " De Amitava"
+      ],
+      "Division": "S3"
+  },
+  "SOM621": {
+      "Code": "SOM621",
+      "Name": "Legal Aspects of Business",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Varadraj B. Bapat"
+      ],
+      "Division": ""
+  },
+  "SOM623": {
+      "Code": "SOM623",
+      "Name": "Final Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "ME306-S1": {
+      "Code": "ME306-S1",
+      "Name": "Applied Thermodynamics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " M.D.Atrey"
+      ],
+      "Division": "S1"
+  },
+  "SOM633": {
+      "Code": "SOM633",
+      "Name": "Quality Management",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Indrajit Mukherjee"
+      ],
+      "Division": ""
+  },
+  "ME306-S2": {
+      "Code": "ME306-S2",
+      "Name": "Applied Thermodynamics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Upendra Bhandarkar"
+      ],
+      "Division": "S2"
+  },
+  "SOM643": {
+      "Code": "SOM643",
+      "Name": "Introduction to ERP",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Gajendra Adil",
+          " Atul Kanyalkar"
+      ],
+      "Division": ""
+  },
+  "ME306-S3": {
+      "Code": "ME306-S3",
+      "Name": "Applied Thermodynamics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Shankar Krishnan"
+      ],
+      "Division": "S3"
+  },
+  "SOM649": {
+      "Code": "SOM649",
+      "Name": "Corporate Competitiveness",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Kiran Kumar Momaya"
+      ],
+      "Division": ""
+  },
+  "ME310-S1": {
+      "Code": "ME310-S1",
+      "Name": "Microprocessors and Automatic Control Lab",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Gandhi Prasanna S."
+      ],
+      "Division": "S1"
+  },
+  "SOM652": {
+      "Code": "SOM652",
+      "Name": "Indian Financial and Business Model",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Varadraj B. Bapat"
+      ],
+      "Division": ""
+  },
+  "ME310-S2": {
+      "Code": "ME310-S2",
+      "Name": "Microprocessors and Automatic Control Lab",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Abhishek Gupta",
+          " Vivek Sangwan"
+      ],
+      "Division": "S2"
+  },
+  "SOM660": {
+      "Code": "SOM660",
+      "Name": "Financial Modelling",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Piyush Pandey"
+      ],
+      "Division": ""
+  },
+  "ME310-S3": {
+      "Code": "ME310-S3",
+      "Name": "Microprocessors and Automatic Control Lab",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Gandhi Prasanna S."
+      ],
+      "Division": "S3"
+  },
+  "SOM664": {
+      "Code": "SOM664",
+      "Name": "Business to Business Marketing",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Dinesh Sharma"
+      ],
+      "Division": ""
+  },
+  "ME310-S4": {
+      "Code": "ME310-S4",
+      "Name": "Microprocessors and Automatic Control Lab",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Abhishek Gupta",
+          " Vivek Sangwan"
+      ],
+      "Division": "S4"
+  },
+  "SOM665": {
+      "Code": "SOM665",
+      "Name": "Consumer Behaviour",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Dinesh Sharma"
+      ],
+      "Division": ""
+  },
+  "SOM679": {
+      "Code": "SOM679",
+      "Name": "Competitiveness for Sustainable Enterprise",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Kiran Kumar Momaya"
+      ],
+      "Division": ""
+  },
+  "ME312": {
+      "Code": "ME312",
+      "Name": "Operations Modeling and Analysis",
+      "Venue": "",
+      "Slots": [
+          "7B",
+          "7A"
+      ],
+      "Instructors": [
+          " Avinash Bhardwaj"
+      ],
+      "Division": ""
+  },
+  "SOM680": {
+      "Code": "SOM680",
+      "Name": "Managing Intellectual Property",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "ME315": {
+      "Code": "ME315",
+      "Name": "Supervised Learning Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Nitesh Yelve"
+      ],
+      "Division": ""
+  },
+  "SOM686": {
+      "Code": "SOM686",
+      "Name": "Strategic Transformation",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Snehal Awate"
+      ],
+      "Division": ""
+  },
+  "ME316-M": {
+      "Code": "ME316-M",
+      "Name": "Kinematics and Dynamics of Machines",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Abhishek Gupta"
+      ],
+      "Division": "M"
+  },
+  "SOM691": {
+      "Code": "SOM691",
+      "Name": "Intelligent Systems",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sonar M Rajendra"
+      ],
+      "Division": ""
+  },
+  "ME316-S1": {
+      "Code": "ME316-S1",
+      "Name": "Kinematics and Dynamics of Machines",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Tanmay K. Bhandakkar"
+      ],
+      "Division": "S1"
+  },
+  "SOM693": {
+      "Code": "SOM693",
+      "Name": "Information Technology Infrastructure Management",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sonar M Rajendra"
+      ],
+      "Division": ""
+  },
+  "ME316-S2": {
+      "Code": "ME316-S2",
+      "Name": "Kinematics and Dynamics of Machines",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Abhishek Gupta"
+      ],
+      "Division": "S2"
+  },
+  "SOM700": {
+      "Code": "SOM700",
+      "Name": "Managing Digital Products",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sonar M Rajendra"
+      ],
+      "Division": ""
+  },
+  "ME316-S3": {
+      "Code": "ME316-S3",
+      "Name": "Kinematics and Dynamics of Machines",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Amit Singh"
+      ],
+      "Division": "S3"
+  },
+  "SOM701": {
+      "Code": "SOM701",
+      "Name": "Online Marketing",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Dinesh Sharma"
+      ],
+      "Division": ""
+  },
+  "ME316-S4": {
+      "Code": "ME316-S4",
+      "Name": "Kinematics and Dynamics of Machines",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Seshu P."
+      ],
+      "Division": "S4"
+  },
+  "SOM707": {
+      "Code": "SOM707",
+      "Name": "Behavioral Finance",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.N.Rao"
+      ],
+      "Division": ""
+  },
+  "ME370-S1": {
+      "Code": "ME370-S1",
+      "Name": "Kinematics and Dynamics of Machines Lab",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Guha Anirban",
+          " Salil Kulkarni"
+      ],
+      "Division": "S1"
+  },
+  "SOM711": {
+      "Code": "SOM711",
+      "Name": "Behavioural Economics",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sarthak Gaurav"
+      ],
+      "Division": ""
+  },
+  "SOM712": {
+      "Code": "SOM712",
+      "Name": "Management of Digital Transformation in Enterprise",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sonar M Rajendra"
+      ],
+      "Division": ""
+  },
+  "ME370-S2": {
+      "Code": "ME370-S2",
+      "Name": "Kinematics and Dynamics of Machines Lab",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Guha Anirban"
+      ],
+      "Division": "S2"
+  },
+  "SOM717": {
+      "Code": "SOM717",
+      "Name": "Sustainable Supply Chain Management",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Gajendra Adil"
+      ],
+      "Division": ""
+  },
+  "ME372": {
+      "Code": "ME372",
+      "Name": "Heat Transfer and Metrology Lab",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "L2"
+      ],
+      "Instructors": [
+          " Arunkumar Sridharan",
+          " Gurminder Singh",
+          " Rakesh G. Mote",
+          " Sandip Kumar Saha",
+          " Vedula R.P.",
+          " Bhalchandra Puranik"
+      ],
+      "Division": ""
+  },
+  "SOM720": {
+      "Code": "SOM720",
+      "Name": "Sustainable Finance",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Trupti Mishra"
+      ],
+      "Division": ""
+  },
+  "ME412": {
+      "Code": "ME412",
+      "Name": "CFD and HT Lab",
+      "Venue": "",
+      "Slots": [
+          "L2",
+          "LX"
+      ],
+      "Instructors": [
+          " Janani S. Murallidharan"
+      ],
+      "Division": ""
+  },
+  "SOM722": {
+      "Code": "SOM722",
+      "Name": "Managing Industry 4.0",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sonar M Rajendra"
+      ],
+      "Division": ""
+  },
+  "ME415": {
+      "Code": "ME415",
+      "Name": "Computational Fluid Dynamics and Heat Transfer",
+      "Venue": "Class : CL 106 ESE",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Sharma Atul"
+      ],
+      "Division": ""
+  },
+  "SOM723": {
+      "Code": "SOM723",
+      "Name": "Quantitative and Algorithmic Trading",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Piyush Pandey"
+      ],
+      "Division": ""
+  },
+  "ME420": {
+      "Code": "ME420",
+      "Name": "Cryogenic Engineering I",
+      "Venue": "Class : ME-F24",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " M.D.Atrey"
+      ],
+      "Division": ""
+  },
+  "SOM724": {
+      "Code": "SOM724",
+      "Name": "Econometrics of Financial Markets",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Piyush Pandey"
+      ],
+      "Division": ""
+  },
+  "ME496": {
+      "Code": "ME496",
+      "Name": "BTP II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Nitesh Yelve"
+      ],
+      "Division": ""
+  },
+  "SOM725": {
+      "Code": "SOM725",
+      "Name": "Customer Analytics",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sonar M Rajendra"
+      ],
+      "Division": ""
+  },
+  "ME594": {
+      "Code": "ME594",
+      "Name": "Dual Degree Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Nitesh Yelve"
+      ],
+      "Division": ""
+  },
+  "SOM728": {
+      "Code": "SOM728",
+      "Name": "Business Analytics and Simulation",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Pankaj Dutta"
+      ],
+      "Division": ""
+  },
+  "ME6103": {
+      "Code": "ME6103",
+      "Name": "Ultrafast Lasers: Fundamentals and Applications",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "8B"
+      ],
+      "Instructors": [
+          " Deepak Marla",
+          " Dipanshu Bansal"
+      ],
+      "Division": ""
+  },
+  "SOM744": {
+      "Code": "SOM744",
+      "Name": "Multivariate Data Analysis",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Usha Ananthakumar"
+      ],
+      "Division": ""
+  },
+  "SOM793": {
+      "Code": "SOM793",
+      "Name": "Compulsory IDDDP Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Indrajit Mukherjee",
+          " Piyush Pandey"
+      ],
+      "Division": ""
+  },
+  "ME6106": {
+      "Code": "ME6106",
+      "Name": "Computational Structural Dynamics",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Salil Kulkarni"
+      ],
+      "Division": ""
+  },
+  "SOM794": {
+      "Code": "SOM794",
+      "Name": "Optional IDDDP Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Indrajit Mukherjee",
+          " Piyush Pandey"
+      ],
+      "Division": ""
+  },
+  "SOM802": {
+      "Code": "SOM802",
+      "Name": "Theory of Finance",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " S.V.D.Nageswara Rao"
+      ],
+      "Division": ""
+  },
+  "ME6114": {
+      "Code": "ME6114",
+      "Name": "Joint Biomechanics",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Darshan Sunil Shah"
+      ],
+      "Division": ""
+  },
+  "ME6118": {
+      "Code": "ME6118",
+      "Name": "Spray Theory and Applications",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Abhijeet Kumar"
+      ],
+      "Division": ""
+  },
+  "ME613": {
+      "Code": "ME613",
+      "Name": "Finite Element and Boundary Element Methods",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " R. Ganesh"
+      ],
+      "Division": ""
+  },
+  "ME616": {
+      "Code": "ME616",
+      "Name": "Fracture Mechanics",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Krishna Jonnalagadda"
+      ],
+      "Division": ""
+  },
+  "ME639": {
+      "Code": "ME639",
+      "Name": "Linear Systems Theory",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Vivek Sangwan"
+      ],
+      "Division": ""
+  },
+  "ME643": {
+      "Code": "ME643",
+      "Name": "Materials Processing and Simulation Laboratory",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Date P.P.",
+          " Pradeep Dixit",
+          " Shyamprasad Karagadde",
+          " Sushil Mishra",
+          " Asim Tewari"
+      ],
+      "Division": ""
+  },
+  "ME651": {
+      "Code": "ME651",
+      "Name": "Fluid Dynamics",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Bhalchandra Puranik"
+      ],
+      "Division": ""
+  },
+  "ME657": {
+      "Code": "ME657",
+      "Name": "Thermal and Fluids Engg Laboratory",
+      "Venue": "",
+      "Slots": [
+          "7B",
+          "L1",
+          "7A"
+      ],
+      "Instructors": [
+          " Janani S. Murallidharan",
+          " Rane Milind",
+          " Shankar Krishnan",
+          " Sreedhara Sheshadri",
+          " Amit Agrawal",
+          " Rane Milind"
+      ],
+      "Division": ""
+  },
+  "ME663": {
+      "Code": "ME663",
+      "Name": "Advanced Heat Transfer",
+      "Venue": "Class Room : LT 206",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Arunkumar Sridharan"
+      ],
+      "Division": ""
+  },
+  "ME673": {
+      "Code": "ME673",
+      "Name": "Mathematical Methods in Engineering",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Vedula R.P."
+      ],
+      "Division": ""
+  },
+  "ME677": {
+      "Code": "ME677",
+      "Name": "Laser Material Processing",
+      "Venue": "Class Room : LT 201",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Deepak Marla"
+      ],
+      "Division": ""
+  },
+  "ME678": {
+      "Code": "ME678",
+      "Name": "Fundamentals of Gas Dynamics",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Abhilash Chandy"
+      ],
+      "Division": ""
+  },
+  "ME683": {
+      "Code": "ME683",
+      "Name": "Cryogenic Engineering - I",
+      "Venue": "Class : ME-F24",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " M.D.Atrey"
+      ],
+      "Division": ""
+  },
+  "ME684": {
+      "Code": "ME684",
+      "Name": "Airconditioning System Design",
+      "Venue": "Class Room : LT 203",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Rane Milind"
+      ],
+      "Division": ""
+  },
+  "ME691": {
+      "Code": "ME691",
+      "Name": "R & D Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Nitesh Yelve"
+      ],
+      "Division": ""
+  },
+  "ME712": {
+      "Code": "ME712",
+      "Name": "Computer Numerical Control and Programming.",
+      "Venue": "Class Room : LC 201",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Pande S.S."
+      ],
+      "Division": ""
+  },
+  "ME730": {
+      "Code": "ME730",
+      "Name": "Ultra-Precision Machining",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Rakesh G. Mote"
+      ],
+      "Division": ""
+  },
+  "ME748": {
+      "Code": "ME748",
+      "Name": "Computer Aided Simulation of Machines",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Guha Anirban"
+      ],
+      "Division": ""
+  },
+  "ME750": {
+      "Code": "ME750",
+      "Name": "Sheet Metal Engineering",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Sushil Mishra"
+      ],
+      "Division": ""
+  },
+  "ME754": {
+      "Code": "ME754",
+      "Name": "Textile Machines Design & Automation",
+      "Venue": "",
+      "Slots": [
+          "15B",
+          "15A"
+      ],
+      "Instructors": [
+          " Guha Anirban"
+      ],
+      "Division": ""
+  },
+  "ME761": {
+      "Code": "ME761",
+      "Name": "Advanced Stereology and Microstructural Analysis",
+      "Venue": "Class : CL 105 ESE",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Asim Tewari"
+      ],
+      "Division": ""
+  },
+  "ME762": {
+      "Code": "ME762",
+      "Name": "Advanced Engineering Dynamics",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " V. Kartik"
+      ],
+      "Division": ""
+  },
+  "ME768": {
+      "Code": "ME768",
+      "Name": "Introduction to Microsystems Packaging",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Pradeep Dixit"
+      ],
+      "Division": ""
+  },
+  "ME769": {
+      "Code": "ME769",
+      "Name": "Combustion in Automobile and Gas Turbine Engines",
+      "Venue": "Class : ME-F24",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Sreedhara Sheshadri"
+      ],
+      "Division": ""
+  },
+  "ME772": {
+      "Code": "ME772",
+      "Name": "Processing of Aerospace Materials-I",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Amol A. Gokhale"
+      ],
+      "Division": ""
+  },
+  "ME779": {
+      "Code": "ME779",
+      "Name": "Control Systems",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Manik Dhanesh"
+      ],
+      "Division": ""
+  },
+  "ME790": {
+      "Code": "ME790",
+      "Name": "Materials modelling using atomistic first-principles calculations",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Ankit Jain"
+      ],
+      "Division": ""
+  },
+  "ME793": {
+      "Code": "ME793",
+      "Name": " Multiscale Materials Informatics, Discovery and Design",
+      "Venue": "Class : CL 102 ESE",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Alankar Alankar"
+      ],
+      "Division": ""
+  },
+  "ME794": {
+      "Code": "ME794",
+      "Name": "Statistical Design of Experiments",
+      "Venue": "Class Room : LC 301",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Soham Mujumdar"
+      ],
+      "Division": ""
+  },
+  "ME800": {
+      "Code": "ME800",
+      "Name": "Additive Manufacturing: Design, Processes and Inspection",
+      "Venue": "Class Room : LT 305",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Gurminder Singh"
+      ],
+      "Division": ""
+  },
+  "ME802": {
+      "Code": "ME802",
+      "Name": "Manufacturing Technologies for Electric Mobility",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Date P.P."
+      ],
+      "Division": ""
+  },
+  "ME899": {
+      "Code": "ME899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Sandip Kumar Saha"
+      ],
+      "Division": ""
+  },
+  "MS101-P13": {
+      "Code": "MS101-P13",
+      "Name": "Makerspace",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "L3"
+      ],
+      "Instructors": [
+          " Chatterjee Kishore",
+          " Debraj Chakraborty",
+          " D.N. Pawaskar",
+          " Karunakaran K.P.",
+          " Kushal R. Tuckley",
+          " Narendra Shiradkar",
+          " Pandey P.C.",
+          " Rajneesh Bhardwaj",
+          " Sharma Dinesh",
+          " J.John",
+          " Prabhu S V"
+      ],
+      "Division": "P13"
+  },
+  "MS101-P14": {
+      "Code": "MS101-P14",
+      "Name": "Makerspace",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "L3"
+      ],
+      "Instructors": [
+          " Chatterjee Kishore",
+          " Debraj Chakraborty",
+          " D.N. Pawaskar",
+          " Karunakaran K.P.",
+          " Kushal R. Tuckley",
+          " Narendra Shiradkar",
+          " Pandey P.C.",
+          " Rajneesh Bhardwaj",
+          " Sharma Dinesh",
+          " J.John",
+          " Prabhu S V"
+      ],
+      "Division": "P14"
+  },
+  "MS101-P15": {
+      "Code": "MS101-P15",
+      "Name": "Makerspace",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "L2"
+      ],
+      "Instructors": [
+          " Chatterjee Kishore",
+          " Debraj Chakraborty",
+          " D.N. Pawaskar",
+          " Karunakaran K.P.",
+          " Kushal R. Tuckley",
+          " Narendra Shiradkar",
+          " Pandey P.C.",
+          " Rajneesh Bhardwaj",
+          " Sharma Dinesh",
+          " J.John",
+          " Prabhu S V"
+      ],
+      "Division": "P15"
+  },
+  "MS101-P16": {
+      "Code": "MS101-P16",
+      "Name": "Makerspace",
+      "Venue": "Class Room : LA 202",
+      "Slots": [
+          "3A"
+      ],
+      "Instructors": [
+          " Chatterjee Kishore",
+          " Debraj Chakraborty",
+          " D.N. Pawaskar",
+          " Karunakaran K.P.",
+          " Kushal R. Tuckley",
+          " Narendra Shiradkar",
+          " Pandey P.C.",
+          " Rajneesh Bhardwaj",
+          " Sharma Dinesh",
+          " J.John",
+          " Prabhu S V"
+      ],
+      "Division": "P16"
+  },
+  "MS101-P19": {
+      "Code": "MS101-P19",
+      "Name": "Makerspace",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "3A",
+          "4A",
+          "1C",
+          "2C",
+          "4C"
+      ],
+      "Instructors": [
+          " Chatterjee Kishore",
+          " Debraj Chakraborty",
+          " D.N. Pawaskar",
+          " Karunakaran K.P.",
+          " Kushal R. Tuckley",
+          " Narendra Shiradkar",
+          " Pandey P.C.",
+          " Rajneesh Bhardwaj",
+          " Sharma Dinesh",
+          " J.John",
+          " Prabhu S V"
+      ],
+      "Division": "P19"
+  },
+  "MS101-P20": {
+      "Code": "MS101-P20",
+      "Name": "Makerspace",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "3A",
+          "4A",
+          "1C",
+          "2C",
+          "4C"
+      ],
+      "Instructors": [
+          " Chatterjee Kishore",
+          " Debraj Chakraborty",
+          " D.N. Pawaskar",
+          " Karunakaran K.P.",
+          " Kushal R. Tuckley",
+          " Narendra Shiradkar",
+          " Pandey P.C.",
+          " Rajneesh Bhardwaj",
+          " Sharma Dinesh",
+          " J.John",
+          " Prabhu S V"
+      ],
+      "Division": "P20"
+  },
+  "MS101-P21": {
+      "Code": "MS101-P21",
+      "Name": "Makerspace",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "6B",
+          "1B",
+          "2B",
+          "4B"
+      ],
+      "Instructors": [
+          " Chatterjee Kishore",
+          " Debraj Chakraborty",
+          " D.N. Pawaskar",
+          " Karunakaran K.P.",
+          " Kushal R. Tuckley",
+          " Narendra Shiradkar",
+          " Pandey P.C.",
+          " Rajneesh Bhardwaj",
+          " Sharma Dinesh",
+          " J.John",
+          " Prabhu S V"
+      ],
+      "Division": "P21"
+  },
+  "MS101-P22": {
+      "Code": "MS101-P22",
+      "Name": "Makerspace",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "6B",
+          "1B",
+          "2B",
+          "4B"
+      ],
+      "Instructors": [
+          " Chatterjee Kishore",
+          " Debraj Chakraborty",
+          " D.N. Pawaskar",
+          " Karunakaran K.P.",
+          " Kushal R. Tuckley",
+          " Narendra Shiradkar",
+          " Pandey P.C.",
+          " Rajneesh Bhardwaj",
+          " Sharma Dinesh",
+          " J.John",
+          " Prabhu S V"
+      ],
+      "Division": "P22"
+  },
+  "MMM694": {
+      "Code": "MMM694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Pradeep Dixit"
+      ],
+      "Division": ""
+  },
+  "MM104": {
+      "Code": "MM104",
+      "Name": "Materials Tetrahedron",
+      "Venue": "Class Room : LH 302",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Parag Bhargava"
+      ],
+      "Division": ""
+  },
+  "MM105": {
+      "Code": "MM105",
+      "Name": "It\u2019s a materials world!",
+      "Venue": "Class Room : LC 201",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Parag Bhargava"
+      ],
+      "Division": ""
+  },
+  "MM152": {
+      "Code": "MM152",
+      "Name": "Materials & Technology",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Parag Bhargava"
+      ],
+      "Division": ""
+  },
+  "MM206": {
+      "Code": "MM206",
+      "Name": "Experimental Techniques in Materials Science",
+      "Venue": "Class Room : LT 303",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Prasanna T.R.S.",
+          " Sudhanshu Mallick"
+      ],
+      "Division": ""
+  },
+  "MM210": {
+      "Code": "MM210",
+      "Name": "Numerical Methods for Materials Engineers",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Anirban Patra"
+      ],
+      "Division": ""
+  },
+  "MM218": {
+      "Code": "MM218",
+      "Name": "Process Kinetics and Transport",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Deepoo Kumar",
+          " N.N.Viswanathan"
+      ],
+      "Division": ""
+  },
+  "MM220": {
+      "Code": "MM220",
+      "Name": "Computation Lab",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "L3"
+      ],
+      "Instructors": [
+          " Prita Pant",
+          " Amrita Bhattacharya"
+      ],
+      "Division": ""
+  },
+  "MM222": {
+      "Code": "MM222",
+      "Name": "Electrochemistry of Materials and its Applications",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Smrutiranjan Parida",
+          " Amartya Mukhopadhyay"
+      ],
+      "Division": ""
+  },
+  "MM224": {
+      "Code": "MM224",
+      "Name": "Electrochemistry and Corrosion Lab",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "L3"
+      ],
+      "Instructors": [
+          " Aswani Yella",
+          " Raja V. S."
+      ],
+      "Division": ""
+  },
+  "MM226": {
+      "Code": "MM226",
+      "Name": "Supervised Learning Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Tanushree H. Choudhury"
+      ],
+      "Division": ""
+  },
+  "MM312-S1": {
+      "Code": "MM312-S1",
+      "Name": "Heat Treatment Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Mural S Prasanna Kumar",
+          " Prabhu N."
+      ],
+      "Division": "S1"
+  },
+  "MM312-S2": {
+      "Code": "MM312-S2",
+      "Name": "Heat Treatment Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Mural S Prasanna Kumar",
+          " Prabhu N."
+      ],
+      "Division": "S2"
+  },
+  "MM318-M": {
+      "Code": "MM318-M",
+      "Name": "Electronic Properties of Materials",
+      "Venue": "Class : CL 111 ESE",
+      "Slots": [
+          "7B",
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Tanushree H. Choudhury",
+          " Amrita Bhattacharya"
+      ],
+      "Division": "M"
+  },
+  "MM318-S1": {
+      "Code": "MM318-S1",
+      "Name": "Electronic Properties of Materials",
+      "Venue": "Class : CL 111 ESE",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Amrita Bhattacharya"
+      ],
+      "Division": "S1"
+  },
+  "MM318-S2": {
+      "Code": "MM318-S2",
+      "Name": "Electronic Properties of Materials",
+      "Venue": "Class : CL 105 ESE",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Tanushree H. Choudhury"
+      ],
+      "Division": "S2"
+  },
+  "MM320": {
+      "Code": "MM320",
+      "Name": "Principles of Process Metallurgy",
+      "Venue": "Class Room : LH 101",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Somnath Basu",
+          " Khosla N.K."
+      ],
+      "Division": ""
+  },
+  "MM322-S1": {
+      "Code": "MM322-S1",
+      "Name": "Casting and Joining Lab",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Manish M. Pande",
+          " K. Bhanumurthy"
+      ],
+      "Division": "S1"
+  },
+  "MM322-S2": {
+      "Code": "MM322-S2",
+      "Name": "Casting and Joining Lab",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Manish M. Pande",
+          " K. Bhanumurthy"
+      ],
+      "Division": "S2"
+  },
+  "MM323-S1": {
+      "Code": "MM323-S1",
+      "Name": "Manufacturing Processes Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Abhijeet Sangle",
+          " Mithun Chowdhury"
+      ],
+      "Division": "S1"
+  },
+  "MM323-S2": {
+      "Code": "MM323-S2",
+      "Name": "Manufacturing Processes Laboratory",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Abhijeet Sangle",
+          " Mithun Chowdhury"
+      ],
+      "Division": "S2"
+  },
+  "MM357": {
+      "Code": "MM357",
+      "Name": "Ceramics and Powder Metallurgy",
+      "Venue": "Class Room : LH 102",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Ashutosh Gandhi"
+      ],
+      "Division": ""
+  },
+  "MM359": {
+      "Code": "MM359",
+      "Name": "Metal Casting and Joining",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " K. Bhanumurthy",
+          " Durga A."
+      ],
+      "Division": ""
+  },
+  "MM396": {
+      "Code": "MM396",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Aswani Yella",
+          " Mural S Prasanna Kumar"
+      ],
+      "Division": ""
+  },
+  "MM406": {
+      "Code": "MM406",
+      "Name": "Semiconductor Devices and Processing",
+      "Venue": "Class Room : LT 302",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Triratna Muneshwar"
+      ],
+      "Division": ""
+  },
+  "MM408": {
+      "Code": "MM408",
+      "Name": "Mechanical Working of Metals ",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " MJNV Prasad",
+          " Samajdar I."
+      ],
+      "Division": ""
+  },
+  "MM426-S1": {
+      "Code": "MM426-S1",
+      "Name": "Equipment and Processes Design Lab.",
+      "Venue": "Class Room : LC 301",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Dinkar S. Patil",
+          " K. Bhanumurthy",
+          " V. K. Srivastava"
+      ],
+      "Division": "S1"
+  },
+  "MM426-S2": {
+      "Code": "MM426-S2",
+      "Name": "Equipment and Processes Design Lab.",
+      "Venue": "Class Room : LC 301",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Dinkar S. Patil",
+          " K. Bhanumurthy",
+          " V. K. Srivastava"
+      ],
+      "Division": "S2"
+  },
+  "MM448-S1": {
+      "Code": "MM448-S1",
+      "Name": "Thin Films Lab",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Triratna Muneshwar",
+          " Dinkar S. Patil"
+      ],
+      "Division": "S1"
+  },
+  "MM448-S2": {
+      "Code": "MM448-S2",
+      "Name": "Thin Films Lab",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Triratna Muneshwar",
+          " Dinkar S. Patil"
+      ],
+      "Division": "S2"
+  },
+  "MM454": {
+      "Code": "MM454",
+      "Name": "Corrosion & Protection of Materials",
+      "Venue": "Class Room : LC 301",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Vijayshankar Dandapani"
+      ],
+      "Division": ""
+  },
+  "MM462-S1": {
+      "Code": "MM462-S1",
+      "Name": "Corrosion & Protection Lab",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Smrutiranjan Parida",
+          " Vijayshankar Dandapani"
+      ],
+      "Division": "S1"
+  },
+  "MM462-S2": {
+      "Code": "MM462-S2",
+      "Name": "Corrosion & Protection Lab",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Smrutiranjan Parida",
+          " Vijayshankar Dandapani"
+      ],
+      "Division": "S2"
+  },
+  "MM492": {
+      "Code": "MM492",
+      "Name": "B.Tech Project I",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Avradeep Pal"
+      ],
+      "Division": ""
+  },
+  "MM494": {
+      "Code": "MM494",
+      "Name": "B.Tech Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Avradeep Pal"
+      ],
+      "Division": ""
+  },
+  "PH110-D1": {
+      "Code": "PH110-D1",
+      "Name": "Introduction to Classical and Quantum Physics",
+      "Venue": "Class Room : LC 301",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Sankar S.Uma"
+      ],
+      "Division": "D1"
+  },
+  "MM6004": {
+      "Code": "MM6004",
+      "Name": "Machine Learning for Materials Engineering",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " M.P. Gururajan"
+      ],
+      "Division": ""
+  },
+  "MM612": {
+      "Code": "MM612",
+      "Name": "Computational Laboratory ",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Sanjay Chandra",
+          " Ajay Singh Panwar"
+      ],
+      "Division": ""
+  },
+  "MM622": {
+      "Code": "MM622",
+      "Name": "Advanced Concepts in Iron Making",
+      "Venue": "Class Room : LT 104",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Somnath Basu",
+          " N.N.Viswanathan"
+      ],
+      "Division": ""
+  },
+  "PH110-D2": {
+      "Code": "PH110-D2",
+      "Name": "Introduction to Classical and Quantum Physics",
+      "Venue": "Class Room : LT 105",
+      "Slots": [
+          "X2"
+      ],
+      "Instructors": [
+          " ",
+          " Kantimay Siba Pada Das Gupta Das Gupta"
+      ],
+      "Division": "D2"
+  },
+  "MM624": {
+      "Code": "MM624",
+      "Name": "Advanced Concepts in Steel Making",
+      "Venue": "Class Room : LT 204",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Manish M. Pande",
+          " Deepoo Kumar"
+      ],
+      "Division": ""
+  },
+  "MM626": {
+      "Code": "MM626",
+      "Name": "Thermomechanical Processing and Forming of Steel",
+      "Venue": "Class Room : LT 301",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " MJNV Prasad"
+      ],
+      "Division": ""
+  },
+  "MM638": {
+      "Code": "MM638",
+      "Name": "Polymer Blends and Composites",
+      "Venue": "Class Room : LT 206",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Arup R. Bhattacharyya"
+      ],
+      "Division": ""
+  },
+  "PH110-D3": {
+      "Code": "PH110-D3",
+      "Name": "Introduction to Classical and Quantum Physics",
+      "Venue": "Class Room : LT 304",
+      "Slots": [
+          "X3"
+      ],
+      "Instructors": [
+          "  ",
+          " Punit  Parmananda"
+      ],
+      "Division": "D3"
+  },
+  "MM642": {
+      "Code": "MM642",
+      "Name": "Modelling of Metallurgical Processes",
+      "Venue": "Class Room : LT 304",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Sanjay Chandra"
+      ],
+      "Division": ""
+  },
+  "MM650": {
+      "Code": "MM650",
+      "Name": "Protective Coatings",
+      "Venue": "Class Room : LT 302",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Smrutiranjan Parida"
+      ],
+      "Division": ""
+  },
+  "MM652": {
+      "Code": "MM652",
+      "Name": "Advanced Ceramics",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Kulkarni Ajit R.",
+          " Avradeep Pal"
+      ],
+      "Division": ""
+  },
+  "MM656": {
+      "Code": "MM656",
+      "Name": "Simulation and Optimisation",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Sumit Saxena"
+      ],
+      "Division": ""
+  },
+  "MM658": {
+      "Code": "MM658",
+      "Name": "Fracture Mechanics and Failure Analysis",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Nagamani J. Balila"
+      ],
+      "Division": ""
+  },
+  "MM674": {
+      "Code": "MM674",
+      "Name": "Materials & Processes for Semiconductor Devices",
+      "Venue": "Class Room : LT 301",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Dusane Rajiv O."
+      ],
+      "Division": ""
+  },
+  "PH110-D4": {
+      "Code": "PH110-D4",
+      "Name": "Introduction to Classical and Quantum Physics",
+      "Venue": "Class Room : LT 303",
+      "Slots": [
+          "X1",
+          "X2"
+      ],
+      "Instructors": [
+          "  ",
+          " Anirban  Sain"
+      ],
+      "Division": "D4"
+  },
+  "MM677": {
+      "Code": "MM677",
+      "Name": "Diffusion and Kinetics",
+      "Venue": "Class Room : LT 301",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " M.P. Gururajan"
+      ],
+      "Division": ""
+  },
+  "MM684": {
+      "Code": "MM684",
+      "Name": "X-Ray Diffraction and Electron Microscopy",
+      "Venue": "Class Room : LT 105",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Samajdar I.",
+          " Prasanna T.R.S."
+      ],
+      "Division": ""
+  },
+  "MM685": {
+      "Code": "MM685",
+      "Name": "Electrical Materials: fundamentals and applications",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Titas Dasgupta"
+      ],
+      "Division": ""
+  },
+  "MM688": {
+      "Code": "MM688",
+      "Name": "Non-Crystalline Materials",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Kulkarni Ajit R."
+      ],
+      "Division": ""
+  },
+  "MM691": {
+      "Code": "MM691",
+      "Name": "Topics in Phase Transformations",
+      "Venue": "Class Room : LT 304",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Prabhu N."
+      ],
+      "Division": ""
+  },
+  "MM694": {
+      "Code": "MM694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Smrutiranjan Parida"
+      ],
+      "Division": ""
+  },
+  "PS602": {
+      "Code": "PS602",
+      "Name": "Public Policy in Practice",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Malish C.M.",
+          " N.C.Narayanan"
+      ],
+      "Division": ""
+  },
+  "PH117-P1": {
+      "Code": "PH117-P1",
+      "Name": "Physics Lab",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Nitin Kumar",
+          " Mohamad Aslam"
+      ],
+      "Division": "P1"
+  },
+  "MM700": {
+      "Code": "MM700",
+      "Name": "Electrochemical and Materials Perspective in Energy Storage",
+      "Venue": "Class : CL 109 ESE",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Amartya Mukhopadhyay"
+      ],
+      "Division": ""
+  },
+  "PS604": {
+      "Code": "PS604",
+      "Name": "Technology, Culture and Policy",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Mehra A."
+      ],
+      "Division": ""
+  },
+  "PH117-P10": {
+      "Code": "PH117-P10",
+      "Name": "Physics Lab",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "6B"
+      ],
+      "Instructors": [
+          " Nitin Kumar",
+          " Mohamad Aslam"
+      ],
+      "Division": "P10"
+  },
+  "MM712": {
+      "Code": "MM712",
+      "Name": "Advances in Design and Control of Corrosion",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Raja V. S."
+      ],
+      "Division": ""
+  },
+  "PS607": {
+      "Code": "PS607",
+      "Name": "Public Policy Theory II",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Malish C.M.",
+          " N.C.Narayanan"
+      ],
+      "Division": ""
+  },
+  "PH117-P2": {
+      "Code": "PH117-P2",
+      "Name": "Physics Lab",
+      "Venue": "",
+      "Slots": [
+          "L2"
+      ],
+      "Instructors": [
+          " Nitin Kumar",
+          " Mohamad Aslam"
+      ],
+      "Division": "P2"
+  },
+  "MM718": {
+      "Code": "MM718",
+      "Name": "Laser Processing and Nanostructures",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Shobha Shukla"
+      ],
+      "Division": ""
+  },
+  "PH117-P3": {
+      "Code": "PH117-P3",
+      "Name": "Physics Lab",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Nitin Kumar",
+          " Mohamad Aslam"
+      ],
+      "Division": "P3"
+  },
+  "PS610": {
+      "Code": "PS610",
+      "Name": "Quantitative and Qualitative Research Methods",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Malish C.M.",
+          " Prabhir Vishnu Poruthiyil"
+      ],
+      "Division": ""
+  },
+  "MM722": {
+      "Code": "MM722",
+      "Name": "Molecular Simulations for Mateirals Engineering ",
+      "Venue": "Class Room : LC 002",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Ajay Singh Panwar"
+      ],
+      "Division": ""
+  },
+  "PH117-P4": {
+      "Code": "PH117-P4",
+      "Name": "Physics Lab",
+      "Venue": "",
+      "Slots": [
+          "L4"
+      ],
+      "Instructors": [
+          " Nitin Kumar",
+          " Mohamad Aslam"
+      ],
+      "Division": "P4"
+  },
+  "PS614": {
+      "Code": "PS614",
+      "Name": "Water Policy II - Advanced  Themes in Water Policy",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " N.C.Narayanan"
+      ],
+      "Division": ""
+  },
+  "MM739": {
+      "Code": "MM739",
+      "Name": "Semiconductor Photoelectrochemistry and Photocatalysis",
+      "Venue": "Class Room : LT 204",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Aswani Yella"
+      ],
+      "Division": ""
+  },
+  "PH117-P7": {
+      "Code": "PH117-P7",
+      "Name": "Physics Lab",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "3A",
+          "4A"
+      ],
+      "Instructors": [
+          " Nitin Kumar",
+          " Mohamad Aslam"
+      ],
+      "Division": "P7"
+  },
+  "PS619": {
+      "Code": "PS619",
+      "Name": "Health Policy: An Introduction ",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Santosh Noronha"
+      ],
+      "Division": ""
+  },
+  "MM746": {
+      "Code": "MM746",
+      "Name": "Concepts of Advanced Polymer Science & Engineering",
+      "Venue": "Class : CL 113 ESE",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Mithun Chowdhury"
+      ],
+      "Division": ""
+  },
+  "PH117-P8": {
+      "Code": "PH117-P8",
+      "Name": "Physics Lab",
+      "Venue": "",
+      "Slots": [
+          "1B",
+          "2B",
+          "4B"
+      ],
+      "Instructors": [
+          " Nitin Kumar",
+          " Mohamad Aslam"
+      ],
+      "Division": "P8"
+  },
+  "PS630": {
+      "Code": "PS630",
+      "Name": "Technology and the Future of Workers",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Anupam Guha"
+      ],
+      "Division": ""
+  },
+  "MM749": {
+      "Code": "MM749",
+      "Name": "Statistics and Probability for Materials Engineers",
+      "Venue": "Class Room : LT 206",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Hina Amol Gokhale"
+      ],
+      "Division": ""
+  },
+  "PH117-P9": {
+      "Code": "PH117-P9",
+      "Name": "Physics Lab",
+      "Venue": "",
+      "Slots": [
+          "1C",
+          "2C",
+          "4C"
+      ],
+      "Instructors": [
+          " Nitin Kumar",
+          " Mohamad Aslam"
+      ],
+      "Division": "P9"
+  },
+  "PS633": {
+      "Code": "PS633",
+      "Name": "Writing Policy",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Naveen Bharathi"
+      ],
+      "Division": ""
+  },
+  "MM750": {
+      "Code": "MM750",
+      "Name": "Vibrational Spectroscopy for Materials Scientists",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Shobha Shukla"
+      ],
+      "Division": ""
+  },
+  "PH216": {
+      "Code": "PH216",
+      "Name": "Statistical Physics",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Dibyendu Das"
+      ],
+      "Division": ""
+  },
+  "MM754": {
+      "Code": "MM754",
+      "Name": "Sustainable Materials for Water Treatment",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Mural S Prasanna Kumar"
+      ],
+      "Division": ""
+  },
+  "PS634": {
+      "Code": "PS634",
+      "Name": "Constitutional Law and Public Policy",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Robinson Rowena",
+          " Rahul Suresh Sapkal"
+      ],
+      "Division": ""
+  },
+  "PH222": {
+      "Code": "PH222",
+      "Name": "Digital Electronics and Microprocessors",
+      "Venue": "",
+      "Slots": [
+          "L2",
+          "LX"
+      ],
+      "Instructors": [
+          " Maniraj Mahalingam"
+      ],
+      "Division": ""
+  },
+  "MM756": {
+      "Code": "MM756",
+      "Name": "Physical Metallurgy and Mechanical Properties of Steels",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Aparna Singh"
+      ],
+      "Division": ""
+  },
+  "PH232": {
+      "Code": "PH232",
+      "Name": "Physics Laboratory I (General Physics Lab)",
+      "Venue": "",
+      "Slots": [
+          "L1",
+          "L3"
+      ],
+      "Instructors": [
+          " Pramod Kumar"
+      ],
+      "Division": ""
+  },
+  "PS636": {
+      "Code": "PS636",
+      "Name": "Information Economy, Platforms and Governance",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Jha Shishir Kumar"
+      ],
+      "Division": ""
+  },
+  "MM801": {
+      "Code": "MM801",
+      "Name": "Specialty steels: Making and Casting",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Manish M. Pande"
+      ],
+      "Division": ""
+  },
+  "PH252-M": {
+      "Code": "PH252-M",
+      "Name": "Introduction to Quantum Mechanics",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Das Pragya"
+      ],
+      "Division": "M"
+  },
+  "PS637": {
+      "Code": "PS637",
+      "Name": "Circular Economy: Policy and Practices",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Pradip P. Kalbar",
+          " Ajay A Deshpande"
+      ],
+      "Division": ""
+  },
+  "PH303": {
+      "Code": "PH303",
+      "Name": "Supervised Learning",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Himadri Shekhar Dhar"
+      ],
+      "Division": ""
+  },
+  "MM899": {
+      "Code": "MM899",
+      "Name": "Communication Skills",
+      "Venue": "Class Room : LT 001",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Mural S Prasanna Kumar",
+          " Arup R. Bhattacharyya"
+      ],
+      "Division": ""
+  },
+  "PS640": {
+      "Code": "PS640",
+      "Name": "Gender and Development",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Ahonaa Roy"
+      ],
+      "Division": ""
+  },
+  "MMS802": {
+      "Code": "MMS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Dipti Gupta"
+      ],
+      "Division": ""
+  },
+  "PH307": {
+      "Code": "PH307",
+      "Name": "Introduction to Numerical Analysis",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Alok Shukla"
+      ],
+      "Division": ""
+  },
+  "PS641": {
+      "Code": "PS641",
+      "Name": "Trustworthy Systems: A Policy Engagement",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Jha Shishir Kumar",
+          " Sundeep Oberoi"
+      ],
+      "Division": ""
+  },
+  "PS642": {
+      "Code": "PS642",
+      "Name": "Policy and Practice of Education",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Malish C.M."
+      ],
+      "Division": ""
+  },
+  "PH309": {
+      "Code": "PH309",
+      "Name": "Quantum Mechanics II",
+      "Venue": "",
+      "Slots": [
+          "4C"
+      ],
+      "Instructors": [
+          " Soumya Bera"
+      ],
+      "Division": ""
+  },
+  "PS644": {
+      "Code": "PS644",
+      "Name": "Advanced Topics in AI, Data, and Policy",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Anupam Guha"
+      ],
+      "Division": ""
+  },
+  "PH408": {
+      "Code": "PH408",
+      "Name": "Mathematical Physics II",
+      "Venue": "",
+      "Slots": [
+          "3A"
+      ],
+      "Instructors": [
+          " Siddhartha Santra"
+      ],
+      "Division": ""
+  },
+  "PS694": {
+      "Code": "PS694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Malish C.M."
+      ],
+      "Division": ""
+  },
+  "PS701": {
+      "Code": "PS701",
+      "Name": "Energy Transition",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Anjali Sharma"
+      ],
+      "Division": ""
+  },
+  "PH410": {
+      "Code": "PH410",
+      "Name": "Statistical Physics",
+      "Venue": "Class Room : LT 303",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Raghunath Chelakkot"
+      ],
+      "Division": ""
+  },
+  "PS798": {
+      "Code": "PS798",
+      "Name": "MPP Dissertaion -II Stage",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Jha Shishir Kumar"
+      ],
+      "Division": ""
+  },
+  "PH418": {
+      "Code": "PH418",
+      "Name": "Introduction to Condensed Matter Physics",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Singh P.P."
+      ],
+      "Division": ""
+  },
+  "PS801": {
+      "Code": "PS801",
+      "Name": "State, Markets, and Public Policy",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Prabhir Vishnu Poruthiyil"
+      ],
+      "Division": ""
+  },
+  "PH422": {
+      "Code": "PH422",
+      "Name": "Quantum Mechanics II",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Shankaranarayanan Subramaniam"
+      ],
+      "Division": ""
+  },
+  "PS899": {
+      "Code": "PS899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Anjali Sharma",
+          " Anupam Guha"
+      ],
+      "Division": ""
+  },
+  "PH424": {
+      "Code": "PH424",
+      "Name": "Electromagnetic Theory I",
+      "Venue": "Class Room : LT 302",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " B Nandi"
+      ],
+      "Division": ""
+  },
+  "PSS802": {
+      "Code": "PSS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Prabhir Vishnu Poruthiyil"
+      ],
+      "Division": ""
+  },
+  "PH436": {
+      "Code": "PH436",
+      "Name": "Introduction to Condensed Matter Physics",
+      "Venue": "Class Room : LC 301",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Hridis Kumar Pal"
+      ],
+      "Division": ""
+  },
+  "PH438": {
+      "Code": "PH438",
+      "Name": "Statistical Physics",
+      "Venue": "Class Room : IC 3",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Mithun K. Mitra"
+      ],
+      "Division": ""
+  },
+  "PH441": {
+      "Code": "PH441",
+      "Name": "Physics Lab (General Physics)",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "L2"
+      ],
+      "Instructors": [
+          " Pramod Kumar"
+      ],
+      "Division": ""
+  },
+  "PH444": {
+      "Code": "PH444",
+      "Name": "Electromagnetic Theory",
+      "Venue": "Class Room : VMCC31",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Anshuman Kumar"
+      ],
+      "Division": ""
+  },
+  "PH446": {
+      "Code": "PH446",
+      "Name": "Physics Laboratory (Solid state and Nuclear Physics)",
+      "Venue": "",
+      "Slots": [
+          "L1"
+      ],
+      "Instructors": [
+          " Mahajan Avinash V.",
+          " Sadhana Dash"
+      ],
+      "Division": ""
+  },
+  "PH500": {
+      "Code": "PH500",
+      "Name": "Thin Film Physics & Technology",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Pramod Kumar"
+      ],
+      "Division": ""
+  },
+  "PH510": {
+      "Code": "PH510",
+      "Name": "Electromagnetic Theory II",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Varun Bhalerao"
+      ],
+      "Division": ""
+  },
+  "PH512": {
+      "Code": "PH512",
+      "Name": "Physics Lab (Optics and Spectroscopy)",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Kundu Tapanendu",
+          " P Vasa"
+      ],
+      "Division": ""
+  },
+  "PH530": {
+      "Code": "PH530",
+      "Name": "Light Matter Interaction",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Kundu Tapanendu"
+      ],
+      "Division": ""
+  },
+  "PH534": {
+      "Code": "PH534",
+      "Name": "Quantum Information and Computing",
+      "Venue": "",
+      "Slots": [
+          "13A",
+          "13B"
+      ],
+      "Instructors": [
+          " Sai Vinjanampathy",
+          " Himadri Shekhar Dhar"
+      ],
+      "Division": ""
+  },
+  "PH540": {
+      "Code": "PH540",
+      "Name": "Elementary Particle Physics",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Kumar Rao"
+      ],
+      "Division": ""
+  },
+  "PH544": {
+      "Code": "PH544",
+      "Name": "General Theory of Relativity",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Vikram Rentala"
+      ],
+      "Division": ""
+  },
+  "PH550": {
+      "Code": "PH550",
+      "Name": "Soft Matter Physics",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Sunita Srivastava"
+      ],
+      "Division": ""
+  },
+  "PH554": {
+      "Code": "PH554",
+      "Name": "Computational Many Body Physics",
+      "Venue": "Class Room : LT 305",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Sumiran Pujari"
+      ],
+      "Division": ""
+  },
+  "PH562": {
+      "Code": "PH562",
+      "Name": "Continuum Mechanics",
+      "Venue": "Class Room : LT 206",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Amitabha Nandi"
+      ],
+      "Division": ""
+  },
+  "PH564": {
+      "Code": "PH564",
+      "Name": "Methods in Experimental Nuclear and Particle Physics",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Sadhana Dash"
+      ],
+      "Division": ""
+  },
+  "PH566": {
+      "Code": "PH566",
+      "Name": "Advanced Simulation Techniques in Physics",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Aftab Alam"
+      ],
+      "Division": ""
+  },
+  "PH570": {
+      "Code": "PH570",
+      "Name": "Advanced Laboratory Techniques  in Nanosience",
+      "Venue": "",
+      "Slots": [
+          "L3"
+      ],
+      "Instructors": [
+          " Mohamad Aslam"
+      ],
+      "Division": ""
+  },
+  "PH574": {
+      "Code": "PH574",
+      "Name": "Physics of Semiconductor Devices",
+      "Venue": "",
+      "Slots": [
+          "4A",
+          "4C",
+          "4B"
+      ],
+      "Instructors": [
+          " Dinesh Kabra"
+      ],
+      "Division": ""
+  },
+  "PH576": {
+      "Code": "PH576",
+      "Name": "Nanoscale Quantum Transport",
+      "Venue": "Class Room : LT 301",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Suddhasatta Mahapatra"
+      ],
+      "Division": ""
+  },
+  "PH578": {
+      "Code": "PH578",
+      "Name": "Nanodevices and Applications",
+      "Venue": "Class Room : LT 304",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Senthilkumar M."
+      ],
+      "Division": ""
+  },
+  "PH580": {
+      "Code": "PH580",
+      "Name": "Magnetism and Superconductivity",
+      "Venue": "Class Room : LT 303",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Suresh K.G."
+      ],
+      "Division": ""
+  },
+  "PH587": {
+      "Code": "PH587",
+      "Name": "B.Tech Project I",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Himadri Shekhar Dhar"
+      ],
+      "Division": ""
+  },
+  "PH588": {
+      "Code": "PH588",
+      "Name": "B.Tech. Project II",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Himadri Shekhar Dhar"
+      ],
+      "Division": ""
+  },
+  "PH596": {
+      "Code": "PH596",
+      "Name": "M.Sc. project stage 2",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Himadri Shekhar Dhar"
+      ],
+      "Division": ""
+  },
+  "PH601": {
+      "Code": "PH601",
+      "Name": "Advanced Quantum Information and Computation",
+      "Venue": "",
+      "Slots": [
+          "15B",
+          "15A"
+      ],
+      "Instructors": [
+          " Himadri Shekhar Dhar",
+          " Sai Vinjanampathy"
+      ],
+      "Division": ""
+  },
+  "PH899": {
+      "Code": "PH899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " P Vasa"
+      ],
+      "Division": ""
+  },
+  "PHS802": {
+      "Code": "PHS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Himadri Shekhar Dhar"
+      ],
+      "Division": ""
+  },
+  "SC202-M": {
+      "Code": "SC202-M",
+      "Name": "Signals and Feedback Systems",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Navin Khaneja"
+      ],
+      "Division": "M"
+  },
+  "SC602": {
+      "Code": "SC602",
+      "Name": "Control of Nonlinear Dynamical Systems",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Sukumar Srikant"
+      ],
+      "Division": ""
+  },
+  "SC602-M": {
+      "Code": "SC602-M",
+      "Name": "Control of Nonlinear Dynamical Systems",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Sukumar Srikant"
+      ],
+      "Division": "M"
+  },
+  "SC607": {
+      "Code": "SC607",
+      "Name": "Optimization",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Avishek Ghosh"
+      ],
+      "Division": ""
+  },
+  "SC607-M": {
+      "Code": "SC607-M",
+      "Name": "Optimization",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Avishek Ghosh"
+      ],
+      "Division": "M"
+  },
+  "SC624": {
+      "Code": "SC624",
+      "Name": "Differential Geometric Methods in Control",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Debasish Chatterjee"
+      ],
+      "Division": ""
+  },
+  "SC624-M": {
+      "Code": "SC624-M",
+      "Name": "Differential Geometric Methods in Control",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Debasish Chatterjee"
+      ],
+      "Division": "M"
+  },
+  "SC626": {
+      "Code": "SC626",
+      "Name": "Systems and Control Engineering Laboratory",
+      "Venue": "",
+      "Slots": [
+          "LX"
+      ],
+      "Instructors": [
+          " Ankur Kulkarni",
+          " Arpita Sinha",
+          " Debasish Chatterjee",
+          " Vivek Natarajan"
+      ],
+      "Division": ""
+  },
+  "SC627": {
+      "Code": "SC627",
+      "Name": "Motion Planning & Coordination of Autonomous Vehicles",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Arpita Sinha"
+      ],
+      "Division": ""
+  },
+  "SC627-M": {
+      "Code": "SC627-M",
+      "Name": "Motion Planning & Coordination of Autonomous Vehicles",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "2C",
+          "2B"
+      ],
+      "Instructors": [
+          " Arpita Sinha"
+      ],
+      "Division": "M"
+  },
+  "SC641": {
+      "Code": "SC641",
+      "Name": "Solid State Systems and Control",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Navin Khaneja"
+      ],
+      "Division": ""
+  },
+  "SC641-M": {
+      "Code": "SC641-M",
+      "Name": "Solid State Systems and Control",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Navin Khaneja"
+      ],
+      "Division": "M"
+  },
+  "SC645": {
+      "Code": "SC645",
+      "Name": "Intelligent Feedback and Control",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Leena Vachhani"
+      ],
+      "Division": ""
+  },
+  "SC645-M": {
+      "Code": "SC645-M",
+      "Name": "Intelligent Feedback and Control",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Leena Vachhani"
+      ],
+      "Division": "M"
+  },
+  "SC646": {
+      "Code": "SC646",
+      "Name": "Distributed Optimization and Machine Learning",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Mayank Baranwal"
+      ],
+      "Division": ""
+  },
+  "SC646-M": {
+      "Code": "SC646-M",
+      "Name": "Distributed Optimization and Machine Learning",
+      "Venue": "",
+      "Slots": [
+          "9A",
+          "9B"
+      ],
+      "Instructors": [
+          " Mayank Baranwal"
+      ],
+      "Division": "M"
+  },
+  "SC651": {
+      "Code": "SC651",
+      "Name": "Estimation on Lie Groups",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Banavar R.N."
+      ],
+      "Division": ""
+  },
+  "SC651-M": {
+      "Code": "SC651-M",
+      "Name": "Estimation on Lie Groups",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Banavar R.N."
+      ],
+      "Division": "M"
+  },
+  "SC654": {
+      "Code": "SC654",
+      "Name": "Social learning and herding",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Ankur Kulkarni"
+      ],
+      "Division": ""
+  },
+  "SC654-M": {
+      "Code": "SC654-M",
+      "Name": "Social learning and herding",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Ankur Kulkarni"
+      ],
+      "Division": "M"
+  },
+  "SC694": {
+      "Code": "SC694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Leena Vachhani"
+      ],
+      "Division": ""
+  },
+  "SC702": {
+      "Code": "SC702",
+      "Name": "Linear Systems Theory for PDEs",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Vivek Natarajan"
+      ],
+      "Division": ""
+  },
+  "SC702-M": {
+      "Code": "SC702-M",
+      "Name": "Linear Systems Theory for PDEs",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Vivek Natarajan"
+      ],
+      "Division": "M"
+  },
+  "SCS802": {
+      "Code": "SCS802",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Debasish Chatterjee"
+      ],
+      "Division": ""
+  },
+  "TD390": {
+      "Code": "TD390",
+      "Name": "Supervised Learning - Study",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Priyadarshani Jadhav"
+      ],
+      "Division": ""
+  },
+  "TD490": {
+      "Code": "TD490",
+      "Name": "Supervised Learning- Analysis",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Priyadarshani Jadhav"
+      ],
+      "Division": ""
+  },
+  "TD604": {
+      "Code": "TD604",
+      "Name": "Social Science Research Methods and Systems Dynamics",
+      "Venue": "",
+      "Slots": [
+          "10B",
+          "10A"
+      ],
+      "Instructors": [
+          " Pankajkumar Sekhsaria",
+          " Priyadarshani Jadhav"
+      ],
+      "Division": ""
+  },
+  "TD619": {
+      "Code": "TD619",
+      "Name": "Energy Policy and Planning",
+      "Venue": "",
+      "Slots": [
+          "11B",
+          "11A"
+      ],
+      "Instructors": [
+          " Anand B. Rao"
+      ],
+      "Division": ""
+  },
+  "TD620": {
+      "Code": "TD620",
+      "Name": "Micro, Small and Medium Enterprises in Rural Areas",
+      "Venue": "",
+      "Slots": [
+          "12A",
+          "12B"
+      ],
+      "Instructors": [
+          " Vishal R. Sardeshpande"
+      ],
+      "Division": ""
+  },
+  "TD626": {
+      "Code": "TD626",
+      "Name": "Technology, Society and Development",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Pankajkumar Sekhsaria"
+      ],
+      "Division": ""
+  },
+  "TD627": {
+      "Code": "TD627",
+      "Name": "Field Research Methods",
+      "Venue": "",
+      "Slots": [
+          "XC",
+          "XD"
+      ],
+      "Instructors": [
+          " Bakul Rao"
+      ],
+      "Division": ""
+  },
+  "TD632": {
+      "Code": "TD632",
+      "Name": "Sustainable Development Goals and Corporate Social Responsibility",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Bakul Rao",
+          " Parmeshwar Digamber Udmale"
+      ],
+      "Division": ""
+  },
+  "TD634": {
+      "Code": "TD634",
+      "Name": "Advanced Remote Sensing and GIS for Development Research",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Pennan Chinnasamy"
+      ],
+      "Division": ""
+  },
+  "TD638-M": {
+      "Code": "TD638-M",
+      "Name": "Development Perspectives: Ideas, Approaches, and Theories",
+      "Venue": "",
+      "Slots": [
+          "5B",
+          "5A"
+      ],
+      "Instructors": [
+          " Subodh M. Wagle"
+      ],
+      "Division": "M"
+  },
+  "TD639": {
+      "Code": "TD639",
+      "Name": "Bamboo Construction for Rural Infrastructure",
+      "Venue": "",
+      "Slots": [
+          "1A",
+          "1C",
+          "1B"
+      ],
+      "Instructors": [
+          " Chaaruchandra Korde"
+      ],
+      "Division": ""
+  },
+  "TD640": {
+      "Code": "TD640",
+      "Name": "Health and Wellness through a lifecycle approach",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Rupal M Dalal",
+          " Amit Y. Arora"
+      ],
+      "Division": ""
+  },
+  "TD642": {
+      "Code": "TD642",
+      "Name": "Data for Development",
+      "Venue": "",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Pennan Chinnasamy"
+      ],
+      "Division": ""
+  },
+  "TD643": {
+      "Code": "TD643",
+      "Name": "Design of Bamboo Structures",
+      "Venue": "",
+      "Slots": [
+          "3A",
+          "3C",
+          "3B"
+      ],
+      "Instructors": [
+          " Chaaruchandra Korde"
+      ],
+      "Division": ""
+  },
+  "TD656": {
+      "Code": "TD656",
+      "Name": "Characterizing Hydro-Meteorological Hazards & Risk",
+      "Venue": "Class Room : VMCC31",
+      "Slots": [
+          "6B",
+          "6A"
+      ],
+      "Instructors": [
+          " Parmeshwar Digamber Udmale"
+      ],
+      "Division": ""
+  },
+  "US603": {
+      "Code": "US603",
+      "Name": "Research Methods in Urban Science",
+      "Venue": "",
+      "Slots": [
+          "8A",
+          "8B"
+      ],
+      "Instructors": [
+          " Arnab Jana"
+      ],
+      "Division": ""
+  },
+  "TD694": {
+      "Code": "TD694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Priyadarshani Jadhav"
+      ],
+      "Division": ""
+  },
+  "US606": {
+      "Code": "US606",
+      "Name": "Urban Environmental Infrastructure",
+      "Venue": "",
+      "Slots": [
+          "14B",
+          "14A"
+      ],
+      "Instructors": [
+          " Pradip P. Kalbar"
+      ],
+      "Division": ""
+  },
+  "TD695": {
+      "Code": "TD695",
+      "Name": "I Stage Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Chaaruchandra Korde"
+      ],
+      "Division": ""
+  },
+  "US612": {
+      "Code": "US612",
+      "Name": "Urban Design and Engineering Studio",
+      "Venue": "",
+      "Slots": [
+          "L4",
+          "L2"
+      ],
+      "Instructors": [
+          " Himanshu Burte",
+          " Pradip P. Kalbar",
+          " Malini Krishnankutty"
+      ],
+      "Division": ""
+  },
+  "TD696": {
+      "Code": "TD696",
+      "Name": "II Stage Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Chaaruchandra Korde"
+      ],
+      "Division": ""
+  },
+  "US614": {
+      "Code": "US614",
+      "Name": "Urban Space: Theories and Critical Perspectives",
+      "Venue": "",
+      "Slots": [
+          "9A"
+      ],
+      "Instructors": [
+          " Himanshu Burte"
+      ],
+      "Division": ""
+  },
+  "TD899": {
+      "Code": "TD899",
+      "Name": "Communication Skills",
+      "Venue": "",
+      "Slots": [
+          "2A",
+          "2B"
+      ],
+      "Instructors": [
+          " Anand B. Rao",
+          " Chaaruchandra Korde",
+          " Satish B. Agnihotri"
+      ],
+      "Division": ""
+  },
+  "US694": {
+      "Code": "US694",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Arnab Jana"
+      ],
+      "Division": ""
+  },
+  "USS801": {
+      "Code": "USS801",
+      "Name": "Seminar",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Pradip P. Kalbar"
+      ],
+      "Division": ""
+  },
+  "TDE602": {
+      "Code": "TDE602",
+      "Name": "Methods for Development Research",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Subodh M. Wagle"
+      ],
+      "Division": ""
+  },
+  "TDE604": {
+      "Code": "TDE604",
+      "Name": "Public Policies for Development Practitioners",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Satish B. Agnihotri"
+      ],
+      "Division": ""
+  },
+  "TDE608": {
+      "Code": "TDE608",
+      "Name": "Qualitative Research Methods Lab",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Subodh M. Wagle"
+      ],
+      "Division": ""
+  },
+  "TDE609": {
+      "Code": "TDE609",
+      "Name": "MDP Project",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Bakul Rao"
+      ],
+      "Division": ""
+  },
+  "TDE610": {
+      "Code": "TDE610",
+      "Name": "Policy Analysis Practicum",
+      "Venue": "",
+      "Slots": [],
+      "Instructors": [
+          " Satish B. Agnihotri"
+      ],
+      "Division": ""
+  }
+}
+
 
 new TomSelect("#select-tags",{
   plugins: ['remove_button'],
