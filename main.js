@@ -7,7 +7,7 @@ import Toastify from 'toastify-js'
 import "toastify-js/src/toastify.css"
 
 
-
+console.log("thanks for dropping by. uwu\n~iitbtt")
 let colors = [
   "#1C737F", // Slightly darker shade of "#00AABB"
   "#008B91", // Slightly darker shade of "#00CED1"
