@@ -3929,8 +3929,8 @@ let courses = {
       "Name": "Medical Image Computing ",
       "Venue": "",
       "Slots": [
-          "6B",
-          "6A"
+          "5B",
+          "5A"
       ],
       "Instructors": [
           " Suyash P. Awate"
