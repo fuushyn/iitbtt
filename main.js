@@ -3877,8 +3877,8 @@ let courses = {
       "Name": "Topics in Virtualization and Cloud Computing",
       "Venue": "",
       "Slots": [
-          "5B",
-          "5A"
+          "6B",
+          "6A"
       ],
       "Instructors": [
           " Purushottam Kulkarni"
