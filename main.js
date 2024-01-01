@@ -3981,8 +3981,8 @@ let courses = {
       "Name": "Advanced Image Processing",
       "Venue": "",
       "Slots": [
-          "8A",
-          "8B"
+          "15A",
+          "15B"
       ],
       "Instructors": [
           " Ajit V. Rajwade"
