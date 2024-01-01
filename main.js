@@ -4098,8 +4098,8 @@ let courses = {
       "Name": "Randomized Algorithms",
       "Venue": "",
       "Slots": [
-          "9A",
-          "9B"
+          "8A",
+          "8B"
       ],
       "Instructors": [
           " Akash Kumar"
