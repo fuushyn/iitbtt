@@ -3357,7 +3357,7 @@ let courses =
         "Name": "Software Systems Lab",
         "Venue": "CC 103 : Class Room",
         "Slots": [
-            "5A"
+            "5A", "5B", "LX"
         ],
         "Instructors": [
             " Kameswari Chebrolu"
