@@ -586,8 +586,8 @@ let courses =
         ],
         "Division": ""
     },
-    "BB101-D3": {
-        "Code": "BB101-D3",
+    "BB101-D3-tut": {
+        "Code": "BB101-D3-tut",
         "Name": "Biology",
         "Venue": "Class Room : LT 003",
         "Slots": [
@@ -598,6 +598,20 @@ let courses =
             " Ranjith  PadinhateeriI ",
             "  ",
             " Sanjeeva  Srivastava"
+        ],
+        "Division": "D3"
+    },
+    "BB101-D3": {
+        "Code": "BB101-D3",
+        "Name": "Biology",
+        "Venue": "Class Room : LH 301",
+        "Slots": [
+            "6B",
+            "6A"
+        ],
+        "Instructors": [
+            " Ranjith P.",
+            " S. Srivastava"
         ],
         "Division": "D3"
     },
@@ -1088,6 +1102,21 @@ let courses =
         ],
         "Division": ""
     },
+    "CE102-S1-tut": {
+        "Code": "CE102-S1-tut",
+        "Name": "Engineering Mechanics",
+        "Venue": "Class Room - 208",
+        "Slots": [
+            "6A"
+        ],
+        "Instructors": [
+            "  ",
+            " Manish  KumarI ",
+            "  ",
+            " Jayadipta  Ghosh"
+        ],
+        "Division": "S1"
+    },
     "CE102-S1": {
         "Code": "CE102-S1",
         "Name": "Engineering Mechanics",
@@ -1102,6 +1131,19 @@ let courses =
         ],
         "Division": "S1"
     },
+    "CE102-S2-tut": {
+        "Code": "CE102-S2-tut",
+        "Name": "Engineering Mechanics",
+        "Venue": "Class Room : 209",
+        "Slots": [
+            "6A"
+        ],
+        "Instructors": [
+            " ",
+            " Najeeb Mohammad Shariff"
+        ],
+        "Division": "S2"
+    },
     "CE102-S2": {
         "Code": "CE102-S2",
         "Name": "Engineering Mechanics",
@@ -1114,6 +1156,19 @@ let courses =
             " Najeeb Mohammad Shariff"
         ],
         "Division": "S2"
+    },
+    "CE102-S3-tut": {
+        "Code": "CE102-S3-tut",
+        "Name": "Engineering Mechanics",
+        "Venue": "Class room 212",
+        "Slots": [
+            "6A"
+        ],
+        "Instructors": [
+            "  ",
+            " Meera  Raghunandan"
+        ],
+        "Division": "S3"
     },
     "CE102-S3": {
         "Code": "CE102-S3",
@@ -1131,6 +1186,19 @@ let courses =
     "CE234-S1": {
         "Code": "CE234-S1",
         "Name": "Structural Mechanics",
+        "Venue": "Class Room - 228",
+        "Slots": [
+            "6B",
+            "6A"
+        ],
+        "Instructors": [
+            " N.K.Chandiramani"
+        ],
+        "Division": "S1"
+    },
+    "CE234-S1-tut": {
+        "Code": "CE234-S1-tut",
+        "Name": "Structural Mechanics",
         "Venue": "",
         "Slots": [
             "X2",
@@ -1144,6 +1212,19 @@ let courses =
     "CE234-S2": {
         "Code": "CE234-S2",
         "Name": "Structural Mechanics",
+        "Venue": "Class Room - 233",
+        "Slots": [
+            "6B",
+            "6A"
+        ],
+        "Instructors": [
+            " Jangid R.S."
+        ],
+        "Division": "S2"
+    },
+    "CE234-S2-tut": {
+        "Code": "CE234-S2-tut",
+        "Name": "Structural Mechanics",
         "Venue": "",
         "Slots": [
             "X2",
@@ -1156,6 +1237,19 @@ let courses =
     },
     "CE234-S3": {
         "Code": "CE234-S3",
+        "Name": "Structural Mechanics",
+        "Venue": "P. G. Lecture Room - 238",
+        "Slots": [
+            "6B",
+            "6A"
+        ],
+        "Instructors": [
+            " M.M.Inamdar"
+        ],
+        "Division": "S3"
+    },
+    "CE234-S3-tut": {
+        "Code": "CE234-S3-tut",
         "Name": "Structural Mechanics",
         "Venue": "",
         "Slots": [
@@ -1332,6 +1426,20 @@ let courses =
     "CE332-S1": {
         "Code": "CE332-S1",
         "Name": "Structural Design II",
+        "Venue": "Class Room : VMCC32",
+        "Slots": [
+            "1A",
+            "1C",
+            "1B"
+        ],
+        "Instructors": [
+            " Amit Kumar Das"
+        ],
+        "Division": "S1"
+    },
+    "CE332-S1-tut": {
+        "Code": "CE332-S1-tut",
+        "Name": "Structural Design II",
         "Venue": "",
         "Slots": [
             "X2",
@@ -1341,6 +1449,19 @@ let courses =
             " Amit Kumar Das"
         ],
         "Division": "S1"
+    },
+    "CE332-S2-tut": {
+        "Code": "CE332-S2-tut",
+        "Name": "Structural Design II",
+        "Venue": "",
+        "Slots": [
+            "X2",
+            "X3"
+        ],
+        "Instructors": [
+            " Ghosh Siddhartha"
+        ],
+        "Division": "S2"
     },
     "CE332-S2": {
         "Code": "CE332-S2",
@@ -1991,8 +2112,8 @@ let courses =
         ],
         "Division": ""
     },
-    "CH110": {
-        "Code": "CH110",
+    "CH110-tut": {
+        "Code": "CH110-tut",
         "Name": "Interpretative Spectroscopy",
         "Venue": "Class Room : LT 304",
         "Slots": [
@@ -2885,6 +3006,18 @@ let courses =
         ],
         "Division": ""
     },
+    "CL302-S1-tut": {
+        "Code": "CL302-S1-tut",
+        "Name": "Process Control",
+        "Venue": "",
+        "Slots": [
+            "7A"
+        ],
+        "Instructors": [
+            " Bharatkumar Suthar"
+        ],
+        "Division": "S1"
+    },
     "CL302-S1": {
         "Code": "CL302-S1",
         "Name": "Process Control",
@@ -2901,6 +3034,20 @@ let courses =
     },
     "CL302-S2": {
         "Code": "CL302-S2",
+        "Name": "Process Control",
+        "Venue": "Class : CL 109 ESE",
+        "Slots": [
+            "3A",
+            "3C",
+            "3B"
+        ],
+        "Instructors": [
+            " Ravindra D. Gudi"
+        ],
+        "Division": "S2"
+    },
+    "CL302-S2-tut": {
+        "Code": "CL302-S2-tut",
         "Name": "Process Control",
         "Venue": "",
         "Slots": [
@@ -3020,6 +3167,20 @@ let courses =
     },
     "CL407": {
         "Code": "CL407",
+        "Name": "Process Equipment Design",
+        "Venue": "Class Room : LH 101",
+        "Slots": [
+            "1A",
+            "1C",
+            "1B"
+        ],
+        "Instructors": [
+            " Yogendra Shastri"
+        ],
+        "Division": ""
+    },
+    "CL407-tut": {
+        "Code": "CL407-tut",
         "Name": "Process Equipment Design",
         "Venue": "",
         "Slots": [
@@ -3357,10 +3518,23 @@ let courses =
         "Name": "Software Systems Lab",
         "Venue": "CC 103 : Class Room",
         "Slots": [
-            "5A", "5B", "LX"
+            "5A", "LX"
         ],
         "Instructors": [
             " Kameswari Chebrolu"
+        ],
+        "Division": "D3"
+    },
+    "CS104-D3-tut": {
+        "Code": "CS104-D3-tut",
+        "Name": "Software Systems Lab",
+        "Venue": "CC 103 : Class Room",
+        "Slots": [
+            "5B"
+        ],
+        "Instructors": [
+            "  ",
+            " Kameswari  Chebrolu"
         ],
         "Division": "D3"
     },
@@ -5563,6 +5737,19 @@ let courses =
         ],
         "Instructors": [
             " Asish Sarangi"
+        ],
+        "Division": ""
+    },
+    "EN312-tut": {
+        "Code": "EN312-tut",
+        "Name": "Control & Instrumentation",
+        "Venue": "",
+        "Slots": [
+            "7A"
+        ],
+        "Instructors": [
+            " D. Suryanarayana",
+            " Venkatramanan D."
         ],
         "Division": ""
     },
@@ -9444,8 +9631,8 @@ let courses =
         ],
         "Division": "D4"
     },
-    "MA110-D1": {
-        "Code": "MA110-D1",
+    "MA110-D1-tut": {
+        "Code": "MA110-D1-tut",
         "Name": "Linear Algebra and Differential Equations",
         "Venue": "Class Room : LT 103",
         "Slots": [
@@ -9463,8 +9650,25 @@ let courses =
         ],
         "Division": "D1"
     },
-    "MA110-D2": {
-        "Code": "MA110-D2",
+    "MA110-D1": {
+        "Code": "MA110-D1",
+        "Name": "Linear Algebra and Differential Equations",
+        "Venue": "Class Room : LA 201",
+        "Slots": [
+            "1A",
+            "1C",
+            "1B"
+        ],
+        "Instructors": [
+            " Rekha Santhanam",
+            " Santanu Dey",
+            " Ananthnarayan Hariharan",
+            " K. Sureshkumar"
+        ],
+        "Division": "D1"
+    },
+    "MA110-D2-tut": {
+        "Code": "MA110-D2-tut",
         "Name": "Linear Algebra and Differential Equations",
         "Venue": "Class Room : LT 006",
         "Slots": [
@@ -9482,8 +9686,24 @@ let courses =
         ],
         "Division": "D2"
     },
-    "MA110-D3": {
-        "Code": "MA110-D3",
+    "MA110-D2": {
+        "Code": "MA110-D2",
+        "Name": "Linear Algebra and Differential Equations",
+        "Venue": "Class Room : LA 201",
+        "Slots": [
+            "8A",
+            "8B"
+        ],
+        "Instructors": [
+            " Rekha Santhanam",
+            " Santanu Dey",
+            " Ananthnarayan Hariharan",
+            " K. Sureshkumar"
+        ],
+        "Division": "D2"
+    },
+    "MA110-D3-tut": {
+        "Code": "MA110-D3-tut",
         "Name": "Linear Algebra and Differential Equations",
         "Venue": "Class Room : LT 103",
         "Slots": [
@@ -9501,8 +9721,25 @@ let courses =
         ],
         "Division": "D3"
     },
-    "MA110-D4": {
-        "Code": "MA110-D4",
+    "MA110-D3": {
+        "Code": "MA110-D3",
+        "Name": "Linear Algebra and Differential Equations",
+        "Venue": "Class Room : LA 202",
+        "Slots": [
+            "1A",
+            "1C",
+            "1B"
+        ],
+        "Instructors": [
+            " Rekha Santhanam",
+            " Santanu Dey",
+            " Ananthnarayan Hariharan",
+            " K. Sureshkumar"
+        ],
+        "Division": "D3"
+    },
+    "MA110-D4-tut": {
+        "Code": "MA110-D4-tut",
         "Name": "Linear Algebra and Differential Equations",
         "Venue": "Class Room : LT 105",
         "Slots": [
@@ -9520,8 +9757,24 @@ let courses =
         ],
         "Division": "D4"
     },
-    "MA214": {
-        "Code": "MA214",
+    "MA110-D4": {
+        "Code": "MA110-D4",
+        "Name": "Linear Algebra and Differential Equations",
+        "Venue": "Class Room : LA 202",
+        "Slots": [
+            "8A",
+            "8B"
+        ],
+        "Instructors": [
+            " Rekha Santhanam",
+            " Santanu Dey",
+            " Ananthnarayan Hariharan",
+            " K. Sureshkumar"
+        ],
+        "Division": "D4"
+    },
+    "MA214-tut": {
+        "Code": "MA214-tut",
         "Name": "Introduction to Numerical Analysis",
         "Venue": "Class Room : LT 005",
         "Slots": [
@@ -9530,6 +9783,19 @@ let courses =
         "Instructors": [
             " ",
             " Sudarshan Rajendra Gurjar"
+        ],
+        "Division": ""
+    },
+    "MA214": {
+        "Code": "MA214",
+        "Name": "Introduction to Numerical Analysis",
+        "Venue": "Class Room : LH 301",
+        "Slots": [
+            "12A",
+            "12B"
+        ],
+        "Instructors": [
+            " Sudarshan Gurjar"
         ],
         "Division": ""
     },
@@ -9543,6 +9809,18 @@ let courses =
         ],
         "Instructors": [
             " Chandan Biswas"
+        ],
+        "Division": ""
+    },
+    "MA408-tut": {
+        "Code": "MA408-tut",
+        "Name": "Measure Theory",
+        "Venue": "",
+        "Slots": [
+            "XC"
+        ],
+        "Instructors": [
+            " Mallesham Kummari"
         ],
         "Division": ""
     },
@@ -9573,6 +9851,19 @@ let courses =
         ],
         "Division": ""
     },
+    "MA412-tut": {
+        "Code": "MA412-tut",
+        "Name": "Complex Analysis",
+        "Venue": "Class Room - 216",
+        "Slots": [
+            "X3"
+        ],
+        "Instructors": [
+            " ",
+            " Shripad Manoharrao Garge"
+        ],
+        "Division": ""
+    },
     "MA412": {
         "Code": "MA412",
         "Name": "Complex Analysis",
@@ -9586,6 +9877,19 @@ let courses =
             " Garge Shripad M."
         ],
         "Division": ""
+    },
+    "MA412-M-tut": {
+        "Code": "MA412-M-tut",
+        "Name": "Complex Analysis",
+        "Venue": "Class Room - 113",
+        "Slots": [
+            "XD"
+        ],
+        "Instructors": [
+            "  ",
+            " Sandip  Singh"
+        ],
+        "Division": "M"
     },
     "MA412-M": {
         "Code": "MA412-M",
@@ -9602,6 +9906,19 @@ let courses =
     },
     "MA414": {
         "Code": "MA414",
+        "Name": "Algebra I",
+        "Venue": "Class Room - 216",
+        "Slots": [
+            "9A",
+            "9B"
+        ],
+        "Instructors": [
+            " Saurav Bhaumik"
+        ],
+        "Division": ""
+    },
+    "MA414-tut": {
+        "Code": "MA414-tut",
         "Name": "Algebra I",
         "Venue": "",
         "Slots": [
@@ -9887,6 +10204,18 @@ let courses =
         ],
         "Division": ""
     },
+    "SI404-tut": {
+        "Code": "SI404-tut",
+        "Name": "Applied Stochastic Processes",
+        "Venue": "",
+        "Slots": [
+            "7A"
+        ],
+        "Instructors": [
+            " Koushik Saha"
+        ],
+        "Division": ""
+    },
     "SI404": {
         "Code": "SI404",
         "Name": "Applied Stochastic Processes",
@@ -9912,6 +10241,18 @@ let courses =
         ],
         "Instructors": [
             " Harsha Hutridurga Ramaiah"
+        ],
+        "Division": ""
+    },
+    "SI422-tut": {
+        "Code": "SI422-tut",
+        "Name": "Regression Analysis",
+        "Venue": "",
+        "Slots": [
+            "XD"
+        ],
+        "Instructors": [
+            " S. Mukhopadhyay"
         ],
         "Division": ""
     },
@@ -9941,6 +10282,18 @@ let courses =
         ],
         "Division": "M"
     },
+    "SI424-tut": {
+        "Code": "SI424-tut",
+        "Name": "Statistical Inference I",
+        "Venue": "",
+        "Slots": [
+            "14A"
+        ],
+        "Instructors": [
+            " Vellaisamy P."
+        ],
+        "Division": ""
+    },
     "SI424": {
         "Code": "SI424",
         "Name": "Statistical Inference I",
@@ -9957,6 +10310,19 @@ let courses =
     "SI426": {
         "Code": "SI426",
         "Name": "Algorithms",
+        "Venue": "Class Room - 114",
+        "Slots": [
+            "13A",
+            "13B"
+        ],
+        "Instructors": [
+            " Madhusudan Manjunath"
+        ],
+        "Division": ""
+    },
+    "SI426-tut": {
+        "Code": "SI426-tut",
+        "Name": "Algorithms",
         "Venue": "",
         "Slots": [
             "X3"
@@ -9968,6 +10334,19 @@ let courses =
     },
     "SI509": {
         "Code": "SI509",
+        "Name": "Time Series Analysis",
+        "Venue": "Class Room - 114",
+        "Slots": [
+            "9A",
+            "9B"
+        ],
+        "Instructors": [
+            " Sabnis S.V."
+        ],
+        "Division": ""
+    },
+    "SI509-tut": {
+        "Code": "SI509-tut",
         "Name": "Time Series Analysis",
         "Venue": "",
         "Slots": [
@@ -11880,8 +12259,8 @@ let courses =
         ],
         "Division": ""
     },
-    "MM105": {
-        "Code": "MM105",
+    "MM105-tut": {
+        "Code": "MM105-tut",
         "Name": "It\u2019s a materials world!",
         "Venue": "Class Room : LC 201",
         "Slots": [
@@ -12777,6 +13156,20 @@ let courses =
     "PH110-D1": {
         "Code": "PH110-D1",
         "Name": "Introduction to Classical and Quantum Physics",
+        "Venue": "Class Room : LC 301",
+        "Slots": [
+            "2A",
+            "2C",
+            "2B"
+        ],
+        "Instructors": [
+            " Sankar S.Uma"
+        ],
+        "Division": "D1"
+    },
+    "PH110-D1-tut": {
+        "Code": "PH110-D1-tut",
+        "Name": "Introduction to Classical and Quantum Physics",
         "Venue": "Class Room : LT 105",
         "Slots": [
             "X1"
@@ -12786,6 +13179,19 @@ let courses =
             " Sankagiri  Umasankar"
         ],
         "Division": "D1"
+    },
+    "PH110-D2-tut": {
+        "Code": "PH110-D2-tut",
+        "Name": "Introduction to Classical and Quantum Physics",
+        "Venue": "Class Room : LT 105",
+        "Slots": [
+            "X2"
+        ],
+        "Instructors": [
+            " ",
+            " Kantimay Siba Pada Das Gupta Das Gupta"
+        ],
+        "Division": "D2"
     },
     "PH110-D2": {
         "Code": "PH110-D2",
@@ -12800,8 +13206,8 @@ let courses =
         ],
         "Division": "D2"
     },
-    "PH110-D3": {
-        "Code": "PH110-D3",
+    "PH110-D3-tut": {
+        "Code": "PH110-D3-tut",
         "Name": "Introduction to Classical and Quantum Physics",
         "Venue": "Class Room : LT 302",
         "Slots": [
@@ -12813,8 +13219,22 @@ let courses =
         ],
         "Division": "D3"
     },
-    "PH110-D4": {
-        "Code": "PH110-D4",
+    "PH110-D3": {
+        "Code": "PH110-D3",
+        "Name": "Introduction to Classical and Quantum Physics",
+        "Venue": "Class Room : LH 301",
+        "Slots": [
+            "2A",
+            "2C",
+            "2B"
+        ],
+        "Instructors": [
+            " Punit Parmanand"
+        ],
+        "Division": "D3"
+    },
+    "PH110-D4-tut": {
+        "Code": "PH110-D4-tut",
         "Name": "Introduction to Classical and Quantum Physics",
         "Venue": "Class Room : LT 301",
         "Slots": [
@@ -12824,6 +13244,19 @@ let courses =
         "Instructors": [
             "  ",
             " Anirban  Sain"
+        ],
+        "Division": "D4"
+    },
+    "PH110-D4": {
+        "Code": "PH110-D4",
+        "Name": "Introduction to Classical and Quantum Physics",
+        "Venue": "Class Room : LA 202",
+        "Slots": [
+            "9A",
+            "9B"
+        ],
+        "Instructors": [
+            " Anirban Sain"
         ],
         "Division": "D4"
     },
@@ -13115,6 +13548,18 @@ let courses =
         ],
         "Division": ""
     },
+    "PH307-tut": {
+        "Code": "PH307-tut",
+        "Name": "Introduction to Numerical Analysis",
+        "Venue": "",
+        "Slots": [
+            "L4"
+        ],
+        "Instructors": [
+            " Alok Shukla"
+        ],
+        "Division": ""
+    },
     "PH307": {
         "Code": "PH307",
         "Name": "Introduction to Numerical Analysis",
@@ -13134,6 +13579,19 @@ let courses =
         "Name": "Quantum Mechanics II",
         "Venue": "",
         "Slots": [
+            "6B",
+            "6A"
+        ],
+        "Instructors": [
+            " Soumya Bera"
+        ],
+        "Division": ""
+    },
+    "PH309-tut": {
+        "Code": "PH309-tut",
+        "Name": "Quantum Mechanics II",
+        "Venue": "",
+        "Slots": [
             "4C"
         ],
         "Instructors": [
@@ -13143,6 +13601,19 @@ let courses =
     },
     "PH408": {
         "Code": "PH408",
+        "Name": "Mathematical Physics II",
+        "Venue": "",
+        "Slots": [
+            "6B",
+            "6A"
+        ],
+        "Instructors": [
+            " Siddhartha Santra"
+        ],
+        "Division": ""
+    },
+    "PH408-tut": {
+        "Code": "PH408-tut",
         "Name": "Mathematical Physics II",
         "Venue": "",
         "Slots": [
@@ -14535,7 +15006,6 @@ let courses =
         "Division": ""
     }
 }
-
 new TomSelect("#select-tags",{
   plugins: ['remove_button'],
   create: false,
