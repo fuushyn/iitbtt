@@ -18,8 +18,15 @@ body {
 #GS{
   display: flex;
   justify-content: center;
+
+  font-size: x-large;
+}
+#NS{
+  display: flex;
+  justify-content: center;
+
   padding-bottom: 2em;
-  font-size: larger;
+  font-size: small;
 }
 
 .header {
