@@ -6227,7 +6227,7 @@ let courses =
         "Code": "ES200",
         "Name": "Environmental Studies: Science and Engineering",
         "Venue": "",
-        "Slots": [],
+        "Slots": ["1A", "1B", "1C"],
         "Instructors": [
             " Amritanshu Shriwastav",
             " Anurag Garg",
@@ -7704,7 +7704,7 @@ let courses =
         "Code": "HS200",
         "Name": "Environmental Studies",
         "Venue": "",
-        "Slots": [],
+        "Slots": ["1A", "1B", "1C"],
         "Instructors": [
             " Rajkishore Nath",
             " Suryakant Waghmore"
