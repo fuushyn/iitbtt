@@ -53,7 +53,7 @@ let courses =
     "AE153-M": {
         "Code": "AE153-M",
         "Name": "Introduction to Aerospace Engg.",
-        "Venue": "",
+        "Venue": "Class Room : LC 202",
         "Slots": [
             "11B",
             "11A"
@@ -162,7 +162,7 @@ let courses =
     "AE248": {
         "Code": "AE248",
         "Name": "AI and Data Science",
-        "Venue": "",
+        "Venue": "Class Room : VMCC33",
         "Slots": [
             "6B",
             "6A"
@@ -272,8 +272,7 @@ let courses =
         "Name": "Control Systems Laboratory",
         "Venue": "",
         "Slots": [
-            "L4",
-            "L2"
+            "L4"
         ],
         "Instructors": [
             " Arya Hemendra",
@@ -311,7 +310,7 @@ let courses =
     "AE6103": {
         "Code": "AE6103",
         "Name": "Introduction to Space Technology",
-        "Venue": "",
+        "Venue": "Class Room : LT 101",
         "Slots": [
             "6B",
             "6A"
@@ -325,7 +324,7 @@ let courses =
     "AE622": {
         "Code": "AE622",
         "Name": "Computing of High Speed Flows",
-        "Venue": "",
+        "Venue": "Class : CL 110 ESE",
         "Slots": [
             "9A",
             "9B"
@@ -338,7 +337,7 @@ let courses =
     "AE624": {
         "Code": "AE624",
         "Name": "Hypersonic Flow Theory",
-        "Venue": "",
+        "Venue": "Class Room : LC 001",
         "Slots": [
             "15B",
             "15A"
@@ -391,7 +390,7 @@ let courses =
     "AE673": {
         "Code": "AE673",
         "Name": "Fiber Reinforced Composites",
-        "Venue": "",
+        "Venue": "Class Room : LC 001",
         "Slots": [
             "11B",
             "11A"
@@ -418,7 +417,7 @@ let courses =
     "AE682": {
         "Code": "AE682",
         "Name": "Introduction to Thermoacoustics",
-        "Venue": "",
+        "Venue": "Class Room : LT 303",
         "Slots": [
             "6B",
             "6A"
@@ -444,7 +443,7 @@ let courses =
     "AE705": {
         "Code": "AE705",
         "Name": "Introduction to Flight",
-        "Venue": "",
+        "Venue": "Class Room : LC 202",
         "Slots": [
             "11B",
             "11A"
@@ -457,7 +456,7 @@ let courses =
     "AE706": {
         "Code": "AE706",
         "Name": "Computational Fluid Dynamics",
-        "Venue": "",
+        "Venue": "Class Room : LC 002",
         "Slots": [
             "15B",
             "15A"
@@ -483,7 +482,7 @@ let courses =
     "AE710": {
         "Code": "AE710",
         "Name": "Aeroacoustics",
-        "Venue": "",
+        "Venue": "Class Room : LT 206",
         "Slots": [
             "5B",
             "5A"
@@ -510,7 +509,7 @@ let courses =
     "AE713": {
         "Code": "AE713",
         "Name": "Space Flight Dynamics",
-        "Venue": "",
+        "Venue": "Class Room : LT 001",
         "Slots": [
             "10B",
             "10A"
@@ -537,7 +536,7 @@ let courses =
     "AE717": {
         "Code": "AE717",
         "Name": "Aircraft Flight Dynamics",
-        "Venue": "Class Room : LC 202",
+        "Venue": "Class Room : LT 105",
         "Slots": [
             "2A",
             "2C",
@@ -575,21 +574,10 @@ let courses =
         ],
         "Division": ""
     },
-    "AE899": {
-        "Code": "AE899",
-        "Name": "Communication Skills",
-        "Venue": "",
-        "Slots": [],
-        "Instructors": [
-            " Abhijit Gogulapati",
-            " Hrishikesh Gadgil"
-        ],
-        "Division": ""
-    },
     "BB101-D3-tut": {
         "Code": "BB101-D3-tut",
         "Name": "Biology",
-        "Venue": "Class Room : LT 003",
+        "Venue": "Class Room : LT 005",
         "Slots": [
             "3C"
         ],
@@ -604,7 +592,7 @@ let courses =
     "BB101-D3": {
         "Code": "BB101-D3",
         "Name": "Biology",
-        "Venue": "Class Room : LH 301",
+        "Venue": "Class Room : LA 001",
         "Slots": [
             "6B",
             "6A"
@@ -618,7 +606,7 @@ let courses =
     "BB411": {
         "Code": "BB411",
         "Name": "Molecular Cell Biology",
-        "Venue": "Class Room : LT 105",
+        "Venue": "Class Room : LC 202",
         "Slots": [
             "2A",
             "2C",
@@ -632,7 +620,7 @@ let courses =
     "BB411-M": {
         "Code": "BB411-M",
         "Name": "Molecular Cell Biology",
-        "Venue": "Class Room : LT 105",
+        "Venue": "Class Room : LC 202",
         "Slots": [
             "2A",
             "2C",
@@ -646,7 +634,7 @@ let courses =
     "BB412": {
         "Code": "BB412",
         "Name": "Genomics and Proteomics",
-        "Venue": "Class Room : LT 001",
+        "Venue": "Class Room : LT 205",
         "Slots": [
             "6B",
             "6A"
@@ -725,7 +713,7 @@ let courses =
     "BB526": {
         "Code": "BB526",
         "Name": "Biomolecular Spectroscopy",
-        "Venue": "",
+        "Venue": "Class : CL 111 ESE",
         "Slots": [
             "7B",
             "7A"
@@ -752,7 +740,7 @@ let courses =
     "BB536": {
         "Code": "BB536",
         "Name": "Cryo-Electron Microscopy",
-        "Venue": "",
+        "Venue": "Class : CL 103 ESE",
         "Slots": [
             "7B",
             "7A"
@@ -775,7 +763,7 @@ let courses =
     "BB602": {
         "Code": "BB602",
         "Name": "Research philosophy",
-        "Venue": "Class Room : LT 002",
+        "Venue": "Class Room : LC 001",
         "Slots": [
             "10B",
             "10A"
@@ -801,7 +789,7 @@ let courses =
     "BB610": {
         "Code": "BB610",
         "Name": "Biomedical Microsystems",
-        "Venue": "",
+        "Venue": "Class Room : LA 002",
         "Slots": [
             "5B",
             "5A"
@@ -853,7 +841,7 @@ let courses =
     "BB615": {
         "Code": "BB615",
         "Name": "General Virology",
-        "Venue": "",
+        "Venue": "Class : CL 111 ESE",
         "Slots": [
             "11B",
             "11A"
@@ -866,7 +854,7 @@ let courses =
     "BB616": {
         "Code": "BB616",
         "Name": "Cellular and Tissue Engineering",
-        "Venue": "",
+        "Venue": "Class Room : LT 103",
         "Slots": [
             "6B",
             "6A"
@@ -879,7 +867,7 @@ let courses =
     "BB616-M": {
         "Code": "BB616-M",
         "Name": "Cellular and Tissue Engineering",
-        "Venue": "",
+        "Venue": "Class Room : LT 103",
         "Slots": [
             "6B",
             "6A"
@@ -906,7 +894,7 @@ let courses =
     "BB623": {
         "Code": "BB623",
         "Name": "Mechanisms of Bacterial Pathogenesis",
-        "Venue": "",
+        "Venue": "Class : CL 112 ESE",
         "Slots": [
             "11B",
             "11A"
@@ -945,7 +933,7 @@ let courses =
     "BB626": {
         "Code": "BB626",
         "Name": "Modeling Biological Systems and Processes",
-        "Venue": "",
+        "Venue": "Class : CL 113 ESE",
         "Slots": [
             "11B",
             "11A"
@@ -972,7 +960,7 @@ let courses =
     "BB642": {
         "Code": "BB642",
         "Name": "Protein Crystallography",
-        "Venue": "",
+        "Venue": "Class Room : LC 001",
         "Slots": [
             "3B",
             "LX"
@@ -998,7 +986,7 @@ let courses =
     "BB655": {
         "Code": "BB655",
         "Name": "Introduction to Biomedical Optics",
-        "Venue": "Class Room : LT 004",
+        "Venue": "Class Room : LT 003",
         "Slots": [
             "8A",
             "8B"
@@ -1011,7 +999,7 @@ let courses =
     "BB655-M": {
         "Code": "BB655-M",
         "Name": "Introduction to Biomedical Optics",
-        "Venue": "Class Room : LT 004",
+        "Venue": "Class Room : LT 003",
         "Slots": [
             "8A",
             "8B"
@@ -1024,7 +1012,7 @@ let courses =
     "BB657": {
         "Code": "BB657",
         "Name": "Regulatory Aspects of Drug Development",
-        "Venue": "",
+        "Venue": "Class Room : LT 006",
         "Slots": [
             "11B",
             "X3"
@@ -1037,7 +1025,7 @@ let courses =
     "BB658": {
         "Code": "BB658",
         "Name": "Principles of Tissue Engineering",
-        "Venue": "",
+        "Venue": "Class Room : LT 103",
         "Slots": [
             "6B",
             "6A"
@@ -1050,7 +1038,7 @@ let courses =
     "BB668": {
         "Code": "BB668",
         "Name": "Engineering Principles in Surgical Reconstruction",
-        "Venue": "",
+        "Venue": "Class Room : LT 002",
         "Slots": [
             "L4",
             "10A"
@@ -1102,10 +1090,24 @@ let courses =
         ],
         "Division": ""
     },
+    "CE102-S1": {
+        "Code": "CE102-S1",
+        "Name": "Engineering Mechanics",
+        "Venue": "Class Room - 208",
+        "Slots": [
+            "11B",
+            "11A"
+        ],
+        "Instructors": [
+            " Manish Kumar",
+            " Jayadipta Ghosh"
+        ],
+        "Division": "S1"
+    },
     "CE102-S1-tut": {
         "Code": "CE102-S1-tut",
         "Name": "Engineering Mechanics",
-        "Venue": "Class Room - 208",
+        "Venue": "Class room 212",
         "Slots": [
             "6A"
         ],
@@ -1117,24 +1119,10 @@ let courses =
         ],
         "Division": "S1"
     },
-    "CE102-S1": {
-        "Code": "CE102-S1",
-        "Name": "Engineering Mechanics",
-        "Venue": "Class Room - IC1",
-        "Slots": [
-            "11B",
-            "11A"
-        ],
-        "Instructors": [
-            " Manish Kumar",
-            " Jayadipta Ghosh"
-        ],
-        "Division": "S1"
-    },
     "CE102-S2-tut": {
         "Code": "CE102-S2-tut",
         "Name": "Engineering Mechanics",
-        "Venue": "Class Room : 209",
+        "Venue": "Class Room - 208",
         "Slots": [
             "6A"
         ],
@@ -1160,7 +1148,7 @@ let courses =
     "CE102-S3-tut": {
         "Code": "CE102-S3-tut",
         "Name": "Engineering Mechanics",
-        "Venue": "Class room 212",
+        "Venue": "Class Room : 209",
         "Slots": [
             "6A"
         ],
@@ -1183,6 +1171,19 @@ let courses =
         ],
         "Division": "S3"
     },
+    "CE234-S1-tut": {
+        "Code": "CE234-S1-tut",
+        "Name": "Structural Mechanics",
+        "Venue": "Class Room - 228",
+        "Slots": [
+            "X2",
+            "X3"
+        ],
+        "Instructors": [
+            " N.K.Chandiramani"
+        ],
+        "Division": "S1"
+    },
     "CE234-S1": {
         "Code": "CE234-S1",
         "Name": "Structural Mechanics",
@@ -1196,18 +1197,18 @@ let courses =
         ],
         "Division": "S1"
     },
-    "CE234-S1-tut": {
-        "Code": "CE234-S1-tut",
+    "CE234-S2-tut": {
+        "Code": "CE234-S2-tut",
         "Name": "Structural Mechanics",
-        "Venue": "",
+        "Venue": "Class Room - 233",
         "Slots": [
             "X2",
             "X3"
         ],
         "Instructors": [
-            " N.K.Chandiramani"
+            " Jangid R.S."
         ],
-        "Division": "S1"
+        "Division": "S2"
     },
     "CE234-S2": {
         "Code": "CE234-S2",
@@ -1216,19 +1217,6 @@ let courses =
         "Slots": [
             "6B",
             "6A"
-        ],
-        "Instructors": [
-            " Jangid R.S."
-        ],
-        "Division": "S2"
-    },
-    "CE234-S2-tut": {
-        "Code": "CE234-S2-tut",
-        "Name": "Structural Mechanics",
-        "Venue": "",
-        "Slots": [
-            "X2",
-            "X3"
         ],
         "Instructors": [
             " Jangid R.S."
@@ -1251,7 +1239,7 @@ let courses =
     "CE234-S3-tut": {
         "Code": "CE234-S3-tut",
         "Name": "Structural Mechanics",
-        "Venue": "",
+        "Venue": "P. G. Lecture Room - 238",
         "Slots": [
             "X2",
             "X3"
@@ -1423,6 +1411,19 @@ let courses =
         ],
         "Division": "S2"
     },
+    "CE332-S1-tut": {
+        "Code": "CE332-S1-tut",
+        "Name": "Structural Design II",
+        "Venue": "Class Room : LC 301",
+        "Slots": [
+            "X2",
+            "X3"
+        ],
+        "Instructors": [
+            " Amit Kumar Das"
+        ],
+        "Division": "S1"
+    },
     "CE332-S1": {
         "Code": "CE332-S1",
         "Name": "Structural Design II",
@@ -1437,23 +1438,10 @@ let courses =
         ],
         "Division": "S1"
     },
-    "CE332-S1-tut": {
-        "Code": "CE332-S1-tut",
-        "Name": "Structural Design II",
-        "Venue": "",
-        "Slots": [
-            "X2",
-            "X3"
-        ],
-        "Instructors": [
-            " Amit Kumar Das"
-        ],
-        "Division": "S1"
-    },
     "CE332-S2-tut": {
         "Code": "CE332-S2-tut",
         "Name": "Structural Design II",
-        "Venue": "",
+        "Venue": "Class Room : LC 302",
         "Slots": [
             "X2",
             "X3"
@@ -1596,7 +1584,7 @@ let courses =
     "CE484": {
         "Code": "CE484",
         "Name": "Concrete Technology",
-        "Venue": "Class Room : 209",
+        "Venue": "Class Room : LC 101",
         "Slots": [
             "4A",
             "4C",
@@ -1767,7 +1755,7 @@ let courses =
     "CE659": {
         "Code": "CE659",
         "Name": "Advanced Surveying",
-        "Venue": "Class Room - 228",
+        "Venue": "Class Room : 209",
         "Slots": [
             "11B",
             "11A"
@@ -1906,7 +1894,7 @@ let courses =
     "CE719": {
         "Code": "CE719",
         "Name": "Construction Contracts",
-        "Venue": "",
+        "Venue": "Class Room - IC1",
         "Slots": [
             "5B",
             "5A"
@@ -1933,7 +1921,7 @@ let courses =
     "CE729": {
         "Code": "CE729",
         "Name": "Quality and Safety in Construction",
-        "Venue": "Class Room - 228",
+        "Venue": "Class Room : LC 102",
         "Slots": [
             "4A",
             "4C",
@@ -1947,7 +1935,7 @@ let courses =
     "CE743": {
         "Code": "CE743",
         "Name": "Condition Assessment and Rehabilitation of Structures",
-        "Venue": "Class Room : LC 102",
+        "Venue": "Class Room - 233",
         "Slots": [
             "3A",
             "3C",
@@ -2635,7 +2623,7 @@ let courses =
     "CH560": {
         "Code": "CH560",
         "Name": "Quantum Chemistry",
-        "Venue": "",
+        "Venue": "Class Room : LT 003",
         "Slots": [
             "15B",
             "15A"
@@ -2648,7 +2636,7 @@ let courses =
     "CH576": {
         "Code": "CH576",
         "Name": "Statistical Mechanics",
-        "Venue": "",
+        "Venue": "Class : CL 102 ESE",
         "Slots": [
             "14B",
             "14A"
@@ -2766,7 +2754,7 @@ let courses =
     "CH824": {
         "Code": "CH824",
         "Name": "Organotransition Metal and Acceptor Ligand Complex",
-        "Venue": "",
+        "Venue": "Class Room : LT 005",
         "Slots": [
             "10B",
             "10A"
@@ -2795,7 +2783,7 @@ let courses =
     "CH848": {
         "Code": "CH848",
         "Name": "Advanced Molecular Energetics",
-        "Venue": "Class Room : LT 205",
+        "Venue": "Class : CL 113 ESE",
         "Slots": [
             "2A",
             "2C",
@@ -2837,7 +2825,7 @@ let courses =
     "CH899": {
         "Code": "CH899",
         "Name": "Communication Skills",
-        "Venue": "",
+        "Venue": "Class Room : LT 001",
         "Slots": [
             "5B",
             "5A"
@@ -2901,7 +2889,7 @@ let courses =
     "CL210": {
         "Code": "CL210",
         "Name": "Separation Processes",
-        "Venue": "",
+        "Venue": "Class Room : LH 101",
         "Slots": [
             "15B",
             "15A"
@@ -2943,7 +2931,7 @@ let courses =
     "CL238-S2": {
         "Code": "CL238-S2",
         "Name": "Introduction to Numerical Analysis",
-        "Venue": "",
+        "Venue": "Class Room : LC 002",
         "Slots": [
             "14B",
             "14A"
@@ -2956,7 +2944,7 @@ let courses =
     "CL242": {
         "Code": "CL242",
         "Name": "Fundamentals of Heat and Mass Transfer",
-        "Venue": "",
+        "Venue": "Class Room : LH 302",
         "Slots": [
             "6B",
             "6A"
@@ -2983,7 +2971,7 @@ let courses =
     "CL244-S2": {
         "Code": "CL244-S2",
         "Name": "Introduction to Numerical Analysis",
-        "Venue": "",
+        "Venue": "Class Room : LC 002",
         "Slots": [
             "14B",
             "14A"
@@ -2993,10 +2981,24 @@ let courses =
         ],
         "Division": "S2"
     },
+    "CL246": {
+        "Code": "CL246",
+        "Name": "Heat Transfer",
+        "Venue": "",
+        "Slots": [
+            "6B",
+            "6A"
+        ],
+        "Instructors": [
+            " P.Sunthar",
+            " Ojus Mohan"
+        ],
+        "Division": ""
+    },
     "CL260": {
         "Code": "CL260",
         "Name": "Molecular and Statistical Thermodynamics",
-        "Venue": "",
+        "Venue": "Organic Process Lab",
         "Slots": [
             "5B",
             "5A"
@@ -3009,7 +3011,7 @@ let courses =
     "CL302-S1-tut": {
         "Code": "CL302-S1-tut",
         "Name": "Process Control",
-        "Venue": "",
+        "Venue": "Class : CL 110 ESE",
         "Slots": [
             "7A"
         ],
@@ -3049,7 +3051,7 @@ let courses =
     "CL302-S2-tut": {
         "Code": "CL302-S2-tut",
         "Name": "Process Control",
-        "Venue": "",
+        "Venue": "Class : CL 109 ESE",
         "Slots": [
             "X1"
         ],
@@ -3111,6 +3113,20 @@ let courses =
         ],
         "Division": "S2"
     },
+    "CL319": {
+        "Code": "CL319",
+        "Name": "Mass Transfer I",
+        "Venue": "",
+        "Slots": [
+            "6B",
+            "6A"
+        ],
+        "Instructors": [
+            " P.Sunthar",
+            " Ojus Mohan"
+        ],
+        "Division": ""
+    },
     "CL324-S1": {
         "Code": "CL324-S1",
         "Name": "Chemical Reaction Engineering",
@@ -3140,7 +3156,7 @@ let courses =
     "CL325": {
         "Code": "CL325",
         "Name": "Chemical Reaction Engineering II",
-        "Venue": "",
+        "Venue": "Class room-234 (Old No:230)",
         "Slots": [
             "6B",
             "6A"
@@ -3168,7 +3184,7 @@ let courses =
     "CL407": {
         "Code": "CL407",
         "Name": "Process Equipment Design",
-        "Venue": "Class Room : LH 101",
+        "Venue": "Class Room : LH 102",
         "Slots": [
             "1A",
             "1C",
@@ -3182,7 +3198,7 @@ let courses =
     "CL407-tut": {
         "Code": "CL407-tut",
         "Name": "Process Equipment Design",
-        "Venue": "",
+        "Venue": "Class Room : VMCC32",
         "Slots": [
             "7A"
         ],
@@ -3194,7 +3210,7 @@ let courses =
     "CL429": {
         "Code": "CL429",
         "Name": "Polymer Science and Engineering",
-        "Venue": "",
+        "Venue": "Class room-234 (Old No:230)",
         "Slots": [
             "5B",
             "5A"
@@ -3218,7 +3234,7 @@ let courses =
     "CL451": {
         "Code": "CL451",
         "Name": "Chemical Process Design",
-        "Venue": "",
+        "Venue": "Class Room : LH 102",
         "Slots": [
             "10B",
             "10A"
@@ -3231,7 +3247,7 @@ let courses =
     "CL452": {
         "Code": "CL452",
         "Name": "Process Design Project",
-        "Venue": "",
+        "Venue": "Class Room : LC 302",
         "Slots": [
             "L1",
             "L3"
@@ -3289,7 +3305,7 @@ let courses =
     "CL677": {
         "Code": "CL677",
         "Name": "Modelling Stochastic and Turbulent Transport",
-        "Venue": "",
+        "Venue": "Class : CL 112 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -3316,7 +3332,7 @@ let courses =
     "CL686": {
         "Code": "CL686",
         "Name": "Advanced Process Control",
-        "Venue": "",
+        "Venue": "Class Room : LT 001",
         "Slots": [
             "11B",
             "11A"
@@ -3340,7 +3356,7 @@ let courses =
     "CL704": {
         "Code": "CL704",
         "Name": "Lecture Series",
-        "Venue": "Class Room : LT 003",
+        "Venue": "Class Room : LC 101",
         "Slots": [
             "X1",
             "X2"
@@ -3368,7 +3384,7 @@ let courses =
     "CL726": {
         "Code": "CL726",
         "Name": "Introduction to Genomics",
-        "Venue": "",
+        "Venue": "Organic Process Lab",
         "Slots": [
             "6B",
             "6A"
@@ -3431,7 +3447,7 @@ let courses =
     "CM611": {
         "Code": "CM611",
         "Name": "Introduction to Ocean Atmosphere Dynamics",
-        "Venue": "",
+        "Venue": "Class Room : LT 002",
         "Slots": [
             "5B",
             "5A"
@@ -3457,7 +3473,7 @@ let courses =
     "CM801": {
         "Code": "CM801",
         "Name": "Introduction to Risk Analysis",
-        "Venue": "Class Room : LT 005",
+        "Venue": "Class Room : LH 102",
         "Slots": [
             "14B",
             "14A"
@@ -3516,9 +3532,10 @@ let courses =
     "CS104-D3": {
         "Code": "CS104-D3",
         "Name": "Software Systems Lab",
-        "Venue": "CC 103 : Class Room",
+        "Venue": "Class Room : LH 302",
         "Slots": [
-            "5A", "LX"
+            "LX",
+            "5A"
         ],
         "Instructors": [
             " Kameswari Chebrolu"
@@ -3528,7 +3545,7 @@ let courses =
     "CS104-D3-tut": {
         "Code": "CS104-D3-tut",
         "Name": "Software Systems Lab",
-        "Venue": "CC 103 : Class Room",
+        "Venue": "Class Room : LH 302",
         "Slots": [
             "5B"
         ],
@@ -3538,10 +3555,23 @@ let courses =
         ],
         "Division": "D3"
     },
+    "CS108": {
+        "Code": "CS108",
+        "Name": "Software Systems Lab",
+        "Venue": "Class Room : LH 302",
+        "Slots": [
+            "LX",
+            "5A"
+        ],
+        "Instructors": [
+            " Kameswari Chebrolu"
+        ],
+        "Division": ""
+    },
     "CS207": {
         "Code": "CS207",
         "Name": "Discrete Structures",
-        "Venue": "",
+        "Venue": "Class Room : LC 002",
         "Slots": [
             "5B",
             "5A"
@@ -3554,7 +3584,7 @@ let courses =
     "CS207-M": {
         "Code": "CS207-M",
         "Name": "Discrete Structures",
-        "Venue": "",
+        "Venue": "Class Room : LC 002",
         "Slots": [
             "5B",
             "5A"
@@ -3581,7 +3611,7 @@ let courses =
     "CS213": {
         "Code": "CS213",
         "Name": "Data Structures and Algorithms",
-        "Venue": "",
+        "Venue": "Class Room : VMCC32",
         "Slots": [
             "5B",
             "5A"
@@ -3594,7 +3624,7 @@ let courses =
     "CS213-M": {
         "Code": "CS213-M",
         "Name": "Data Structures and Algorithms",
-        "Venue": "",
+        "Venue": "Class Room : VMCC32",
         "Slots": [
             "5B",
             "5A"
@@ -3607,7 +3637,7 @@ let courses =
     "CS217": {
         "Code": "CS217",
         "Name": "Artificial Intelligence and Machine Learning",
-        "Venue": "",
+        "Venue": "Class Room : LH 301",
         "Slots": [
             "6B",
             "6A"
@@ -3686,7 +3716,7 @@ let courses =
     "CS310": {
         "Code": "CS310",
         "Name": "Automata Theory",
-        "Venue": "",
+        "Venue": "SIC201 : Big Class Room",
         "Slots": [
             "5B",
             "5A"
@@ -3699,7 +3729,7 @@ let courses =
     "CS310-M": {
         "Code": "CS310-M",
         "Name": "Automata Theory",
-        "Venue": "",
+        "Venue": "SIC201 : Big Class Room",
         "Slots": [
             "5B",
             "5A"
@@ -3731,6 +3761,57 @@ let courses =
         ],
         "Instructors": [
             " B. L. Menezes"
+        ],
+        "Division": ""
+    },
+    "CS333": {
+        "Code": "CS333",
+        "Name": "Operating Systems Lab",
+        "Venue": "",
+        "Slots": [
+            "L3"
+        ],
+        "Instructors": [
+            " Mythili Vutukuru"
+        ],
+        "Division": ""
+    },
+    "CS335": {
+        "Code": "CS335",
+        "Name": "Artificial Intelligence and Machine Learning (Lab)",
+        "Venue": "",
+        "Slots": [
+            "L1"
+        ],
+        "Instructors": [
+            " Swaprava Nath"
+        ],
+        "Division": ""
+    },
+    "CS337": {
+        "Code": "CS337",
+        "Name": "Artificial Intelligence and Machine Learning",
+        "Venue": "CC 105 : Class Room",
+        "Slots": [
+            "6B",
+            "6A"
+        ],
+        "Instructors": [
+            " Swaprava Nath"
+        ],
+        "Division": ""
+    },
+    "CS347": {
+        "Code": "CS347",
+        "Name": "Operating Systems",
+        "Venue": "Class Room : LA 001",
+        "Slots": [
+            "3A",
+            "3C",
+            "3B"
+        ],
+        "Instructors": [
+            " Mythili Vutukuru"
         ],
         "Division": ""
     },
@@ -3773,7 +3854,7 @@ let courses =
     "CS419": {
         "Code": "CS419",
         "Name": "Introducing to Machine Learning",
-        "Venue": "",
+        "Venue": "Class Room : VMCC33",
         "Slots": [
             "5B",
             "5A"
@@ -3786,7 +3867,7 @@ let courses =
     "CS419-M": {
         "Code": "CS419-M",
         "Name": "Introducing to Machine Learning",
-        "Venue": "",
+        "Venue": "Class Room : VMCC33",
         "Slots": [
             "5B",
             "5A"
@@ -3799,7 +3880,7 @@ let courses =
     "CS433": {
         "Code": "CS433",
         "Name": "Automated Reasoning",
-        "Venue": "",
+        "Venue": "CC 105 : Class Room",
         "Slots": [
             "5B",
             "5A"
@@ -3856,7 +3937,7 @@ let courses =
     "CS6004": {
         "Code": "CS6004",
         "Name": "Code Optimization for Object-Oriented Languages",
-        "Venue": "",
+        "Venue": "Class Room : LC 301",
         "Slots": [
             "6B",
             "6A"
@@ -3896,7 +3977,7 @@ let courses =
     "CS613": {
         "Code": "CS613",
         "Name": "Design & Implementation of Functional Programming Languages",
-        "Venue": "",
+        "Venue": "Class Room : LT 002",
         "Slots": [
             "11B",
             "11A"
@@ -3909,7 +3990,7 @@ let courses =
     "CS684": {
         "Code": "CS684",
         "Name": "Embedded Systems",
-        "Venue": "",
+        "Venue": "Class Room : LC 101",
         "Slots": [
             "10B",
             "10A"
@@ -3956,7 +4037,7 @@ let courses =
     "CS695": {
         "Code": "CS695",
         "Name": "Topics in Virtualization and Cloud Computing",
-        "Venue": "",
+        "Venue": "CC 103 : Class Room",
         "Slots": [
             "6B",
             "6A"
@@ -3982,7 +4063,7 @@ let courses =
     "CS728": {
         "Code": "CS728",
         "Name": "Organization of Web Information",
-        "Venue": "",
+        "Venue": "CC 105 : Class Room",
         "Slots": [
             "10B",
             "10A"
@@ -4008,7 +4089,7 @@ let courses =
     "CS736": {
         "Code": "CS736",
         "Name": "Medical Image Computing ",
-        "Venue": "",
+        "Venue": "Class Room : 301",
         "Slots": [
             "5B",
             "5A"
@@ -4060,7 +4141,7 @@ let courses =
     "CS754": {
         "Code": "CS754",
         "Name": "Advanced Image Processing",
-        "Venue": "",
+        "Venue": "Class Room : LH 102",
         "Slots": [
             "15B",
             "15A"
@@ -4073,7 +4154,7 @@ let courses =
     "CS757": {
         "Code": "CS757",
         "Name": "Design and Re-engineering of Object Oriented Programs",
-        "Venue": "",
+        "Venue": "CC 105 : Class Room",
         "Slots": [
             "14B",
             "14A"
@@ -4114,7 +4195,7 @@ let courses =
     "CS769": {
         "Code": "CS769",
         "Name": "Optimization in Machine Learning",
-        "Venue": "",
+        "Venue": "Class Room : LH 101",
         "Slots": [
             "11B",
             "11A"
@@ -4127,7 +4208,7 @@ let courses =
     "CS772": {
         "Code": "CS772",
         "Name": "Deep Learning for Natural Language Processing",
-        "Venue": "CC 103 : Class Room",
+        "Venue": "Class Room : LH 102",
         "Slots": [
             "9A",
             "9B"
@@ -4151,7 +4232,7 @@ let courses =
     "CS779": {
         "Code": "CS779",
         "Name": "Extremal Combinatorics",
-        "Venue": "",
+        "Venue": "CC 105 : Class Room",
         "Slots": [
             "11B",
             "11A"
@@ -4164,7 +4245,7 @@ let courses =
     "CS784": {
         "Code": "CS784",
         "Name": "Image Synthesis",
-        "Venue": "",
+        "Venue": "Class Room : LT 001",
         "Slots": [
             "14B",
             "14A"
@@ -4190,7 +4271,7 @@ let courses =
     "CS899": {
         "Code": "CS899",
         "Name": "Communication Skills",
-        "Venue": "",
+        "Venue": "CC 103 : Class Room",
         "Slots": [
             "XC",
             "XD"
@@ -4223,7 +4304,7 @@ let courses =
     "DH301": {
         "Code": "DH301",
         "Name": "Basic Epidemiology",
-        "Venue": "",
+        "Venue": "Class Room : LH 102",
         "Slots": [
             "X1",
             "X2",
@@ -4237,7 +4318,7 @@ let courses =
     "DH301-M": {
         "Code": "DH301-M",
         "Name": "Basic Epidemiology",
-        "Venue": "",
+        "Venue": "Class Room : LH 102",
         "Slots": [
             "X1",
             "X2",
@@ -4251,7 +4332,7 @@ let courses =
     "DH304": {
         "Code": "DH304",
         "Name": "Economics of Health Care",
-        "Venue": "",
+        "Venue": "Class Room : LC 202",
         "Slots": [
             "5B",
             "5A"
@@ -4264,7 +4345,7 @@ let courses =
     "DH304-M": {
         "Code": "DH304-M",
         "Name": "Economics of Health Care",
-        "Venue": "",
+        "Venue": "Class Room : LC 202",
         "Slots": [
             "5B",
             "5A"
@@ -4297,7 +4378,7 @@ let courses =
     "DH602": {
         "Code": "DH602",
         "Name": "Machine Learning and Statistical Methods in Healthcare",
-        "Venue": "",
+        "Venue": "Class Room : LC 001",
         "Slots": [
             "6B",
             "6A"
@@ -4310,7 +4391,7 @@ let courses =
     "DH602-M": {
         "Code": "DH602-M",
         "Name": "Machine Learning and Statistical Methods in Healthcare",
-        "Venue": "",
+        "Venue": "Class Room : LC 001",
         "Slots": [
             "6B",
             "6A"
@@ -4323,7 +4404,7 @@ let courses =
     "DH804": {
         "Code": "DH804",
         "Name": "Magnetic Resonance Imaging: From Physics to Physiology",
-        "Venue": "",
+        "Venue": "Class Room : LT 003",
         "Slots": [
             "11B",
             "11A"
@@ -4336,7 +4417,7 @@ let courses =
     "DH804-M": {
         "Code": "DH804-M",
         "Name": "Magnetic Resonance Imaging: From Physics to Physiology",
-        "Venue": "",
+        "Venue": "Class Room : LT 003",
         "Slots": [
             "11B",
             "11A"
@@ -4349,7 +4430,7 @@ let courses =
     "DH805": {
         "Code": "DH805",
         "Name": "X-ray based Imaging in Healthcare",
-        "Venue": "",
+        "Venue": "Class Room : LT 101",
         "Slots": [
             "10B",
             "10A",
@@ -4365,7 +4446,7 @@ let courses =
     "DH805-M": {
         "Code": "DH805-M",
         "Name": "X-ray based Imaging in Healthcare",
-        "Venue": "",
+        "Venue": "Class Room : LT 101",
         "Slots": [
             "10B",
             "10A",
@@ -4417,7 +4498,7 @@ let courses =
     "DS203-M": {
         "Code": "DS203-M",
         "Name": "Programming for Data Science",
-        "Venue": "",
+        "Venue": "Class Room : LA 201",
         "Slots": [
             "5B",
             "5A"
@@ -4430,7 +4511,7 @@ let courses =
     "DS303-M": {
         "Code": "DS303-M",
         "Name": "Introduction to Machine Learning",
-        "Venue": "",
+        "Venue": "Class Room : LH 102",
         "Slots": [
             "5B",
             "5A"
@@ -4463,7 +4544,7 @@ let courses =
     "DS899": {
         "Code": "DS899",
         "Name": "Communication Skills",
-        "Venue": "",
+        "Venue": "Class Room : LC 001",
         "Slots": [
             "XC"
         ],
@@ -4514,7 +4595,7 @@ let courses =
     "EC212": {
         "Code": "EC212",
         "Name": "Intermediate Macroeconomics II",
-        "Venue": "",
+        "Venue": "Class Room : LC 201",
         "Slots": [
             "10B",
             "10A"
@@ -4541,7 +4622,7 @@ let courses =
     "EC302": {
         "Code": "EC302",
         "Name": "International  Economics II",
-        "Venue": "",
+        "Venue": "Class Room : LT 005",
         "Slots": [
             "11B",
             "11A"
@@ -4581,7 +4662,7 @@ let courses =
     "EC407": {
         "Code": "EC407",
         "Name": "Econometrics II Lab",
-        "Venue": "",
+        "Venue": "Class Room : LC 002",
         "Slots": [
             "XC"
         ],
@@ -4593,7 +4674,7 @@ let courses =
     "EC411": {
         "Code": "EC411",
         "Name": "Indian Economy",
-        "Venue": "",
+        "Venue": "Class Room : LT 003",
         "Slots": [
             "6B",
             "6A"
@@ -4629,7 +4710,7 @@ let courses =
     "EC631": {
         "Code": "EC631",
         "Name": "Financial Economics",
-        "Venue": "",
+        "Venue": "Class Room : LC 002",
         "Slots": [
             "11B",
             "11A"
@@ -4698,7 +4779,7 @@ let courses =
     "EE204": {
         "Code": "EE204",
         "Name": "Analog Circuits",
-        "Venue": "",
+        "Venue": "Class Room : EEG-001",
         "Slots": [
             "5B",
             "5A"
@@ -4711,7 +4792,7 @@ let courses =
     "EE204-M": {
         "Code": "EE204-M",
         "Name": "Analog Circuits",
-        "Venue": "",
+        "Venue": "Class Room : EEG-001",
         "Slots": [
             "5B",
             "5A"
@@ -4752,7 +4833,7 @@ let courses =
     "EE229": {
         "Code": "EE229",
         "Name": "Signal Processing \u2013 I",
-        "Venue": "",
+        "Venue": "Class Room : EEG-002",
         "Slots": [
             "5B",
             "5A"
@@ -4765,7 +4846,7 @@ let courses =
     "EE229-M": {
         "Code": "EE229-M",
         "Name": "Signal Processing \u2013 I",
-        "Venue": "",
+        "Venue": "Class Room : EEG-002",
         "Slots": [
             "5B",
             "5A"
@@ -4792,20 +4873,20 @@ let courses =
     "EE238-S1": {
         "Code": "EE238-S1",
         "Name": "Power Engineering - II",
-        "Venue": "",
+        "Venue": "Class Room : LA 002",
         "Slots": [
             "6B",
             "6A"
         ],
         "Instructors": [
-            " Fernandes B.G."
+            " Chatterjee Kishore"
         ],
         "Division": "S1"
     },
     "EE238-S2": {
         "Code": "EE238-S2",
         "Name": "Power Engineering - II",
-        "Venue": "",
+        "Venue": "Class Room : LA 002",
         "Slots": [
             "6B",
             "6A"
@@ -4875,7 +4956,7 @@ let courses =
     "EE325": {
         "Code": "EE325",
         "Name": "Probability and Random Processes",
-        "Venue": "",
+        "Venue": "Class Room : EEG-101",
         "Slots": [
             "5B",
             "5A"
@@ -4888,7 +4969,7 @@ let courses =
     "EE325-M": {
         "Code": "EE325-M",
         "Name": "Probability and Random Processes",
-        "Venue": "",
+        "Venue": "Class Room : EEG-101",
         "Slots": [
             "5B",
             "5A"
@@ -5035,7 +5116,7 @@ let courses =
     "EE465": {
         "Code": "EE465",
         "Name": "Cryptocurrency and Blockchain Technologies",
-        "Venue": "Class Room : LT 202",
+        "Venue": "Class Room : EEG-401",
         "Slots": [
             "4A",
             "4C",
@@ -5049,7 +5130,7 @@ let courses =
     "EE606": {
         "Code": "EE606",
         "Name": "Fibre Optic Communications",
-        "Venue": "",
+        "Venue": "Class Room : EEG-101",
         "Slots": [
             "6B",
             "6A"
@@ -5062,7 +5143,7 @@ let courses =
     "EE6104": {
         "Code": "EE6104",
         "Name": "Internet of Things",
-        "Venue": "",
+        "Venue": "Class Room : EEG-002",
         "Slots": [
             "6B",
             "6A"
@@ -5075,7 +5156,7 @@ let courses =
     "EE6106": {
         "Code": "EE6106",
         "Name": "Online Learning and Optimisation",
-        "Venue": "",
+        "Venue": "Class Room : LC 101",
         "Slots": [
             "11B",
             "11A"
@@ -5101,7 +5182,7 @@ let courses =
     "EE619": {
         "Code": "EE619",
         "Name": "Radio Frequency Microelectronics Chip Design",
-        "Venue": "",
+        "Venue": "Class Room : VMCC32",
         "Slots": [
             "6B",
             "6A"
@@ -5114,7 +5195,7 @@ let courses =
     "EE620": {
         "Code": "EE620",
         "Name": "Physics of Transistors",
-        "Venue": "",
+        "Venue": "Class Room : EEG-302",
         "Slots": [
             "6B",
             "6A"
@@ -5142,7 +5223,7 @@ let courses =
     "EE622": {
         "Code": "EE622",
         "Name": "Optimal Control Systems",
-        "Venue": "Class Room : LT 005",
+        "Venue": "Class Room : EEG-001",
         "Slots": [
             "4A",
             "4C",
@@ -5156,10 +5237,11 @@ let courses =
     "EE636": {
         "Code": "EE636",
         "Name": "Matrix Computations",
-        "Venue": "Class Room : EEG-001",
+        "Venue": "Class Room : EEG-401",
         "Slots": [
-            "5B",
-            "5A"
+            "1A",
+            "1C",
+            "1B"
         ],
         "Instructors": [
             " Debraj Chakraborty"
@@ -5182,7 +5264,7 @@ let courses =
     "EE654": {
         "Code": "EE654",
         "Name": "Power Electronics - II",
-        "Venue": "",
+        "Venue": "Class Room : EEG-001",
         "Slots": [
             "11B",
             "11A"
@@ -5195,7 +5277,7 @@ let courses =
     "EE655": {
         "Code": "EE655",
         "Name": "Computer Aided Power System Analysis",
-        "Venue": "",
+        "Venue": "Class Room : EEG-103",
         "Slots": [
             "9A",
             "9B"
@@ -5208,11 +5290,11 @@ let courses =
     "EE656": {
         "Code": "EE656",
         "Name": "Electrical Machine Analysis and Control",
-        "Venue": "Class Room : EEG-001",
+        "Venue": "Class Room : EEG-002",
         "Slots": [
-            "2A",
-            "2C",
-            "2B"
+            "4A",
+            "4C",
+            "4B"
         ],
         "Instructors": [
             " Fernandes B.G."
@@ -5241,20 +5323,6 @@ let courses =
         ],
         "Instructors": [
             " Himanshu J. Bahirat"
-        ],
-        "Division": ""
-    },
-    "EE699": {
-        "Code": "EE699",
-        "Name": "Delta Sigma Data Converters and their Applications",
-        "Venue": "Class Room : EEG-002",
-        "Slots": [
-            "4A",
-            "4C",
-            "4B"
-        ],
-        "Instructors": [
-            " Laxmeesha Somappa"
         ],
         "Division": ""
     },
@@ -5302,7 +5370,7 @@ let courses =
     "EE708": {
         "Code": "EE708",
         "Name": "Information Theory  & Coding",
-        "Venue": "Class Room : LC 101",
+        "Venue": "Class Room : EEG-101",
         "Slots": [
             "3A",
             "3C",
@@ -5345,7 +5413,7 @@ let courses =
     "EE719": {
         "Code": "EE719",
         "Name": "Mixed-Signal VLSI Design",
-        "Venue": "",
+        "Venue": "Class Room : LC 001",
         "Slots": [
             "5B",
             "5A"
@@ -5358,7 +5426,7 @@ let courses =
     "EE722": {
         "Code": "EE722",
         "Name": "Restructured Power Systems",
-        "Venue": "Class Room : LT 103",
+        "Venue": "Class Room : EEG-401",
         "Slots": [
             "6B",
             "6A"
@@ -5398,7 +5466,7 @@ let courses =
     "EE734": {
         "Code": "EE734",
         "Name": "Advanced Probability and Random Processes for Engineers",
-        "Venue": "",
+        "Venue": "Class Room : EEG-001",
         "Slots": [
             "6B",
             "6A"
@@ -5479,7 +5547,7 @@ let courses =
     "EE767": {
         "Code": "EE767",
         "Name": "Photonics System Engineering",
-        "Venue": "",
+        "Venue": "Class Room : EEG-001",
         "Slots": [
             "14B",
             "14A"
@@ -5492,7 +5560,7 @@ let courses =
     "EE769": {
         "Code": "EE769",
         "Name": "Introduction to Machine Learning",
-        "Venue": "",
+        "Venue": "Class Room : LA 001",
         "Slots": [
             "14B",
             "14A"
@@ -5505,7 +5573,7 @@ let courses =
     "EE770": {
         "Code": "EE770",
         "Name": "Design and Evaluation of Photovoltaic Power Plants",
-        "Venue": "Class Room : LT 006",
+        "Venue": "Class Room : EEG-401",
         "Slots": [
             "13A",
             "13B"
@@ -5518,7 +5586,7 @@ let courses =
     "EE774": {
         "Code": "EE774",
         "Name": "Computational Techniques in Electrical Engineering",
-        "Venue": "Class Room : LT 204",
+        "Venue": "Class Room : EEG-401",
         "Slots": [
             "12A",
             "12B"
@@ -5531,7 +5599,7 @@ let courses =
     "EE779": {
         "Code": "EE779",
         "Name": "Advanced Topics in Signal Processing",
-        "Venue": "",
+        "Venue": "Class Room : LT 302",
         "Slots": [
             "5B",
             "5A"
@@ -5544,12 +5612,13 @@ let courses =
     "EE780": {
         "Code": "EE780",
         "Name": "Terahertz : Technology & Applications",
-        "Venue": "",
+        "Venue": "Class Room : LC 101",
         "Slots": [
             "15B",
             "15A"
         ],
         "Instructors": [
+            " S. Duttagupta",
             " Kushal R. Tuckley"
         ],
         "Division": ""
@@ -5557,7 +5626,7 @@ let courses =
     "EE790": {
         "Code": "EE790",
         "Name": "Solar Photovoltaics: Photons to Farms",
-        "Venue": "Class Room : LT 104",
+        "Venue": "Class Room : EEG-001",
         "Slots": [
             "2A",
             "2C",
@@ -5598,7 +5667,7 @@ let courses =
     "EE799": {
         "Code": "EE799",
         "Name": "Advanced Antennas",
-        "Venue": "",
+        "Venue": "Class Room : EEG-002",
         "Slots": [
             "11B",
             "11A"
@@ -5678,7 +5747,7 @@ let courses =
     "EN301": {
         "Code": "EN301",
         "Name": "Introduction to Renewable Energy Technologies",
-        "Venue": "",
+        "Venue": "Class : CL 104 ESE",
         "Slots": [
             "6B",
             "6A"
@@ -5743,7 +5812,7 @@ let courses =
     "EN312-tut": {
         "Code": "EN312-tut",
         "Name": "Control & Instrumentation",
-        "Venue": "",
+        "Venue": "Class : CL 104 ESE",
         "Slots": [
             "7A"
         ],
@@ -5756,7 +5825,7 @@ let courses =
     "EN312": {
         "Code": "EN312",
         "Name": "Control & Instrumentation",
-        "Venue": "",
+        "Venue": "Class : CL 105 ESE",
         "Slots": [
             "6B",
             "6A"
@@ -5794,6 +5863,16 @@ let courses =
         ],
         "Division": ""
     },
+    "EN321": {
+        "Code": "EN321",
+        "Name": "Supervised Learning Project",
+        "Venue": "",
+        "Slots": [],
+        "Instructors": [
+            " Gurubalan Annadurai"
+        ],
+        "Division": ""
+    },
     "EN408": {
         "Code": "EN408",
         "Name": "Energy design project",
@@ -5822,7 +5901,7 @@ let courses =
     "EN412": {
         "Code": "EN412",
         "Name": "Thermodynamics and Statistical Mechanics",
-        "Venue": "",
+        "Venue": "Class : CL 104 ESE",
         "Slots": [
             "14B",
             "14A"
@@ -5848,7 +5927,7 @@ let courses =
     "EN418": {
         "Code": "EN418",
         "Name": "Introduction to Transport Phenomena",
-        "Venue": "",
+        "Venue": "Class : CL 104 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -5908,7 +5987,7 @@ let courses =
     "EN610": {
         "Code": "EN610",
         "Name": "Hydrogen Energy",
-        "Venue": "",
+        "Venue": "Class : CL 103 ESE",
         "Slots": [
             "6B",
             "6A"
@@ -5933,7 +6012,7 @@ let courses =
     "EN613": {
         "Code": "EN613",
         "Name": "Nuclear Reactor Theory",
-        "Venue": "",
+        "Venue": "Class : CL 102 ESE",
         "Slots": [
             "11B",
             "11A"
@@ -5999,7 +6078,7 @@ let courses =
     "EN645": {
         "Code": "EN645",
         "Name": "Process Integration",
-        "Venue": "",
+        "Venue": "Class Room : LT 304",
         "Slots": [
             "5B",
             "5A"
@@ -6012,7 +6091,7 @@ let courses =
     "EN659": {
         "Code": "EN659",
         "Name": "Energy Efficient Industrial Drives",
-        "Venue": "",
+        "Venue": "Class : CL 102 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -6025,7 +6104,7 @@ let courses =
     "EN661": {
         "Code": "EN661",
         "Name": "Micro and Nanoscale Energy Transport",
-        "Venue": "",
+        "Venue": "Class : CL 103 ESE",
         "Slots": [
             "11B",
             "11A"
@@ -6071,7 +6150,7 @@ let courses =
     "ENT101": {
         "Code": "ENT101",
         "Name": "Introduction to Innovation & Entrepreneurship",
-        "Venue": "Class Room : LA 202",
+        "Venue": "Class Room : LH 301",
         "Slots": [
             "3B",
             "5A"
@@ -6106,6 +6185,7 @@ let courses =
             "12B"
         ],
         "Instructors": [
+            " Anuradha Narasimhan",
             " Milind Kopikare",
             " Sankalp Pratap"
         ],
@@ -6140,7 +6220,7 @@ let courses =
     "ENT610": {
         "Code": "ENT610",
         "Name": "Managing Innovation and IP for Entrepreneurs",
-        "Venue": "",
+        "Venue": "Class Room - IC1",
         "Slots": [
             "6B",
             "6A"
@@ -6155,7 +6235,7 @@ let courses =
     "ENT610-M": {
         "Code": "ENT610-M",
         "Name": "Managing Innovation and IP for Entrepreneurs",
-        "Venue": "",
+        "Venue": "Class Room - IC1",
         "Slots": [
             "6B",
             "6A"
@@ -6170,13 +6250,14 @@ let courses =
     "ENT612": {
         "Code": "ENT612",
         "Name": "Field Immersion for Researchers and Entrepreneurs",
-        "Venue": "",
+        "Venue": "Class : CL 106 ESE",
         "Slots": [
             "X1",
             "X2",
             "X3"
         ],
         "Instructors": [
+            " Rohan Chinchwadkar",
             " Sankalp Pratap"
         ],
         "Division": ""
@@ -6184,13 +6265,14 @@ let courses =
     "ENT612-M": {
         "Code": "ENT612-M",
         "Name": "Field Immersion for Researchers and Entrepreneurs",
-        "Venue": "",
+        "Venue": "Class : CL 106 ESE",
         "Slots": [
             "X1",
             "X2",
             "X3"
         ],
         "Instructors": [
+            " Rohan Chinchwadkar",
             " Sankalp Pratap"
         ],
         "Division": "M"
@@ -6198,7 +6280,7 @@ let courses =
     "ENT613": {
         "Code": "ENT613",
         "Name": "Social Enterprises & Inclusive Business",
-        "Venue": "",
+        "Venue": "Class : CL 110 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -6212,7 +6294,7 @@ let courses =
     "ENT613-M": {
         "Code": "ENT613-M",
         "Name": "Social Enterprises & Inclusive Business",
-        "Venue": "",
+        "Venue": "Class : CL 110 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -6227,7 +6309,7 @@ let courses =
         "Code": "ES200",
         "Name": "Environmental Studies: Science and Engineering",
         "Venue": "",
-        "Slots": ["1A", "1B", "1C"],
+        "Slots": [],
         "Instructors": [
             " Amritanshu Shriwastav",
             " Anurag Garg",
@@ -6239,7 +6321,7 @@ let courses =
     "ES203": {
         "Code": "ES203",
         "Name": "Water and Wastewater Engineering",
-        "Venue": "",
+        "Venue": "Class : CL 104 ESE",
         "Slots": [
             "11B",
             "11A"
@@ -6282,8 +6364,9 @@ let courses =
         "Name": "Mass Transfer Process in Environmental Systems",
         "Venue": "Class : CL 105 ESE",
         "Slots": [
-            "9A",
-            "9B"
+            "3A",
+            "9B",
+            "3B"
         ],
         "Instructors": [
             " Suparna Mukherji"
@@ -6318,7 +6401,7 @@ let courses =
     "ES302": {
         "Code": "ES302",
         "Name": "Environmental Biotechnology",
-        "Venue": "",
+        "Venue": "Class Room : LT 206",
         "Slots": [
             "6B",
             "6A"
@@ -6332,7 +6415,7 @@ let courses =
     "ES306-M": {
         "Code": "ES306-M",
         "Name": "Environment Systems Modeling",
-        "Venue": "Class : CL 103 ESE",
+        "Venue": "Class : CL 113 ESE",
         "Slots": [
             "1A",
             "1C",
@@ -6368,7 +6451,7 @@ let courses =
     "ES319": {
         "Code": "ES319",
         "Name": "Computational Laboratory for Environmental Engineering",
-        "Venue": "CESE Computer Lab",
+        "Venue": "Class : CL 103 ESE",
         "Slots": [
             "10B",
             "10A"
@@ -6395,7 +6478,7 @@ let courses =
     "ES458-M": {
         "Code": "ES458-M",
         "Name": "Environmental Change and Sustainable Development",
-        "Venue": "",
+        "Venue": "Class : CL 106 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -6432,7 +6515,7 @@ let courses =
     "ES600": {
         "Code": "ES600",
         "Name": "Environmental Science and Engineering",
-        "Venue": "",
+        "Venue": "Class : CL 102 ESE",
         "Slots": [
             "6B",
             "6A"
@@ -6446,7 +6529,7 @@ let courses =
     "ES616": {
         "Code": "ES616",
         "Name": "Energy Conversion and Environment",
-        "Venue": "",
+        "Venue": "Class : CL 103 ESE",
         "Slots": [
             "14B",
             "14A"
@@ -6460,7 +6543,7 @@ let courses =
     "ES624": {
         "Code": "ES624",
         "Name": "Hazardous Waste Management",
-        "Venue": "",
+        "Venue": "Class Room : LT 002",
         "Slots": [
             "6B",
             "6A"
@@ -6474,7 +6557,7 @@ let courses =
     "ES642": {
         "Code": "ES642",
         "Name": "Industrial Wastewater Management and Reuse",
-        "Venue": "",
+        "Venue": "Class : CL 106 ESE",
         "Slots": [
             "14B",
             "14A"
@@ -6502,7 +6585,7 @@ let courses =
     "ES658": {
         "Code": "ES658",
         "Name": "Environmental Change and Sustainable Development",
-        "Venue": "",
+        "Venue": "Class : CL 106 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -6517,7 +6600,7 @@ let courses =
     "ES664": {
         "Code": "ES664",
         "Name": "Environmental Systems Modelling",
-        "Venue": "Class : CL 104 ESE",
+        "Venue": "Class : CL 113 ESE",
         "Slots": [
             "1A",
             "1C",
@@ -6531,7 +6614,7 @@ let courses =
     "ES666": {
         "Code": "ES666",
         "Name": "Biological Treatment Technologies",
-        "Venue": "",
+        "Venue": "Class : CL 106 ESE",
         "Slots": [
             "11B",
             "11A"
@@ -6545,7 +6628,7 @@ let courses =
     "ES668": {
         "Code": "ES668",
         "Name": "Environmental Computation Laboratory",
-        "Venue": "",
+        "Venue": "Class Room : LT 004",
         "Slots": [
             "5B",
             "5A"
@@ -6574,8 +6657,8 @@ let courses =
         "Name": "Air Pollution Control Technologies",
         "Venue": "Class : CL 105 ESE",
         "Slots": [
-            "4A",
             "4C",
+            "4B",
             "7A"
         ],
         "Instructors": [
@@ -6629,7 +6712,7 @@ let courses =
     "ES682": {
         "Code": "ES682",
         "Name": "Numerical Methods for Environmental Systems",
-        "Venue": "",
+        "Venue": "Class : CL 102 ESE",
         "Slots": [
             "10B",
             "10A"
@@ -6713,7 +6796,7 @@ let courses =
     "ET604": {
         "Code": "ET604",
         "Name": "Research Methods in Educational Technology",
-        "Venue": "Class Room : LT 102",
+        "Venue": "",
         "Slots": [
             "8A",
             "8B"
@@ -6739,7 +6822,7 @@ let courses =
     "ET614": {
         "Code": "ET614",
         "Name": "Instructional Systems Design",
-        "Venue": "Class : CL 112 ESE",
+        "Venue": "",
         "Slots": [
             "9A",
             "9B"
@@ -6765,7 +6848,7 @@ let courses =
     "ET623": {
         "Code": "ET623",
         "Name": "Learning Analytics",
-        "Venue": "",
+        "Venue": "Class Room : LC 201",
         "Slots": [
             "6B",
             "6A"
@@ -6808,7 +6891,7 @@ let courses =
     "GNR402": {
         "Code": "GNR402",
         "Name": "Introduction to Geographic Information Systems",
-        "Venue": "Class Room : LT 201",
+        "Venue": "Class Room : LT 301",
         "Slots": [
             "5B",
             "5A"
@@ -6821,7 +6904,7 @@ let courses =
     "GNR402-M": {
         "Code": "GNR402-M",
         "Name": "Introduction to Geographic Information Systems",
-        "Venue": "Class Room : LT 201",
+        "Venue": "Class Room : LT 301",
         "Slots": [
             "5B",
             "5A"
@@ -6857,7 +6940,7 @@ let courses =
     "GNR410-M": {
         "Code": "GNR410-M",
         "Name": "Digital Photogrammetry and GPS",
-        "Venue": "Class Room : LC 201",
+        "Venue": "",
         "Slots": [
             "5B",
             "5A"
@@ -6883,7 +6966,7 @@ let courses =
     "GNR618": {
         "Code": "GNR618",
         "Name": "Remote Sensing and GIS Applications to Cryosphere",
-        "Venue": "",
+        "Venue": "Class Room : LA 001",
         "Slots": [
             "5B",
             "5A"
@@ -6922,7 +7005,7 @@ let courses =
     "GNR630": {
         "Code": "GNR630",
         "Name": "Introduction to Geospatial Technologies",
-        "Venue": "Class Room : LT 104",
+        "Venue": "Class Room : LT 005",
         "Slots": [
             "6B",
             "6A"
@@ -6963,7 +7046,7 @@ let courses =
     "GNR638": {
         "Code": "GNR638",
         "Name": "Machine Learning for Remote Sensing - II",
-        "Venue": "",
+        "Venue": "Class Room : LH 301",
         "Slots": [
             "15B",
             "15A"
@@ -7138,7 +7221,7 @@ let courses =
     "GP416": {
         "Code": "GP416",
         "Name": "Structural Geology & Stratigraphy",
-        "Venue": "",
+        "Venue": "Class Room : LT 104",
         "Slots": [
             "10B",
             "10A"
@@ -7193,7 +7276,7 @@ let courses =
     "GP502": {
         "Code": "GP502",
         "Name": "Well Logging",
-        "Venue": "Class Room : LT 002",
+        "Venue": "Class : CL 110 ESE",
         "Slots": [
             "2A",
             "2C",
@@ -7221,7 +7304,7 @@ let courses =
     "GP516": {
         "Code": "GP516",
         "Name": "Petroleum Geology and Petrophysics",
-        "Venue": "",
+        "Venue": "Class Room : LT 105",
         "Slots": [
             "10B",
             "10A"
@@ -7234,7 +7317,7 @@ let courses =
     "GP518": {
         "Code": "GP518",
         "Name": "Process Geomorphology, Remote Sensing and GIS",
-        "Venue": "",
+        "Venue": "Class Room : LT 002",
         "Slots": [
             "14B",
             "14A"
@@ -7314,10 +7397,10 @@ let courses =
     "GS430": {
         "Code": "GS430",
         "Name": "Metamorphic Petrology",
-        "Venue": "Class Room : LT 004",
+        "Venue": "Class Room : LT 003",
         "Slots": [
-            "1C",
-            "1B"
+            "2A",
+            "2B"
         ],
         "Instructors": [
             " Prabhakar Naraga"
@@ -7356,7 +7439,7 @@ let courses =
     "GS438": {
         "Code": "GS438",
         "Name": "Economic and Mining Geology",
-        "Venue": "",
+        "Venue": "Class Room : LT 005",
         "Slots": [
             "5B",
             "2C",
@@ -7437,7 +7520,7 @@ let courses =
     "GS538": {
         "Code": "GS538",
         "Name": "Petroleum and Coal Geology",
-        "Venue": "",
+        "Venue": "Class Room : LT 103",
         "Slots": [
             "11B",
             "11A"
@@ -7464,7 +7547,7 @@ let courses =
     "GS542": {
         "Code": "GS542",
         "Name": "Isotope Geology",
-        "Venue": "",
+        "Venue": "Class : CL 112 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -7491,7 +7574,7 @@ let courses =
     "GS552": {
         "Code": "GS552",
         "Name": "Geological Project",
-        "Venue": "",
+        "Venue": "Class Room : LT 003",
         "Slots": [
             "14B",
             "14A",
@@ -7505,7 +7588,7 @@ let courses =
     "GS662": {
         "Code": "GS662",
         "Name": "Petroliferous basins of India",
-        "Venue": "",
+        "Venue": "Class Room : LT 101",
         "Slots": [
             "5B",
             "5A"
@@ -7547,7 +7630,7 @@ let courses =
     "GS676": {
         "Code": "GS676",
         "Name": "Well Logging",
-        "Venue": "Class Room : LT 003",
+        "Venue": "Class : CL 110 ESE",
         "Slots": [
             "2A",
             "2C",
@@ -7574,11 +7657,10 @@ let courses =
     "GS706": {
         "Code": "GS706",
         "Name": "Petrophysics ",
-        "Venue": "",
+        "Venue": "Class Room : LT 106",
         "Slots": [
-            "7B",
-            "7A",
-            "X1"
+            "10B",
+            "10A"
         ],
         "Instructors": [
             " Kumar Hemant Singh"
@@ -7595,6 +7677,7 @@ let courses =
             "3B"
         ],
         "Instructors": [
+            " Sameer Ranjan",
             " Patel S.C."
         ],
         "Division": ""
@@ -7604,9 +7687,10 @@ let courses =
         "Name": "Geochemical Analysis and Instrumentation",
         "Venue": "",
         "Slots": [
-            "L4"
+            "LX"
         ],
         "Instructors": [
+            " Bivin Geo George",
             " Patel S.C."
         ],
         "Division": ""
@@ -7628,7 +7712,7 @@ let courses =
     "GS816": {
         "Code": "GS816",
         "Name": "Spectroscopic Methods in Earth Sciences",
-        "Venue": "",
+        "Venue": "Class Room : LT 004",
         "Slots": [
             "14B",
             "14A"
@@ -7638,13 +7722,16 @@ let courses =
         ],
         "Division": ""
     },
-    "GSS802": {
-        "Code": "GSS802",
-        "Name": "Seminar",
+    "GS820": {
+        "Code": "GS820",
+        "Name": "Continental Deformation and GPS Geodesy",
         "Venue": "",
-        "Slots": [],
+        "Slots": [
+            "12A",
+            "12B"
+        ],
         "Instructors": [
-            " Jahnavi Punekar"
+            " Malay Mukul"
         ],
         "Division": ""
     },
@@ -7704,7 +7791,7 @@ let courses =
         "Code": "HS200",
         "Name": "Environmental Studies",
         "Venue": "",
-        "Slots": ["1A", "1B", "1C"],
+        "Slots": [],
         "Instructors": [
             " Rajkishore Nath",
             " Suryakant Waghmore"
@@ -7738,7 +7825,7 @@ let courses =
     "HS4110": {
         "Code": "HS4110",
         "Name": "Experimental Archaeology: An Introduction",
-        "Venue": "",
+        "Venue": "HS-130-D : Class Room",
         "Slots": [
             "6B",
             "6A"
@@ -7777,10 +7864,23 @@ let courses =
         ],
         "Division": ""
     },
+    "HS474": {
+        "Code": "HS474",
+        "Name": "Postmodernism and Philosophy",
+        "Venue": "Class Room : LT 204",
+        "Slots": [
+            "5B",
+            "5A"
+        ],
+        "Instructors": [
+            " Pravesh Jung Golay"
+        ],
+        "Division": ""
+    },
     "HS474-M": {
         "Code": "HS474-M",
         "Name": "Postmodernism and Philosophy",
-        "Venue": "",
+        "Venue": "Class Room : LT 204",
         "Slots": [
             "5B",
             "5A"
@@ -7806,7 +7906,7 @@ let courses =
     "HS504": {
         "Code": "HS504",
         "Name": "Western Philosophy in the Time of Crisis",
-        "Venue": "",
+        "Venue": "Class Room : LT 301",
         "Slots": [
             "10B",
             "10A"
@@ -7819,7 +7919,7 @@ let courses =
     "HS506": {
         "Code": "HS506",
         "Name": "Writing and Research in Philosophy",
-        "Venue": "Class Room : LT 001",
+        "Venue": "Class Room : LT 101",
         "Slots": [
             "14B",
             "14A"
@@ -7858,7 +7958,7 @@ let courses =
     "HS598": {
         "Code": "HS598",
         "Name": "Project Stage II",
-        "Venue": "",
+        "Venue": "Class Room : LT 102",
         "Slots": [
             "14B",
             "14A"
@@ -7871,7 +7971,7 @@ let courses =
     "HS618": {
         "Code": "HS618",
         "Name": "Introduction to Indian Astronomy",
-        "Venue": "",
+        "Venue": "Class Room : LC 302",
         "Slots": [
             "6B",
             "6A"
@@ -7884,7 +7984,7 @@ let courses =
     "HS621": {
         "Code": "HS621",
         "Name": "Contemporary Indian Philosophy",
-        "Venue": "",
+        "Venue": "Class Room : IC 3",
         "Slots": [
             "6B",
             "6A"
@@ -7897,7 +7997,7 @@ let courses =
     "HS624": {
         "Code": "HS624",
         "Name": "Contemporary Issues in Philosophy of Mind",
-        "Venue": "",
+        "Venue": "Class Room : LT 201",
         "Slots": [
             "6B",
             "6A"
@@ -7910,7 +8010,7 @@ let courses =
     "HS629": {
         "Code": "HS629",
         "Name": "Ecology and Society",
-        "Venue": "",
+        "Venue": "Class Room : LT 006",
         "Slots": [
             "6B",
             "6A"
@@ -7923,7 +8023,7 @@ let courses =
     "HS634": {
         "Code": "HS634",
         "Name": "Theories of Verbal Congnition (Shaabdabodha)",
-        "Venue": "",
+        "Venue": "Class Room : LT 306",
         "Slots": [
             "6B",
             "6A"
@@ -7936,7 +8036,7 @@ let courses =
     "HS640": {
         "Code": "HS640",
         "Name": "Civil Society: Its Foundations and Future",
-        "Venue": "",
+        "Venue": "HS-130-C : Class Room",
         "Slots": [
             "6B",
             "6A"
@@ -7949,7 +8049,7 @@ let courses =
     "HS643": {
         "Code": "HS643",
         "Name": "Sociology of Infrastructure",
-        "Venue": "",
+        "Venue": "Class Room : LT 301",
         "Slots": [
             "6B",
             "6A"
@@ -7959,10 +8059,20 @@ let courses =
         ],
         "Division": ""
     },
+    "HS650": {
+        "Code": "HS650",
+        "Name": "Research Methods: Expository Writing & Analysis",
+        "Venue": "",
+        "Slots": [],
+        "Instructors": [
+            " Sharmila"
+        ],
+        "Division": ""
+    },
     "HS654": {
         "Code": "HS654",
         "Name": "Performance Historiography and Documentation",
-        "Venue": "Class Room : LT 202",
+        "Venue": "Class Room : LC 002",
         "Slots": [
             "9A",
             "9B"
@@ -7976,7 +8086,7 @@ let courses =
     "HS660": {
         "Code": "HS660",
         "Name": "Author, Authorship and Authority",
-        "Venue": "",
+        "Venue": "Class Room : LT 003",
         "Slots": [
             "7B",
             "7A"
@@ -8003,7 +8113,7 @@ let courses =
     "HS662": {
         "Code": "HS662",
         "Name": "Indian Society",
-        "Venue": "",
+        "Venue": "Class Room : LT 104",
         "Slots": [
             "11B",
             "11A"
@@ -8016,7 +8126,7 @@ let courses =
     "HS666": {
         "Code": "HS666",
         "Name": "Quantitative Methods in Social Sciences",
-        "Venue": "",
+        "Venue": "Class Room : LT 103",
         "Slots": [
             "14B",
             "14A"
@@ -8029,7 +8139,7 @@ let courses =
     "HS710": {
         "Code": "HS710",
         "Name": "Consumer Psychology",
-        "Venue": "",
+        "Venue": "Class Room : LT 004",
         "Slots": [
             "6B",
             "6A"
@@ -8069,7 +8179,7 @@ let courses =
     "HS811": {
         "Code": "HS811",
         "Name": "Literary Theory",
-        "Venue": "",
+        "Venue": "Class Room : LT 105",
         "Slots": [
             "11B",
             "11A"
@@ -8082,7 +8192,7 @@ let courses =
     "HS818": {
         "Code": "HS818",
         "Name": "Sociology of Social Stratification in India",
-        "Venue": "",
+        "Venue": "Class Room : LT 302",
         "Slots": [
             "10B",
             "10A"
@@ -8095,7 +8205,7 @@ let courses =
     "HS828": {
         "Code": "HS828",
         "Name": "Phillosophical Points of View & Major Thinkers",
-        "Venue": "",
+        "Venue": "Class Room : LT 106",
         "Slots": [
             "11B",
             "11A"
@@ -8108,7 +8218,7 @@ let courses =
     "HS840": {
         "Code": "HS840",
         "Name": "Paninian Grammar",
-        "Venue": "",
+        "Venue": "Class Room : LT 303",
         "Slots": [
             "10B",
             "10A"
@@ -8134,7 +8244,7 @@ let courses =
     "HS852": {
         "Code": "HS852",
         "Name": "Topics in Syntax and Semantics",
-        "Venue": "",
+        "Venue": "Class Room : LT 104",
         "Slots": [
             "14B",
             "14A"
@@ -8147,7 +8257,7 @@ let courses =
     "HS856": {
         "Code": "HS856",
         "Name": "Critical Social Philosophy",
-        "Venue": "",
+        "Venue": "Class Room : LT 004",
         "Slots": [
             "15B",
             "15A"
@@ -8193,11 +8303,13 @@ let courses =
             "4B"
         ],
         "Instructors": [
+            " Ilito H. Achumi",
             " K. Ramasubramanian",
             " Mrinmoyi Kulkarni",
             " Naina Manjrekar",
             " Pooja Purang",
             " Ramesh Bairy",
+            " Sharmila",
             " Smriti Haricharan",
             " Suryakant Waghmore",
             " Vibhushan Subba",
@@ -8259,7 +8371,7 @@ let courses =
     "DE109-S1": {
         "Code": "DE109-S1",
         "Name": "Introduction to Design",
-        "Venue": "Class Room : LH 301",
+        "Venue": "Class Room : LA 202",
         "Slots": [
             "3B",
             "5A"
@@ -8272,7 +8384,7 @@ let courses =
     "DE109-S2": {
         "Code": "DE109-S2",
         "Name": "Introduction to Design",
-        "Venue": "Class Room : LH 301",
+        "Venue": "Class Room : LA 202",
         "Slots": [
             "3C",
             "X3"
@@ -8440,7 +8552,7 @@ let courses =
     "DE216": {
         "Code": "DE216",
         "Name": "Classics of  Popular Indian Cinema",
-        "Venue": "",
+        "Venue": "Class : CL 103 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -8453,7 +8565,7 @@ let courses =
     "DE216-M": {
         "Code": "DE216-M",
         "Name": "Classics of  Popular Indian Cinema",
-        "Venue": "",
+        "Venue": "Class : CL 103 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -9168,8 +9280,8 @@ let courses =
         "Venue": "",
         "Slots": [],
         "Instructors": [
-            " B.K.Chakravarthy",
             " Girish V. Dalvi",
+            " R. Sandesh",
             " Sugandh Malhotra",
             " Sumant Rao",
             " Mazhar Kamran"
@@ -9196,7 +9308,7 @@ let courses =
             " Mazhar Kamran",
             " Sugandh Malhotra",
             " Sumant Rao",
-            " B.K.Chakravarthy"
+            " R. Sandesh"
         ],
         "Division": ""
     },
@@ -9240,7 +9352,7 @@ let courses =
     "IE506": {
         "Code": "IE506",
         "Name": "Machine Learning: Principles and Techniques",
-        "Venue": "",
+        "Venue": "Class Room : LA 001",
         "Slots": [
             "10B",
             "10A"
@@ -9253,7 +9365,7 @@ let courses =
     "IE607": {
         "Code": "IE607",
         "Name": "Polyhedra and Combinatorial Optimization",
-        "Venue": "",
+        "Venue": "Class : CL 104 ESE",
         "Slots": [
             "10B",
             "10A"
@@ -9266,7 +9378,7 @@ let courses =
     "IE612": {
         "Code": "IE612",
         "Name": "Introduction to Financial Engineering",
-        "Venue": "Class : CL 110 ESE",
+        "Venue": "Class Room : LA 201",
         "Slots": [
             "9A",
             "9B"
@@ -9279,7 +9391,7 @@ let courses =
     "IE614": {
         "Code": "IE614",
         "Name": "Linear Systems",
-        "Venue": "",
+        "Venue": "Class Room : LC 002",
         "Slots": [
             "6B",
             "6A"
@@ -9292,7 +9404,7 @@ let courses =
     "IE616": {
         "Code": "IE616",
         "Name": "Decision Analysis and Game Theory",
-        "Venue": "",
+        "Venue": "Class Room : LH 102",
         "Slots": [
             "11B",
             "11A"
@@ -9306,7 +9418,7 @@ let courses =
     "IE616-M": {
         "Code": "IE616-M",
         "Name": "Decision Analysis and Game Theory",
-        "Venue": "",
+        "Venue": "Class Room : LH 102",
         "Slots": [
             "11B",
             "11A"
@@ -9320,7 +9432,7 @@ let courses =
     "IE620": {
         "Code": "IE620",
         "Name": "Reinforcement Learning Algorithms",
-        "Venue": "",
+        "Venue": "Class : CL 110 ESE",
         "Slots": [
             "6B",
             "6A"
@@ -9333,7 +9445,7 @@ let courses =
     "IE620-M": {
         "Code": "IE620-M",
         "Name": "Reinforcement Learning Algorithms",
-        "Venue": "",
+        "Venue": "Class : CL 110 ESE",
         "Slots": [
             "6B",
             "6A"
@@ -9374,7 +9486,7 @@ let courses =
     "IE630": {
         "Code": "IE630",
         "Name": "Simulation Modeling and Analysis",
-        "Venue": "Class Room A1 - A2",
+        "Venue": "Class Room : LC 101",
         "Slots": [
             "5B",
             "5A"
@@ -9387,7 +9499,7 @@ let courses =
     "IE630-M": {
         "Code": "IE630-M",
         "Name": "Simulation Modeling and Analysis",
-        "Venue": "",
+        "Venue": "Class Room : LC 101",
         "Slots": [
             "5B",
             "5A"
@@ -9442,7 +9554,7 @@ let courses =
     "IE709": {
         "Code": "IE709",
         "Name": "IEOR for Health Care",
-        "Venue": "Class Room : LH 102",
+        "Venue": "Class Room : IC 2",
         "Slots": [
             "1A",
             "1C",
@@ -9456,7 +9568,7 @@ let courses =
     "IE709-M": {
         "Code": "IE709-M",
         "Name": "IEOR for Health Care",
-        "Venue": "Class Room : LH 102",
+        "Venue": "Class Room : IC 2",
         "Slots": [
             "1A",
             "1C",
@@ -9634,7 +9746,7 @@ let courses =
     "MA110-D1-tut": {
         "Code": "MA110-D1-tut",
         "Name": "Linear Algebra and Differential Equations",
-        "Venue": "Class Room : LT 103",
+        "Venue": "Class Room : LT 003",
         "Slots": [
             "X2"
         ],
@@ -9670,7 +9782,7 @@ let courses =
     "MA110-D2-tut": {
         "Code": "MA110-D2-tut",
         "Name": "Linear Algebra and Differential Equations",
-        "Venue": "Class Room : LT 006",
+        "Venue": "Class Room : LT 004",
         "Slots": [
             "X1"
         ],
@@ -9705,7 +9817,7 @@ let courses =
     "MA110-D3-tut": {
         "Code": "MA110-D3-tut",
         "Name": "Linear Algebra and Differential Equations",
-        "Venue": "Class Room : LT 103",
+        "Venue": "Class Room : LT 301",
         "Slots": [
             "XC"
         ],
@@ -9741,7 +9853,7 @@ let courses =
     "MA110-D4-tut": {
         "Code": "MA110-D4-tut",
         "Name": "Linear Algebra and Differential Equations",
-        "Venue": "Class Room : LT 105",
+        "Venue": "Class Room : LT 206",
         "Slots": [
             "X3"
         ],
@@ -9776,7 +9888,7 @@ let courses =
     "MA214-tut": {
         "Code": "MA214-tut",
         "Name": "Introduction to Numerical Analysis",
-        "Venue": "Class Room : LT 005",
+        "Venue": "Class Room : LT 003",
         "Slots": [
             "XC"
         ],
@@ -9812,18 +9924,6 @@ let courses =
         ],
         "Division": ""
     },
-    "MA408-tut": {
-        "Code": "MA408-tut",
-        "Name": "Measure Theory",
-        "Venue": "",
-        "Slots": [
-            "XC"
-        ],
-        "Instructors": [
-            " Mallesham Kummari"
-        ],
-        "Division": ""
-    },
     "MA408": {
         "Code": "MA408",
         "Name": "Measure Theory",
@@ -9832,6 +9932,18 @@ let courses =
             "4A",
             "4C",
             "4B"
+        ],
+        "Instructors": [
+            " Mallesham Kummari"
+        ],
+        "Division": ""
+    },
+    "MA408-tut": {
+        "Code": "MA408-tut",
+        "Name": "Measure Theory",
+        "Venue": "Class Room : LC 201",
+        "Slots": [
+            "XC"
         ],
         "Instructors": [
             " Mallesham Kummari"
@@ -9894,7 +10006,7 @@ let courses =
     "MA412-M": {
         "Code": "MA412-M",
         "Name": "Complex Analysis",
-        "Venue": "Class Room - 113",
+        "Venue": "Class Room : LT 106",
         "Slots": [
             "5B",
             "5A"
@@ -9920,7 +10032,7 @@ let courses =
     "MA414-tut": {
         "Code": "MA414-tut",
         "Name": "Algebra I",
-        "Venue": "",
+        "Venue": "Class Room : LT 201",
         "Slots": [
             "14A"
         ],
@@ -10204,18 +10316,6 @@ let courses =
         ],
         "Division": ""
     },
-    "SI404-tut": {
-        "Code": "SI404-tut",
-        "Name": "Applied Stochastic Processes",
-        "Venue": "",
-        "Slots": [
-            "7A"
-        ],
-        "Instructors": [
-            " Koushik Saha"
-        ],
-        "Division": ""
-    },
     "SI404": {
         "Code": "SI404",
         "Name": "Applied Stochastic Processes",
@@ -10224,6 +10324,18 @@ let courses =
             "4A",
             "4C",
             "4B"
+        ],
+        "Instructors": [
+            " Koushik Saha"
+        ],
+        "Division": ""
+    },
+    "SI404-tut": {
+        "Code": "SI404-tut",
+        "Name": "Applied Stochastic Processes",
+        "Venue": "Class Room : LT 001",
+        "Slots": [
+            "7A"
         ],
         "Instructors": [
             " Koushik Saha"
@@ -10244,18 +10356,6 @@ let courses =
         ],
         "Division": ""
     },
-    "SI422-tut": {
-        "Code": "SI422-tut",
-        "Name": "Regression Analysis",
-        "Venue": "",
-        "Slots": [
-            "XD"
-        ],
-        "Instructors": [
-            " S. Mukhopadhyay"
-        ],
-        "Division": ""
-    },
     "SI422": {
         "Code": "SI422",
         "Name": "Regression Analysis",
@@ -10263,6 +10363,18 @@ let courses =
         "Slots": [
             "5B",
             "5A"
+        ],
+        "Instructors": [
+            " S. Mukhopadhyay"
+        ],
+        "Division": ""
+    },
+    "SI422-tut": {
+        "Code": "SI422-tut",
+        "Name": "Regression Analysis",
+        "Venue": "Class Room : LC 201",
+        "Slots": [
+            "XD"
         ],
         "Instructors": [
             " S. Mukhopadhyay"
@@ -10285,7 +10397,7 @@ let courses =
     "SI424-tut": {
         "Code": "SI424-tut",
         "Name": "Statistical Inference I",
-        "Venue": "",
+        "Venue": "Class Room : LT 202",
         "Slots": [
             "14A"
         ],
@@ -10323,12 +10435,24 @@ let courses =
     "SI426-tut": {
         "Code": "SI426-tut",
         "Name": "Algorithms",
-        "Venue": "",
+        "Venue": "Class Room : LC 101",
         "Slots": [
             "X3"
         ],
         "Instructors": [
             " Madhusudan Manjunath"
+        ],
+        "Division": ""
+    },
+    "SI509-tut": {
+        "Code": "SI509-tut",
+        "Name": "Time Series Analysis",
+        "Venue": "Class Room : LT 002",
+        "Slots": [
+            "7B"
+        ],
+        "Instructors": [
+            " "
         ],
         "Division": ""
     },
@@ -10342,18 +10466,6 @@ let courses =
         ],
         "Instructors": [
             " Sabnis S.V."
-        ],
-        "Division": ""
-    },
-    "SI509-tut": {
-        "Code": "SI509-tut",
-        "Name": "Time Series Analysis",
-        "Venue": "",
-        "Slots": [
-            "7B"
-        ],
-        "Instructors": [
-            " "
         ],
         "Division": ""
     },
@@ -10374,7 +10486,7 @@ let courses =
     "SI527": {
         "Code": "SI527",
         "Name": "Introduction to Derivative Pricing",
-        "Venue": "",
+        "Venue": "Class : CL 111 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -10387,7 +10499,7 @@ let courses =
     "SI527-M": {
         "Code": "SI527-M",
         "Name": "Introduction to Derivative Pricing",
-        "Venue": "",
+        "Venue": "Class : CL 111 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -10558,13 +10670,11 @@ let courses =
         ],
         "Division": "S3"
     },
-    "ME224": {
-        "Code": "ME224",
+    "ME224-S1": {
+        "Code": "ME224-S1",
         "Name": "Fluid Mechanics Lab",
         "Venue": "",
         "Slots": [
-            "L4",
-            "L3",
             "L2"
         ],
         "Instructors": [
@@ -10572,12 +10682,40 @@ let courses =
             " Shivasubramanian Gopalakrishnan",
             " Neeraj Kumbhakarna"
         ],
-        "Division": ""
+        "Division": "S1"
+    },
+    "ME224-S2": {
+        "Code": "ME224-S2",
+        "Name": "Fluid Mechanics Lab",
+        "Venue": "",
+        "Slots": [
+            "L3"
+        ],
+        "Instructors": [
+            " Avishek Ranjan",
+            " Shivasubramanian Gopalakrishnan",
+            " Neeraj Kumbhakarna"
+        ],
+        "Division": "S2"
+    },
+    "ME224-S3": {
+        "Code": "ME224-S3",
+        "Name": "Fluid Mechanics Lab",
+        "Venue": "",
+        "Slots": [
+            "L4"
+        ],
+        "Instructors": [
+            " Avishek Ranjan",
+            " Shivasubramanian Gopalakrishnan",
+            " Neeraj Kumbhakarna"
+        ],
+        "Division": "S3"
     },
     "ME226": {
         "Code": "ME226",
         "Name": "Mechanical Measurements",
-        "Venue": "Class Room : LA 002",
+        "Venue": "Class Room : LT 202",
         "Slots": [
             "4A",
             "4C",
@@ -10591,7 +10729,7 @@ let courses =
     "ME228-S1": {
         "Code": "ME228-S1",
         "Name": "Applied Data Science and Machine Learning",
-        "Venue": "",
+        "Venue": "Class Room : LC 002",
         "Slots": [
             "4A",
             "4C",
@@ -10605,7 +10743,7 @@ let courses =
     "ME228-S2": {
         "Code": "ME228-S2",
         "Name": "Applied Data Science and Machine Learning",
-        "Venue": "",
+        "Venue": "Class Room : LH 102",
         "Slots": [
             "4A",
             "4C",
@@ -10619,7 +10757,7 @@ let courses =
     "ME230-M": {
         "Code": "ME230-M",
         "Name": "Mechanical Processing of Materials",
-        "Venue": "",
+        "Venue": "Class Room : LC 102",
         "Slots": [
             "5B",
             "5A"
@@ -10660,7 +10798,7 @@ let courses =
     "ME230-S3": {
         "Code": "ME230-S3",
         "Name": "Mechanical Processing of Materials",
-        "Venue": "",
+        "Venue": "Class Room : LC 102",
         "Slots": [
             "5B",
             "5A"
@@ -10673,7 +10811,7 @@ let courses =
     "ME232-M": {
         "Code": "ME232-M",
         "Name": "Kinematics and Dynamics of Machines",
-        "Venue": "",
+        "Venue": "Class Room : LC 102",
         "Slots": [
             "3A",
             "3C",
@@ -10687,7 +10825,7 @@ let courses =
     "ME232-S1": {
         "Code": "ME232-S1",
         "Name": "Kinematics and Dynamics of Machines",
-        "Venue": "",
+        "Venue": "Class Room : LC 102",
         "Slots": [
             "3A",
             "3C",
@@ -10701,7 +10839,7 @@ let courses =
     "ME232-S2": {
         "Code": "ME232-S2",
         "Name": "Kinematics and Dynamics of Machines",
-        "Venue": "",
+        "Venue": "Class Room : LC 101",
         "Slots": [
             "3A",
             "3C",
@@ -10807,7 +10945,7 @@ let courses =
     "ME312": {
         "Code": "ME312",
         "Name": "Operations Modeling and Analysis",
-        "Venue": "",
+        "Venue": "Class Room : LH 101",
         "Slots": [
             "6B",
             "6A"
@@ -10874,7 +11012,7 @@ let courses =
         "Name": "Kinematics and Dynamics of Machines Lab",
         "Venue": "",
         "Slots": [
-            "L2"
+            "L1"
         ],
         "Instructors": [
             " Guha Anirban",
@@ -10887,19 +11025,18 @@ let courses =
         "Name": "Kinematics and Dynamics of Machines Lab",
         "Venue": "",
         "Slots": [
-            "L4"
+            "L3"
         ],
         "Instructors": [
             " Guha Anirban"
         ],
         "Division": "S2"
     },
-    "ME372": {
-        "Code": "ME372",
+    "ME372-S1": {
+        "Code": "ME372-S1",
         "Name": "Heat Transfer and Metrology Lab",
         "Venue": "",
         "Slots": [
-            "L4",
             "L2"
         ],
         "Instructors": [
@@ -10910,7 +11047,24 @@ let courses =
             " Vedula R.P.",
             " Bhalchandra Puranik"
         ],
-        "Division": ""
+        "Division": "S1"
+    },
+    "ME372-S2": {
+        "Code": "ME372-S2",
+        "Name": "Heat Transfer and Metrology Lab",
+        "Venue": "",
+        "Slots": [
+            "L4"
+        ],
+        "Instructors": [
+            " Arunkumar Sridharan",
+            " Gurminder Singh",
+            " Rakesh G. Mote",
+            " Sandip Kumar Saha",
+            " Vedula R.P.",
+            " Bhalchandra Puranik"
+        ],
+        "Division": "S2"
     },
     "ME412": {
         "Code": "ME412",
@@ -10941,7 +11095,7 @@ let courses =
     "ME420": {
         "Code": "ME420",
         "Name": "Cryogenic Engineering I",
-        "Venue": "Class Room : LC 301",
+        "Venue": "Class : ME-F24",
         "Slots": [
             "12A",
             "12B"
@@ -10988,7 +11142,7 @@ let courses =
     "ME6106": {
         "Code": "ME6106",
         "Name": "Computational Structural Dynamics",
-        "Venue": "",
+        "Venue": "Class Room : LT 006",
         "Slots": [
             "5B",
             "5A"
@@ -11001,7 +11155,7 @@ let courses =
     "ME6114": {
         "Code": "ME6114",
         "Name": "Joint Biomechanics",
-        "Venue": "",
+        "Venue": "Class Room : LA 001",
         "Slots": [
             "11B",
             "11A"
@@ -11014,7 +11168,7 @@ let courses =
     "ME6118": {
         "Code": "ME6118",
         "Name": "Spray Theory and Applications",
-        "Venue": "",
+        "Venue": "Class Room : LT 105",
         "Slots": [
             "14B",
             "14A"
@@ -11027,7 +11181,7 @@ let courses =
     "ME613": {
         "Code": "ME613",
         "Name": "Finite Element and Boundary Element Methods",
-        "Venue": "",
+        "Venue": "Class Room : LT 001",
         "Slots": [
             "6B",
             "6A"
@@ -11082,10 +11236,10 @@ let courses =
     "ME651": {
         "Code": "ME651",
         "Name": "Fluid Dynamics",
-        "Venue": "",
+        "Venue": "Class Room : LT 305",
         "Slots": [
-            "5B",
-            "5A"
+            "6B",
+            "6A"
         ],
         "Instructors": [
             " Bhalchandra Puranik"
@@ -11095,7 +11249,7 @@ let courses =
     "ME657": {
         "Code": "ME657",
         "Name": "Thermal and Fluids Engg Laboratory",
-        "Venue": "",
+        "Venue": "Class Room : LT 004",
         "Slots": [
             "7B",
             "L1",
@@ -11114,10 +11268,11 @@ let courses =
     "ME663": {
         "Code": "ME663",
         "Name": "Advanced Heat Transfer",
-        "Venue": "Class Room : LT 206",
+        "Venue": "Class Room : LT 204",
         "Slots": [
-            "6B",
-            "6A"
+            "4A",
+            "4C",
+            "4B"
         ],
         "Instructors": [
             " Arunkumar Sridharan"
@@ -11127,7 +11282,7 @@ let courses =
     "ME673": {
         "Code": "ME673",
         "Name": "Mathematical Methods in Engineering",
-        "Venue": "",
+        "Venue": "Class Room : IC 3",
         "Slots": [
             "5B",
             "5A"
@@ -11153,10 +11308,11 @@ let courses =
     "ME678": {
         "Code": "ME678",
         "Name": "Fundamentals of Gas Dynamics",
-        "Venue": "",
+        "Venue": "Class Room : LT 005",
         "Slots": [
-            "6B",
-            "6A"
+            "2A",
+            "2C",
+            "2B"
         ],
         "Instructors": [
             " Abhilash Chandy"
@@ -11166,7 +11322,7 @@ let courses =
     "ME683": {
         "Code": "ME683",
         "Name": "Cryogenic Engineering - I",
-        "Venue": "Class Room : LC 301",
+        "Venue": "Class : ME-F24",
         "Slots": [
             "12A",
             "12B"
@@ -11202,7 +11358,7 @@ let courses =
     "ME712": {
         "Code": "ME712",
         "Name": "Computer Numerical Control and Programming.",
-        "Venue": "Class : CL 110 ESE",
+        "Venue": "Class Room : LT 002",
         "Slots": [
             "2A",
             "2C",
@@ -11255,7 +11411,7 @@ let courses =
     "ME754": {
         "Code": "ME754",
         "Name": "Textile Machines Design & Automation",
-        "Venue": "",
+        "Venue": "Class Room : LH 302",
         "Slots": [
             "15B",
             "15A"
@@ -11268,7 +11424,7 @@ let courses =
     "ME761": {
         "Code": "ME761",
         "Name": "Advanced Stereology and Microstructural Analysis",
-        "Venue": "Class : CL 105 ESE",
+        "Venue": "Class Room : LT 106",
         "Slots": [
             "14B",
             "14A"
@@ -11281,7 +11437,7 @@ let courses =
     "ME762": {
         "Code": "ME762",
         "Name": "Advanced Engineering Dynamics",
-        "Venue": "",
+        "Venue": "Class Room : LT 203",
         "Slots": [
             "14B",
             "14A"
@@ -11294,7 +11450,7 @@ let courses =
     "ME768": {
         "Code": "ME768",
         "Name": "Introduction to Microsystems Packaging",
-        "Venue": "",
+        "Venue": "Class Room : LT 204",
         "Slots": [
             "6B",
             "6A"
@@ -11321,7 +11477,7 @@ let courses =
     "ME772": {
         "Code": "ME772",
         "Name": "Processing of Aerospace Materials-I",
-        "Venue": "",
+        "Venue": "Class Room : LT 201",
         "Slots": [
             "11B",
             "11A"
@@ -11400,7 +11556,7 @@ let courses =
     "ME802": {
         "Code": "ME802",
         "Name": "Manufacturing Technologies for Electric Mobility",
-        "Venue": "",
+        "Venue": "Class Room : LT 106",
         "Slots": [
             "6B",
             "6A"
@@ -11428,6 +11584,7 @@ let courses =
         "Name": "Makerspace",
         "Venue": "",
         "Slots": [
+            "3A",
             "L1",
             "L3"
         ],
@@ -11451,6 +11608,8 @@ let courses =
         "Name": "Makerspace",
         "Venue": "Class Room : LA 202",
         "Slots": [
+            "L1",
+            "L3",
             "3A"
         ],
         "Instructors": [
@@ -11473,6 +11632,7 @@ let courses =
         "Name": "Makerspace",
         "Venue": "",
         "Slots": [
+            "3A",
             "L4",
             "L2"
         ],
@@ -11494,10 +11654,11 @@ let courses =
     "MS101-P16": {
         "Code": "MS101-P16",
         "Name": "Makerspace",
-        "Venue": "",
+        "Venue": "Class Room : LA 202",
         "Slots": [
             "L4",
-            "L2"
+            "L2",
+            "3A"
         ],
         "Instructors": [
             " Chatterjee Kishore",
@@ -11519,6 +11680,12 @@ let courses =
         "Name": "Makerspace",
         "Venue": "Class Room : LA 202",
         "Slots": [
+            "2A",
+            "3A",
+            "4A",
+            "1C",
+            "2C",
+            "4C",
             "6A"
         ],
         "Instructors": [
@@ -11539,14 +11706,15 @@ let courses =
     "MS101-P20": {
         "Code": "MS101-P20",
         "Name": "Makerspace",
-        "Venue": "",
+        "Venue": "Class Room : LA 202",
         "Slots": [
             "2A",
             "3A",
             "4A",
             "1C",
             "2C",
-            "4C"
+            "4C",
+            "6A"
         ],
         "Instructors": [
             " Chatterjee Kishore",
@@ -11566,9 +11734,14 @@ let courses =
     "MS101-P21": {
         "Code": "MS101-P21",
         "Name": "Makerspace",
-        "Venue": "Class Room : LA 202",
+        "Venue": "",
         "Slots": [
-            "6A"
+            "6A",
+            "5B",
+            "6B",
+            "1B",
+            "2B",
+            "4B"
         ],
         "Instructors": [
             " Chatterjee Kishore",
@@ -11588,9 +11761,14 @@ let courses =
     "MS101-P22": {
         "Code": "MS101-P22",
         "Name": "Makerspace",
-        "Venue": "Class Room : LA 202",
+        "Venue": "",
         "Slots": [
-            "6A"
+            "6A",
+            "5B",
+            "6B",
+            "1B",
+            "2B",
+            "4B"
         ],
         "Instructors": [
             " Chatterjee Kishore",
@@ -11803,6 +11981,16 @@ let courses =
         ],
         "Division": ""
     },
+    "MGS801": {
+        "Code": "MGS801",
+        "Name": "Credit Seminar",
+        "Venue": "",
+        "Slots": [],
+        "Instructors": [
+            " Sarthak Gaurav"
+        ],
+        "Division": ""
+    },
     "MGS802": {
         "Code": "MGS802",
         "Name": "Seminar",
@@ -11826,7 +12014,7 @@ let courses =
     "SOM101-S1": {
         "Code": "SOM101-S1",
         "Name": "Introduction to Management",
-        "Venue": "Class Room : LA 201",
+        "Venue": "Class Room : LC 201",
         "Slots": [
             "3B",
             "5A"
@@ -11839,7 +12027,7 @@ let courses =
     "SOM101-S2": {
         "Code": "SOM101-S2",
         "Name": "Introduction to Management",
-        "Venue": "Class Room : LA 201",
+        "Venue": "Class Room : LC 201",
         "Slots": [
             "3C",
             "X3"
@@ -11966,7 +12154,6 @@ let courses =
         "Venue": "",
         "Slots": [],
         "Instructors": [
-            " Gajendra Adil",
             " Atul Kanyalkar"
         ],
         "Division": ""
@@ -12024,7 +12211,7 @@ let courses =
     "SOM679": {
         "Code": "SOM679",
         "Name": "Competitiveness for Sustainable Enterprise",
-        "Venue": "",
+        "Venue": "Class : CL 112 ESE",
         "Slots": [
             "6B",
             "6A"
@@ -12249,7 +12436,7 @@ let courses =
     "MM104": {
         "Code": "MM104",
         "Name": "Materials Tetrahedron",
-        "Venue": "Class Room : LH 302",
+        "Venue": "Class Room : LT 202",
         "Slots": [
             "11B",
             "11A"
@@ -12289,7 +12476,7 @@ let courses =
     "MM152": {
         "Code": "MM152",
         "Name": "Materials & Technology",
-        "Venue": "",
+        "Venue": "Class Room : LT 203",
         "Slots": [
             "11B",
             "11A"
@@ -12316,7 +12503,7 @@ let courses =
     "MM210": {
         "Code": "MM210",
         "Name": "Numerical Methods for Materials Engineers",
-        "Venue": "",
+        "Venue": "Class Room : LH 101",
         "Slots": [
             "14B",
             "14A"
@@ -12370,7 +12557,7 @@ let courses =
     "MM222": {
         "Code": "MM222",
         "Name": "Electrochemistry of Materials and its Applications",
-        "Venue": "",
+        "Venue": "Class Room : LH 101",
         "Slots": [
             "10B",
             "10A"
@@ -12739,7 +12926,7 @@ let courses =
     "MM6002": {
         "Code": "MM6002",
         "Name": "Principles and Applications of Ferroelectric and Piezoelectric Materials",
-        "Venue": "",
+        "Venue": "Class Room : LT 003",
         "Slots": [
             "5B",
             "5A"
@@ -12830,7 +13017,7 @@ let courses =
     "MM642": {
         "Code": "MM642",
         "Name": "Modelling of Metallurgical Processes",
-        "Venue": "Class Room : LT 304",
+        "Venue": "Class Room : LT 102",
         "Slots": [
             "6B",
             "6A"
@@ -12871,7 +13058,7 @@ let courses =
     "MM656": {
         "Code": "MM656",
         "Name": "Simulation and Optimisation",
-        "Venue": "",
+        "Venue": "Class Room : LA 002",
         "Slots": [
             "14B",
             "14A"
@@ -12884,7 +13071,7 @@ let courses =
     "MM658": {
         "Code": "MM658",
         "Name": "Fracture Mechanics and Failure Analysis",
-        "Venue": "",
+        "Venue": "Class Room : LT 304",
         "Slots": [
             "6B",
             "6A"
@@ -12952,7 +13139,7 @@ let courses =
     "MM688": {
         "Code": "MM688",
         "Name": "Non-Crystalline Materials",
-        "Venue": "",
+        "Venue": "Class Room : LT 202",
         "Slots": [
             "10B",
             "10A"
@@ -13027,7 +13214,7 @@ let courses =
     "MM722": {
         "Code": "MM722",
         "Name": "Molecular Simulations for Mateirals Engineering ",
-        "Venue": "Class Room : LC 002",
+        "Venue": "Class Room : LC 102",
         "Slots": [
             "11B",
             "11A"
@@ -13066,7 +13253,7 @@ let courses =
     "MM749": {
         "Code": "MM749",
         "Name": "Statistics and Probability for Materials Engineers",
-        "Venue": "Class Room : LT 206",
+        "Venue": "Class Room : LT 205",
         "Slots": [
             "11B",
             "11A"
@@ -13180,19 +13367,6 @@ let courses =
         ],
         "Division": "D1"
     },
-    "PH110-D2-tut": {
-        "Code": "PH110-D2-tut",
-        "Name": "Introduction to Classical and Quantum Physics",
-        "Venue": "Class Room : LT 105",
-        "Slots": [
-            "X2"
-        ],
-        "Instructors": [
-            " ",
-            " Kantimay Siba Pada Das Gupta Das Gupta"
-        ],
-        "Division": "D2"
-    },
     "PH110-D2": {
         "Code": "PH110-D2",
         "Name": "Introduction to Classical and Quantum Physics",
@@ -13206,10 +13380,23 @@ let courses =
         ],
         "Division": "D2"
     },
+    "PH110-D2-tut": {
+        "Code": "PH110-D2-tut",
+        "Name": "Introduction to Classical and Quantum Physics",
+        "Venue": "Class Room : LT 104",
+        "Slots": [
+            "X2"
+        ],
+        "Instructors": [
+            " ",
+            " Kantimay Siba Pada Das Gupta Das Gupta"
+        ],
+        "Division": "D2"
+    },
     "PH110-D3-tut": {
         "Code": "PH110-D3-tut",
         "Name": "Introduction to Classical and Quantum Physics",
-        "Venue": "Class Room : LT 302",
+        "Venue": "Class Room : LT 305",
         "Slots": [
             "X3"
         ],
@@ -13236,7 +13423,7 @@ let courses =
     "PH110-D4-tut": {
         "Code": "PH110-D4-tut",
         "Name": "Introduction to Classical and Quantum Physics",
-        "Venue": "Class Room : LT 301",
+        "Venue": "Class Room : LT 302",
         "Slots": [
             "X1",
             "X2"
@@ -13528,7 +13715,7 @@ let courses =
     "PH252-M": {
         "Code": "PH252-M",
         "Name": "Introduction to Quantum Mechanics",
-        "Venue": "",
+        "Venue": "Class Room : LT 203",
         "Slots": [
             "5B",
             "5A"
@@ -13548,18 +13735,6 @@ let courses =
         ],
         "Division": ""
     },
-    "PH307-tut": {
-        "Code": "PH307-tut",
-        "Name": "Introduction to Numerical Analysis",
-        "Venue": "",
-        "Slots": [
-            "L4"
-        ],
-        "Instructors": [
-            " Alok Shukla"
-        ],
-        "Division": ""
-    },
     "PH307": {
         "Code": "PH307",
         "Name": "Introduction to Numerical Analysis",
@@ -13574,10 +13749,34 @@ let courses =
         ],
         "Division": ""
     },
+    "PH307-tut": {
+        "Code": "PH307-tut",
+        "Name": "Introduction to Numerical Analysis",
+        "Venue": "",
+        "Slots": [
+            "L4"
+        ],
+        "Instructors": [
+            " Alok Shukla"
+        ],
+        "Division": ""
+    },
+    "PH309-tut": {
+        "Code": "PH309-tut",
+        "Name": "Quantum Mechanics II",
+        "Venue": "Class Room : LT 301",
+        "Slots": [
+            "4C"
+        ],
+        "Instructors": [
+            " Soumya Bera"
+        ],
+        "Division": ""
+    },
     "PH309": {
         "Code": "PH309",
         "Name": "Quantum Mechanics II",
-        "Venue": "",
+        "Venue": "Class : CL 109 ESE",
         "Slots": [
             "6B",
             "6A"
@@ -13587,22 +13786,10 @@ let courses =
         ],
         "Division": ""
     },
-    "PH309-tut": {
-        "Code": "PH309-tut",
-        "Name": "Quantum Mechanics II",
-        "Venue": "",
-        "Slots": [
-            "4C"
-        ],
-        "Instructors": [
-            " Soumya Bera"
-        ],
-        "Division": ""
-    },
     "PH408": {
         "Code": "PH408",
         "Name": "Mathematical Physics II",
-        "Venue": "",
+        "Venue": "Class : CL 111 ESE",
         "Slots": [
             "6B",
             "6A"
@@ -13615,7 +13802,7 @@ let courses =
     "PH408-tut": {
         "Code": "PH408-tut",
         "Name": "Mathematical Physics II",
-        "Venue": "",
+        "Venue": "Class Room : LT 305",
         "Slots": [
             "3A"
         ],
@@ -13641,7 +13828,7 @@ let courses =
     "PH418": {
         "Code": "PH418",
         "Name": "Introduction to Condensed Matter Physics",
-        "Venue": "",
+        "Venue": "Class : CL 105 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -13681,7 +13868,7 @@ let courses =
     "PH436": {
         "Code": "PH436",
         "Name": "Introduction to Condensed Matter Physics",
-        "Venue": "Class Room : LC 301",
+        "Venue": "Class : CL 106 ESE",
         "Slots": [
             "6B",
             "6A"
@@ -13748,7 +13935,7 @@ let courses =
     "PH500": {
         "Code": "PH500",
         "Name": "Thin Film Physics & Technology",
-        "Venue": "",
+        "Venue": "Class : CL 105 ESE",
         "Slots": [
             "11B",
             "11A"
@@ -13788,7 +13975,7 @@ let courses =
     "PH530": {
         "Code": "PH530",
         "Name": "Light Matter Interaction",
-        "Venue": "",
+        "Venue": "Class : CL 109 ESE",
         "Slots": [
             "5B",
             "5A"
@@ -13815,7 +14002,7 @@ let courses =
     "PH540": {
         "Code": "PH540",
         "Name": "Elementary Particle Physics",
-        "Venue": "",
+        "Venue": "Class Room : LT 006",
         "Slots": [
             "14B",
             "14A"
@@ -13841,7 +14028,7 @@ let courses =
     "PH550": {
         "Code": "PH550",
         "Name": "Soft Matter Physics",
-        "Venue": "",
+        "Venue": "Class : CL 109 ESE",
         "Slots": [
             "11B",
             "11A"
@@ -13854,7 +14041,7 @@ let courses =
     "PH554": {
         "Code": "PH554",
         "Name": "Computational Many Body Physics",
-        "Venue": "Class Room : LT 305",
+        "Venue": "Class : CL 110 ESE",
         "Slots": [
             "14B",
             "14A"
@@ -13867,7 +14054,7 @@ let courses =
     "PH562": {
         "Code": "PH562",
         "Name": "Continuum Mechanics",
-        "Venue": "Class Room : LT 206",
+        "Venue": "Class Room : LT 102",
         "Slots": [
             "10B",
             "10A"
@@ -13880,7 +14067,7 @@ let courses =
     "PH564": {
         "Code": "PH564",
         "Name": "Methods in Experimental Nuclear and Particle Physics",
-        "Venue": "",
+        "Venue": "Class : CL 110 ESE",
         "Slots": [
             "11B",
             "11A"
@@ -14000,7 +14187,7 @@ let courses =
     "PH601": {
         "Code": "PH601",
         "Name": "Advanced Quantum Information and Computation",
-        "Venue": "",
+        "Venue": "Class Room : LT 005",
         "Slots": [
             "15B",
             "15A"
@@ -14014,7 +14201,7 @@ let courses =
     "PH899": {
         "Code": "PH899",
         "Name": "Communication Skills",
-        "Venue": "",
+        "Venue": "Class Room : LT 302",
         "Slots": [
             "6B",
             "6A"
@@ -14051,7 +14238,7 @@ let courses =
     "PS604": {
         "Code": "PS604",
         "Name": "Technology, Culture and Policy",
-        "Venue": "",
+        "Venue": "Class Room : LT 206",
         "Slots": [
             "11B",
             "11A"
@@ -14078,7 +14265,7 @@ let courses =
     "PS610": {
         "Code": "PS610",
         "Name": "Quantitative and Qualitative Research Methods",
-        "Venue": "",
+        "Venue": "Class Room : LT 204",
         "Slots": [
             "14B",
             "14A"
@@ -14118,7 +14305,7 @@ let courses =
     "PS630": {
         "Code": "PS630",
         "Name": "Technology and the Future of Workers",
-        "Venue": "",
+        "Venue": "Class Room : LT 301",
         "Slots": [
             "11B",
             "11A"
@@ -14144,7 +14331,7 @@ let courses =
     "PS634": {
         "Code": "PS634",
         "Name": "Constitutional Law and Public Policy",
-        "Venue": "",
+        "Venue": "Class Room : LT 205",
         "Slots": [
             "10B",
             "10A"
@@ -14171,7 +14358,7 @@ let courses =
     "PS637": {
         "Code": "PS637",
         "Name": "Circular Economy: Policy and Practices",
-        "Venue": "",
+        "Venue": "Class Room : LT 202",
         "Slots": [
             "6B",
             "6A"
@@ -14198,7 +14385,7 @@ let courses =
     "PS641": {
         "Code": "PS641",
         "Name": "Trustworthy Systems: A Policy Engagement",
-        "Venue": "",
+        "Venue": "Class Room : LT 201",
         "Slots": [
             "5B",
             "5A"
@@ -14212,7 +14399,7 @@ let courses =
     "PS642": {
         "Code": "PS642",
         "Name": "Policy and Practice of Education",
-        "Venue": "",
+        "Venue": "Class Room : LT 202",
         "Slots": [
             "5B",
             "5A"
@@ -14225,7 +14412,7 @@ let courses =
     "PS644": {
         "Code": "PS644",
         "Name": "Advanced Topics in AI, Data, and Policy",
-        "Venue": "",
+        "Venue": "Class Room : LT 206",
         "Slots": [
             "10B",
             "10A"
@@ -14248,7 +14435,7 @@ let courses =
     "PS701": {
         "Code": "PS701",
         "Name": "Energy Transition",
-        "Venue": "",
+        "Venue": "Class Room : LT 205",
         "Slots": [
             "5B",
             "5A"
@@ -14265,19 +14452,6 @@ let courses =
         "Slots": [],
         "Instructors": [
             " Jha Shishir Kumar"
-        ],
-        "Division": ""
-    },
-    "PS801": {
-        "Code": "PS801",
-        "Name": "State, Markets, and Public Policy",
-        "Venue": "",
-        "Slots": [
-            "6B",
-            "6A"
-        ],
-        "Instructors": [
-            " Prabhir Vishnu Poruthiyil"
         ],
         "Division": ""
     },
@@ -14309,7 +14483,7 @@ let courses =
     "SC202-M": {
         "Code": "SC202-M",
         "Name": "Signals and Feedback Systems",
-        "Venue": "",
+        "Venue": "Class Room : LT 102",
         "Slots": [
             "5B",
             "5A"
@@ -14322,7 +14496,7 @@ let courses =
     "SC602": {
         "Code": "SC602",
         "Name": "Control of Nonlinear Dynamical Systems",
-        "Venue": "",
+        "Venue": "Class Room : LT 205",
         "Slots": [
             "14B",
             "14A"
@@ -14335,7 +14509,7 @@ let courses =
     "SC602-M": {
         "Code": "SC602-M",
         "Name": "Control of Nonlinear Dynamical Systems",
-        "Venue": "",
+        "Venue": "Class Room : LT 206",
         "Slots": [
             "14B",
             "14A"
@@ -14348,7 +14522,7 @@ let courses =
     "SC607": {
         "Code": "SC607",
         "Name": "Optimization",
-        "Venue": "",
+        "Venue": "Class Room : LT 302",
         "Slots": [
             "11B",
             "11A"
@@ -14361,7 +14535,7 @@ let courses =
     "SC607-M": {
         "Code": "SC607-M",
         "Name": "Optimization",
-        "Venue": "",
+        "Venue": "Class Room : LT 302",
         "Slots": [
             "11B",
             "11A"
@@ -14374,7 +14548,7 @@ let courses =
     "SC624": {
         "Code": "SC624",
         "Name": "Differential Geometric Methods in Control",
-        "Venue": "",
+        "Venue": "Class Room : LT 104",
         "Slots": [
             "6B",
             "6A"
@@ -14387,7 +14561,7 @@ let courses =
     "SC624-M": {
         "Code": "SC624-M",
         "Name": "Differential Geometric Methods in Control",
-        "Venue": "",
+        "Venue": "Class Room : LT 104",
         "Slots": [
             "6B",
             "6A"
@@ -14469,7 +14643,7 @@ let courses =
     "SC645": {
         "Code": "SC645",
         "Name": "Intelligent Feedback and Control",
-        "Venue": "",
+        "Venue": "Class Room : LT 105",
         "Slots": [
             "6B",
             "6A"
@@ -14482,7 +14656,7 @@ let courses =
     "SC645-M": {
         "Code": "SC645-M",
         "Name": "Intelligent Feedback and Control",
-        "Venue": "",
+        "Venue": "Class Room : LT 105",
         "Slots": [
             "6B",
             "6A"
@@ -14521,7 +14695,7 @@ let courses =
     "SC651": {
         "Code": "SC651",
         "Name": "Estimation on Lie Groups",
-        "Venue": "Class Room : LT 006",
+        "Venue": "Class Room : LT 005",
         "Slots": [
             "12A",
             "12B"
@@ -14534,7 +14708,7 @@ let courses =
     "SC651-M": {
         "Code": "SC651-M",
         "Name": "Estimation on Lie Groups",
-        "Venue": "Class Room : LT 006",
+        "Venue": "Class Room : LT 005",
         "Slots": [
             "12A",
             "12B"
@@ -14547,7 +14721,7 @@ let courses =
     "SC654": {
         "Code": "SC654",
         "Name": "Social learning and herding",
-        "Venue": "",
+        "Venue": "Class Room : LC 301",
         "Slots": [
             "10B",
             "10A"
@@ -14560,7 +14734,7 @@ let courses =
     "SC654-M": {
         "Code": "SC654-M",
         "Name": "Social learning and herding",
-        "Venue": "",
+        "Venue": "Class Room : LC 301",
         "Slots": [
             "10B",
             "10A"
@@ -14649,7 +14823,7 @@ let courses =
     "TD604": {
         "Code": "TD604",
         "Name": "Social Science Research Methods and Systems Dynamics",
-        "Venue": "",
+        "Venue": "Class Room : LT 201",
         "Slots": [
             "10B",
             "10A"
@@ -14663,7 +14837,7 @@ let courses =
     "TD619": {
         "Code": "TD619",
         "Name": "Energy Policy and Planning",
-        "Venue": "",
+        "Venue": "Class Room : LT 305",
         "Slots": [
             "11B",
             "11A"
@@ -14689,7 +14863,7 @@ let courses =
     "TD626": {
         "Code": "TD626",
         "Name": "Technology, Society and Development",
-        "Venue": "",
+        "Venue": "Class Room : LC 202",
         "Slots": [
             "6B",
             "6A"
@@ -14702,7 +14876,7 @@ let courses =
     "TD627": {
         "Code": "TD627",
         "Name": "Field Research Methods",
-        "Venue": "",
+        "Venue": "Class Room : LC 201",
         "Slots": [
             "XC",
             "XD"
@@ -14715,7 +14889,7 @@ let courses =
     "TD632": {
         "Code": "TD632",
         "Name": "Sustainable Development Goals and Corporate Social Responsibility",
-        "Venue": "Class Room : LT 205",
+        "Venue": "Class Room : LC 301",
         "Slots": [
             "8A",
             "8B"
@@ -14742,7 +14916,7 @@ let courses =
     "TD638": {
         "Code": "TD638",
         "Name": "Development Perspectives: Ideas, Approaches, and Theories",
-        "Venue": "",
+        "Venue": "Class Room : LT 103",
         "Slots": [
             "5B",
             "5A"
@@ -14755,7 +14929,7 @@ let courses =
     "TD638-M": {
         "Code": "TD638-M",
         "Name": "Development Perspectives: Ideas, Approaches, and Theories",
-        "Venue": "",
+        "Venue": "Class Room : LT 103",
         "Slots": [
             "5B",
             "5A"
@@ -14782,7 +14956,7 @@ let courses =
     "TD640": {
         "Code": "TD640",
         "Name": "Health and Wellness through a lifecycle approach",
-        "Venue": "",
+        "Venue": "Class Room : LC 102",
         "Slots": [
             "6B",
             "6A"
@@ -14796,7 +14970,7 @@ let courses =
     "TD642": {
         "Code": "TD642",
         "Name": "Data for Development",
-        "Venue": "",
+        "Venue": "Class Room : LT 203",
         "Slots": [
             "6B",
             "6A"
@@ -14823,7 +14997,7 @@ let courses =
     "TD656": {
         "Code": "TD656",
         "Name": "Characterizing Hydro-Meteorological Hazards & Risk",
-        "Venue": "Class Room : VMCC31",
+        "Venue": "Class Room : IC 2",
         "Slots": [
             "6B",
             "6A"
@@ -14836,7 +15010,7 @@ let courses =
     "TD694": {
         "Code": "TD694",
         "Name": "Seminar",
-        "Venue": "",
+        "Venue": "Class Room : LC 001",
         "Slots": [
             "14B",
             "14A"
@@ -14863,21 +15037,6 @@ let courses =
         "Slots": [],
         "Instructors": [
             " Chaaruchandra Korde"
-        ],
-        "Division": ""
-    },
-    "TD899": {
-        "Code": "TD899",
-        "Name": "Communication Skills",
-        "Venue": "Class Room : LT 204",
-        "Slots": [
-            "2A",
-            "2B"
-        ],
-        "Instructors": [
-            " Anand B. Rao",
-            " Chaaruchandra Korde",
-            " Satish B. Agnihotri"
         ],
         "Division": ""
     },
@@ -14947,7 +15106,7 @@ let courses =
     "US606": {
         "Code": "US606",
         "Name": "Urban Environmental Infrastructure",
-        "Venue": "",
+        "Venue": "Class Room : LT 301",
         "Slots": [
             "14B",
             "14A"
