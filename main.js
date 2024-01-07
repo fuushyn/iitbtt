@@ -15165,12 +15165,13 @@ let courses =
         "Division": ""
     }
 }
+
 new TomSelect("#select-tags",{
   plugins: ['remove_button'],
   create: false,
   valueField: 'Code',
 	labelField: 'Name',
-  searchField: ['Code', 'Name', 'Instructors'],
+  searchField: ['Code', 'Name', 'Instructors', 'Slots'],
 	options: Object.values(courses),
   onItemAdd:function(){
     this.setTextboxValue('');
