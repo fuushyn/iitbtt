@@ -17075,7 +17075,7 @@ new TomSelect("#select-tags",{
       }
       
       
-      return `<div class="flex-container" style="background-color: ${color}; margin-top: 3px;margin-bottom: 3px;"><span class="flex-item">` + escape( `${data.Code}: ${data.Name}  `) + '</span><span class="flex-item text-muted">' + escape(`${data.Slots}`) + '</span></div>';
+      return `<div class="flex-container" style="background-color: ${color}; margin-top: 2px;margin-bottom: 3px;"><span class="flex-item">` + escape( `${data.Code}: ${data.Name} `) + '</span><span class="flex-item text-muted">' + escape(`${data.Slots}`) + '</span></div>';
       // return '<div>' + escape(`${data.id}: ${data.title}`) + '</div>';
 
     },
