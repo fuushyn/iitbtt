@@ -48,7 +48,9 @@ let courses =
         "Instructors": [
             " Kowsik V R Bodi"
         ],
-        "Division": "D2"
+        "Division": "D2",
+        "total": 379,
+        "AAAB_avg": 0.43799472295514513
     },
     "AE153-M": {
         "Code": "AE153-M",
@@ -61,7 +63,9 @@ let courses =
         "Instructors": [
             " Kowsik V R Bodi"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 91,
+        "AAAB_avg": 0.25274725274725274
     },
     "AE233": {
         "Code": "AE233",
@@ -90,7 +94,9 @@ let courses =
         "Instructors": [
             " P J Guruprasad"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 300,
+        "AAAB_avg": 0.31666666666666665
     },
     "AE238-M": {
         "Code": "AE238-M",
@@ -104,7 +110,9 @@ let courses =
         "Instructors": [
             " P J Guruprasad"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 5,
+        "AAAB_avg": 0.0
     },
     "AE242": {
         "Code": "AE242",
@@ -183,7 +191,9 @@ let courses =
         "Instructors": [
             " Arnab Maity"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 301,
+        "AAAB_avg": 0.3521594684385382
     },
     "AE305-M": {
         "Code": "AE305-M",
@@ -196,7 +206,9 @@ let courses =
         "Instructors": [
             " Arnab Maity"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 20,
+        "AAAB_avg": 0.15
     },
     "AE312": {
         "Code": "AE312",
@@ -212,7 +224,9 @@ let courses =
             " Viren Menezes",
             " Vineeth Nair"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 277,
+        "AAAB_avg": 0.42238267148014447
     },
     "AE316": {
         "Code": "AE316",
@@ -224,7 +238,9 @@ let courses =
         "Instructors": [
             " Nagendra Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 292,
+        "AAAB_avg": 0.6712328767123288
     },
     "AE330": {
         "Code": "AE330",
@@ -237,7 +253,9 @@ let courses =
         "Instructors": [
             " Nagendra Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 385,
+        "AAAB_avg": 0.3038961038961039
     },
     "AE332": {
         "Code": "AE332",
@@ -251,7 +269,9 @@ let courses =
         "Instructors": [
             " Avijit Chatterjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 294,
+        "AAAB_avg": 0.20408163265306123
     },
     "AE332-M": {
         "Code": "AE332-M",
@@ -265,7 +285,9 @@ let courses =
         "Instructors": [
             " Avijit Chatterjee"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 17,
+        "AAAB_avg": 0.058823529411764705
     },
     "AE427": {
         "Code": "AE427",
@@ -280,7 +302,9 @@ let courses =
             " Shashi Ranjan Kumar",
             " Arnab Maity"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 223,
+        "AAAB_avg": 0.484304932735426
     },
     "AE429": {
         "Code": "AE429",
@@ -305,7 +329,9 @@ let courses =
         "Instructors": [
             " Nagendra Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 83,
+        "AAAB_avg": 0.7710843373493976
     },
     "AE6103": {
         "Code": "AE6103",
@@ -332,7 +358,9 @@ let courses =
         "Instructors": [
             " Krishnendu Sinha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 78,
+        "AAAB_avg": 0.3717948717948718
     },
     "AE624": {
         "Code": "AE624",
@@ -345,7 +373,9 @@ let courses =
         "Instructors": [
             " Viren Menezes"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 126,
+        "AAAB_avg": 0.29365079365079366
     },
     "AE650": {
         "Code": "AE650",
@@ -371,7 +401,9 @@ let courses =
         "Instructors": [
             " Hrishikesh Gadgil"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 91,
+        "AAAB_avg": 0.18681318681318682
     },
     "AE658": {
         "Code": "AE658",
@@ -385,7 +417,9 @@ let courses =
         "Instructors": [
             " Chandra Sekar Thyagarajan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 30,
+        "AAAB_avg": 0.06666666666666667
     },
     "AE673": {
         "Code": "AE673",
@@ -398,7 +432,9 @@ let courses =
         "Instructors": [
             " Chandra S. Yerramalli"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 96,
+        "AAAB_avg": 0.4166666666666667
     },
     "AE678": {
         "Code": "AE678",
@@ -412,7 +448,9 @@ let courses =
         "Instructors": [
             " Abhijit Gogulapati"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 68,
+        "AAAB_avg": 0.23529411764705882
     },
     "AE682": {
         "Code": "AE682",
@@ -425,7 +463,9 @@ let courses =
         "Instructors": [
             " Vineeth Nair"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 18,
+        "AAAB_avg": 0.2777777777777778
     },
     "AE700": {
         "Code": "AE700",
@@ -438,7 +478,9 @@ let courses =
         "Instructors": [
             " Shashi Ranjan Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 66,
+        "AAAB_avg": 0.25757575757575757
     },
     "AE705": {
         "Code": "AE705",
@@ -451,7 +493,9 @@ let courses =
         "Instructors": [
             " Kowsik V R Bodi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 354,
+        "AAAB_avg": 0.5197740112994349
     },
     "AE706": {
         "Code": "AE706",
@@ -464,7 +508,9 @@ let courses =
         "Instructors": [
             " Mandal J.C."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 145,
+        "AAAB_avg": 0.2413793103448276
     },
     "AE708": {
         "Code": "AE708",
@@ -477,7 +523,9 @@ let courses =
         "Instructors": [
             " Nagendra Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 98,
+        "AAAB_avg": 0.29591836734693877
     },
     "AE710": {
         "Code": "AE710",
@@ -490,7 +538,9 @@ let courses =
         "Instructors": [
             " Aniruddha Sinha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 43,
+        "AAAB_avg": 0.5116279069767442
     },
     "AE712": {
         "Code": "AE712",
@@ -517,7 +567,9 @@ let courses =
         "Instructors": [
             " Rohit Gupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 63,
+        "AAAB_avg": 0.30158730158730157
     },
     "AE714": {
         "Code": "AE714",
@@ -531,7 +583,9 @@ let courses =
         "Instructors": [
             " Avijit Chatterjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 123,
+        "AAAB_avg": 0.5040650406504065
     },
     "AE717": {
         "Code": "AE717",
@@ -545,7 +599,9 @@ let courses =
         "Instructors": [
             " Arya Hemendra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 61,
+        "AAAB_avg": 0.5573770491803278
     },
     "AE738": {
         "Code": "AE738",
@@ -559,7 +615,9 @@ let courses =
         "Instructors": [
             " Krishnendu Haldar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 131,
+        "AAAB_avg": 0.366412213740458
     },
     "AE780": {
         "Code": "AE780",
@@ -572,7 +630,9 @@ let courses =
         "Instructors": [
             " Ganapathi Bhat"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 184,
+        "AAAB_avg": 0.32608695652173914
     },
     "BB101-D3-tut": {
         "Code": "BB101-D3-tut",
@@ -587,7 +647,9 @@ let courses =
             "  ",
             " Sanjeeva  Srivastava"
         ],
-        "Division": "D3"
+        "Division": "D3",
+        "total": 4962,
+        "AAAB_avg": 0.4052801289802499
     },
     "BB101-D3": {
         "Code": "BB101-D3",
@@ -601,7 +663,9 @@ let courses =
             " Ranjith P.",
             " S. Srivastava"
         ],
-        "Division": "D3"
+        "Division": "D3",
+        "total": 979,
+        "AAAB_avg": 0.4647599591419816
     },
     "BB411": {
         "Code": "BB411",
@@ -615,7 +679,9 @@ let courses =
         "Instructors": [
             " Swapnil Rohidas Shinde"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 16,
+        "AAAB_avg": 0.6875
     },
     "BB411-M": {
         "Code": "BB411-M",
@@ -629,7 +695,9 @@ let courses =
         "Instructors": [
             " Swapnil Rohidas Shinde"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 13,
+        "AAAB_avg": 0.6923076923076923
     },
     "BB412": {
         "Code": "BB412",
@@ -642,7 +710,9 @@ let courses =
         "Instructors": [
             " Kiran Kondabagilu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 80,
+        "AAAB_avg": 0.6125
     },
     "BB503": {
         "Code": "BB503",
@@ -655,7 +725,9 @@ let courses =
         "Instructors": [
             " Sushil Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 87,
+        "AAAB_avg": 0.7011494252873564
     },
     "BB503-M": {
         "Code": "BB503-M",
@@ -668,7 +740,9 @@ let courses =
         "Instructors": [
             " Sushil Kumar"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 6,
+        "AAAB_avg": 0.3333333333333333
     },
     "BB520": {
         "Code": "BB520",
@@ -682,7 +756,9 @@ let courses =
         "Instructors": [
             " P. S. Phale"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 33,
+        "AAAB_avg": 0.5454545454545454
     },
     "BB522": {
         "Code": "BB522",
@@ -695,7 +771,9 @@ let courses =
         "Instructors": [
             " Rajesh Patkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 33,
+        "AAAB_avg": 0.48484848484848486
     },
     "BB524": {
         "Code": "BB524",
@@ -708,7 +786,9 @@ let courses =
         "Instructors": [
             " Anirban Banerjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 32,
+        "AAAB_avg": 0.28125
     },
     "BB526": {
         "Code": "BB526",
@@ -721,7 +801,9 @@ let courses =
         "Instructors": [
             " Ashutosh Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 36,
+        "AAAB_avg": 0.6388888888888888
     },
     "BB528": {
         "Code": "BB528",
@@ -735,7 +817,9 @@ let courses =
             " P. S. Phale",
             " Anirban Banerjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 33,
+        "AAAB_avg": 0.6363636363636364
     },
     "BB536": {
         "Code": "BB536",
@@ -748,7 +832,9 @@ let courses =
         "Instructors": [
             " Sandip Laxman Kaledhonkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 14,
+        "AAAB_avg": 0.2857142857142857
     },
     "BB592": {
         "Code": "BB592",
@@ -758,7 +844,9 @@ let courses =
         "Instructors": [
             " Swapnil Rohidas Shinde"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 51,
+        "AAAB_avg": 0.9215686274509803
     },
     "BB602": {
         "Code": "BB602",
@@ -771,7 +859,9 @@ let courses =
         "Instructors": [
             " Patankar Swati"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 135,
+        "AAAB_avg": 0.762962962962963
     },
     "BB606": {
         "Code": "BB606",
@@ -784,7 +874,9 @@ let courses =
         "Instructors": [
             " Manchanda Rohit"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 46,
+        "AAAB_avg": 0.5434782608695652
     },
     "BB610": {
         "Code": "BB610",
@@ -797,7 +889,9 @@ let courses =
         "Instructors": [
             " R. Srivastava"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 1226,
+        "AAAB_avg": 0.8809135399673735
     },
     "BB610-M": {
         "Code": "BB610-M",
@@ -810,7 +904,9 @@ let courses =
         "Instructors": [
             " R. Srivastava"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 144,
+        "AAAB_avg": 0.9583333333333334
     },
     "BB612": {
         "Code": "BB612",
@@ -823,7 +919,9 @@ let courses =
         "Instructors": [
             " Shamik Sen"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.6590909090909091
     },
     "BB612-M": {
         "Code": "BB612-M",
@@ -836,7 +934,9 @@ let courses =
         "Instructors": [
             " Shamik Sen"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 1,
+        "AAAB_avg": 1.0
     },
     "BB615": {
         "Code": "BB615",
@@ -862,7 +962,9 @@ let courses =
         "Instructors": [
             " Prakriti Tayalia"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.5689655172413793
     },
     "BB616-M": {
         "Code": "BB616-M",
@@ -875,7 +977,9 @@ let courses =
         "Instructors": [
             " Prakriti Tayalia"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 58,
+        "AAAB_avg": 0.5689655172413793
     },
     "BB621": {
         "Code": "BB621",
@@ -889,7 +993,9 @@ let courses =
         "Instructors": [
             " Shamik Sen"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 255,
+        "AAAB_avg": 0.34509803921568627
     },
     "BB623": {
         "Code": "BB623",
@@ -902,7 +1008,9 @@ let courses =
         "Instructors": [
             " Anirban Banerjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 35,
+        "AAAB_avg": 0.7428571428571429
     },
     "BB625": {
         "Code": "BB625",
@@ -915,7 +1023,9 @@ let courses =
         "Instructors": [
             " Neeta Kanekar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 34,
+        "AAAB_avg": 0.35294117647058826
     },
     "BB625-M": {
         "Code": "BB625-M",
@@ -928,7 +1038,9 @@ let courses =
         "Instructors": [
             " Neeta Kanekar"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 2,
+        "AAAB_avg": 0.5
     },
     "BB626": {
         "Code": "BB626",
@@ -955,7 +1067,9 @@ let courses =
         "Instructors": [
             " Swapnil Rohidas Shinde"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.9545454545454546
     },
     "BB642": {
         "Code": "BB642",
@@ -968,7 +1082,9 @@ let courses =
         "Instructors": [
             " Prasenjit Bhaumik"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 56,
+        "AAAB_avg": 0.625
     },
     "BB648": {
         "Code": "BB648",
@@ -981,7 +1097,9 @@ let courses =
         "Instructors": [
             " Samir Maji"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 33,
+        "AAAB_avg": 0.6363636363636364
     },
     "BB655": {
         "Code": "BB655",
@@ -994,7 +1112,9 @@ let courses =
         "Instructors": [
             " Hari M. Varma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 18,
+        "AAAB_avg": 0.4444444444444444
     },
     "BB655-M": {
         "Code": "BB655-M",
@@ -1007,7 +1127,9 @@ let courses =
         "Instructors": [
             " Hari M. Varma"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 18,
+        "AAAB_avg": 0.4444444444444444
     },
     "BB657": {
         "Code": "BB657",
@@ -1033,7 +1155,9 @@ let courses =
         "Instructors": [
             " Prakriti Tayalia"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 36,
+        "AAAB_avg": 0.4166666666666667
     },
     "BB668": {
         "Code": "BB668",
@@ -1057,7 +1181,9 @@ let courses =
             " Hari M. Varma",
             " Neeta Kanekar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 101,
+        "AAAB_avg": 0.7326732673267327
     },
     "BB701": {
         "Code": "BB701",
@@ -1067,7 +1193,9 @@ let courses =
         "Instructors": [
             " Anirban Banerjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 90,
+        "AAAB_avg": 0.8777777777777778
     },
     "BB798": {
         "Code": "BB798",
@@ -1088,7 +1216,9 @@ let courses =
         "Instructors": [
             " Rajesh Patkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 60,
+        "AAAB_avg": 0.8333333333333334
     },
     "CE102-S1": {
         "Code": "CE102-S1",
@@ -1102,7 +1232,9 @@ let courses =
             " Manish Kumar",
             " Jayadipta Ghosh"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 328,
+        "AAAB_avg": 0.2926829268292683
     },
     "CE102-S1-tut": {
         "Code": "CE102-S1-tut",
@@ -1117,7 +1249,9 @@ let courses =
             "  ",
             " Jayadipta  Ghosh"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 1429,
+        "AAAB_avg": 0.2813156053184045
     },
     "CE102-S2-tut": {
         "Code": "CE102-S2-tut",
@@ -1130,7 +1264,9 @@ let courses =
             " ",
             " Najeeb Mohammad Shariff"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 1429,
+        "AAAB_avg": 0.2813156053184045
     },
     "CE102-S2": {
         "Code": "CE102-S2",
@@ -1143,7 +1279,9 @@ let courses =
         "Instructors": [
             " Najeeb Mohammad Shariff"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 322,
+        "AAAB_avg": 0.22981366459627328
     },
     "CE102-S3-tut": {
         "Code": "CE102-S3-tut",
@@ -1156,7 +1294,9 @@ let courses =
             "  ",
             " Meera  Raghunandan"
         ],
-        "Division": "S3"
+        "Division": "S3",
+        "total": 1429,
+        "AAAB_avg": 0.2813156053184045
     },
     "CE102-S3": {
         "Code": "CE102-S3",
@@ -1169,7 +1309,9 @@ let courses =
         "Instructors": [
             " Meera Raghunandan"
         ],
-        "Division": "S3"
+        "Division": "S3",
+        "total": 321,
+        "AAAB_avg": 0.2616822429906542
     },
     "CE234-S1-tut": {
         "Code": "CE234-S1-tut",
@@ -1381,7 +1523,9 @@ let courses =
             " Milind S. Wankhede",
             " Sinha Ravi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 469,
+        "AAAB_avg": 0.3326226012793177
     },
     "CE330-S1": {
         "Code": "CE330-S1",
@@ -1395,7 +1539,9 @@ let courses =
         "Instructors": [
             " S. Dasaka Murthy"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 262,
+        "AAAB_avg": 0.20610687022900764
     },
     "CE330-S2": {
         "Code": "CE330-S2",
@@ -1409,7 +1555,9 @@ let courses =
         "Instructors": [
             " Pinom Ering"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 112,
+        "AAAB_avg": 0.32142857142857145
     },
     "CE332-S1-tut": {
         "Code": "CE332-S1-tut",
@@ -1422,7 +1570,9 @@ let courses =
         "Instructors": [
             " Amit Kumar Das"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 253,
+        "AAAB_avg": 0.26877470355731226
     },
     "CE332-S1": {
         "Code": "CE332-S1",
@@ -1436,7 +1586,9 @@ let courses =
         "Instructors": [
             " Amit Kumar Das"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 130,
+        "AAAB_avg": 0.36923076923076925
     },
     "CE332-S2-tut": {
         "Code": "CE332-S2-tut",
@@ -1449,7 +1601,9 @@ let courses =
         "Instructors": [
             " Ghosh Siddhartha"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 253,
+        "AAAB_avg": 0.26877470355731226
     },
     "CE332-S2": {
         "Code": "CE332-S2",
@@ -1463,7 +1617,9 @@ let courses =
         "Instructors": [
             " Ghosh Siddhartha"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 123,
+        "AAAB_avg": 0.16260162601626016
     },
     "CE334-S1": {
         "Code": "CE334-S1",
@@ -1477,7 +1633,9 @@ let courses =
         "Instructors": [
             " P.Vedagiri"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 195,
+        "AAAB_avg": 0.5897435897435898
     },
     "CE334-S2": {
         "Code": "CE334-S2",
@@ -1491,7 +1649,9 @@ let courses =
         "Instructors": [
             " Nagendra Rao Velaga"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 186,
+        "AAAB_avg": 0.6129032258064516
     },
     "CE336-S1": {
         "Code": "CE336-S1",
@@ -1503,7 +1663,9 @@ let courses =
         "Instructors": [
             " S. Dasaka Murthy"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 185,
+        "AAAB_avg": 0.5675675675675675
     },
     "CE336-S2": {
         "Code": "CE336-S2",
@@ -1515,7 +1677,9 @@ let courses =
         "Instructors": [
             " Pinom Ering"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 181,
+        "AAAB_avg": 0.6464088397790055
     },
     "CE338-S1": {
         "Code": "CE338-S1",
@@ -1527,7 +1691,9 @@ let courses =
         "Instructors": [
             " Prakash Nanthagopalan"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 182,
+        "AAAB_avg": 0.6318681318681318
     },
     "CE338-S2": {
         "Code": "CE338-S2",
@@ -1539,7 +1705,9 @@ let courses =
         "Instructors": [
             " Venkata S. Delhi"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 181,
+        "AAAB_avg": 0.6132596685082873
     },
     "CE448": {
         "Code": "CE448",
@@ -1553,7 +1721,9 @@ let courses =
         "Instructors": [
             " Arghadeep Laskar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 97,
+        "AAAB_avg": 0.44329896907216493
     },
     "CE462": {
         "Code": "CE462",
@@ -1566,7 +1736,9 @@ let courses =
         "Instructors": [
             " Swagata Basu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 31,
+        "AAAB_avg": 0.3225806451612903
     },
     "CE465": {
         "Code": "CE465",
@@ -1579,7 +1751,9 @@ let courses =
         "Instructors": [
             " Banerji P."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 128,
+        "AAAB_avg": 0.3671875
     },
     "CE484": {
         "Code": "CE484",
@@ -1594,7 +1768,9 @@ let courses =
             " Prakash Nanthagopalan",
             " Swathy Manohar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 192,
+        "AAAB_avg": 0.296875
     },
     "CE495": {
         "Code": "CE495",
@@ -1604,7 +1780,9 @@ let courses =
         "Instructors": [
             " Amit Kumar Das"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 46,
+        "AAAB_avg": 0.8478260869565217
     },
     "CE607": {
         "Code": "CE607",
@@ -1617,7 +1795,9 @@ let courses =
         "Instructors": [
             " T I Eldho"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 38,
+        "AAAB_avg": 0.47368421052631576
     },
     "CE608": {
         "Code": "CE608",
@@ -1631,7 +1811,9 @@ let courses =
         "Instructors": [
             " Subimal Ghosh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 355,
+        "AAAB_avg": 0.323943661971831
     },
     "CE610": {
         "Code": "CE610",
@@ -1644,7 +1826,9 @@ let courses =
         "Instructors": [
             " Sinha Ravi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 89,
+        "AAAB_avg": 0.33707865168539325
     },
     "CE620": {
         "Code": "CE620",
@@ -1658,7 +1842,9 @@ let courses =
         "Instructors": [
             " Desai Yogesh M."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 200,
+        "AAAB_avg": 0.43
     },
     "CE629": {
         "Code": "CE629",
@@ -1671,7 +1857,9 @@ let courses =
         "Instructors": [
             " Sauvik Banerjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 20,
+        "AAAB_avg": 0.7
     },
     "CE632": {
         "Code": "CE632",
@@ -1684,7 +1872,9 @@ let courses =
         "Instructors": [
             " A. Juneja"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 14,
+        "AAAB_avg": 0.7142857142857143
     },
     "CE645": {
         "Code": "CE645",
@@ -1697,7 +1887,9 @@ let courses =
         "Instructors": [
             " Viswanadham B.V.S."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 48,
+        "AAAB_avg": 0.3958333333333333
     },
     "CE651": {
         "Code": "CE651",
@@ -1710,7 +1902,9 @@ let courses =
         "Instructors": [
             " Goyal Alok"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 109,
+        "AAAB_avg": 0.48623853211009177
     },
     "CE652": {
         "Code": "CE652",
@@ -1723,7 +1917,9 @@ let courses =
         "Instructors": [
             " Santiram Chatterjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 45,
+        "AAAB_avg": 0.4666666666666667
     },
     "CE654": {
         "Code": "CE654",
@@ -1737,7 +1933,9 @@ let courses =
         "Instructors": [
             " Jothiprakash V."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 76,
+        "AAAB_avg": 0.5394736842105263
     },
     "CE658": {
         "Code": "CE658",
@@ -1750,7 +1948,9 @@ let courses =
         "Instructors": [
             " Basudev Biswal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 145,
+        "AAAB_avg": 0.45517241379310347
     },
     "CE659": {
         "Code": "CE659",
@@ -1764,7 +1964,9 @@ let courses =
             " Eswar Rajasekaran",
             " Raaj Ramsankaran"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 22,
+        "AAAB_avg": 0.45454545454545453
     },
     "CE660": {
         "Code": "CE660",
@@ -1791,7 +1993,9 @@ let courses =
         "Instructors": [
             " M.J.Reddy"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 79,
+        "AAAB_avg": 0.3291139240506329
     },
     "CE677": {
         "Code": "CE677",
@@ -1804,7 +2008,9 @@ let courses =
         "Instructors": [
             " Prasenjit Basu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.5227272727272727
     },
     "CE684": {
         "Code": "CE684",
@@ -1817,7 +2023,9 @@ let courses =
         "Instructors": [
             " Choudhury Deepankar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 23,
+        "AAAB_avg": 0.6521739130434783
     },
     "CE687": {
         "Code": "CE687",
@@ -1830,7 +2038,9 @@ let courses =
         "Instructors": [
             " R. Balaji"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 57,
+        "AAAB_avg": 0.49122807017543857
     },
     "CE694": {
         "Code": "CE694",
@@ -1840,7 +2050,9 @@ let courses =
         "Instructors": [
             " Choudhury Deepankar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 320,
+        "AAAB_avg": 0.7625
     },
     "CE695": {
         "Code": "CE695",
@@ -1850,7 +2062,9 @@ let courses =
         "Instructors": [
             " Choudhury Deepankar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 24,
+        "AAAB_avg": 0.6666666666666666
     },
     "CE699": {
         "Code": "CE699",
@@ -1861,7 +2075,9 @@ let courses =
             " K.V.Krishna Rao",
             " Tom V Mathew"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 54,
+        "AAAB_avg": 0.6851851851851852
     },
     "CE707": {
         "Code": "CE707",
@@ -1875,7 +2091,9 @@ let courses =
         "Instructors": [
             " Srineash V.K."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 29,
+        "AAAB_avg": 0.6551724137931034
     },
     "CE708": {
         "Code": "CE708",
@@ -1889,7 +2107,9 @@ let courses =
         "Instructors": [
             " Manasa R. Behera"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 23,
+        "AAAB_avg": 0.5217391304347826
     },
     "CE719": {
         "Code": "CE719",
@@ -1902,7 +2122,9 @@ let courses =
         "Instructors": [
             " Venkata S. Delhi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 195,
+        "AAAB_avg": 0.48717948717948717
     },
     "CE722": {
         "Code": "CE722",
@@ -1916,7 +2138,9 @@ let courses =
             " Albert Thomas",
             " Venkata S. Delhi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 57,
+        "AAAB_avg": 0.8070175438596491
     },
     "CE729": {
         "Code": "CE729",
@@ -1930,7 +2154,9 @@ let courses =
         "Instructors": [
             " Albert Thomas"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 87,
+        "AAAB_avg": 0.39080459770114945
     },
     "CE743": {
         "Code": "CE743",
@@ -1944,7 +2170,9 @@ let courses =
         "Instructors": [
             " Muhammad Salman"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 131,
+        "AAAB_avg": 0.1450381679389313
     },
     "CE749": {
         "Code": "CE749",
@@ -1957,7 +2185,9 @@ let courses =
         "Instructors": [
             " Gopal R. Patil"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 82,
+        "AAAB_avg": 0.32926829268292684
     },
     "CE757": {
         "Code": "CE757",
@@ -1970,7 +2200,9 @@ let courses =
         "Instructors": [
             " Eswar Rajasekaran"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 24,
+        "AAAB_avg": 0.375
     },
     "CE761": {
         "Code": "CE761",
@@ -1983,7 +2215,9 @@ let courses =
         "Instructors": [
             " Manish Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 28,
+        "AAAB_avg": 0.4642857142857143
     },
     "CE764": {
         "Code": "CE764",
@@ -1996,7 +2230,9 @@ let courses =
         "Instructors": [
             " Arpita Mondal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.2413793103448276
     },
     "CE770": {
         "Code": "CE770",
@@ -2009,7 +2245,9 @@ let courses =
         "Instructors": [
             " Manasa R. Behera"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 8,
+        "AAAB_avg": 0.375
     },
     "CE772": {
         "Code": "CE772",
@@ -2022,7 +2260,9 @@ let courses =
         "Instructors": [
             " Solomon Debbarma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 23,
+        "AAAB_avg": 0.2608695652173913
     },
     "CE773": {
         "Code": "CE773",
@@ -2035,7 +2275,9 @@ let courses =
         "Instructors": [
             " Avijit Maji"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 76,
+        "AAAB_avg": 0.5921052631578947
     },
     "CE774": {
         "Code": "CE774",
@@ -2049,7 +2291,9 @@ let courses =
         "Instructors": [
             " Tom V Mathew"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 75,
+        "AAAB_avg": 0.6
     },
     "CE778": {
         "Code": "CE778",
@@ -2075,7 +2319,9 @@ let courses =
         "Instructors": [
             " K.V.Krishna Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 148,
+        "AAAB_avg": 0.4864864864864865
     },
     "CE899": {
         "Code": "CE899",
@@ -2088,7 +2334,9 @@ let courses =
         "Instructors": [
             " Bellie Sivakumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 342,
+        "AAAB_avg": 0.0
     },
     "CES801": {
         "Code": "CES801",
@@ -2098,7 +2346,9 @@ let courses =
         "Instructors": [
             " Choudhury Deepankar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 221,
+        "AAAB_avg": 0.8506787330316742
     },
     "CH110-tut": {
         "Code": "CH110-tut",
@@ -2113,7 +2363,9 @@ let courses =
             "  ",
             " Maravanji Shivaramaiah Balakrishna"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 41,
+        "AAAB_avg": 0.3902439024390244
     },
     "CH110-D1": {
         "Code": "CH110-D1",
@@ -2128,7 +2380,9 @@ let courses =
             " Chandra M. R. Volla",
             " M. S. Balakrishna"
         ],
-        "Division": "D1"
+        "Division": "D1",
+        "total": 41,
+        "AAAB_avg": 0.3902439024390244
     },
     "CH117-P13": {
         "Code": "CH117-P13",
@@ -2148,7 +2402,9 @@ let courses =
             " Sandip Kar",
             " Rajarshi Chakrabarti"
         ],
-        "Division": "P13"
+        "Division": "P13",
+        "total": 71,
+        "AAAB_avg": 0.9436619718309859
     },
     "CH117-P14": {
         "Code": "CH117-P14",
@@ -2168,7 +2424,9 @@ let courses =
             " Sandip Kar",
             " Rajarshi Chakrabarti"
         ],
-        "Division": "P14"
+        "Division": "P14",
+        "total": 70,
+        "AAAB_avg": 0.9142857142857143
     },
     "CH117-P15": {
         "Code": "CH117-P15",
@@ -2188,7 +2446,9 @@ let courses =
             " Sandip Kar",
             " Rajarshi Chakrabarti"
         ],
-        "Division": "P15"
+        "Division": "P15",
+        "total": 26,
+        "AAAB_avg": 0.9230769230769231
     },
     "CH117-P16": {
         "Code": "CH117-P16",
@@ -2208,7 +2468,9 @@ let courses =
             " Sandip Kar",
             " Rajarshi Chakrabarti"
         ],
-        "Division": "P16"
+        "Division": "P16",
+        "total": 46,
+        "AAAB_avg": 0.9130434782608695
     },
     "CH117-P19": {
         "Code": "CH117-P19",
@@ -2230,7 +2492,9 @@ let courses =
             " Sandip Kar",
             " Rajarshi Chakrabarti"
         ],
-        "Division": "P19"
+        "Division": "P19",
+        "total": 70,
+        "AAAB_avg": 0.9142857142857143
     },
     "CH117-P20": {
         "Code": "CH117-P20",
@@ -2251,7 +2515,9 @@ let courses =
             " Sandip Kar",
             " Rajarshi Chakrabarti"
         ],
-        "Division": "P20"
+        "Division": "P20",
+        "total": 69,
+        "AAAB_avg": 0.8695652173913043
     },
     "CH117-P21": {
         "Code": "CH117-P21",
@@ -2273,7 +2539,9 @@ let courses =
             " Sandip Kar",
             " Rajarshi Chakrabarti"
         ],
-        "Division": "P21"
+        "Division": "P21",
+        "total": 35,
+        "AAAB_avg": 0.8571428571428571
     },
     "CH117-P22": {
         "Code": "CH117-P22",
@@ -2295,7 +2563,9 @@ let courses =
             " Sandip Kar",
             " Rajarshi Chakrabarti"
         ],
-        "Division": "P22"
+        "Division": "P22",
+        "total": 34,
+        "AAAB_avg": 0.8529411764705882
     },
     "CH202": {
         "Code": "CH202",
@@ -2405,7 +2675,9 @@ let courses =
             " Chidambar Kulkarni",
             " Sanjog Sunil Nagarkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 9,
+        "AAAB_avg": 1.0
     },
     "CH404": {
         "Code": "CH404",
@@ -2419,7 +2691,9 @@ let courses =
         "Instructors": [
             " Chidambar Kulkarni"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 316,
+        "AAAB_avg": 0.4462025316455696
     },
     "CH404-M": {
         "Code": "CH404-M",
@@ -2433,7 +2707,9 @@ let courses =
         "Instructors": [
             " Chidambar Kulkarni"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 316,
+        "AAAB_avg": 0.4462025316455696
     },
     "CH406": {
         "Code": "CH406",
@@ -2447,7 +2723,9 @@ let courses =
         "Instructors": [
             " Nandita Madhavan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 241,
+        "AAAB_avg": 0.34024896265560167
     },
     "CH406-M": {
         "Code": "CH406-M",
@@ -2461,7 +2739,9 @@ let courses =
         "Instructors": [
             " Nandita Madhavan"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 241,
+        "AAAB_avg": 0.34024896265560167
     },
     "CH408": {
         "Code": "CH408",
@@ -2476,7 +2756,9 @@ let courses =
             " Nand Kishore",
             " Sandip Kar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 320,
+        "AAAB_avg": 0.55625
     },
     "CH408-M": {
         "Code": "CH408-M",
@@ -2491,7 +2773,9 @@ let courses =
             " Nand Kishore",
             " Sandip Kar"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 320,
+        "AAAB_avg": 0.55625
     },
     "CH410": {
         "Code": "CH410",
@@ -2506,7 +2790,9 @@ let courses =
             " Arnab Dutta",
             " D. Maiti"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 258,
+        "AAAB_avg": 0.562015503875969
     },
     "CH418": {
         "Code": "CH418",
@@ -2519,7 +2805,9 @@ let courses =
             " Pradeep Kumar P.I.",
             " Chandra M. R. Volla"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 305,
+        "AAAB_avg": 0.6688524590163935
     },
     "CH432": {
         "Code": "CH432",
@@ -2532,7 +2820,9 @@ let courses =
             " Deepti Kalsi",
             " M. Ravikanth"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 306,
+        "AAAB_avg": 0.4803921568627451
     },
     "CH434": {
         "Code": "CH434",
@@ -2545,7 +2835,9 @@ let courses =
             " Achintya Kumar Dutta",
             " G. Naresh Patwari"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 236,
+        "AAAB_avg": 0.5720338983050848
     },
     "CH438": {
         "Code": "CH438",
@@ -2559,7 +2851,9 @@ let courses =
             " Sanjog Sunil Nagarkar",
             " R. Murugavel"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 324,
+        "AAAB_avg": 0.5092592592592593
     },
     "CH438-M": {
         "Code": "CH438-M",
@@ -2573,7 +2867,9 @@ let courses =
             " Sanjog Sunil Nagarkar",
             " R. Murugavel"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 324,
+        "AAAB_avg": 0.5092592592592593
     },
     "CH442": {
         "Code": "CH442",
@@ -2588,7 +2884,9 @@ let courses =
             " A. Datta",
             " A.Chowdhury"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 329,
+        "AAAB_avg": 0.44072948328267475
     },
     "CH442-M": {
         "Code": "CH442-M",
@@ -2603,7 +2901,9 @@ let courses =
             " A. Datta",
             " A.Chowdhury"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 329,
+        "AAAB_avg": 0.44072948328267475
     },
     "CH540": {
         "Code": "CH540",
@@ -2618,7 +2918,9 @@ let courses =
             " Pradeep Kumar P.I.",
             " Venkateswarlu Yarlagadda"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 63,
+        "AAAB_avg": 0.3968253968253968
     },
     "CH560": {
         "Code": "CH560",
@@ -2631,7 +2933,9 @@ let courses =
         "Instructors": [
             " Achintya Kumar Dutta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 55,
+        "AAAB_avg": 0.5454545454545454
     },
     "CH576": {
         "Code": "CH576",
@@ -2645,7 +2949,9 @@ let courses =
             " Rahul Maitra",
             " Rajarshi Chakrabarti"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 51,
+        "AAAB_avg": 0.5490196078431373
     },
     "CH578": {
         "Code": "CH578",
@@ -2660,7 +2966,9 @@ let courses =
             " Maheswaran S.",
             " Ghosh Prasenjit"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 188,
+        "AAAB_avg": 0.6436170212765957
     },
     "CH588": {
         "Code": "CH588",
@@ -2675,7 +2983,9 @@ let courses =
             " Santosh J. Gharpure",
             " Kaliappan K P"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 119,
+        "AAAB_avg": 0.5462184873949579
     },
     "CH592": {
         "Code": "CH592",
@@ -2686,7 +2996,9 @@ let courses =
             " Chidambar Kulkarni",
             " Sanjog Sunil Nagarkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 26,
+        "AAAB_avg": 0.9230769230769231
     },
     "CH594": {
         "Code": "CH594",
@@ -2697,7 +3009,9 @@ let courses =
             " Chidambar Kulkarni",
             " Sanjog Sunil Nagarkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 191,
+        "AAAB_avg": 0.900523560209424
     },
     "CH596": {
         "Code": "CH596",
@@ -2708,7 +3022,9 @@ let courses =
             " Chidambar Kulkarni",
             " Sanjog Sunil Nagarkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 18,
+        "AAAB_avg": 0.7222222222222222
     },
     "CH604": {
         "Code": "CH604",
@@ -2721,7 +3037,9 @@ let courses =
         "Instructors": [
             " Ishita Sengupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 7,
+        "AAAB_avg": 0.2857142857142857
     },
     "CH605": {
         "Code": "CH605",
@@ -2734,7 +3052,9 @@ let courses =
         "Instructors": [
             " Amber Jain"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 8,
+        "AAAB_avg": 0.375
     },
     "CH806": {
         "Code": "CH806",
@@ -2749,7 +3069,9 @@ let courses =
             " Rodney Fernandes",
             " A. Datta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.6136363636363636
     },
     "CH824": {
         "Code": "CH824",
@@ -2763,7 +3085,9 @@ let courses =
             " Srinivasan Ramakrishnan",
             " M. S. Balakrishna"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 69,
+        "AAAB_avg": 0.5652173913043478
     },
     "CH831": {
         "Code": "CH831",
@@ -2778,7 +3102,9 @@ let courses =
             " Ruchi Anand",
             " Goutam K. Lahiri"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 318,
+        "AAAB_avg": 0.8710691823899371
     },
     "CH848": {
         "Code": "CH848",
@@ -2793,7 +3119,9 @@ let courses =
             " Sandip Kar",
             " Nand Kishore"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 5,
+        "AAAB_avg": 0.4
     },
     "CH849": {
         "Code": "CH849",
@@ -2806,7 +3134,9 @@ let courses =
         "Instructors": [
             " I.N.N. Namboothiri"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 53,
+        "AAAB_avg": 0.4528301886792453
     },
     "CH864": {
         "Code": "CH864",
@@ -2820,7 +3150,9 @@ let courses =
             " Ruchi Anand",
             " Kamendra P. Sharma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 56,
+        "AAAB_avg": 0.5535714285714286
     },
     "CH899": {
         "Code": "CH899",
@@ -2835,7 +3167,9 @@ let courses =
             " Shobhna Kapoor",
             " Ghosh Prasenjit"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 167,
+        "AAAB_avg": 0.0
     },
     "CHS802": {
         "Code": "CHS802",
@@ -2847,7 +3181,9 @@ let courses =
             " D. Maiti",
             " R. B. Sunoj"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 187,
+        "AAAB_avg": 0.6684491978609626
     },
     "CL102-D4": {
         "Code": "CL102-D4",
@@ -2858,7 +3194,9 @@ let courses =
             " Bellare J.",
             " Bhartiya S."
         ],
-        "Division": "D4"
+        "Division": "D4",
+        "total": 157,
+        "AAAB_avg": 0.21656050955414013
     },
     "CL208-S1": {
         "Code": "CL208-S1",
@@ -2913,7 +3251,9 @@ let courses =
             " Swati Bhattacharya",
             " Amol Subhedar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 297,
+        "AAAB_avg": 0.3063973063973064
     },
     "CL238-S1": {
         "Code": "CL238-S1",
@@ -2966,7 +3306,9 @@ let courses =
         "Instructors": [
             " Santosh Noronha"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 319,
+        "AAAB_avg": 0.19435736677115986
     },
     "CL244-S2": {
         "Code": "CL244-S2",
@@ -2979,7 +3321,9 @@ let courses =
         "Instructors": [
             " Ratul Dasgupta"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 327,
+        "AAAB_avg": 0.22935779816513763
     },
     "CL246": {
         "Code": "CL246",
@@ -3006,7 +3350,9 @@ let courses =
         "Instructors": [
             " Adhikari J."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 7,
+        "AAAB_avg": 0.42857142857142855
     },
     "CL302-S1-tut": {
         "Code": "CL302-S1-tut",
@@ -3018,7 +3364,9 @@ let courses =
         "Instructors": [
             " Bharatkumar Suthar"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 287,
+        "AAAB_avg": 0.24390243902439024
     },
     "CL302-S1": {
         "Code": "CL302-S1",
@@ -3032,7 +3380,9 @@ let courses =
         "Instructors": [
             " Bharatkumar Suthar"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 132,
+        "AAAB_avg": 0.18181818181818182
     },
     "CL302-S2": {
         "Code": "CL302-S2",
@@ -3046,7 +3396,9 @@ let courses =
         "Instructors": [
             " Ravindra D. Gudi"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 145,
+        "AAAB_avg": 0.31724137931034485
     },
     "CL302-S2-tut": {
         "Code": "CL302-S2-tut",
@@ -3058,7 +3410,9 @@ let courses =
         "Instructors": [
             " Ravindra D. Gudi"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 287,
+        "AAAB_avg": 0.24390243902439024
     },
     "CL306": {
         "Code": "CL306",
@@ -3073,7 +3427,9 @@ let courses =
             " Vinjamur Madhu",
             " Rahul Nabar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 558,
+        "AAAB_avg": 0.2939068100358423
     },
     "CL308": {
         "Code": "CL308",
@@ -3097,7 +3453,9 @@ let courses =
         "Instructors": [
             " Abhijit Majumder"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 221,
+        "AAAB_avg": 0.2579185520361991
     },
     "CL310-S2": {
         "Code": "CL310-S2",
@@ -3111,7 +3469,9 @@ let courses =
         "Instructors": [
             " Ateeque Malani"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 196,
+        "AAAB_avg": 0.2602040816326531
     },
     "CL319": {
         "Code": "CL319",
@@ -3164,7 +3524,9 @@ let courses =
         "Instructors": [
             " Suresh A.K."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 65,
+        "AAAB_avg": 0.3230769230769231
     },
     "CL335": {
         "Code": "CL335",
@@ -3179,7 +3541,9 @@ let courses =
             " Wangikar P.",
             " Sameer Ralph Jadhav"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 291,
+        "AAAB_avg": 0.281786941580756
     },
     "CL407": {
         "Code": "CL407",
@@ -3193,7 +3557,9 @@ let courses =
         "Instructors": [
             " Yogendra Shastri"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 532,
+        "AAAB_avg": 0.15037593984962405
     },
     "CL407-tut": {
         "Code": "CL407-tut",
@@ -3205,7 +3571,9 @@ let courses =
         "Instructors": [
             " Yogendra Shastri"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 532,
+        "AAAB_avg": 0.15037593984962405
     },
     "CL429": {
         "Code": "CL429",
@@ -3229,7 +3597,9 @@ let courses =
             " Venkat Gundabala",
             " Jason Ryan Picardo"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 148,
+        "AAAB_avg": 0.7905405405405406
     },
     "CL451": {
         "Code": "CL451",
@@ -3242,7 +3612,9 @@ let courses =
         "Instructors": [
             " Sujit S. Jogwar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 538,
+        "AAAB_avg": 0.17657992565055763
     },
     "CL452": {
         "Code": "CL452",
@@ -3261,7 +3633,9 @@ let courses =
             " Moudgalya Kannan.",
             " Rochish Thaokar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 140,
+        "AAAB_avg": 0.29285714285714287
     },
     "CL494": {
         "Code": "CL494",
@@ -3272,7 +3646,9 @@ let courses =
             " Venkat Gundabala",
             " Jason Ryan Picardo"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 24,
+        "AAAB_avg": 0.7083333333333334
     },
     "CL610": {
         "Code": "CL610",
@@ -3287,7 +3663,9 @@ let courses =
             " Partha S. Goswami",
             " Arindam Sarkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 101,
+        "AAAB_avg": 0.8217821782178217
     },
     "CL657": {
         "Code": "CL657",
@@ -3327,7 +3705,9 @@ let courses =
             " Rahul Nabar",
             " Sanjay Mahajani"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 227,
+        "AAAB_avg": 0.48017621145374456
     },
     "CL686": {
         "Code": "CL686",
@@ -3340,7 +3720,9 @@ let courses =
         "Instructors": [
             " Manibhushan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 118,
+        "AAAB_avg": 0.3389830508474576
     },
     "CL694": {
         "Code": "CL694",
@@ -3351,7 +3733,9 @@ let courses =
             " Ratul Dasgupta",
             " Abhijit Majumder"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 169,
+        "AAAB_avg": 0.621301775147929
     },
     "CL704": {
         "Code": "CL704",
@@ -3366,7 +3750,9 @@ let courses =
             " Swati Bhattacharya",
             " Bharatkumar Suthar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 299,
+        "AAAB_avg": 0.0
     },
     "CL717": {
         "Code": "CL717",
@@ -3379,7 +3765,9 @@ let courses =
         "Instructors": [
             " Supreet Saini"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 31,
+        "AAAB_avg": 0.2903225806451613
     },
     "CL726": {
         "Code": "CL726",
@@ -3392,7 +3780,9 @@ let courses =
         "Instructors": [
             " Sarika Mehra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 21,
+        "AAAB_avg": 0.09523809523809523
     },
     "CL899": {
         "Code": "CL899",
@@ -3406,7 +3796,9 @@ let courses =
         "Instructors": [
             " Mukta Tripathy"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 157,
+        "AAAB_avg": 0.0
     },
     "CLS802": {
         "Code": "CLS802",
@@ -3416,7 +3808,9 @@ let courses =
         "Instructors": [
             " Partha S. Goswami"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 88,
+        "AAAB_avg": 0.7840909090909091
     },
     "CM503": {
         "Code": "CM503",
@@ -3429,7 +3823,9 @@ let courses =
         "Instructors": [
             " Angshuman Modak"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 6,
+        "AAAB_avg": 0.3333333333333333
     },
     "CM504": {
         "Code": "CM504",
@@ -3442,7 +3838,9 @@ let courses =
         "Instructors": [
             " Vishal Dixit"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 7,
+        "AAAB_avg": 0.2857142857142857
     },
     "CM611": {
         "Code": "CM611",
@@ -3455,7 +3853,9 @@ let courses =
         "Instructors": [
             " Raghu Murtugudde"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 14,
+        "AAAB_avg": 0.0
     },
     "CM613": {
         "Code": "CM613",
@@ -3468,7 +3868,9 @@ let courses =
         "Instructors": [
             " S. Ravichandran  "
         ],
-        "Division": ""
+        "Division": "",
+        "total": 4,
+        "AAAB_avg": 0.25
     },
     "CM801": {
         "Code": "CM801",
@@ -3481,7 +3883,9 @@ let courses =
         "Instructors": [
             " Subhankar Karmakar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 90,
+        "AAAB_avg": 0.5555555555555556
     },
     "CMS801": {
         "Code": "CMS801",
@@ -3491,7 +3895,9 @@ let courses =
         "Instructors": [
             " Vishal Dixit"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.7241379310344828
     },
     "CMS802": {
         "Code": "CMS802",
@@ -3501,7 +3907,9 @@ let courses =
         "Instructors": [
             " Vishal Dixit"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 2,
+        "AAAB_avg": 1.0
     },
     "CS101-D1": {
         "Code": "CS101-D1",
@@ -3514,7 +3922,9 @@ let courses =
         "Instructors": [
             " Shivaram Kalyanakrishnan"
         ],
-        "Division": "D1"
+        "Division": "D1",
+        "total": 1110,
+        "AAAB_avg": 0.35855855855855856
     },
     "CS101-D2": {
         "Code": "CS101-D2",
@@ -3527,7 +3937,9 @@ let courses =
         "Instructors": [
             " Shivaram Kalyanakrishnan"
         ],
-        "Division": "D2"
+        "Division": "D2",
+        "total": 948,
+        "AAAB_avg": 0.24999999999999997
     },
     "CS104-D3": {
         "Code": "CS104-D3",
@@ -3540,7 +3952,9 @@ let courses =
         "Instructors": [
             " Kameswari Chebrolu"
         ],
-        "Division": "D3"
+        "Division": "D3",
+        "total": 173,
+        "AAAB_avg": 0.3063583815028902
     },
     "CS104-D3-tut": {
         "Code": "CS104-D3-tut",
@@ -3553,7 +3967,9 @@ let courses =
             "  ",
             " Kameswari  Chebrolu"
         ],
-        "Division": "D3"
+        "Division": "D3",
+        "total": 173,
+        "AAAB_avg": 0.3063583815028902
     },
     "CS108": {
         "Code": "CS108",
@@ -3579,7 +3995,9 @@ let courses =
         "Instructors": [
             " Bharat Adsul"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 864,
+        "AAAB_avg": 0.22685185185185186
     },
     "CS207-M": {
         "Code": "CS207-M",
@@ -3592,7 +4010,9 @@ let courses =
         "Instructors": [
             " Bharat Adsul"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 128,
+        "AAAB_avg": 0.203125
     },
     "CS208": {
         "Code": "CS208",
@@ -3619,7 +4039,9 @@ let courses =
         "Instructors": [
             " Sohoni Milind"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 938,
+        "AAAB_avg": 0.22068230277185502
     },
     "CS213-M": {
         "Code": "CS213-M",
@@ -3632,7 +4054,9 @@ let courses =
         "Instructors": [
             " Sohoni Milind"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 432,
+        "AAAB_avg": 0.14351851851851852
     },
     "CS217": {
         "Code": "CS217",
@@ -3659,7 +4083,9 @@ let courses =
         "Instructors": [
             " Rohit Gurjar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 667,
+        "AAAB_avg": 0.34782608695652173
     },
     "CS219": {
         "Code": "CS219",
@@ -3711,7 +4137,9 @@ let courses =
         "Instructors": [
             " Uday Khedkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 581,
+        "AAAB_avg": 0.30120481927710846
     },
     "CS310": {
         "Code": "CS310",
@@ -3724,7 +4152,9 @@ let courses =
         "Instructors": [
             " Sivakumar G."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 781,
+        "AAAB_avg": 0.2855313700384123
     },
     "CS310-M": {
         "Code": "CS310-M",
@@ -3737,7 +4167,9 @@ let courses =
         "Instructors": [
             " Sivakumar G."
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 43,
+        "AAAB_avg": 0.23255813953488372
     },
     "CS316": {
         "Code": "CS316",
@@ -3749,7 +4181,9 @@ let courses =
         "Instructors": [
             " Uday Khedkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 588,
+        "AAAB_avg": 0.5782312925170068
     },
     "CS317": {
         "Code": "CS317",
@@ -3762,7 +4196,9 @@ let courses =
         "Instructors": [
             " B. L. Menezes"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 592,
+        "AAAB_avg": 0.34797297297297297
     },
     "CS333": {
         "Code": "CS333",
@@ -3825,7 +4261,9 @@ let courses =
         "Instructors": [
             " Bhaskar Raman"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 585,
+        "AAAB_avg": 0.7076923076923077
     },
     "CS396": {
         "Code": "CS396",
@@ -3836,7 +4274,9 @@ let courses =
             " Uday Khedkar",
             " Ashutosh Kumar Gupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 38,
+        "AAAB_avg": 0.8947368421052632
     },
     "CS406": {
         "Code": "CS406",
@@ -3849,7 +4289,9 @@ let courses =
         "Instructors": [
             " Manoj Prabhakaran"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 75,
+        "AAAB_avg": 0.36
     },
     "CS419": {
         "Code": "CS419",
@@ -3862,7 +4304,9 @@ let courses =
         "Instructors": [
             " Abir De"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 5,
+        "AAAB_avg": 0.0
     },
     "CS419-M": {
         "Code": "CS419-M",
@@ -3875,7 +4319,9 @@ let courses =
         "Instructors": [
             " Abir De"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 400,
+        "AAAB_avg": 0.3575
     },
     "CS433": {
         "Code": "CS433",
@@ -3888,7 +4334,9 @@ let courses =
         "Instructors": [
             " Ashutosh Kumar Gupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 27,
+        "AAAB_avg": 0.4074074074074074
     },
     "CS485": {
         "Code": "CS485",
@@ -3899,7 +4347,9 @@ let courses =
             " Uday Khedkar",
             " Ashutosh Kumar Gupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 152,
+        "AAAB_avg": 0.8355263157894737
     },
     "CS490": {
         "Code": "CS490",
@@ -3910,7 +4360,9 @@ let courses =
             " Uday Khedkar",
             " Ashutosh Kumar Gupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 387,
+        "AAAB_avg": 0.7596899224806202
     },
     "CS492": {
         "Code": "CS492",
@@ -3921,7 +4373,9 @@ let courses =
             " Uday Khedkar",
             " Ashutosh Kumar Gupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 257,
+        "AAAB_avg": 0.8715953307392996
     },
     "CS496": {
         "Code": "CS496",
@@ -3932,7 +4386,9 @@ let courses =
             " Uday Khedkar",
             " Ashutosh Kumar Gupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 142,
+        "AAAB_avg": 0.9225352112676056
     },
     "CS6004": {
         "Code": "CS6004",
@@ -3958,7 +4414,9 @@ let courses =
         "Instructors": [
             " Sujoy Bhore"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 50,
+        "AAAB_avg": 0.2
     },
     "CS608": {
         "Code": "CS608",
@@ -3985,7 +4443,9 @@ let courses =
         "Instructors": [
             " Sivakumar G."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 35,
+        "AAAB_avg": 0.34285714285714286
     },
     "CS684": {
         "Code": "CS684",
@@ -3999,7 +4459,9 @@ let courses =
             " K. Arya",
             " Paritosh K. Pandya"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 124,
+        "AAAB_avg": 0.46774193548387094
     },
     "CS691": {
         "Code": "CS691",
@@ -4010,7 +4472,9 @@ let courses =
             " Bhaskar Raman",
             " Preethi Jyothi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 213,
+        "AAAB_avg": 0.8403755868544601
     },
     "CS692": {
         "Code": "CS692",
@@ -4021,7 +4485,9 @@ let courses =
             " Bhaskar Raman",
             " Preethi Jyothi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 39,
+        "AAAB_avg": 0.8461538461538461
     },
     "CS694": {
         "Code": "CS694",
@@ -4032,7 +4498,9 @@ let courses =
             " Bhaskar Raman",
             " Preethi Jyothi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 466,
+        "AAAB_avg": 0.796137339055794
     },
     "CS695": {
         "Code": "CS695",
@@ -4045,7 +4513,9 @@ let courses =
         "Instructors": [
             " Purushottam Kulkarni"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 312,
+        "AAAB_avg": 0.27884615384615385
     },
     "CS726": {
         "Code": "CS726",
@@ -4058,7 +4528,9 @@ let courses =
         "Instructors": [
             " S. Sarawagi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 347,
+        "AAAB_avg": 0.40057636887608067
     },
     "CS728": {
         "Code": "CS728",
@@ -4071,7 +4543,9 @@ let courses =
         "Instructors": [
             " Chakrabarti Soumen"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 83,
+        "AAAB_avg": 0.6626506024096386
     },
     "CS735": {
         "Code": "CS735",
@@ -4084,7 +4558,9 @@ let courses =
         "Instructors": [
             " S. Akshay"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 8,
+        "AAAB_avg": 0.75
     },
     "CS736": {
         "Code": "CS736",
@@ -4097,7 +4573,9 @@ let courses =
         "Instructors": [
             " Suyash P. Awate"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 258,
+        "AAAB_avg": 0.3875968992248062
     },
     "CS738": {
         "Code": "CS738",
@@ -4110,7 +4588,9 @@ let courses =
         "Instructors": [
             " Paritosh K. Pandya"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 2,
+        "AAAB_avg": 1.0
     },
     "CS745": {
         "Code": "CS745",
@@ -4123,7 +4603,9 @@ let courses =
         "Instructors": [
             " Virendra Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 171,
+        "AAAB_avg": 0.5146198830409356
     },
     "CS753": {
         "Code": "CS753",
@@ -4136,7 +4618,9 @@ let courses =
         "Instructors": [
             " Preethi Jyothi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 334,
+        "AAAB_avg": 0.3502994011976048
     },
     "CS754": {
         "Code": "CS754",
@@ -4149,7 +4633,9 @@ let courses =
         "Instructors": [
             " Ajit V. Rajwade"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 205,
+        "AAAB_avg": 0.624390243902439
     },
     "CS757": {
         "Code": "CS757",
@@ -4162,7 +4648,9 @@ let courses =
         "Instructors": [
             " Joshi Rushikesh K."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 4,
+        "AAAB_avg": 0.5
     },
     "CS765": {
         "Code": "CS765",
@@ -4176,7 +4664,9 @@ let courses =
         "Instructors": [
             " Vinay J. Ribeiro"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 404,
+        "AAAB_avg": 0.6138613861386139
     },
     "CS767": {
         "Code": "CS767",
@@ -4190,7 +4680,9 @@ let courses =
         "Instructors": [
             " Ranade A."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 71,
+        "AAAB_avg": 0.5070422535211268
     },
     "CS769": {
         "Code": "CS769",
@@ -4203,7 +4695,9 @@ let courses =
         "Instructors": [
             " G.Ramakrishnan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 134,
+        "AAAB_avg": 0.44776119402985076
     },
     "CS772": {
         "Code": "CS772",
@@ -4216,7 +4710,9 @@ let courses =
         "Instructors": [
             " Bhattacharya P."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 369,
+        "AAAB_avg": 0.3170731707317073
     },
     "CS778": {
         "Code": "CS778",
@@ -4227,7 +4723,9 @@ let courses =
             " Bhaskar Raman",
             " Preethi Jyothi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 45,
+        "AAAB_avg": 0.9333333333333333
     },
     "CS779": {
         "Code": "CS779",
@@ -4240,7 +4738,9 @@ let courses =
         "Instructors": [
             " Vishwanathan Sundar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 48,
+        "AAAB_avg": 0.6041666666666666
     },
     "CS784": {
         "Code": "CS784",
@@ -4279,7 +4779,9 @@ let courses =
         "Instructors": [
             " K. Arya"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 251,
+        "AAAB_avg": 0.0
     },
     "CSS801": {
         "Code": "CSS801",
@@ -4289,7 +4791,9 @@ let courses =
         "Instructors": [
             " Abir De"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.8620689655172413
     },
     "CSS802": {
         "Code": "CSS802",
@@ -4299,7 +4803,9 @@ let courses =
         "Instructors": [
             " Abir De"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 6,
+        "AAAB_avg": 0.3333333333333333
     },
     "DH301": {
         "Code": "DH301",
@@ -4313,7 +4819,9 @@ let courses =
         "Instructors": [
             " G.Ramakrishnan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 78,
+        "AAAB_avg": 0.44871794871794873
     },
     "DH301-M": {
         "Code": "DH301-M",
@@ -4327,7 +4835,9 @@ let courses =
         "Instructors": [
             " G.Ramakrishnan"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 7,
+        "AAAB_avg": 0.2857142857142857
     },
     "DH304": {
         "Code": "DH304",
@@ -4340,7 +4850,9 @@ let courses =
         "Instructors": [
             " Souvik Banerjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 89,
+        "AAAB_avg": 0.20224719101123595
     },
     "DH304-M": {
         "Code": "DH304-M",
@@ -4353,7 +4865,9 @@ let courses =
         "Instructors": [
             " Souvik Banerjee"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 12,
+        "AAAB_avg": 0.25
     },
     "DH307": {
         "Code": "DH307",
@@ -4363,7 +4877,9 @@ let courses =
         "Instructors": [
             " G.Ramakrishnan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 92,
+        "AAAB_avg": 0.6630434782608695
     },
     "DH307-M": {
         "Code": "DH307-M",
@@ -4373,7 +4889,9 @@ let courses =
         "Instructors": [
             " G.Ramakrishnan"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 9,
+        "AAAB_avg": 0.4444444444444444
     },
     "DH602": {
         "Code": "DH602",
@@ -4470,7 +4988,9 @@ let courses =
         "Instructors": [
             " Ambarish Kunwar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 7,
+        "AAAB_avg": 0.0
     },
     "DH899-M": {
         "Code": "DH899-M",
@@ -4483,7 +5003,9 @@ let courses =
         "Instructors": [
             " Ambarish Kunwar"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 7,
+        "AAAB_avg": 0.0
     },
     "DHS801": {
         "Code": "DHS801",
@@ -4493,7 +5015,9 @@ let courses =
         "Instructors": [
             " Ashutosh Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 15,
+        "AAAB_avg": 0.9333333333333333
     },
     "DS203-M": {
         "Code": "DS203-M",
@@ -4506,7 +5030,9 @@ let courses =
         "Instructors": [
             " Vinay Kulkarni"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 550,
+        "AAAB_avg": 0.48545454545454547
     },
     "DS303-M": {
         "Code": "DS303-M",
@@ -4519,7 +5045,9 @@ let courses =
         "Instructors": [
             " Manjesh K. Hanawal"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 470,
+        "AAAB_avg": 0.46808510638297873
     },
     "DS691": {
         "Code": "DS691",
@@ -4551,7 +5079,9 @@ let courses =
         "Instructors": [
             " Ankur Kulkarni"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 16,
+        "AAAB_avg": 0.0
     },
     "DSS801": {
         "Code": "DSS801",
@@ -4576,7 +5106,9 @@ let courses =
             " Haripriya Gundimeda",
             " Neha Gupta"
         ],
-        "Division": "D3"
+        "Division": "D3",
+        "total": 331,
+        "AAAB_avg": 0.338368580060423
     },
     "EC210": {
         "Code": "EC210",
@@ -4761,7 +5293,9 @@ let courses =
         "Instructors": [
             " M. Chandorkar"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 360,
+        "AAAB_avg": 0.2833333333333333
     },
     "EE114-S2": {
         "Code": "EE114-S2",
@@ -4774,7 +5308,9 @@ let courses =
         "Instructors": [
             " Sandeep Anand"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 186,
+        "AAAB_avg": 0.5913978494623656
     },
     "EE204": {
         "Code": "EE204",
@@ -4787,7 +5323,9 @@ let courses =
         "Instructors": [
             " M. B. Patil"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 568,
+        "AAAB_avg": 0.23767605633802816
     },
     "EE204-M": {
         "Code": "EE204-M",
@@ -4800,7 +5338,9 @@ let courses =
         "Instructors": [
             " M. B. Patil"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 147,
+        "AAAB_avg": 0.2789115646258503
     },
     "EE207-S1": {
         "Code": "EE207-S1",
@@ -4814,7 +5354,9 @@ let courses =
         "Instructors": [
             " Ashwin Tulapurkar"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 268,
+        "AAAB_avg": 0.30970149253731344
     },
     "EE207-S2": {
         "Code": "EE207-S2",
@@ -4828,7 +5370,9 @@ let courses =
         "Instructors": [
             " Dipankar Saha"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 253,
+        "AAAB_avg": 0.2845849802371542
     },
     "EE229": {
         "Code": "EE229",
@@ -4841,7 +5385,9 @@ let courses =
         "Instructors": [
             " Kumar Appaiah"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 26,
+        "AAAB_avg": 0.0
     },
     "EE229-M": {
         "Code": "EE229-M",
@@ -4854,7 +5400,9 @@ let courses =
         "Instructors": [
             " Kumar Appaiah"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 49,
+        "AAAB_avg": 0.12244897959183673
     },
     "EE230": {
         "Code": "EE230",
@@ -4868,7 +5416,9 @@ let courses =
             " Sandip Mondal",
             " Anil K.G."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 719,
+        "AAAB_avg": 0.4339360222531293
     },
     "EE238-S1": {
         "Code": "EE238-S1",
@@ -4881,7 +5431,9 @@ let courses =
         "Instructors": [
             " Chatterjee Kishore"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 372,
+        "AAAB_avg": 0.31451612903225806
     },
     "EE238-S2": {
         "Code": "EE238-S2",
@@ -4894,7 +5446,9 @@ let courses =
         "Instructors": [
             " Chatterjee Kishore"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 372,
+        "AAAB_avg": 0.31451612903225806
     },
     "EE240": {
         "Code": "EE240",
@@ -4909,7 +5463,9 @@ let courses =
             " Soman S.A.",
             " Sandeep Anand"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 575,
+        "AAAB_avg": 0.5373913043478261
     },
     "EE302-S1": {
         "Code": "EE302-S1",
@@ -4923,7 +5479,9 @@ let courses =
         "Instructors": [
             " Pillai Harish"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 249,
+        "AAAB_avg": 0.3493975903614458
     },
     "EE302-S2": {
         "Code": "EE302-S2",
@@ -4937,7 +5495,9 @@ let courses =
         "Instructors": [
             " M Belur"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 240,
+        "AAAB_avg": 0.2375
     },
     "EE309": {
         "Code": "EE309",
@@ -4951,7 +5511,9 @@ let courses =
         "Instructors": [
             " Virendra Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 879,
+        "AAAB_avg": 0.4300341296928328
     },
     "EE325": {
         "Code": "EE325",
@@ -4964,7 +5526,9 @@ let courses =
         "Instructors": [
             " Nikhil Karamchandani"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 410,
+        "AAAB_avg": 0.2073170731707317
     },
     "EE325-M": {
         "Code": "EE325-M",
@@ -4977,7 +5541,9 @@ let courses =
         "Instructors": [
             " Nikhil Karamchandani"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 76,
+        "AAAB_avg": 0.09210526315789473
     },
     "EE337": {
         "Code": "EE337",
@@ -4991,7 +5557,9 @@ let courses =
             " Nikhil Karamchandani",
             " Patkar Sachin"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 563,
+        "AAAB_avg": 0.32326820603907636
     },
     "EE338": {
         "Code": "EE338",
@@ -5005,7 +5573,9 @@ let courses =
         "Instructors": [
             " Gadre V.M."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 476,
+        "AAAB_avg": 0.3445378151260504
     },
     "EE344": {
         "Code": "EE344",
@@ -5027,7 +5597,9 @@ let courses =
             " J.John",
             " Siddharth Tallur"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 655,
+        "AAAB_avg": 0.5877862595419847
     },
     "EE350-S1": {
         "Code": "EE350-S1",
@@ -5041,7 +5613,9 @@ let courses =
         "Instructors": [
             " Debanjan Bhowmik"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 71,
+        "AAAB_avg": 0.323943661971831
     },
     "EE350-S2": {
         "Code": "EE350-S2",
@@ -5055,7 +5629,9 @@ let courses =
         "Instructors": [
             " Satish Mulleti"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 74,
+        "AAAB_avg": 0.3783783783783784
     },
     "EE350-S3": {
         "Code": "EE350-S3",
@@ -5069,7 +5645,9 @@ let courses =
         "Instructors": [
             " Shiladri Chakraborty"
         ],
-        "Division": "S3"
+        "Division": "S3",
+        "total": 72,
+        "AAAB_avg": 0.4583333333333333
     },
     "EE350-S4": {
         "Code": "EE350-S4",
@@ -5083,7 +5661,9 @@ let courses =
         "Instructors": [
             " Arun Surendran"
         ],
-        "Division": "S4"
+        "Division": "S4",
+        "total": 73,
+        "AAAB_avg": 0.4383561643835616
     },
     "EE350-S5": {
         "Code": "EE350-S5",
@@ -5097,7 +5677,9 @@ let courses =
         "Instructors": [
             " Kulkarni S V"
         ],
-        "Division": "S5"
+        "Division": "S5",
+        "total": 74,
+        "AAAB_avg": 0.4864864864864865
     },
     "EE462": {
         "Code": "EE462",
@@ -5111,7 +5693,9 @@ let courses =
             " V Raj Babu",
             " Preeti Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 50,
+        "AAAB_avg": 0.44
     },
     "EE465": {
         "Code": "EE465",
@@ -5125,7 +5709,9 @@ let courses =
         "Instructors": [
             " S. Vijayakumaran"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 22,
+        "AAAB_avg": 0.6363636363636364
     },
     "EE606": {
         "Code": "EE606",
@@ -5138,7 +5724,9 @@ let courses =
         "Instructors": [
             " Shevgaonkar R.K."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 86,
+        "AAAB_avg": 0.37209302325581395
     },
     "EE6104": {
         "Code": "EE6104",
@@ -5151,7 +5739,9 @@ let courses =
         "Instructors": [
             " V Raj Babu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 26,
+        "AAAB_avg": 0.4230769230769231
     },
     "EE6106": {
         "Code": "EE6106",
@@ -5165,7 +5755,9 @@ let courses =
             " Manjunath D.",
             " Jayakrishnan Nair"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 38,
+        "AAAB_avg": 0.5
     },
     "EE615": {
         "Code": "EE615",
@@ -5177,7 +5769,9 @@ let courses =
         "Instructors": [
             " Dwaipayan Mukherjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 45,
+        "AAAB_avg": 0.7111111111111111
     },
     "EE619": {
         "Code": "EE619",
@@ -5190,7 +5784,9 @@ let courses =
         "Instructors": [
             " Rajesh H. Zele"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 242,
+        "AAAB_avg": 0.48760330578512395
     },
     "EE620": {
         "Code": "EE620",
@@ -5204,7 +5800,9 @@ let courses =
             " Sandip Mondal",
             " Souvik Mahapatra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 135,
+        "AAAB_avg": 0.37777777777777777
     },
     "EE621": {
         "Code": "EE621",
@@ -5218,7 +5816,9 @@ let courses =
         "Instructors": [
             " P.Chaporkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 320,
+        "AAAB_avg": 0.378125
     },
     "EE622": {
         "Code": "EE622",
@@ -5232,7 +5832,9 @@ let courses =
         "Instructors": [
             " Dwaipayan Mukherjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 112,
+        "AAAB_avg": 0.26785714285714285
     },
     "EE636": {
         "Code": "EE636",
@@ -5246,7 +5848,9 @@ let courses =
         "Instructors": [
             " Debraj Chakraborty"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 146,
+        "AAAB_avg": 0.21232876712328766
     },
     "EE651": {
         "Code": "EE651",
@@ -5259,7 +5863,9 @@ let courses =
         "Instructors": [
             " Prashant Navalkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 45,
+        "AAAB_avg": 0.7555555555555555
     },
     "EE654": {
         "Code": "EE654",
@@ -5272,7 +5878,9 @@ let courses =
         "Instructors": [
             " Anshuman Shukla"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 124,
+        "AAAB_avg": 0.532258064516129
     },
     "EE655": {
         "Code": "EE655",
@@ -5285,7 +5893,9 @@ let courses =
         "Instructors": [
             " Soman S.A."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 100,
+        "AAAB_avg": 0.38
     },
     "EE656": {
         "Code": "EE656",
@@ -5299,7 +5909,9 @@ let courses =
         "Instructors": [
             " Fernandes B.G."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 28,
+        "AAAB_avg": 0.35714285714285715
     },
     "EE672": {
         "Code": "EE672",
@@ -5310,7 +5922,9 @@ let courses =
             " Swaroop Ganguly",
             " Apurba Laha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 155,
+        "AAAB_avg": 0.7741935483870968
     },
     "EE686": {
         "Code": "EE686",
@@ -5324,7 +5938,9 @@ let courses =
         "Instructors": [
             " Himanshu J. Bahirat"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 4,
+        "AAAB_avg": 0.75
     },
     "EE701": {
         "Code": "EE701",
@@ -5338,7 +5954,9 @@ let courses =
         "Instructors": [
             " S. Duttagupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 32,
+        "AAAB_avg": 0.5
     },
     "EE705": {
         "Code": "EE705",
@@ -5351,7 +5969,9 @@ let courses =
         "Instructors": [
             " Patkar Sachin"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 416,
+        "AAAB_avg": 0.6490384615384616
     },
     "EE706": {
         "Code": "EE706",
@@ -5365,7 +5985,9 @@ let courses =
         "Instructors": [
             " Gaurav S. Kasbekar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 298,
+        "AAAB_avg": 0.3523489932885906
     },
     "EE708": {
         "Code": "EE708",
@@ -5379,7 +6001,9 @@ let courses =
         "Instructors": [
             " B.K.Dey"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 175,
+        "AAAB_avg": 0.3142857142857143
     },
     "EE709": {
         "Code": "EE709",
@@ -5393,7 +6017,9 @@ let courses =
         "Instructors": [
             " Desai Madhav"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 465,
+        "AAAB_avg": 0.3827956989247312
     },
     "EE712": {
         "Code": "EE712",
@@ -5408,7 +6034,9 @@ let courses =
             " Sharma Dinesh",
             " Laxmeesha Somappa"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 183,
+        "AAAB_avg": 0.2459016393442623
     },
     "EE719": {
         "Code": "EE719",
@@ -5421,7 +6049,9 @@ let courses =
         "Instructors": [
             " M.Shojaei Baghini"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 191,
+        "AAAB_avg": 0.35602094240837695
     },
     "EE722": {
         "Code": "EE722",
@@ -5434,7 +6064,9 @@ let courses =
         "Instructors": [
             " Anupama Kowli"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 156,
+        "AAAB_avg": 0.391025641025641
     },
     "EE724": {
         "Code": "EE724",
@@ -5447,7 +6079,9 @@ let courses =
         "Instructors": [
             " Udayan Ganguli"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 57,
+        "AAAB_avg": 0.5964912280701754
     },
     "EE728": {
         "Code": "EE728",
@@ -5461,7 +6095,9 @@ let courses =
         "Instructors": [
             " Apurba Laha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 104,
+        "AAAB_avg": 0.6538461538461539
     },
     "EE734": {
         "Code": "EE734",
@@ -5474,7 +6110,9 @@ let courses =
         "Instructors": [
             " Vivek S. Borkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 56,
+        "AAAB_avg": 0.6428571428571429
     },
     "EE739": {
         "Code": "EE739",
@@ -5488,7 +6126,9 @@ let courses =
         "Instructors": [
             " Virendra Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 524,
+        "AAAB_avg": 0.5381679389312977
     },
     "EE747": {
         "Code": "EE747",
@@ -5502,7 +6142,9 @@ let courses =
         "Instructors": [
             " Kulkarni A.M."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 6,
+        "AAAB_avg": 0.3333333333333333
     },
     "EE755": {
         "Code": "EE755",
@@ -5515,7 +6157,9 @@ let courses =
         "Instructors": [
             " Bhaskaran Muralidharan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 37,
+        "AAAB_avg": 0.32432432432432434
     },
     "EE761": {
         "Code": "EE761",
@@ -5528,7 +6172,9 @@ let courses =
         "Instructors": [
             " Sharayu Moharir"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 38,
+        "AAAB_avg": 0.5789473684210527
     },
     "EE764": {
         "Code": "EE764",
@@ -5542,7 +6188,9 @@ let courses =
         "Instructors": [
             " Sibi Raj B. Pillai"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 110,
+        "AAAB_avg": 0.42727272727272725
     },
     "EE767": {
         "Code": "EE767",
@@ -5555,7 +6203,9 @@ let courses =
         "Instructors": [
             " Arun Surendran"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 17,
+        "AAAB_avg": 0.5294117647058824
     },
     "EE769": {
         "Code": "EE769",
@@ -5568,7 +6218,9 @@ let courses =
         "Instructors": [
             " Amit Sethi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 939,
+        "AAAB_avg": 0.2641107561235357
     },
     "EE770": {
         "Code": "EE770",
@@ -5581,7 +6233,9 @@ let courses =
         "Instructors": [
             " Narendra Shiradkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 202,
+        "AAAB_avg": 0.3910891089108911
     },
     "EE774": {
         "Code": "EE774",
@@ -5594,7 +6248,9 @@ let courses =
         "Instructors": [
             " Kumar Appaiah"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 42,
+        "AAAB_avg": 0.6428571428571429
     },
     "EE779": {
         "Code": "EE779",
@@ -5607,7 +6263,9 @@ let courses =
         "Instructors": [
             " Satish Mulleti"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 34,
+        "AAAB_avg": 0.5294117647058824
     },
     "EE780": {
         "Code": "EE780",
@@ -5621,7 +6279,9 @@ let courses =
             " S. Duttagupta",
             " Kushal R. Tuckley"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 120,
+        "AAAB_avg": 0.325
     },
     "EE790": {
         "Code": "EE790",
@@ -5635,7 +6295,9 @@ let courses =
         "Instructors": [
             " Pradeep R. Nair"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 54,
+        "AAAB_avg": 0.6481481481481481
     },
     "EE791": {
         "Code": "EE791",
@@ -5648,7 +6310,9 @@ let courses =
         "Instructors": [
             " Agarwal Vivek"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 104,
+        "AAAB_avg": 0.46153846153846156
     },
     "EE793": {
         "Code": "EE793",
@@ -5662,7 +6326,9 @@ let courses =
         "Instructors": [
             " Virendra Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 163,
+        "AAAB_avg": 0.48466257668711654
     },
     "EE799": {
         "Code": "EE799",
@@ -5675,7 +6341,9 @@ let courses =
         "Instructors": [
             " J.Mukherjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 91,
+        "AAAB_avg": 0.5274725274725275
     },
     "EE801": {
         "Code": "EE801",
@@ -5688,7 +6356,9 @@ let courses =
         "Instructors": [
             " Kasturi Saha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 14,
+        "AAAB_avg": 0.5714285714285714
     },
     "EN220": {
         "Code": "EN220",
@@ -5755,7 +6425,9 @@ let courses =
         "Instructors": [
             " K.R. Balasubramaniam"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 403,
+        "AAAB_avg": 0.3027295285359802
     },
     "EN302": {
         "Code": "EN302",
@@ -5769,7 +6441,9 @@ let courses =
         "Instructors": [
             " Seethamraju Srinivas"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 133,
+        "AAAB_avg": 0.24060150375939848
     },
     "EN304": {
         "Code": "EN304",
@@ -5783,7 +6457,9 @@ let courses =
         "Instructors": [
             " Zakir H. Rather"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 149,
+        "AAAB_avg": 0.08053691275167785
     },
     "EN308": {
         "Code": "EN308",
@@ -5795,7 +6471,9 @@ let courses =
         "Instructors": [
             " Anish Modi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 124,
+        "AAAB_avg": 0.6532258064516129
     },
     "EN310": {
         "Code": "EN310",
@@ -5807,7 +6485,9 @@ let courses =
         "Instructors": [
             " Asish Sarangi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 97,
+        "AAAB_avg": 0.6288659793814433
     },
     "EN312-tut": {
         "Code": "EN312-tut",
@@ -5820,7 +6500,9 @@ let courses =
             " D. Suryanarayana",
             " Venkatramanan D."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 133,
+        "AAAB_avg": 0.2932330827067669
     },
     "EN312": {
         "Code": "EN312",
@@ -5834,7 +6516,9 @@ let courses =
             " D. Suryanarayana",
             " Venkatramanan D."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 133,
+        "AAAB_avg": 0.2932330827067669
     },
     "EN313": {
         "Code": "EN313",
@@ -5848,7 +6532,9 @@ let courses =
         "Instructors": [
             " Ravi Prakash Reddy Siddavatam"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 180,
+        "AAAB_avg": 0.23333333333333334
     },
     "EN314": {
         "Code": "EN314",
@@ -5861,7 +6547,9 @@ let courses =
         "Instructors": [
             " Sagar Mitra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 156,
+        "AAAB_avg": 0.3525641025641026
     },
     "EN321": {
         "Code": "EN321",
@@ -5883,7 +6571,9 @@ let courses =
         "Instructors": [
             " Rajesh Gupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 111,
+        "AAAB_avg": 0.5495495495495496
     },
     "EN410": {
         "Code": "EN410",
@@ -5896,7 +6586,9 @@ let courses =
         "Instructors": [
             " Gurubalan Annadurai"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 116,
+        "AAAB_avg": 0.29310344827586204
     },
     "EN412": {
         "Code": "EN412",
@@ -5909,7 +6601,9 @@ let courses =
         "Instructors": [
             " Lalit Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 65,
+        "AAAB_avg": 0.24615384615384617
     },
     "EN414": {
         "Code": "EN414",
@@ -5922,7 +6616,9 @@ let courses =
         "Instructors": [
             " Sankara Sarma V. Tatiparti"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 65,
+        "AAAB_avg": 0.676923076923077
     },
     "EN418": {
         "Code": "EN418",
@@ -5935,7 +6631,9 @@ let courses =
         "Instructors": [
             " Venkatasailanathan Ramadesigan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 67,
+        "AAAB_avg": 0.29850746268656714
     },
     "EN422": {
         "Code": "EN422",
@@ -5945,7 +6643,9 @@ let courses =
         "Instructors": [
             " Karthik Sasihithlu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 64,
+        "AAAB_avg": 0.53125
     },
     "EN594": {
         "Code": "EN594",
@@ -5956,7 +6656,9 @@ let courses =
             " Asish Sarangi",
             " Kedare S B"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 1,
+        "AAAB_avg": 0.0
     },
     "EN604": {
         "Code": "EN604",
@@ -5969,7 +6671,9 @@ let courses =
         "Instructors": [
             " Dayadeep S. Monder"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 97,
+        "AAAB_avg": 0.2268041237113402
     },
     "EN607": {
         "Code": "EN607",
@@ -5982,7 +6686,9 @@ let courses =
         "Instructors": [
             " Gurubalan Annadurai"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 191,
+        "AAAB_avg": 0.36649214659685864
     },
     "EN610": {
         "Code": "EN610",
@@ -5995,7 +6701,9 @@ let courses =
         "Instructors": [
             " Pratibha Sharma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 282,
+        "AAAB_avg": 0.375886524822695
     },
     "EN612": {
         "Code": "EN612",
@@ -6007,7 +6715,9 @@ let courses =
         "Instructors": [
             " Rajesh Gupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 177,
+        "AAAB_avg": 0.6836158192090396
     },
     "EN613": {
         "Code": "EN613",
@@ -6020,7 +6730,9 @@ let courses =
         "Instructors": [
             " Suneet Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 192,
+        "AAAB_avg": 0.34375
     },
     "EN615": {
         "Code": "EN615",
@@ -6033,7 +6745,9 @@ let courses =
         "Instructors": [
             " Kedare S B"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 31,
+        "AAAB_avg": 0.41935483870967744
     },
     "EN630": {
         "Code": "EN630",
@@ -6046,7 +6760,9 @@ let courses =
         "Instructors": [
             " Anish Modi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 35,
+        "AAAB_avg": 0.37142857142857144
     },
     "EN640": {
         "Code": "EN640",
@@ -6059,7 +6775,9 @@ let courses =
         "Instructors": [
             " Shaibal Sarkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 123,
+        "AAAB_avg": 0.4878048780487805
     },
     "EN642": {
         "Code": "EN642",
@@ -6073,7 +6791,9 @@ let courses =
         "Instructors": [
             " Seethamraju Srinivas"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 187,
+        "AAAB_avg": 0.40641711229946526
     },
     "EN645": {
         "Code": "EN645",
@@ -6086,7 +6806,9 @@ let courses =
         "Instructors": [
             " Bandyopadhyay Santanu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 6,
+        "AAAB_avg": 0.3333333333333333
     },
     "EN659": {
         "Code": "EN659",
@@ -6112,7 +6834,9 @@ let courses =
         "Instructors": [
             " Karthik Sasihithlu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 21,
+        "AAAB_avg": 0.5238095238095238
     },
     "EN692": {
         "Code": "EN692",
@@ -6122,7 +6846,9 @@ let courses =
         "Instructors": [
             " Sagar Mitra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.7241379310344828
     },
     "EN798": {
         "Code": "EN798",
@@ -6145,7 +6871,9 @@ let courses =
         "Instructors": [
             " P.C.Ghosh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 156,
+        "AAAB_avg": 0.0
     },
     "ENT101": {
         "Code": "ENT101",
@@ -6160,7 +6888,9 @@ let courses =
             " Ramesh Mangaleswaran",
             " Anuradha Narasimhan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 616,
+        "AAAB_avg": 0.6558441558441559
     },
     "ENT602": {
         "Code": "ENT602",
@@ -6174,7 +6904,9 @@ let courses =
             " Milind Kopikare",
             " Sankalp Pratap"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 107,
+        "AAAB_avg": 0.4766355140186916
     },
     "ENT602-M": {
         "Code": "ENT602-M",
@@ -6189,7 +6921,9 @@ let courses =
             " Milind Kopikare",
             " Sankalp Pratap"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 43,
+        "AAAB_avg": 0.37209302325581395
     },
     "ENT605": {
         "Code": "ENT605",
@@ -6202,7 +6936,9 @@ let courses =
         "Instructors": [
             " Devdip Purkayastha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 17,
+        "AAAB_avg": 0.4117647058823529
     },
     "ENT605-M": {
         "Code": "ENT605-M",
@@ -6215,7 +6951,9 @@ let courses =
         "Instructors": [
             " Devdip Purkayastha"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 17,
+        "AAAB_avg": 0.4117647058823529
     },
     "ENT610": {
         "Code": "ENT610",
@@ -6230,7 +6968,9 @@ let courses =
             " Rajkumar R. Hirwani",
             " Vinay Dabholkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 62,
+        "AAAB_avg": 0.3870967741935484
     },
     "ENT610-M": {
         "Code": "ENT610-M",
@@ -6245,7 +6985,9 @@ let courses =
             " Rajkumar R. Hirwani",
             " Vinay Dabholkar"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 47,
+        "AAAB_avg": 0.2127659574468085
     },
     "ENT612": {
         "Code": "ENT612",
@@ -6316,7 +7058,9 @@ let courses =
             " Virendra Sethi",
             " Tabish Nawaz"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 6,
+        "AAAB_avg": 0.16666666666666666
     },
     "ES203": {
         "Code": "ES203",
@@ -6330,7 +7074,9 @@ let courses =
             " Abhishek Chakraborty",
             " Anurag Garg"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 3,
+        "AAAB_avg": 0.0
     },
     "ES204-D1": {
         "Code": "ES204-D1",
@@ -6344,7 +7090,9 @@ let courses =
         "Instructors": [
             " Harish C. Phuleria"
         ],
-        "Division": "D1"
+        "Division": "D1",
+        "total": 62,
+        "AAAB_avg": 0.2903225806451613
     },
     "ES204-M": {
         "Code": "ES204-M",
@@ -6357,7 +7105,9 @@ let courses =
         "Instructors": [
             " Tabish Nawaz"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 12,
+        "AAAB_avg": 0.3333333333333333
     },
     "ES208": {
         "Code": "ES208",
@@ -6371,7 +7121,9 @@ let courses =
         "Instructors": [
             " Suparna Mukherji"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 130,
+        "AAAB_avg": 0.13846153846153847
     },
     "ES250": {
         "Code": "ES250",
@@ -6384,7 +7136,9 @@ let courses =
             " Swatantra Pratap Singh",
             " Srinidhi Balasubramanian"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 719,
+        "AAAB_avg": 0.0
     },
     "ES252": {
         "Code": "ES252",
@@ -6396,7 +7150,9 @@ let courses =
         "Instructors": [
             " Amritanshu Shriwastav"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 113,
+        "AAAB_avg": 0.5309734513274337
     },
     "ES302": {
         "Code": "ES302",
@@ -6410,7 +7166,9 @@ let courses =
             " Indrajit Chakraborty",
             " Swatantra Pratap Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 81,
+        "AAAB_avg": 0.4444444444444444
     },
     "ES306-M": {
         "Code": "ES306-M",
@@ -6424,7 +7182,9 @@ let courses =
         "Instructors": [
             " A.K.Dikshit"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 7,
+        "AAAB_avg": 0.7142857142857143
     },
     "ES308": {
         "Code": "ES308",
@@ -6436,7 +7196,9 @@ let courses =
         "Instructors": [
             " Munish Kumar Chandel"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 71,
+        "AAAB_avg": 0.5211267605633803
     },
     "ES312": {
         "Code": "ES312",
@@ -6446,7 +7208,9 @@ let courses =
         "Instructors": [
             " Manoranjan Sahu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 71,
+        "AAAB_avg": 0.4225352112676056
     },
     "ES319": {
         "Code": "ES319",
@@ -6459,7 +7223,9 @@ let courses =
         "Instructors": [
             " Indrajit Chakraborty"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 104,
+        "AAAB_avg": 0.4326923076923077
     },
     "ES404": {
         "Code": "ES404",
@@ -6473,7 +7239,9 @@ let courses =
         "Instructors": [
             " Sanjeev Chaudhari"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 46,
+        "AAAB_avg": 0.43478260869565216
     },
     "ES458-M": {
         "Code": "ES458-M",
@@ -6499,7 +7267,9 @@ let courses =
             " Abhishek Chakraborty",
             " Swatantra Pratap Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 31,
+        "AAAB_avg": 0.5806451612903226
     },
     "ES495": {
         "Code": "ES495",
@@ -6510,7 +7280,9 @@ let courses =
             " Abhishek Chakraborty",
             " Swatantra Pratap Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 26,
+        "AAAB_avg": 0.6538461538461539
     },
     "ES600": {
         "Code": "ES600",
@@ -6524,7 +7296,9 @@ let courses =
             " Subhankar Karmakar",
             " Abhishek Chakraborty"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 209,
+        "AAAB_avg": 0.3875598086124402
     },
     "ES616": {
         "Code": "ES616",
@@ -6538,7 +7312,9 @@ let courses =
             " Munish Kumar Chandel",
             " Virendra Sethi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 108,
+        "AAAB_avg": 0.4444444444444444
     },
     "ES624": {
         "Code": "ES624",
@@ -6552,7 +7328,9 @@ let courses =
             " Renuka Verma",
             " Munish Kumar Chandel"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 79,
+        "AAAB_avg": 0.4050632911392405
     },
     "ES642": {
         "Code": "ES642",
@@ -6566,7 +7344,9 @@ let courses =
             " Renuka Verma",
             " Anurag Garg"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 55,
+        "AAAB_avg": 0.43636363636363634
     },
     "ES654": {
         "Code": "ES654",
@@ -6580,7 +7360,9 @@ let courses =
         "Instructors": [
             " Venkata Sai Vamsi Botlaguduru"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 36,
+        "AAAB_avg": 0.25
     },
     "ES658": {
         "Code": "ES658",
@@ -6595,7 +7377,9 @@ let courses =
             " Indrajit Chakraborty",
             " S.R.Asolekar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 55,
+        "AAAB_avg": 0.43636363636363634
     },
     "ES664": {
         "Code": "ES664",
@@ -6609,7 +7393,9 @@ let courses =
         "Instructors": [
             " A.K.Dikshit"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 163,
+        "AAAB_avg": 0.7055214723926381
     },
     "ES666": {
         "Code": "ES666",
@@ -6623,7 +7409,9 @@ let courses =
             " Amritanshu Shriwastav",
             " Suparna Mukherji"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 191,
+        "AAAB_avg": 0.24607329842931938
     },
     "ES668": {
         "Code": "ES668",
@@ -6636,7 +7424,9 @@ let courses =
         "Instructors": [
             " Venkata Sai Vamsi Botlaguduru"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 111,
+        "AAAB_avg": 0.5585585585585585
     },
     "ES670": {
         "Code": "ES670",
@@ -6650,7 +7440,9 @@ let courses =
             " Harish C. Phuleria",
             " Manoranjan Sahu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 133,
+        "AAAB_avg": 0.47368421052631576
     },
     "ES672": {
         "Code": "ES672",
@@ -6664,7 +7456,9 @@ let courses =
         "Instructors": [
             " Manoranjan Sahu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 111,
+        "AAAB_avg": 0.4594594594594595
     },
     "ES674": {
         "Code": "ES674",
@@ -6679,7 +7473,9 @@ let courses =
             " Abhishek Chakraborty",
             " Srinidhi Balasubramanian"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 93,
+        "AAAB_avg": 0.4731182795698925
     },
     "ES676": {
         "Code": "ES676",
@@ -6692,7 +7488,9 @@ let courses =
         "Instructors": [
             " Swatantra Pratap Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 60,
+        "AAAB_avg": 0.36666666666666664
     },
     "ES680": {
         "Code": "ES680",
@@ -6707,7 +7505,9 @@ let courses =
             " A.K.Dikshit",
             " Srinidhi Balasubramanian"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 101,
+        "AAAB_avg": 0.7821782178217822
     },
     "ES682": {
         "Code": "ES682",
@@ -6721,7 +7521,9 @@ let courses =
             " Amritanshu Shriwastav",
             " Tabish Nawaz"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 96,
+        "AAAB_avg": 0.3958333333333333
     },
     "ES684": {
         "Code": "ES684",
@@ -6734,7 +7536,9 @@ let courses =
         "Instructors": [
             " Sanjeev Chaudhari"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 21,
+        "AAAB_avg": 0.8571428571428571
     },
     "ES691": {
         "Code": "ES691",
@@ -6780,7 +7584,9 @@ let courses =
             " Tabish Nawaz",
             " Swatantra Pratap Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 76,
+        "AAAB_avg": 0.8289473684210527
     },
     "ESS802": {
         "Code": "ESS802",
@@ -6804,7 +7610,9 @@ let courses =
         "Instructors": [
             " S. R. Iyer"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 59,
+        "AAAB_avg": 0.9322033898305084
     },
     "ET611": {
         "Code": "ET611",
@@ -6817,7 +7625,9 @@ let courses =
         "Instructors": [
             " Sahana Murthy"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 33,
+        "AAAB_avg": 0.9090909090909091
     },
     "ET614": {
         "Code": "ET614",
@@ -6830,7 +7640,9 @@ let courses =
         "Instructors": [
             " Syaamantak Das"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 59,
+        "AAAB_avg": 0.8135593220338984
     },
     "ET616": {
         "Code": "ET616",
@@ -6866,7 +7678,9 @@ let courses =
         "Instructors": [
             " Ramkumar Rajendran"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 22,
+        "AAAB_avg": 0.7272727272727273
     },
     "ET798": {
         "Code": "ET798",
@@ -6886,7 +7700,9 @@ let courses =
         "Instructors": [
             " Ramkumar Rajendran"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 33,
+        "AAAB_avg": 0.9393939393939394
     },
     "GNR402": {
         "Code": "GNR402",
@@ -6899,7 +7715,9 @@ let courses =
         "Instructors": [
             " Surya Durbha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 167,
+        "AAAB_avg": 0.2275449101796407
     },
     "GNR402-M": {
         "Code": "GNR402-M",
@@ -6912,7 +7730,9 @@ let courses =
         "Instructors": [
             " Surya Durbha"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 9,
+        "AAAB_avg": 0.6666666666666666
     },
     "GNR406-M": {
         "Code": "GNR406-M",
@@ -6935,7 +7755,9 @@ let courses =
         "Instructors": [
             " Mohan B.Krishna"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 2,
+        "AAAB_avg": 1.0
     },
     "GNR410-M": {
         "Code": "GNR410-M",
@@ -6948,7 +7770,9 @@ let courses =
         "Instructors": [
             " Gedam S.S."
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 2,
+        "AAAB_avg": 0.5
     },
     "GNR602": {
         "Code": "GNR602",
@@ -6961,7 +7785,9 @@ let courses =
         "Instructors": [
             " Mohan B.Krishna"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 326,
+        "AAAB_avg": 0.3282208588957055
     },
     "GNR618": {
         "Code": "GNR618",
@@ -6974,7 +7800,9 @@ let courses =
         "Instructors": [
             " Gulab Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 377,
+        "AAAB_avg": 0.6710875331564987
     },
     "GNR628": {
         "Code": "GNR628",
@@ -6987,7 +7815,9 @@ let courses =
         "Instructors": [
             " Alok Porwal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 113,
+        "AAAB_avg": 0.37168141592920356
     },
     "GNR629": {
         "Code": "GNR629",
@@ -7000,7 +7830,9 @@ let courses =
         "Instructors": [
             " Surya Durbha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 38,
+        "AAAB_avg": 0.7105263157894737
     },
     "GNR630": {
         "Code": "GNR630",
@@ -7014,7 +7846,9 @@ let courses =
             " Gedam S.S.",
             " Mohan B.Krishna"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 206,
+        "AAAB_avg": 0.24271844660194175
     },
     "GNR631": {
         "Code": "GNR631",
@@ -7028,7 +7862,9 @@ let courses =
         "Instructors": [
             " Adinarayana J."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 68,
+        "AAAB_avg": 0.38235294117647056
     },
     "GNR633": {
         "Code": "GNR633",
@@ -7041,7 +7877,9 @@ let courses =
         "Instructors": [
             " Alok Porwal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 111,
+        "AAAB_avg": 0.5585585585585585
     },
     "GNR638": {
         "Code": "GNR638",
@@ -7054,7 +7892,9 @@ let courses =
         "Instructors": [
             " Biplab Banerjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 447,
+        "AAAB_avg": 0.523489932885906
     },
     "GNR640": {
         "Code": "GNR640",
@@ -7067,7 +7907,9 @@ let courses =
         "Instructors": [
             " Karthikeyan Lanka"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 41,
+        "AAAB_avg": 0.4146341463414634
     },
     "GNR644": {
         "Code": "GNR644",
@@ -7080,7 +7922,9 @@ let courses =
         "Instructors": [
             " Karthikeyan Lanka"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 20,
+        "AAAB_avg": 0.55
     },
     "GNR647": {
         "Code": "GNR647",
@@ -7094,7 +7938,9 @@ let courses =
             " Avik Bhattacharya",
             " Rao Y.S."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 21,
+        "AAAB_avg": 0.7142857142857143
     },
     "GNR649": {
         "Code": "GNR649",
@@ -7108,7 +7954,9 @@ let courses =
         "Instructors": [
             " Deepak Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 402,
+        "AAAB_avg": 0.6741293532338308
     },
     "GNR651": {
         "Code": "GNR651",
@@ -7122,7 +7970,9 @@ let courses =
         "Instructors": [
             " Gedam S.S."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 92,
+        "AAAB_avg": 0.5652173913043478
     },
     "GNR694": {
         "Code": "GNR694",
@@ -7132,7 +7982,9 @@ let courses =
         "Instructors": [
             " Deepak Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 105,
+        "AAAB_avg": 0.7904761904761904
     },
     "GNR697": {
         "Code": "GNR697",
@@ -7142,7 +7994,9 @@ let courses =
         "Instructors": [
             " Alok Porwal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 18,
+        "AAAB_avg": 0.9444444444444444
     },
     "GNR798": {
         "Code": "GNR798",
@@ -7168,7 +8022,9 @@ let courses =
             " Deepak Singh",
             " Mohan B.Krishna"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 86,
+        "AAAB_avg": 0.0
     },
     "GNRS02": {
         "Code": "GNRS02",
@@ -7178,7 +8034,9 @@ let courses =
         "Instructors": [
             " Karthikeyan Lanka"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 29,
+        "AAAB_avg": 0.8275862068965517
     },
     "GP402": {
         "Code": "GP402",
@@ -7192,7 +8050,9 @@ let courses =
         "Instructors": [
             " Srinivasa Rao Gangumalla"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 69,
+        "AAAB_avg": 0.6086956521739131
     },
     "GP408": {
         "Code": "GP408",
@@ -7202,7 +8062,9 @@ let courses =
         "Instructors": [
             " M. Radhakrishna"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 68,
+        "AAAB_avg": 0.7205882352941176
     },
     "GP414": {
         "Code": "GP414",
@@ -7216,7 +8078,9 @@ let courses =
         "Instructors": [
             " Anand Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 69,
+        "AAAB_avg": 0.782608695652174
     },
     "GP416": {
         "Code": "GP416",
@@ -7230,7 +8094,9 @@ let courses =
             " Nibedita Rakshit",
             " Soumyajit Mukherjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 72,
+        "AAAB_avg": 0.7777777777777778
     },
     "GP418": {
         "Code": "GP418",
@@ -7244,7 +8110,9 @@ let courses =
         "Instructors": [
             " Bharath C. Shekar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 72,
+        "AAAB_avg": 0.4444444444444444
     },
     "GP420": {
         "Code": "GP420",
@@ -7257,7 +8125,9 @@ let courses =
             " Nibedita Rakshit",
             " Soumyajit Mukherjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 68,
+        "AAAB_avg": 0.8088235294117647
     },
     "GP422": {
         "Code": "GP422",
@@ -7271,7 +8141,9 @@ let courses =
             " Bivin Geo George",
             " Prabhakar Naraga"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 68,
+        "AAAB_avg": 0.8382352941176471
     },
     "GP502": {
         "Code": "GP502",
@@ -7285,7 +8157,9 @@ let courses =
         "Instructors": [
             " Mohan G."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 154,
+        "AAAB_avg": 0.3051948051948052
     },
     "GP506": {
         "Code": "GP506",
@@ -7299,7 +8173,9 @@ let courses =
         "Instructors": [
             " Satish Maurya"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 67,
+        "AAAB_avg": 0.47761194029850745
     },
     "GP516": {
         "Code": "GP516",
@@ -7312,7 +8188,9 @@ let courses =
         "Instructors": [
             " Kumar Hemant Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 88,
+        "AAAB_avg": 0.6590909090909091
     },
     "GP518": {
         "Code": "GP518",
@@ -7325,7 +8203,9 @@ let courses =
         "Instructors": [
             " D. Ramakrishnan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 48,
+        "AAAB_avg": 0.6041666666666666
     },
     "GP520": {
         "Code": "GP520",
@@ -7339,7 +8219,9 @@ let courses =
         "Instructors": [
             " Bharath C. Shekar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 64,
+        "AAAB_avg": 0.75
     },
     "GS318-S1": {
         "Code": "GS318-S1",
@@ -7353,7 +8235,9 @@ let courses =
             " Sameer Ranjan",
             " Vikram Vishal"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 73,
+        "AAAB_avg": 0.3287671232876712
     },
     "GS318-S2": {
         "Code": "GS318-S2",
@@ -7367,7 +8251,9 @@ let courses =
             " Sameer Ranjan",
             " Vikram Vishal"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 73,
+        "AAAB_avg": 0.4931506849315068
     },
     "GS416": {
         "Code": "GS416",
@@ -7379,7 +8265,9 @@ let courses =
             " Prabhakar Naraga",
             " Sheth C Hetu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 139,
+        "AAAB_avg": 0.7050359712230215
     },
     "GS422": {
         "Code": "GS422",
@@ -7392,7 +8280,9 @@ let courses =
         "Instructors": [
             " D. Ramakrishnan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 159,
+        "AAAB_avg": 0.7169811320754716
     },
     "GS430": {
         "Code": "GS430",
@@ -7405,7 +8295,9 @@ let courses =
         "Instructors": [
             " Prabhakar Naraga"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 141,
+        "AAAB_avg": 0.7588652482269503
     },
     "GS434": {
         "Code": "GS434",
@@ -7419,7 +8311,9 @@ let courses =
         "Instructors": [
             " Sheth C Hetu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 142,
+        "AAAB_avg": 0.3028169014084507
     },
     "GS436": {
         "Code": "GS436",
@@ -7434,7 +8328,9 @@ let courses =
             " Sudipta Dasgupta",
             " Banerjee Santanu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 141,
+        "AAAB_avg": 0.5106382978723404
     },
     "GS438": {
         "Code": "GS438",
@@ -7448,7 +8344,9 @@ let courses =
         "Instructors": [
             " Sakthi Saravanan Chinnasamy"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 143,
+        "AAAB_avg": 0.40559440559440557
     },
     "GS440": {
         "Code": "GS440",
@@ -7460,7 +8358,9 @@ let courses =
         "Instructors": [
             " D. Ramakrishnan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 139,
+        "AAAB_avg": 0.9568345323741008
     },
     "GS450": {
         "Code": "GS450",
@@ -7474,7 +8374,9 @@ let courses =
             " Sudipta Dasgupta",
             " Malay Mukul"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 139,
+        "AAAB_avg": 0.9424460431654677
     },
     "GS530": {
         "Code": "GS530",
@@ -7487,7 +8389,9 @@ let courses =
         "Instructors": [
             " Jahnavi Punekar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 67,
+        "AAAB_avg": 0.40298507462686567
     },
     "GS534": {
         "Code": "GS534",
@@ -7500,7 +8404,9 @@ let courses =
         "Instructors": [
             " Malay Mukul"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 166,
+        "AAAB_avg": 0.8373493975903614
     },
     "GS536": {
         "Code": "GS536",
@@ -7515,7 +8421,9 @@ let courses =
             " Sameer Ranjan",
             " Mathew George"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 130,
+        "AAAB_avg": 0.6076923076923076
     },
     "GS538": {
         "Code": "GS538",
@@ -7528,7 +8436,9 @@ let courses =
         "Instructors": [
             " Suryendu Dutta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 135,
+        "AAAB_avg": 0.6592592592592592
     },
     "GS540": {
         "Code": "GS540",
@@ -7542,7 +8452,9 @@ let courses =
         "Instructors": [
             " Bivin Geo George"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 126,
+        "AAAB_avg": 0.9285714285714286
     },
     "GS542": {
         "Code": "GS542",
@@ -7556,7 +8468,9 @@ let courses =
             " Bivin Geo George",
             " Sameer Ranjan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 51,
+        "AAAB_avg": 0.45098039215686275
     },
     "GS545": {
         "Code": "GS545",
@@ -7569,7 +8483,9 @@ let courses =
         "Instructors": [
             " Nibedita Rakshit"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 9,
+        "AAAB_avg": 0.5555555555555556
     },
     "GS552": {
         "Code": "GS552",
@@ -7583,7 +8499,9 @@ let courses =
         "Instructors": [
             " Prabhakar Naraga"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 128,
+        "AAAB_avg": 0.4140625
     },
     "GS662": {
         "Code": "GS662",
@@ -7597,7 +8515,9 @@ let courses =
             " Nibedita Rakshit",
             " Sudipta Dasgupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 102,
+        "AAAB_avg": 0.3137254901960784
     },
     "GS668": {
         "Code": "GS668",
@@ -7610,7 +8530,9 @@ let courses =
         "Instructors": [
             " E. Chandrasekhar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 4,
+        "AAAB_avg": 0.0
     },
     "GS672": {
         "Code": "GS672",
@@ -7625,7 +8547,9 @@ let courses =
             " Sudipta Dasgupta",
             " Banerjee Santanu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 131,
+        "AAAB_avg": 0.3053435114503817
     },
     "GS676": {
         "Code": "GS676",
@@ -7639,7 +8563,9 @@ let courses =
         "Instructors": [
             " Mohan G."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 114,
+        "AAAB_avg": 0.3157894736842105
     },
     "GS682": {
         "Code": "GS682",
@@ -7665,7 +8591,9 @@ let courses =
         "Instructors": [
             " Kumar Hemant Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 206,
+        "AAAB_avg": 0.45145631067961167
     },
     "GS707": {
         "Code": "GS707",
@@ -7720,7 +8648,9 @@ let courses =
         "Instructors": [
             " Mathew George"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 10,
+        "AAAB_avg": 0.4
     },
     "GS820": {
         "Code": "GS820",
@@ -7746,7 +8676,9 @@ let courses =
         "Instructors": [
             " Pooja Purang"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 175,
+        "AAAB_avg": 0.2057142857142857
     },
     "HS110-S2": {
         "Code": "HS110-S2",
@@ -7759,7 +8691,9 @@ let courses =
         "Instructors": [
             " Rashmi Gupta"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 125,
+        "AAAB_avg": 0.352
     },
     "HS112-S1": {
         "Code": "HS112-S1",
@@ -7772,7 +8706,9 @@ let courses =
         "Instructors": [
             " A.P. Rajaram  "
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 154,
+        "AAAB_avg": 0.2922077922077922
     },
     "HS112-S2": {
         "Code": "HS112-S2",
@@ -7785,7 +8721,9 @@ let courses =
         "Instructors": [
             " Sharmistha Saha"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 154,
+        "AAAB_avg": 0.2922077922077922
     },
     "HS200": {
         "Code": "HS200",
@@ -7796,7 +8734,9 @@ let courses =
             " Rajkishore Nath",
             " Suryakant Waghmore"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 5,
+        "AAAB_avg": 0.0
     },
     "HS250": {
         "Code": "HS250",
@@ -7806,7 +8746,9 @@ let courses =
         "Instructors": [
             " Haripriya Gundimeda"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 717,
+        "AAAB_avg": 0.0
     },
     "HS401": {
         "Code": "HS401",
@@ -7820,7 +8762,9 @@ let courses =
         "Instructors": [
             " Kulkarni A Malhar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 46,
+        "AAAB_avg": 0.391304347826087
     },
     "HS4110": {
         "Code": "HS4110",
@@ -7833,7 +8777,9 @@ let courses =
         "Instructors": [
             " Smriti Haricharan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 16,
+        "AAAB_avg": 0.25
     },
     "HS431": {
         "Code": "HS431",
@@ -7848,7 +8794,9 @@ let courses =
             " Suddhaseel Sen",
             " Shastri Sudha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 73,
+        "AAAB_avg": 0.3013698630136986
     },
     "HS465": {
         "Code": "HS465",
@@ -7862,7 +8810,9 @@ let courses =
         "Instructors": [
             " Siby K.George"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 39,
+        "AAAB_avg": 0.46153846153846156
     },
     "HS474": {
         "Code": "HS474",
@@ -7875,7 +8825,9 @@ let courses =
         "Instructors": [
             " Pravesh Jung Golay"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 3,
+        "AAAB_avg": 0.0
     },
     "HS474-M": {
         "Code": "HS474-M",
@@ -7888,7 +8840,9 @@ let courses =
         "Instructors": [
             " Pravesh Jung Golay"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 19,
+        "AAAB_avg": 0.2631578947368421
     },
     "HS502": {
         "Code": "HS502",
@@ -7901,7 +8855,9 @@ let courses =
         "Instructors": [
             " C.D. Sebastian"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 30,
+        "AAAB_avg": 0.6333333333333333
     },
     "HS504": {
         "Code": "HS504",
@@ -7914,7 +8870,9 @@ let courses =
         "Instructors": [
             " Arun A. Iyer"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 33,
+        "AAAB_avg": 0.3939393939393939
     },
     "HS506": {
         "Code": "HS506",
@@ -7927,7 +8885,9 @@ let courses =
         "Instructors": [
             " Mrinal Kaul"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 29,
+        "AAAB_avg": 0.4827586206896552
     },
     "HS551": {
         "Code": "HS551",
@@ -7940,7 +8900,9 @@ let courses =
         "Instructors": [
             " Amrita Banerjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 12,
+        "AAAB_avg": 0.5833333333333334
     },
     "HS554": {
         "Code": "HS554",
@@ -7953,7 +8915,9 @@ let courses =
         "Instructors": [
             " R.K. Panda"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 27,
+        "AAAB_avg": 0.4074074074074074
     },
     "HS598": {
         "Code": "HS598",
@@ -7966,7 +8930,9 @@ let courses =
         "Instructors": [
             " Pravesh Jung Golay"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 18,
+        "AAAB_avg": 0.7222222222222222
     },
     "HS618": {
         "Code": "HS618",
@@ -7979,7 +8945,9 @@ let courses =
         "Instructors": [
             " K. Ramasubramanian"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 125,
+        "AAAB_avg": 0.232
     },
     "HS621": {
         "Code": "HS621",
@@ -7992,7 +8960,9 @@ let courses =
         "Instructors": [
             " Ratikanta Panda"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 187,
+        "AAAB_avg": 0.39037433155080214
     },
     "HS624": {
         "Code": "HS624",
@@ -8005,7 +8975,9 @@ let courses =
         "Instructors": [
             " Rajkishore Nath"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 163,
+        "AAAB_avg": 0.4049079754601227
     },
     "HS629": {
         "Code": "HS629",
@@ -8018,7 +8990,9 @@ let courses =
         "Instructors": [
             " Sarmistha Pattanaik"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 165,
+        "AAAB_avg": 0.44242424242424244
     },
     "HS634": {
         "Code": "HS634",
@@ -8031,7 +9005,9 @@ let courses =
         "Instructors": [
             " Kulkarni A Malhar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 33,
+        "AAAB_avg": 0.6363636363636364
     },
     "HS640": {
         "Code": "HS640",
@@ -8044,7 +9020,9 @@ let courses =
         "Instructors": [
             " Suryakant Waghmore"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 21,
+        "AAAB_avg": 0.38095238095238093
     },
     "HS643": {
         "Code": "HS643",
@@ -8057,7 +9035,9 @@ let courses =
         "Instructors": [
             " Raile Rocky Ziipao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 40,
+        "AAAB_avg": 0.475
     },
     "HS650": {
         "Code": "HS650",
@@ -8108,7 +9088,9 @@ let courses =
         "Instructors": [
             " Anush Kapadia"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 8,
+        "AAAB_avg": 1.0
     },
     "HS662": {
         "Code": "HS662",
@@ -8121,7 +9103,9 @@ let courses =
         "Instructors": [
             " Ramesh Bairy"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 16,
+        "AAAB_avg": 0.375
     },
     "HS666": {
         "Code": "HS666",
@@ -8147,7 +9131,9 @@ let courses =
         "Instructors": [
             " A. Khan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 86,
+        "AAAB_avg": 0.27906976744186046
     },
     "HS804": {
         "Code": "HS804",
@@ -8161,7 +9147,9 @@ let courses =
             " Robinson Rowena",
             " Ahonaa Roy"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 35,
+        "AAAB_avg": 0.6285714285714286
     },
     "HS805": {
         "Code": "HS805",
@@ -8174,7 +9162,9 @@ let courses =
         "Instructors": [
             " Vikram Singh Sirola"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 24,
+        "AAAB_avg": 0.4583333333333333
     },
     "HS811": {
         "Code": "HS811",
@@ -8187,7 +9177,9 @@ let courses =
         "Instructors": [
             " Sharmila"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 19,
+        "AAAB_avg": 0.6842105263157895
     },
     "HS818": {
         "Code": "HS818",
@@ -8200,7 +9192,9 @@ let courses =
         "Instructors": [
             " Ilito H. Achumi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 12,
+        "AAAB_avg": 0.6666666666666666
     },
     "HS828": {
         "Code": "HS828",
@@ -8213,7 +9207,9 @@ let courses =
         "Instructors": [
             " Pravesh Jung Golay"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 28,
+        "AAAB_avg": 0.4642857142857143
     },
     "HS840": {
         "Code": "HS840",
@@ -8226,7 +9222,9 @@ let courses =
         "Instructors": [
             " Kulkarni A Malhar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 5,
+        "AAAB_avg": 1.0
     },
     "HS845": {
         "Code": "HS845",
@@ -8239,7 +9237,9 @@ let courses =
         "Instructors": [
             " K. Ramasubramanian"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 20,
+        "AAAB_avg": 0.5
     },
     "HS852": {
         "Code": "HS852",
@@ -8278,7 +9278,9 @@ let courses =
         "Instructors": [
             " Naina Manjrekar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 15,
+        "AAAB_avg": 0.4666666666666667
     },
     "HS864": {
         "Code": "HS864",
@@ -8315,7 +9317,9 @@ let courses =
             " Vibhushan Subba",
             " Amrita Banerjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 132,
+        "AAAB_avg": 0.0
     },
     "HSS802": {
         "Code": "HSS802",
@@ -8325,7 +9329,9 @@ let courses =
         "Instructors": [
             " Rajkishore Nath"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 68,
+        "AAAB_avg": 0.8088235294117647
     },
     "DE102": {
         "Code": "DE102",
@@ -8336,7 +9342,9 @@ let courses =
             " Parag Vyas",
             " G.V.Sreekumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 140,
+        "AAAB_avg": 0.7357142857142858
     },
     "DE106": {
         "Code": "DE106",
@@ -8346,7 +9354,9 @@ let courses =
         "Instructors": [
             " G.V.Sreekumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 141,
+        "AAAB_avg": 0.7375886524822695
     },
     "DE107": {
         "Code": "DE107",
@@ -8356,7 +9366,9 @@ let courses =
         "Instructors": [
             " Sampurna Chattarji"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 98,
+        "AAAB_avg": 0.12244897959183673
     },
     "DE108": {
         "Code": "DE108",
@@ -8366,7 +9378,9 @@ let courses =
         "Instructors": [
             " Amitesh Sant Shrivastava"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 138,
+        "AAAB_avg": 0.26811594202898553
     },
     "DE109-S1": {
         "Code": "DE109-S1",
@@ -8379,7 +9393,9 @@ let courses =
         "Instructors": [
             " Swati Agarwal"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 453,
+        "AAAB_avg": 0.3841059602649007
     },
     "DE109-S2": {
         "Code": "DE109-S2",
@@ -8392,7 +9408,9 @@ let courses =
         "Instructors": [
             " Bapat V.P."
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 385,
+        "AAAB_avg": 0.4051948051948052
     },
     "DE110": {
         "Code": "DE110",
@@ -8402,7 +9420,9 @@ let courses =
         "Instructors": [
             " Mohanty Raja"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 40,
+        "AAAB_avg": 0.075
     },
     "DE112": {
         "Code": "DE112",
@@ -8443,7 +9463,9 @@ let courses =
             " Dhimant Vyas",
             " Avinash Shende"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 109,
+        "AAAB_avg": 0.3577981651376147
     },
     "DE129": {
         "Code": "DE129",
@@ -8453,7 +9475,9 @@ let courses =
         "Instructors": [
             " Latha Tummuru"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 16,
+        "AAAB_avg": 0.6875
     },
     "DE134": {
         "Code": "DE134",
@@ -8464,7 +9488,9 @@ let courses =
             " Prasad Bokil",
             " Poovaiah Ravi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 112,
+        "AAAB_avg": 0.3482142857142857
     },
     "DE136": {
         "Code": "DE136",
@@ -8487,7 +9513,9 @@ let courses =
             " Girish V. Dalvi",
             " G.V.Sreekumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 93,
+        "AAAB_avg": 0.3548387096774194
     },
     "DE204": {
         "Code": "DE204",
@@ -8497,7 +9525,9 @@ let courses =
         "Instructors": [
             " Dinesh Korjan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 41,
+        "AAAB_avg": 0.5609756097560976
     },
     "DE206": {
         "Code": "DE206",
@@ -8507,7 +9537,9 @@ let courses =
         "Instructors": [
             " Mandar S.Rane"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 133,
+        "AAAB_avg": 0.5714285714285714
     },
     "DE208": {
         "Code": "DE208",
@@ -8517,7 +9549,9 @@ let courses =
         "Instructors": [
             " Aditi Chitre"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 138,
+        "AAAB_avg": 0.5869565217391305
     },
     "DE210": {
         "Code": "DE210",
@@ -8527,7 +9561,9 @@ let courses =
         "Instructors": [
             " Amitesh Sant Shrivastava"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 108,
+        "AAAB_avg": 0.26851851851851855
     },
     "DE212": {
         "Code": "DE212",
@@ -8537,7 +9573,9 @@ let courses =
         "Instructors": [
             " Mohanty Raja"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 22,
+        "AAAB_avg": 0.2727272727272727
     },
     "DE214": {
         "Code": "DE214",
@@ -8547,7 +9585,9 @@ let courses =
         "Instructors": [
             " Sampurna Chattarji"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 5,
+        "AAAB_avg": 0.0
     },
     "DE216": {
         "Code": "DE216",
@@ -8584,7 +9624,9 @@ let courses =
             " B.K.Chakravarthy",
             " Shilpa Ranade"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 105,
+        "AAAB_avg": 0.5619047619047619
     },
     "DE232": {
         "Code": "DE232",
@@ -8595,7 +9637,9 @@ let courses =
             " Rasagy Sharma",
             " Vidhya Appu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 103,
+        "AAAB_avg": 0.33980582524271846
     },
     "DE250-S1": {
         "Code": "DE250-S1",
@@ -8713,7 +9757,9 @@ let courses =
         "Instructors": [
             " Purba Joshi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 46,
+        "AAAB_avg": 0.6304347826086957
     },
     "DE312": {
         "Code": "DE312",
@@ -8724,7 +9770,9 @@ let courses =
             " Unni Mohan Mohanan",
             " Sugandh Malhotra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 17,
+        "AAAB_avg": 0.17647058823529413
     },
     "DE313": {
         "Code": "DE313",
@@ -8734,7 +9782,9 @@ let courses =
         "Instructors": [
             " Shilpa Ranade"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 32,
+        "AAAB_avg": 0.625
     },
     "DE314": {
         "Code": "DE314",
@@ -8744,7 +9794,9 @@ let courses =
         "Instructors": [
             " Prasad Bokil"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 42,
+        "AAAB_avg": 0.4523809523809524
     },
     "DE315": {
         "Code": "DE315",
@@ -8764,7 +9816,9 @@ let courses =
         "Instructors": [
             " Joshi Anirudha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 29,
+        "AAAB_avg": 0.4827586206896552
     },
     "DE321": {
         "Code": "DE321",
@@ -8784,7 +9838,9 @@ let courses =
         "Instructors": [
             " Purba Joshi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 46,
+        "AAAB_avg": 0.6086956521739131
     },
     "DE323": {
         "Code": "DE323",
@@ -8804,7 +9860,9 @@ let courses =
         "Instructors": [
             " Jayesh S. Pillai"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 19,
+        "AAAB_avg": 0.47368421052631576
     },
     "DE326": {
         "Code": "DE326",
@@ -8825,7 +9883,9 @@ let courses =
             " Pankaj Jhunja",
             " Abhishek Verma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 123,
+        "AAAB_avg": 0.5528455284552846
     },
     "DE403-M": {
         "Code": "DE403-M",
@@ -8855,7 +9915,9 @@ let courses =
         "Instructors": [
             " P Kumaresan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 59,
+        "AAAB_avg": 0.7457627118644068
     },
     "DE604": {
         "Code": "DE604",
@@ -8866,7 +9928,9 @@ let courses =
             " Wricha Mishra",
             " Swati Pal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.5172413793103449
     },
     "DE606": {
         "Code": "DE606",
@@ -8876,7 +9940,9 @@ let courses =
         "Instructors": [
             " P Kumaresan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 59,
+        "AAAB_avg": 0.7796610169491526
     },
     "DE608": {
         "Code": "DE608",
@@ -8886,7 +9952,9 @@ let courses =
         "Instructors": [
             " R. Sandesh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 45,
+        "AAAB_avg": 0.7555555555555555
     },
     "DE612": {
         "Code": "DE612",
@@ -8896,7 +9964,9 @@ let courses =
         "Instructors": [
             " Poovaiah Ravi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 272,
+        "AAAB_avg": 0.34191176470588236
     },
     "DE614": {
         "Code": "DE614",
@@ -8906,7 +9976,9 @@ let courses =
         "Instructors": [
             " G.V.Sreekumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 268,
+        "AAAB_avg": 0.6753731343283582
     },
     "DE616": {
         "Code": "DE616",
@@ -8916,7 +9988,9 @@ let courses =
         "Instructors": [
             " Girish V. Dalvi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 61,
+        "AAAB_avg": 0.32786885245901637
     },
     "DE618": {
         "Code": "DE618",
@@ -8926,7 +10000,9 @@ let courses =
         "Instructors": [
             " Mandar S.Rane"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 102,
+        "AAAB_avg": 0.7058823529411765
     },
     "DE624": {
         "Code": "DE624",
@@ -8936,7 +10012,9 @@ let courses =
         "Instructors": [
             " Sudesh Balan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 105,
+        "AAAB_avg": 0.7904761904761904
     },
     "DE626": {
         "Code": "DE626",
@@ -8947,7 +10025,9 @@ let courses =
             " Wricha Mishra",
             " Swati Pal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.5454545454545454
     },
     "DE628": {
         "Code": "DE628",
@@ -8958,7 +10038,9 @@ let courses =
             " Sudhir Ram Bhatia",
             " Jayesh S. Pillai"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 46,
+        "AAAB_avg": 0.8478260869565217
     },
     "DE632": {
         "Code": "DE632",
@@ -8968,7 +10050,9 @@ let courses =
         "Instructors": [
             " Sumant Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 47,
+        "AAAB_avg": 0.5106382978723404
     },
     "DE634": {
         "Code": "DE634",
@@ -8978,7 +10062,9 @@ let courses =
         "Instructors": [
             " Sumant Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 47,
+        "AAAB_avg": 0.44680851063829785
     },
     "DE636": {
         "Code": "DE636",
@@ -8988,7 +10074,9 @@ let courses =
         "Instructors": [
             " Abhishek Verma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 47,
+        "AAAB_avg": 0.46808510638297873
     },
     "DE638": {
         "Code": "DE638",
@@ -8999,7 +10087,9 @@ let courses =
             " Prosenjit Ganguly",
             " Swati Agarwal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 47,
+        "AAAB_avg": 0.574468085106383
     },
     "DE640": {
         "Code": "DE640",
@@ -9010,7 +10100,9 @@ let courses =
             " Abhishek Verma",
             " Swati Agarwal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 35,
+        "AAAB_avg": 0.5142857142857142
     },
     "DE642": {
         "Code": "DE642",
@@ -9021,7 +10113,9 @@ let courses =
             " Somnath Pal",
             " Shyam Subhashrao Wanare"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 48,
+        "AAAB_avg": 0.625
     },
     "DE644": {
         "Code": "DE644",
@@ -9031,7 +10125,9 @@ let courses =
         "Instructors": [
             " Mandar S.Rane"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.8409090909090909
     },
     "DE646": {
         "Code": "DE646",
@@ -9041,7 +10137,9 @@ let courses =
         "Instructors": [
             " Sugandh Malhotra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.5
     },
     "DE648": {
         "Code": "DE648",
@@ -9052,7 +10150,9 @@ let courses =
             " Unni Mohan Mohanan",
             " Sugandh Malhotra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 32,
+        "AAAB_avg": 0.53125
     },
     "DE650": {
         "Code": "DE650",
@@ -9062,7 +10162,9 @@ let courses =
         "Instructors": [
             " Unni Mohan Mohanan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 45,
+        "AAAB_avg": 0.7111111111111111
     },
     "DE652": {
         "Code": "DE652",
@@ -9073,7 +10175,9 @@ let courses =
             " Sridhar Mahadevan",
             " Sugandh Malhotra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 34,
+        "AAAB_avg": 0.6764705882352942
     },
     "DE654": {
         "Code": "DE654",
@@ -9083,7 +10187,9 @@ let courses =
         "Instructors": [
             " P Kumaresan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.9655172413793104
     },
     "DE656": {
         "Code": "DE656",
@@ -9093,7 +10199,9 @@ let courses =
         "Instructors": [
             " Unni Mohan Mohanan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.6363636363636364
     },
     "DE660": {
         "Code": "DE660",
@@ -9103,7 +10211,9 @@ let courses =
         "Instructors": [
             " Aditi Chitre"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 57,
+        "AAAB_avg": 0.5789473684210527
     },
     "DE666": {
         "Code": "DE666",
@@ -9113,7 +10223,9 @@ let courses =
         "Instructors": [
             " R. Sandesh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 22,
+        "AAAB_avg": 0.8181818181818182
     },
     "DE676": {
         "Code": "DE676",
@@ -9123,7 +10235,9 @@ let courses =
         "Instructors": [
             " Sugandh Malhotra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.36363636363636365
     },
     "DE680": {
         "Code": "DE680",
@@ -9133,7 +10247,9 @@ let courses =
         "Instructors": [
             " Avinash Shende"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 46,
+        "AAAB_avg": 0.782608695652174
     },
     "DE683": {
         "Code": "DE683",
@@ -9144,7 +10260,9 @@ let courses =
             " Sugandh Malhotra",
             " Lalit Kumar Das"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 24,
+        "AAAB_avg": 0.9166666666666666
     },
     "DE686": {
         "Code": "DE686",
@@ -9154,7 +10272,9 @@ let courses =
         "Instructors": [
             " Arun Mascarenhas"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 6,
+        "AAAB_avg": 0.16666666666666666
     },
     "DE687": {
         "Code": "DE687",
@@ -9165,7 +10285,9 @@ let courses =
             " Jayesh S. Pillai",
             " Mandar S.Rane"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 158,
+        "AAAB_avg": 0.7341772151898734
     },
     "DE712": {
         "Code": "DE712",
@@ -9185,7 +10307,9 @@ let courses =
         "Instructors": [
             " Pramod Khambete"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 99,
+        "AAAB_avg": 0.4444444444444444
     },
     "DE725": {
         "Code": "DE725",
@@ -9195,7 +10319,9 @@ let courses =
         "Instructors": [
             " Prasad Bokil"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 16,
+        "AAAB_avg": 0.8125
     },
     "DE803": {
         "Code": "DE803",
@@ -9206,7 +10332,9 @@ let courses =
             " Joshi Anirudha",
             " Girish V. Dalvi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 110,
+        "AAAB_avg": 0.38181818181818183
     },
     "DEP302": {
         "Code": "DEP302",
@@ -9217,7 +10345,9 @@ let courses =
             " Poovaiah Ravi",
             " Dinesh Korjan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 97,
+        "AAAB_avg": 0.6597938144329897
     },
     "DEP403": {
         "Code": "DEP403",
@@ -9228,7 +10358,9 @@ let courses =
             " Jayesh S. Pillai",
             " Mandar S.Rane"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 135,
+        "AAAB_avg": 0.37777777777777777
     },
     "DEP406": {
         "Code": "DEP406",
@@ -9239,7 +10371,9 @@ let courses =
             " Bharat Chhitubhai Parmar",
             " Avinash Shende"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 82,
+        "AAAB_avg": 0.3780487804878049
     },
     "DEP408": {
         "Code": "DEP408",
@@ -9272,7 +10406,9 @@ let courses =
             " Jayesh S. Pillai",
             " Mandar S.Rane"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 34,
+        "AAAB_avg": 0.4411764705882353
     },
     "DEP504": {
         "Code": "DEP504",
@@ -9286,7 +10422,9 @@ let courses =
             " Sumant Rao",
             " Mazhar Kamran"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 32,
+        "AAAB_avg": 0.53125
     },
     "DEP602": {
         "Code": "DEP602",
@@ -9296,7 +10434,9 @@ let courses =
         "Instructors": [
             " Mazhar Kamran"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 61,
+        "AAAB_avg": 0.819672131147541
     },
     "DEP703": {
         "Code": "DEP703",
@@ -9310,7 +10450,9 @@ let courses =
             " Sumant Rao",
             " R. Sandesh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 259,
+        "AAAB_avg": 0.5752895752895753
     },
     "DEP706": {
         "Code": "DEP706",
@@ -9321,7 +10463,9 @@ let courses =
             " Jayesh S. Pillai",
             " Mandar S.Rane"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 107,
+        "AAAB_avg": 0.48598130841121495
     },
     "IE504": {
         "Code": "IE504",
@@ -9334,7 +10478,9 @@ let courses =
         "Instructors": [
             " Rangaraj Narayan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 163,
+        "AAAB_avg": 0.37423312883435583
     },
     "IE504-M": {
         "Code": "IE504-M",
@@ -9347,7 +10493,9 @@ let courses =
         "Instructors": [
             " Rangaraj Narayan"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 35,
+        "AAAB_avg": 0.34285714285714286
     },
     "IE506": {
         "Code": "IE506",
@@ -9360,7 +10508,9 @@ let courses =
         "Instructors": [
             " P. Balamurugan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 115,
+        "AAAB_avg": 0.06086956521739131
     },
     "IE607": {
         "Code": "IE607",
@@ -9386,7 +10536,9 @@ let courses =
         "Instructors": [
             " K.S.Mallikarjuna Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 68,
+        "AAAB_avg": 0.5
     },
     "IE614": {
         "Code": "IE614",
@@ -9399,7 +10551,9 @@ let courses =
         "Instructors": [
             " Veeraruna Kavitha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 120,
+        "AAAB_avg": 0.31666666666666665
     },
     "IE616": {
         "Code": "IE616",
@@ -9413,7 +10567,9 @@ let courses =
             " Veeraruna Kavitha",
             " Urban Larsson"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 240,
+        "AAAB_avg": 0.1875
     },
     "IE616-M": {
         "Code": "IE616-M",
@@ -9427,7 +10583,9 @@ let courses =
             " Veeraruna Kavitha",
             " Urban Larsson"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 120,
+        "AAAB_avg": 0.24166666666666667
     },
     "IE620": {
         "Code": "IE620",
@@ -9467,7 +10625,9 @@ let courses =
         "Instructors": [
             " N. Hemachandra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 75,
+        "AAAB_avg": 0.22666666666666666
     },
     "IE622-M": {
         "Code": "IE622-M",
@@ -9481,7 +10641,9 @@ let courses =
         "Instructors": [
             " N. Hemachandra"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 13,
+        "AAAB_avg": 0.23076923076923078
     },
     "IE630": {
         "Code": "IE630",
@@ -9494,7 +10656,9 @@ let courses =
         "Instructors": [
             " J. Venkateswaran"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 159,
+        "AAAB_avg": 0.33962264150943394
     },
     "IE630-M": {
         "Code": "IE630-M",
@@ -9507,7 +10671,9 @@ let courses =
         "Instructors": [
             " J. Venkateswaran"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 66,
+        "AAAB_avg": 0.18181818181818182
     },
     "IE684": {
         "Code": "IE684",
@@ -9519,7 +10685,9 @@ let courses =
         "Instructors": [
             " Manjesh K. Hanawal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 144,
+        "AAAB_avg": 0.7013888888888888
     },
     "IE686": {
         "Code": "IE686",
@@ -9529,7 +10697,9 @@ let courses =
         "Instructors": [
             " Manjesh K. Hanawal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 11,
+        "AAAB_avg": 0.5454545454545454
     },
     "IE688": {
         "Code": "IE688",
@@ -9539,7 +10709,9 @@ let courses =
         "Instructors": [
             " P. Balamurugan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 22,
+        "AAAB_avg": 0.6818181818181818
     },
     "IE694": {
         "Code": "IE694",
@@ -9549,7 +10721,9 @@ let courses =
         "Instructors": [
             " P. Balamurugan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 108,
+        "AAAB_avg": 0.39814814814814814
     },
     "IE709": {
         "Code": "IE709",
@@ -9563,7 +10737,9 @@ let courses =
         "Instructors": [
             " Ashutosh Mahajan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 64,
+        "AAAB_avg": 0.390625
     },
     "IE709-M": {
         "Code": "IE709-M",
@@ -9577,7 +10753,9 @@ let courses =
         "Instructors": [
             " Ashutosh Mahajan"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 10,
+        "AAAB_avg": 0.2
     },
     "IE710": {
         "Code": "IE710",
@@ -9590,7 +10768,9 @@ let courses =
         "Instructors": [
             " Rangaraj Narayan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 26,
+        "AAAB_avg": 0.38461538461538464
     },
     "IE798": {
         "Code": "IE798",
@@ -9613,7 +10793,9 @@ let courses =
         "Instructors": [
             " P. Balamurugan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 92,
+        "AAAB_avg": 0.0
     },
     "IES601": {
         "Code": "IES601",
@@ -9623,7 +10805,9 @@ let courses =
         "Instructors": [
             " V. Narayanan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 53,
+        "AAAB_avg": 0.4339622641509434
     },
     "IES802": {
         "Code": "IES802",
@@ -9633,7 +10817,9 @@ let courses =
         "Instructors": [
             " Ashutosh Mahajan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 4,
+        "AAAB_avg": 0.5
     },
     "MA106-D1": {
         "Code": "MA106-D1",
@@ -9896,7 +11082,9 @@ let courses =
             " ",
             " Sudarshan Rajendra Gurjar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 1495,
+        "AAAB_avg": 0.23411371237458195
     },
     "MA214": {
         "Code": "MA214",
@@ -9909,7 +11097,9 @@ let courses =
         "Instructors": [
             " Sudarshan Gurjar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 2,
+        "AAAB_avg": 0.0
     },
     "MA406": {
         "Code": "MA406",
@@ -9922,7 +11112,9 @@ let courses =
         "Instructors": [
             " Chandan Biswas"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 169,
+        "AAAB_avg": 0.28994082840236685
     },
     "MA408": {
         "Code": "MA408",
@@ -9936,7 +11128,9 @@ let courses =
         "Instructors": [
             " Mallesham Kummari"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 181,
+        "AAAB_avg": 0.20994475138121546
     },
     "MA408-tut": {
         "Code": "MA408-tut",
@@ -9948,7 +11142,9 @@ let courses =
         "Instructors": [
             " Mallesham Kummari"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 182,
+        "AAAB_avg": 0.21428571428571427
     },
     "MA410": {
         "Code": "MA410",
@@ -9961,7 +11157,9 @@ let courses =
         "Instructors": [
             " Preeti Raman"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 177,
+        "AAAB_avg": 0.3446327683615819
     },
     "MA412-tut": {
         "Code": "MA412-tut",
@@ -9974,7 +11172,9 @@ let courses =
             " ",
             " Shripad Manoharrao Garge"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 224,
+        "AAAB_avg": 0.35714285714285715
     },
     "MA412": {
         "Code": "MA412",
@@ -9988,7 +11188,9 @@ let courses =
         "Instructors": [
             " Garge Shripad M."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 196,
+        "AAAB_avg": 0.35714285714285715
     },
     "MA412-M-tut": {
         "Code": "MA412-M-tut",
@@ -10001,7 +11203,9 @@ let courses =
             "  ",
             " Sandip  Singh"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 224,
+        "AAAB_avg": 0.35714285714285715
     },
     "MA412-M": {
         "Code": "MA412-M",
@@ -10014,7 +11218,9 @@ let courses =
         "Instructors": [
             " Sandip Singh"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 28,
+        "AAAB_avg": 0.35714285714285715
     },
     "MA414": {
         "Code": "MA414",
@@ -10027,7 +11233,9 @@ let courses =
         "Instructors": [
             " Saurav Bhaumik"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 171,
+        "AAAB_avg": 0.0935672514619883
     },
     "MA414-tut": {
         "Code": "MA414-tut",
@@ -10039,7 +11247,9 @@ let courses =
         "Instructors": [
             " Saurav Bhaumik"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 171,
+        "AAAB_avg": 0.0935672514619883
     },
     "MA504": {
         "Code": "MA504",
@@ -10052,7 +11262,9 @@ let courses =
         "Instructors": [
             " Bata K. Das"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 52,
+        "AAAB_avg": 0.28846153846153844
     },
     "MA510": {
         "Code": "MA510",
@@ -10065,7 +11277,9 @@ let courses =
         "Instructors": [
             " Manoj Kumar keshari"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 16,
+        "AAAB_avg": 0.5625
     },
     "MA5104": {
         "Code": "MA5104",
@@ -10079,7 +11293,9 @@ let courses =
         "Instructors": [
             " Sivaji Ganesh S."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 14,
+        "AAAB_avg": 0.5714285714285714
     },
     "MA5106": {
         "Code": "MA5106",
@@ -10092,7 +11308,9 @@ let courses =
         "Instructors": [
             " Saikat Mazumdar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 67,
+        "AAAB_avg": 0.1791044776119403
     },
     "MA5106-M": {
         "Code": "MA5106-M",
@@ -10105,7 +11323,9 @@ let courses =
         "Instructors": [
             " Saikat Mazumdar"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 12,
+        "AAAB_avg": 0.16666666666666666
     },
     "MA5108": {
         "Code": "MA5108",
@@ -10118,7 +11338,9 @@ let courses =
         "Instructors": [
             " G. K. Srinivasan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 28,
+        "AAAB_avg": 0.4642857142857143
     },
     "MA5110": {
         "Code": "MA5110",
@@ -10131,7 +11353,9 @@ let courses =
         "Instructors": [
             " Garge Shripad M."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 10,
+        "AAAB_avg": 0.2
     },
     "MA5116": {
         "Code": "MA5116",
@@ -10158,7 +11382,9 @@ let courses =
         "Instructors": [
             " Verma J.K."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 41,
+        "AAAB_avg": 0.5121951219512195
     },
     "MA534": {
         "Code": "MA534",
@@ -10171,7 +11397,9 @@ let courses =
         "Instructors": [
             " Debanjana Mitra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 31,
+        "AAAB_avg": 0.4838709677419355
     },
     "MA562": {
         "Code": "MA562",
@@ -10197,7 +11425,9 @@ let courses =
         "Instructors": [
             " Ronnie M. Sebastain"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 25,
+        "AAAB_avg": 0.6
     },
     "MA814": {
         "Code": "MA814",
@@ -10210,7 +11440,9 @@ let courses =
         "Instructors": [
             " Prachi Mahajan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 25,
+        "AAAB_avg": 0.68
     },
     "MA816": {
         "Code": "MA816",
@@ -10223,7 +11455,9 @@ let courses =
         "Instructors": [
             " Dipendra Prasad"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 29,
+        "AAAB_avg": 0.5172413793103449
     },
     "MA818": {
         "Code": "MA818",
@@ -10236,7 +11470,9 @@ let courses =
         "Instructors": [
             " Mayukh Mukherjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 3,
+        "AAAB_avg": 0.6666666666666666
     },
     "MA824": {
         "Code": "MA824",
@@ -10249,7 +11485,9 @@ let courses =
         "Instructors": [
             " Sanjoy Pusti"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 34,
+        "AAAB_avg": 0.5882352941176471
     },
     "MA842": {
         "Code": "MA842",
@@ -10262,7 +11500,9 @@ let courses =
         "Instructors": [
             " Ananthnarayan Hariharan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 17,
+        "AAAB_avg": 1.0
     },
     "MA846": {
         "Code": "MA846",
@@ -10301,7 +11541,9 @@ let courses =
         "Instructors": [
             " Niranjan Balachandran"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 23,
+        "AAAB_avg": 0.5217391304347826
     },
     "MA867": {
         "Code": "MA867",
@@ -10314,7 +11556,9 @@ let courses =
         "Instructors": [
             " Radhendushka Srivastava"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 9,
+        "AAAB_avg": 0.7777777777777778
     },
     "SI404": {
         "Code": "SI404",
@@ -10328,7 +11572,9 @@ let courses =
         "Instructors": [
             " Koushik Saha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 161,
+        "AAAB_avg": 0.2360248447204969
     },
     "SI404-tut": {
         "Code": "SI404-tut",
@@ -10340,7 +11586,9 @@ let courses =
         "Instructors": [
             " Koushik Saha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 180,
+        "AAAB_avg": 0.2833333333333333
     },
     "SI416": {
         "Code": "SI416",
@@ -10354,7 +11602,9 @@ let courses =
         "Instructors": [
             " Harsha Hutridurga Ramaiah"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 267,
+        "AAAB_avg": 0.23220973782771537
     },
     "SI422": {
         "Code": "SI422",
@@ -10367,7 +11617,9 @@ let courses =
         "Instructors": [
             " S. Mukhopadhyay"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 146,
+        "AAAB_avg": 0.23972602739726026
     },
     "SI422-tut": {
         "Code": "SI422-tut",
@@ -10379,7 +11631,9 @@ let courses =
         "Instructors": [
             " S. Mukhopadhyay"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 194,
+        "AAAB_avg": 0.29896907216494845
     },
     "SI422-M": {
         "Code": "SI422-M",
@@ -10392,7 +11646,9 @@ let courses =
         "Instructors": [
             " S. Mukhopadhyay"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 48,
+        "AAAB_avg": 0.4791666666666667
     },
     "SI424-tut": {
         "Code": "SI424-tut",
@@ -10404,7 +11660,9 @@ let courses =
         "Instructors": [
             " Vellaisamy P."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 101,
+        "AAAB_avg": 0.18811881188118812
     },
     "SI424": {
         "Code": "SI424",
@@ -10417,7 +11675,9 @@ let courses =
         "Instructors": [
             " Vellaisamy P."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 78,
+        "AAAB_avg": 0.14102564102564102
     },
     "SI426": {
         "Code": "SI426",
@@ -10430,7 +11690,9 @@ let courses =
         "Instructors": [
             " Madhusudan Manjunath"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 86,
+        "AAAB_avg": 0.19767441860465115
     },
     "SI426-tut": {
         "Code": "SI426-tut",
@@ -10442,7 +11704,9 @@ let courses =
         "Instructors": [
             " Madhusudan Manjunath"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 86,
+        "AAAB_avg": 0.19767441860465115
     },
     "SI509-tut": {
         "Code": "SI509-tut",
@@ -10454,7 +11718,9 @@ let courses =
         "Instructors": [
             " "
         ],
-        "Division": ""
+        "Division": "",
+        "total": 132,
+        "AAAB_avg": 0.1893939393939394
     },
     "SI509": {
         "Code": "SI509",
@@ -10467,7 +11733,9 @@ let courses =
         "Instructors": [
             " Sabnis S.V."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 131,
+        "AAAB_avg": 0.19083969465648856
     },
     "SI526": {
         "Code": "SI526",
@@ -10481,7 +11749,9 @@ let courses =
         "Instructors": [
             " Ashish Das"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 128,
+        "AAAB_avg": 0.734375
     },
     "SI527": {
         "Code": "SI527",
@@ -10494,7 +11764,9 @@ let courses =
         "Instructors": [
             " S.Baskar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 120,
+        "AAAB_avg": 0.175
     },
     "SI527-M": {
         "Code": "SI527-M",
@@ -10507,7 +11779,9 @@ let courses =
         "Instructors": [
             " S.Baskar"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 43,
+        "AAAB_avg": 0.3488372093023256
     },
     "SI534": {
         "Code": "SI534",
@@ -10520,7 +11794,9 @@ let courses =
         "Instructors": [
             " Ayan Bhattacharya"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 127,
+        "AAAB_avg": 0.5039370078740157
     },
     "SI539": {
         "Code": "SI539",
@@ -10549,7 +11825,9 @@ let courses =
             " S. Mukhopadhyay",
             " Sabnis S.V."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 37,
+        "AAAB_avg": 0.40540540540540543
     },
     "SI546": {
         "Code": "SI546",
@@ -10576,7 +11854,9 @@ let courses =
         "Instructors": [
             " Nitesh Yelve"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 121,
+        "AAAB_avg": 0.4297520661157025
     },
     "ME104-S2": {
         "Code": "ME104-S2",
@@ -10590,7 +11870,9 @@ let courses =
         "Instructors": [
             " Parag Tandaiya"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 77,
+        "AAAB_avg": 0.4025974025974026
     },
     "ME213-S1": {
         "Code": "ME213-S1",
@@ -10602,7 +11884,9 @@ let courses =
         "Instructors": [
             " Amber Shrivastava"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 98,
+        "AAAB_avg": 0.9795918367346939
     },
     "ME213-S2": {
         "Code": "ME213-S2",
@@ -10614,7 +11898,9 @@ let courses =
         "Instructors": [
             " Amber Shrivastava"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 120,
+        "AAAB_avg": 0.9916666666666667
     },
     "ME213-S3": {
         "Code": "ME213-S3",
@@ -10626,7 +11912,9 @@ let courses =
         "Instructors": [
             " Amber Shrivastava"
         ],
-        "Division": "S3"
+        "Division": "S3",
+        "total": 130,
+        "AAAB_avg": 0.9923076923076923
     },
     "ME219-S1": {
         "Code": "ME219-S1",
@@ -10640,7 +11928,9 @@ let courses =
         "Instructors": [
             " Neeraj Kumbhakarna"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 300,
+        "AAAB_avg": 0.34
     },
     "ME219-S2": {
         "Code": "ME219-S2",
@@ -10654,7 +11944,9 @@ let courses =
         "Instructors": [
             " Avishek Ranjan"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 306,
+        "AAAB_avg": 0.35947712418300654
     },
     "ME219-S3": {
         "Code": "ME219-S3",
@@ -10668,7 +11960,9 @@ let courses =
         "Instructors": [
             " Shivasubramanian Gopalakrishnan"
         ],
-        "Division": "S3"
+        "Division": "S3",
+        "total": 204,
+        "AAAB_avg": 0.31862745098039214
     },
     "ME224-S1": {
         "Code": "ME224-S1",
@@ -10682,7 +11976,9 @@ let courses =
             " Shivasubramanian Gopalakrishnan",
             " Neeraj Kumbhakarna"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 94,
+        "AAAB_avg": 0.010638297872340425
     },
     "ME224-S2": {
         "Code": "ME224-S2",
@@ -10696,7 +11992,9 @@ let courses =
             " Shivasubramanian Gopalakrishnan",
             " Neeraj Kumbhakarna"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 159,
+        "AAAB_avg": 0.4716981132075472
     },
     "ME224-S3": {
         "Code": "ME224-S3",
@@ -10710,7 +12008,9 @@ let courses =
             " Shivasubramanian Gopalakrishnan",
             " Neeraj Kumbhakarna"
         ],
-        "Division": "S3"
+        "Division": "S3",
+        "total": 51,
+        "AAAB_avg": 0.8235294117647058
     },
     "ME226": {
         "Code": "ME226",
@@ -10724,7 +12024,9 @@ let courses =
         "Instructors": [
             " Amit Agrawal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 640,
+        "AAAB_avg": 0.275
     },
     "ME228-S1": {
         "Code": "ME228-S1",
@@ -10862,7 +12164,9 @@ let courses =
         "Instructors": [
             " M.D.Atrey"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 146,
+        "AAAB_avg": 0.1506849315068493
     },
     "ME306-S2": {
         "Code": "ME306-S2",
@@ -10876,7 +12180,9 @@ let courses =
         "Instructors": [
             " Upendra Bhandarkar"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 152,
+        "AAAB_avg": 0.17763157894736842
     },
     "ME306-S3": {
         "Code": "ME306-S3",
@@ -10890,7 +12196,9 @@ let courses =
         "Instructors": [
             " Shankar Krishnan"
         ],
-        "Division": "S3"
+        "Division": "S3",
+        "total": 77,
+        "AAAB_avg": 0.2727272727272727
     },
     "ME310-S1": {
         "Code": "ME310-S1",
@@ -10902,7 +12210,9 @@ let courses =
         "Instructors": [
             " Gandhi Prasanna S."
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 229,
+        "AAAB_avg": 0.8078602620087336
     },
     "ME310-S2": {
         "Code": "ME310-S2",
@@ -10915,7 +12225,9 @@ let courses =
             " Abhishek Gupta",
             " Vivek Sangwan"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 134,
+        "AAAB_avg": 0.7388059701492538
     },
     "ME310-S3": {
         "Code": "ME310-S3",
@@ -10927,7 +12239,9 @@ let courses =
         "Instructors": [
             " Gandhi Prasanna S."
         ],
-        "Division": "S3"
+        "Division": "S3",
+        "total": 103,
+        "AAAB_avg": 0.6310679611650486
     },
     "ME310-S4": {
         "Code": "ME310-S4",
@@ -10940,7 +12254,9 @@ let courses =
             " Abhishek Gupta",
             " Vivek Sangwan"
         ],
-        "Division": "S4"
+        "Division": "S4",
+        "total": 102,
+        "AAAB_avg": 0.7352941176470589
     },
     "ME312": {
         "Code": "ME312",
@@ -10963,7 +12279,9 @@ let courses =
         "Instructors": [
             " Nitesh Yelve"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 48,
+        "AAAB_avg": 0.8958333333333334
     },
     "ME316-M": {
         "Code": "ME316-M",
@@ -10977,7 +12295,9 @@ let courses =
         "Instructors": [
             " Abhishek Gupta"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 6,
+        "AAAB_avg": 0.16666666666666666
     },
     "ME316-S1": {
         "Code": "ME316-S1",
@@ -10991,7 +12311,9 @@ let courses =
         "Instructors": [
             " Tanmay K. Bhandakkar"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 207,
+        "AAAB_avg": 0.24154589371980675
     },
     "ME316-S2": {
         "Code": "ME316-S2",
@@ -11005,7 +12327,9 @@ let courses =
         "Instructors": [
             " Abhishek Gupta"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 142,
+        "AAAB_avg": 0.24647887323943662
     },
     "ME370-S1": {
         "Code": "ME370-S1",
@@ -11018,7 +12342,9 @@ let courses =
             " Guha Anirban",
             " Salil Kulkarni"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 160,
+        "AAAB_avg": 0.79375
     },
     "ME370-S2": {
         "Code": "ME370-S2",
@@ -11030,7 +12356,9 @@ let courses =
         "Instructors": [
             " Guha Anirban"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 164,
+        "AAAB_avg": 0.7682926829268293
     },
     "ME372-S1": {
         "Code": "ME372-S1",
@@ -11047,7 +12375,9 @@ let courses =
             " Vedula R.P.",
             " Bhalchandra Puranik"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 308,
+        "AAAB_avg": 0.7305194805194806
     },
     "ME372-S2": {
         "Code": "ME372-S2",
@@ -11064,7 +12394,9 @@ let courses =
             " Vedula R.P.",
             " Bhalchandra Puranik"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 268,
+        "AAAB_avg": 0.6753731343283582
     },
     "ME412": {
         "Code": "ME412",
@@ -11077,7 +12409,9 @@ let courses =
         "Instructors": [
             " Janani S. Murallidharan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 65,
+        "AAAB_avg": 0.5384615384615384
     },
     "ME415": {
         "Code": "ME415",
@@ -11090,7 +12424,9 @@ let courses =
         "Instructors": [
             " Sharma Atul"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 190,
+        "AAAB_avg": 0.4473684210526316
     },
     "ME420": {
         "Code": "ME420",
@@ -11103,7 +12439,9 @@ let courses =
         "Instructors": [
             " M.D.Atrey"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 15,
+        "AAAB_avg": 0.5333333333333333
     },
     "ME496": {
         "Code": "ME496",
@@ -11113,7 +12451,9 @@ let courses =
         "Instructors": [
             " Nitesh Yelve"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 50,
+        "AAAB_avg": 0.92
     },
     "ME594": {
         "Code": "ME594",
@@ -11123,7 +12463,9 @@ let courses =
         "Instructors": [
             " Nitesh Yelve"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 1,
+        "AAAB_avg": 0.0
     },
     "ME6103": {
         "Code": "ME6103",
@@ -11150,7 +12492,9 @@ let courses =
         "Instructors": [
             " Salil Kulkarni"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 24,
+        "AAAB_avg": 0.3333333333333333
     },
     "ME6114": {
         "Code": "ME6114",
@@ -11163,7 +12507,9 @@ let courses =
         "Instructors": [
             " Darshan Sunil Shah"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 191,
+        "AAAB_avg": 0.47643979057591623
     },
     "ME6118": {
         "Code": "ME6118",
@@ -11176,7 +12522,9 @@ let courses =
         "Instructors": [
             " Abhijeet Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 7,
+        "AAAB_avg": 0.5714285714285714
     },
     "ME613": {
         "Code": "ME613",
@@ -11189,7 +12537,9 @@ let courses =
         "Instructors": [
             " R. Ganesh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 102,
+        "AAAB_avg": 0.38235294117647056
     },
     "ME616": {
         "Code": "ME616",
@@ -11202,7 +12552,9 @@ let courses =
         "Instructors": [
             " Krishna Jonnalagadda"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 91,
+        "AAAB_avg": 0.3076923076923077
     },
     "ME639": {
         "Code": "ME639",
@@ -11215,7 +12567,9 @@ let courses =
         "Instructors": [
             " Vivek Sangwan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 33,
+        "AAAB_avg": 0.5757575757575758
     },
     "ME643": {
         "Code": "ME643",
@@ -11231,7 +12585,9 @@ let courses =
             " Sushil Mishra",
             " Asim Tewari"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 79,
+        "AAAB_avg": 0.6962025316455697
     },
     "ME651": {
         "Code": "ME651",
@@ -11244,7 +12600,9 @@ let courses =
         "Instructors": [
             " Bhalchandra Puranik"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 588,
+        "AAAB_avg": 0.2976190476190476
     },
     "ME657": {
         "Code": "ME657",
@@ -11263,7 +12621,9 @@ let courses =
             " Amit Agrawal",
             " Rane Milind"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 96,
+        "AAAB_avg": 0.4375
     },
     "ME663": {
         "Code": "ME663",
@@ -11277,7 +12637,9 @@ let courses =
         "Instructors": [
             " Arunkumar Sridharan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 373,
+        "AAAB_avg": 0.3404825737265416
     },
     "ME673": {
         "Code": "ME673",
@@ -11290,7 +12652,9 @@ let courses =
         "Instructors": [
             " Vedula R.P."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 651,
+        "AAAB_avg": 0.3225806451612903
     },
     "ME677": {
         "Code": "ME677",
@@ -11303,7 +12667,9 @@ let courses =
         "Instructors": [
             " Deepak Marla"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 43,
+        "AAAB_avg": 0.3488372093023256
     },
     "ME678": {
         "Code": "ME678",
@@ -11330,7 +12696,9 @@ let courses =
         "Instructors": [
             " M.D.Atrey"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 82,
+        "AAAB_avg": 0.4268292682926829
     },
     "ME684": {
         "Code": "ME684",
@@ -11343,7 +12711,9 @@ let courses =
         "Instructors": [
             " Rane Milind"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 71,
+        "AAAB_avg": 0.4084507042253521
     },
     "ME691": {
         "Code": "ME691",
@@ -11353,7 +12723,9 @@ let courses =
         "Instructors": [
             " Nitesh Yelve"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 4,
+        "AAAB_avg": 1.0
     },
     "ME712": {
         "Code": "ME712",
@@ -11367,7 +12739,9 @@ let courses =
         "Instructors": [
             " Pande S.S."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 170,
+        "AAAB_avg": 0.5411764705882353
     },
     "ME730": {
         "Code": "ME730",
@@ -11380,7 +12754,9 @@ let courses =
         "Instructors": [
             " Rakesh G. Mote"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 52,
+        "AAAB_avg": 0.4423076923076923
     },
     "ME748": {
         "Code": "ME748",
@@ -11393,7 +12769,9 @@ let courses =
         "Instructors": [
             " Guha Anirban"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 259,
+        "AAAB_avg": 0.37065637065637064
     },
     "ME750": {
         "Code": "ME750",
@@ -11406,7 +12784,9 @@ let courses =
         "Instructors": [
             " Sushil Mishra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 8,
+        "AAAB_avg": 0.25
     },
     "ME754": {
         "Code": "ME754",
@@ -11419,7 +12799,9 @@ let courses =
         "Instructors": [
             " Guha Anirban"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 271,
+        "AAAB_avg": 0.28413284132841327
     },
     "ME761": {
         "Code": "ME761",
@@ -11432,7 +12814,9 @@ let courses =
         "Instructors": [
             " Asim Tewari"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.3620689655172414
     },
     "ME762": {
         "Code": "ME762",
@@ -11445,7 +12829,9 @@ let courses =
         "Instructors": [
             " V. Kartik"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 38,
+        "AAAB_avg": 0.47368421052631576
     },
     "ME768": {
         "Code": "ME768",
@@ -11458,7 +12844,9 @@ let courses =
         "Instructors": [
             " Pradeep Dixit"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 6,
+        "AAAB_avg": 0.8333333333333334
     },
     "ME769": {
         "Code": "ME769",
@@ -11472,7 +12860,9 @@ let courses =
         "Instructors": [
             " Sreedhara Sheshadri"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 122,
+        "AAAB_avg": 0.3360655737704918
     },
     "ME772": {
         "Code": "ME772",
@@ -11485,7 +12875,9 @@ let courses =
         "Instructors": [
             " Amol A. Gokhale"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 99,
+        "AAAB_avg": 0.40404040404040403
     },
     "ME779": {
         "Code": "ME779",
@@ -11498,7 +12890,9 @@ let courses =
         "Instructors": [
             " Manik Dhanesh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 29,
+        "AAAB_avg": 0.3448275862068966
     },
     "ME790": {
         "Code": "ME790",
@@ -11511,7 +12905,9 @@ let courses =
         "Instructors": [
             " Ankit Jain"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 48,
+        "AAAB_avg": 0.5208333333333334
     },
     "ME793": {
         "Code": "ME793",
@@ -11525,7 +12921,9 @@ let courses =
         "Instructors": [
             " Alankar Alankar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 153,
+        "AAAB_avg": 0.39869281045751637
     },
     "ME794": {
         "Code": "ME794",
@@ -11538,7 +12936,9 @@ let courses =
         "Instructors": [
             " Soham Mujumdar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 64,
+        "AAAB_avg": 0.40625
     },
     "ME800": {
         "Code": "ME800",
@@ -11551,7 +12951,9 @@ let courses =
         "Instructors": [
             " Gurminder Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 17,
+        "AAAB_avg": 0.47058823529411764
     },
     "ME802": {
         "Code": "ME802",
@@ -11577,7 +12979,9 @@ let courses =
         "Instructors": [
             " Sandip Kumar Saha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.034482758620689655
     },
     "MS101-P13": {
         "Code": "MS101-P13",
@@ -11601,7 +13005,9 @@ let courses =
             " J.John",
             " Prabhu S V"
         ],
-        "Division": "P13"
+        "Division": "P13",
+        "total": 1289,
+        "AAAB_avg": 0.5422808378588052
     },
     "MS101-P14": {
         "Code": "MS101-P14",
@@ -11625,7 +13031,9 @@ let courses =
             " J.John",
             " Prabhu S V"
         ],
-        "Division": "P14"
+        "Division": "P14",
+        "total": 1289,
+        "AAAB_avg": 0.5422808378588052
     },
     "MS101-P15": {
         "Code": "MS101-P15",
@@ -11649,7 +13057,9 @@ let courses =
             " J.John",
             " Prabhu S V"
         ],
-        "Division": "P15"
+        "Division": "P15",
+        "total": 1289,
+        "AAAB_avg": 0.5422808378588052
     },
     "MS101-P16": {
         "Code": "MS101-P16",
@@ -11673,7 +13083,9 @@ let courses =
             " J.John",
             " Prabhu S V"
         ],
-        "Division": "P16"
+        "Division": "P16",
+        "total": 1289,
+        "AAAB_avg": 0.5422808378588052
     },
     "MS101-P19": {
         "Code": "MS101-P19",
@@ -11701,7 +13113,9 @@ let courses =
             " J.John",
             " Prabhu S V"
         ],
-        "Division": "P19"
+        "Division": "P19",
+        "total": 1289,
+        "AAAB_avg": 0.5422808378588052
     },
     "MS101-P20": {
         "Code": "MS101-P20",
@@ -11729,7 +13143,9 @@ let courses =
             " J.John",
             " Prabhu S V"
         ],
-        "Division": "P20"
+        "Division": "P20",
+        "total": 1289,
+        "AAAB_avg": 0.5422808378588052
     },
     "MS101-P21": {
         "Code": "MS101-P21",
@@ -11756,7 +13172,9 @@ let courses =
             " J.John",
             " Prabhu S V"
         ],
-        "Division": "P21"
+        "Division": "P21",
+        "total": 1289,
+        "AAAB_avg": 0.5422808378588052
     },
     "MS101-P22": {
         "Code": "MS101-P22",
@@ -11783,7 +13201,9 @@ let courses =
             " J.John",
             " Prabhu S V"
         ],
-        "Division": "P22"
+        "Division": "P22",
+        "total": 1289,
+        "AAAB_avg": 0.5422808378588052
     },
     "IWE701": {
         "Code": "IWE701",
@@ -11793,7 +13213,9 @@ let courses =
         "Instructors": [
             " Snehal Awate"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 130,
+        "AAAB_avg": 0.5461538461538461
     },
     "IWE702": {
         "Code": "IWE702",
@@ -11803,7 +13225,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 129,
+        "AAAB_avg": 0.29457364341085274
     },
     "IWE703": {
         "Code": "IWE703",
@@ -11813,7 +13237,9 @@ let courses =
         "Instructors": [
             " Usha Ananthakumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 129,
+        "AAAB_avg": 0.17829457364341086
     },
     "IWE704": {
         "Code": "IWE704",
@@ -11823,7 +13249,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 130,
+        "AAAB_avg": 0.2153846153846154
     },
     "IWE705": {
         "Code": "IWE705",
@@ -11833,7 +13261,9 @@ let courses =
         "Instructors": [
             " Dinesh Sharma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 90,
+        "AAAB_avg": 0.17777777777777778
     },
     "IWE706": {
         "Code": "IWE706",
@@ -11843,7 +13273,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 129,
+        "AAAB_avg": 0.2713178294573643
     },
     "IWE710": {
         "Code": "IWE710",
@@ -11853,7 +13285,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 111,
+        "AAAB_avg": 0.24324324324324326
     },
     "IWE711": {
         "Code": "IWE711",
@@ -11863,7 +13297,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 111,
+        "AAAB_avg": 0.25225225225225223
     },
     "IWE712": {
         "Code": "IWE712",
@@ -11873,7 +13309,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 110,
+        "AAAB_avg": 0.22727272727272727
     },
     "IWE714": {
         "Code": "IWE714",
@@ -11883,7 +13321,9 @@ let courses =
         "Instructors": [
             " T.T. Niranjan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 111,
+        "AAAB_avg": 0.1981981981981982
     },
     "IWE715": {
         "Code": "IWE715",
@@ -11893,7 +13333,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 91,
+        "AAAB_avg": 0.16483516483516483
     },
     "IWE719": {
         "Code": "IWE719",
@@ -11903,7 +13345,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 111,
+        "AAAB_avg": 0.27927927927927926
     },
     "IWE720": {
         "Code": "IWE720",
@@ -11913,7 +13357,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 84,
+        "AAAB_avg": 0.20238095238095238
     },
     "IWE721": {
         "Code": "IWE721",
@@ -11923,7 +13369,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 89,
+        "AAAB_avg": 0.24719101123595505
     },
     "IWE722": {
         "Code": "IWE722",
@@ -11933,7 +13381,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 89,
+        "AAAB_avg": 0.8089887640449438
     },
     "IWE723": {
         "Code": "IWE723",
@@ -11943,7 +13393,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 83,
+        "AAAB_avg": 0.20481927710843373
     },
     "MG405-M": {
         "Code": "MG405-M",
@@ -11956,7 +13408,9 @@ let courses =
         "Instructors": [
             " Gajendra Adil"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 159,
+        "AAAB_avg": 0.2389937106918239
     },
     "MG406-M": {
         "Code": "MG406-M",
@@ -11969,7 +13423,9 @@ let courses =
         "Instructors": [
             " Rahul Patil"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 174,
+        "AAAB_avg": 0.4540229885057471
     },
     "MG802": {
         "Code": "MG802",
@@ -11979,7 +13435,9 @@ let courses =
         "Instructors": [
             " Dinesh Sharma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 8,
+        "AAAB_avg": 0.375
     },
     "MGS801": {
         "Code": "MGS801",
@@ -11999,7 +13457,9 @@ let courses =
         "Instructors": [
             " Sarthak Gaurav"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 35,
+        "AAAB_avg": 0.7714285714285715
     },
     "MGT804": {
         "Code": "MGT804",
@@ -12009,7 +13469,9 @@ let courses =
         "Instructors": [
             " T.T. Niranjan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.39655172413793105
     },
     "SOM101-S1": {
         "Code": "SOM101-S1",
@@ -12022,7 +13484,9 @@ let courses =
         "Instructors": [
             " Mayank Pareek"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 456,
+        "AAAB_avg": 0.31359649122807015
     },
     "SOM101-S2": {
         "Code": "SOM101-S2",
@@ -12035,7 +13499,9 @@ let courses =
         "Instructors": [
             " Ashish Pandey"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 408,
+        "AAAB_avg": 0.25735294117647056
     },
     "SOM612": {
         "Code": "SOM612",
@@ -12045,7 +13511,9 @@ let courses =
         "Instructors": [
             " Ashish Singh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 452,
+        "AAAB_avg": 0.3141592920353982
     },
     "SOM613": {
         "Code": "SOM613",
@@ -12055,7 +13523,9 @@ let courses =
         "Instructors": [
             " Rohan Chinchwadkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 456,
+        "AAAB_avg": 0.07236842105263158
     },
     "SOM614": {
         "Code": "SOM614",
@@ -12066,7 +13536,9 @@ let courses =
             " Ashish Pandey",
             " Bhargava S"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 459,
+        "AAAB_avg": 0.3420479302832244
     },
     "SOM615": {
         "Code": "SOM615",
@@ -12076,7 +13548,9 @@ let courses =
         "Instructors": [
             " T.T. Niranjan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 458,
+        "AAAB_avg": 0.21397379912663755
     },
     "SOM616": {
         "Code": "SOM616",
@@ -12086,7 +13560,9 @@ let courses =
         "Instructors": [
             " Karuna Jain"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 459,
+        "AAAB_avg": 0.42701525054466233
     },
     "SOM617": {
         "Code": "SOM617",
@@ -12096,7 +13572,9 @@ let courses =
         "Instructors": [
             " Snehal Awate"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 358,
+        "AAAB_avg": 0.3240223463687151
     },
     "SOM618": {
         "Code": "SOM618",
@@ -12106,7 +13584,9 @@ let courses =
         "Instructors": [
             " Ashish Pandey"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 348,
+        "AAAB_avg": 0.28448275862068967
     },
     "SOM619": {
         "Code": "SOM619",
@@ -12116,7 +13596,9 @@ let courses =
         "Instructors": [
             " Varadraj B. Bapat"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 349,
+        "AAAB_avg": 0.1977077363896848
     },
     "SOM621": {
         "Code": "SOM621",
@@ -12126,7 +13608,9 @@ let courses =
         "Instructors": [
             " Varadraj B. Bapat"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 341,
+        "AAAB_avg": 0.2727272727272727
     },
     "SOM623": {
         "Code": "SOM623",
@@ -12136,7 +13620,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.8793103448275862
     },
     "SOM633": {
         "Code": "SOM633",
@@ -12146,7 +13632,9 @@ let courses =
         "Instructors": [
             " Indrajit Mukherjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 147,
+        "AAAB_avg": 0.4421768707482993
     },
     "SOM643": {
         "Code": "SOM643",
@@ -12156,7 +13644,9 @@ let courses =
         "Instructors": [
             " Atul Kanyalkar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 114,
+        "AAAB_avg": 0.2543859649122807
     },
     "SOM649": {
         "Code": "SOM649",
@@ -12166,7 +13656,9 @@ let courses =
         "Instructors": [
             " Kiran Kumar Momaya"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 48,
+        "AAAB_avg": 0.3125
     },
     "SOM652": {
         "Code": "SOM652",
@@ -12176,7 +13668,9 @@ let courses =
         "Instructors": [
             " Varadraj B. Bapat"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 225,
+        "AAAB_avg": 0.5777777777777777
     },
     "SOM660": {
         "Code": "SOM660",
@@ -12196,7 +13690,9 @@ let courses =
         "Instructors": [
             " Dinesh Sharma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 163,
+        "AAAB_avg": 0.44785276073619634
     },
     "SOM665": {
         "Code": "SOM665",
@@ -12206,7 +13702,9 @@ let courses =
         "Instructors": [
             " Dinesh Sharma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 199,
+        "AAAB_avg": 0.2613065326633166
     },
     "SOM679": {
         "Code": "SOM679",
@@ -12219,7 +13717,9 @@ let courses =
         "Instructors": [
             " Kiran Kumar Momaya"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 38,
+        "AAAB_avg": 0.3684210526315789
     },
     "SOM680": {
         "Code": "SOM680",
@@ -12229,7 +13729,9 @@ let courses =
         "Instructors": [
             " S.V.D.Nageswara Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 175,
+        "AAAB_avg": 0.34285714285714286
     },
     "SOM686": {
         "Code": "SOM686",
@@ -12249,7 +13751,9 @@ let courses =
         "Instructors": [
             " Sonar M Rajendra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 203,
+        "AAAB_avg": 0.3842364532019704
     },
     "SOM693": {
         "Code": "SOM693",
@@ -12259,7 +13763,9 @@ let courses =
         "Instructors": [
             " Sonar M Rajendra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 210,
+        "AAAB_avg": 0.5619047619047619
     },
     "SOM700": {
         "Code": "SOM700",
@@ -12269,7 +13775,9 @@ let courses =
         "Instructors": [
             " Sonar M Rajendra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 189,
+        "AAAB_avg": 0.5238095238095238
     },
     "SOM701": {
         "Code": "SOM701",
@@ -12279,7 +13787,9 @@ let courses =
         "Instructors": [
             " Dinesh Sharma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 137,
+        "AAAB_avg": 0.26277372262773724
     },
     "SOM707": {
         "Code": "SOM707",
@@ -12289,7 +13799,9 @@ let courses =
         "Instructors": [
             " S.N.Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 38,
+        "AAAB_avg": 0.5526315789473685
     },
     "SOM711": {
         "Code": "SOM711",
@@ -12299,7 +13811,9 @@ let courses =
         "Instructors": [
             " Sarthak Gaurav"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 81,
+        "AAAB_avg": 0.5432098765432098
     },
     "SOM712": {
         "Code": "SOM712",
@@ -12309,7 +13823,9 @@ let courses =
         "Instructors": [
             " Sonar M Rajendra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 178,
+        "AAAB_avg": 0.550561797752809
     },
     "SOM717": {
         "Code": "SOM717",
@@ -12329,7 +13845,9 @@ let courses =
         "Instructors": [
             " Trupti Mishra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 20,
+        "AAAB_avg": 0.3
     },
     "SOM722": {
         "Code": "SOM722",
@@ -12339,7 +13857,9 @@ let courses =
         "Instructors": [
             " Sonar M Rajendra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 60,
+        "AAAB_avg": 0.4166666666666667
     },
     "SOM723": {
         "Code": "SOM723",
@@ -12349,7 +13869,9 @@ let courses =
         "Instructors": [
             " Piyush Pandey"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 15,
+        "AAAB_avg": 0.6
     },
     "SOM724": {
         "Code": "SOM724",
@@ -12359,7 +13881,9 @@ let courses =
         "Instructors": [
             " Piyush Pandey"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 30,
+        "AAAB_avg": 0.13333333333333333
     },
     "SOM725": {
         "Code": "SOM725",
@@ -12389,7 +13913,9 @@ let courses =
         "Instructors": [
             " Usha Ananthakumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 40,
+        "AAAB_avg": 0.3
     },
     "SOM793": {
         "Code": "SOM793",
@@ -12400,7 +13926,9 @@ let courses =
             " Indrajit Mukherjee",
             " Piyush Pandey"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 3,
+        "AAAB_avg": 0.6666666666666666
     },
     "SOM794": {
         "Code": "SOM794",
@@ -12411,7 +13939,9 @@ let courses =
             " Indrajit Mukherjee",
             " Piyush Pandey"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 2,
+        "AAAB_avg": 1.0
     },
     "SOM802": {
         "Code": "SOM802",
@@ -12431,7 +13961,9 @@ let courses =
         "Instructors": [
             " Pradeep Dixit"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 32,
+        "AAAB_avg": 0.625
     },
     "MM104": {
         "Code": "MM104",
@@ -12444,7 +13976,9 @@ let courses =
         "Instructors": [
             " Parag Bhargava"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 150,
+        "AAAB_avg": 0.14666666666666667
     },
     "MM105-tut": {
         "Code": "MM105-tut",
@@ -12484,7 +14018,9 @@ let courses =
         "Instructors": [
             " Parag Bhargava"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 452,
+        "AAAB_avg": 0.1415929203539823
     },
     "MM206": {
         "Code": "MM206",
@@ -12498,7 +14034,9 @@ let courses =
             " Prasanna T.R.S.",
             " Sudhanshu Mallick"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 131,
+        "AAAB_avg": 0.24427480916030533
     },
     "MM210": {
         "Code": "MM210",
@@ -12539,7 +14077,9 @@ let courses =
             " Prita Pant",
             " Amrita Bhattacharya"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 220,
+        "AAAB_avg": 0.6954545454545454
     },
     "MM220-S2": {
         "Code": "MM220-S2",
@@ -12552,7 +14092,9 @@ let courses =
             " Prita Pant",
             " Amrita Bhattacharya"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 137,
+        "AAAB_avg": 0.5693430656934306
     },
     "MM222": {
         "Code": "MM222",
@@ -12615,7 +14157,9 @@ let courses =
             " Mural S Prasanna Kumar",
             " Prabhu N."
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 124,
+        "AAAB_avg": 0.22580645161290322
     },
     "MM312-S2": {
         "Code": "MM312-S2",
@@ -12628,7 +14172,9 @@ let courses =
             " Mural S Prasanna Kumar",
             " Prabhu N."
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 125,
+        "AAAB_avg": 0.224
     },
     "MM318-M": {
         "Code": "MM318-M",
@@ -12644,7 +14190,9 @@ let courses =
             " Tanushree H. Choudhury",
             " Amrita Bhattacharya"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 256,
+        "AAAB_avg": 0.2890625
     },
     "MM318-S1": {
         "Code": "MM318-S1",
@@ -12658,7 +14206,9 @@ let courses =
         "Instructors": [
             " Amrita Bhattacharya"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 126,
+        "AAAB_avg": 0.2857142857142857
     },
     "MM318-S2": {
         "Code": "MM318-S2",
@@ -12672,7 +14222,9 @@ let courses =
         "Instructors": [
             " Tanushree H. Choudhury"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 129,
+        "AAAB_avg": 0.29457364341085274
     },
     "MM320": {
         "Code": "MM320",
@@ -12687,7 +14239,9 @@ let courses =
             " Somnath Basu",
             " Khosla N.K."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 467,
+        "AAAB_avg": 0.19271948608137046
     },
     "MM322-S1": {
         "Code": "MM322-S1",
@@ -12700,7 +14254,9 @@ let courses =
             " Manish M. Pande",
             " K. Bhanumurthy"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 198,
+        "AAAB_avg": 0.9494949494949495
     },
     "MM322-S2": {
         "Code": "MM322-S2",
@@ -12713,7 +14269,9 @@ let courses =
             " Manish M. Pande",
             " K. Bhanumurthy"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 151,
+        "AAAB_avg": 0.9668874172185431
     },
     "MM323-S1": {
         "Code": "MM323-S1",
@@ -12726,7 +14284,9 @@ let courses =
             " Abhijeet Sangle",
             " Mithun Chowdhury"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 223,
+        "AAAB_avg": 0.7040358744394619
     },
     "MM323-S2": {
         "Code": "MM323-S2",
@@ -12739,7 +14299,9 @@ let courses =
             " Abhijeet Sangle",
             " Mithun Chowdhury"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 236,
+        "AAAB_avg": 0.5296610169491526
     },
     "MM357": {
         "Code": "MM357",
@@ -12753,7 +14315,9 @@ let courses =
         "Instructors": [
             " Ashutosh Gandhi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 473,
+        "AAAB_avg": 0.30021141649048627
     },
     "MM359": {
         "Code": "MM359",
@@ -12768,7 +14332,9 @@ let courses =
             " K. Bhanumurthy",
             " Durga A."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 478,
+        "AAAB_avg": 0.22384937238493724
     },
     "MM396": {
         "Code": "MM396",
@@ -12779,7 +14345,9 @@ let courses =
             " Aswani Yella",
             " Mural S Prasanna Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 612,
+        "AAAB_avg": 0.4477124183006536
     },
     "MM406": {
         "Code": "MM406",
@@ -12792,7 +14360,9 @@ let courses =
         "Instructors": [
             " Triratna Muneshwar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 213,
+        "AAAB_avg": 0.17370892018779344
     },
     "MM408": {
         "Code": "MM408",
@@ -12807,7 +14377,9 @@ let courses =
             " MJNV Prasad",
             " Samajdar I."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 130,
+        "AAAB_avg": 0.2692307692307692
     },
     "MM426-S1": {
         "Code": "MM426-S1",
@@ -12821,7 +14393,9 @@ let courses =
             " K. Bhanumurthy",
             " V. K. Srivastava"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 182,
+        "AAAB_avg": 0.5054945054945055
     },
     "MM426-S2": {
         "Code": "MM426-S2",
@@ -12835,7 +14409,9 @@ let courses =
             " K. Bhanumurthy",
             " V. K. Srivastava"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 26,
+        "AAAB_avg": 0.38461538461538464
     },
     "MM448-S1": {
         "Code": "MM448-S1",
@@ -12848,7 +14424,9 @@ let courses =
             " Triratna Muneshwar",
             " Dinkar S. Patil"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 275,
+        "AAAB_avg": 0.4218181818181818
     },
     "MM448-S2": {
         "Code": "MM448-S2",
@@ -12861,7 +14439,9 @@ let courses =
             " Triratna Muneshwar",
             " Dinkar S. Patil"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 34,
+        "AAAB_avg": 0.23529411764705882
     },
     "MM454": {
         "Code": "MM454",
@@ -12875,7 +14455,9 @@ let courses =
         "Instructors": [
             " Vijayshankar Dandapani"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 425,
+        "AAAB_avg": 0.35294117647058826
     },
     "MM462-S1": {
         "Code": "MM462-S1",
@@ -12888,7 +14470,9 @@ let courses =
             " Smrutiranjan Parida",
             " Vijayshankar Dandapani"
         ],
-        "Division": "S1"
+        "Division": "S1",
+        "total": 3,
+        "AAAB_avg": 0.0
     },
     "MM462-S2": {
         "Code": "MM462-S2",
@@ -12901,7 +14485,9 @@ let courses =
             " Smrutiranjan Parida",
             " Vijayshankar Dandapani"
         ],
-        "Division": "S2"
+        "Division": "S2",
+        "total": 110,
+        "AAAB_avg": 0.38181818181818183
     },
     "MM492": {
         "Code": "MM492",
@@ -12911,7 +14497,9 @@ let courses =
         "Instructors": [
             " Avradeep Pal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.8181818181818182
     },
     "MM494": {
         "Code": "MM494",
@@ -12921,7 +14509,9 @@ let courses =
         "Instructors": [
             " Avradeep Pal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 8,
+        "AAAB_avg": 0.875
     },
     "MM6002": {
         "Code": "MM6002",
@@ -12957,7 +14547,9 @@ let courses =
             " Sanjay Chandra",
             " Ajay Singh Panwar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 48,
+        "AAAB_avg": 0.6875
     },
     "MM622": {
         "Code": "MM622",
@@ -12971,7 +14563,9 @@ let courses =
             " Somnath Basu",
             " N.N.Viswanathan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.5
     },
     "MM624": {
         "Code": "MM624",
@@ -12985,7 +14579,9 @@ let courses =
             " Manish M. Pande",
             " Deepoo Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 62,
+        "AAAB_avg": 0.5161290322580645
     },
     "MM626": {
         "Code": "MM626",
@@ -12999,7 +14595,9 @@ let courses =
         "Instructors": [
             " MJNV Prasad"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 114,
+        "AAAB_avg": 0.5263157894736842
     },
     "MM638": {
         "Code": "MM638",
@@ -13012,7 +14610,9 @@ let courses =
         "Instructors": [
             " Arup R. Bhattacharyya"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 64,
+        "AAAB_avg": 0.6875
     },
     "MM642": {
         "Code": "MM642",
@@ -13025,7 +14625,9 @@ let courses =
         "Instructors": [
             " Sanjay Chandra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 22,
+        "AAAB_avg": 0.7727272727272727
     },
     "MM650": {
         "Code": "MM650",
@@ -13039,7 +14641,9 @@ let courses =
         "Instructors": [
             " Smrutiranjan Parida"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 111,
+        "AAAB_avg": 0.36036036036036034
     },
     "MM652": {
         "Code": "MM652",
@@ -13053,7 +14657,9 @@ let courses =
             " Kulkarni Ajit R.",
             " Avradeep Pal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 45,
+        "AAAB_avg": 0.3333333333333333
     },
     "MM656": {
         "Code": "MM656",
@@ -13066,7 +14672,9 @@ let courses =
         "Instructors": [
             " Sumit Saxena"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 285,
+        "AAAB_avg": 0.6982456140350877
     },
     "MM658": {
         "Code": "MM658",
@@ -13079,7 +14687,9 @@ let courses =
         "Instructors": [
             " Nagamani J. Balila"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 12,
+        "AAAB_avg": 0.5833333333333334
     },
     "MM674": {
         "Code": "MM674",
@@ -13092,7 +14702,9 @@ let courses =
         "Instructors": [
             " Dusane Rajiv O."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 142,
+        "AAAB_avg": 0.6267605633802817
     },
     "MM677": {
         "Code": "MM677",
@@ -13106,7 +14718,9 @@ let courses =
         "Instructors": [
             " M.P. Gururajan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 161,
+        "AAAB_avg": 0.577639751552795
     },
     "MM684": {
         "Code": "MM684",
@@ -13121,7 +14735,9 @@ let courses =
             " Samajdar I.",
             " Prasanna T.R.S."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 72,
+        "AAAB_avg": 0.5416666666666666
     },
     "MM685": {
         "Code": "MM685",
@@ -13134,7 +14750,9 @@ let courses =
         "Instructors": [
             " Titas Dasgupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 22,
+        "AAAB_avg": 0.5909090909090909
     },
     "MM688": {
         "Code": "MM688",
@@ -13160,7 +14778,9 @@ let courses =
         "Instructors": [
             " Prabhu N."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 13,
+        "AAAB_avg": 0.5384615384615384
     },
     "MM694": {
         "Code": "MM694",
@@ -13170,7 +14790,9 @@ let courses =
         "Instructors": [
             " Smrutiranjan Parida"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 280,
+        "AAAB_avg": 0.6321428571428571
     },
     "MM700": {
         "Code": "MM700",
@@ -13183,7 +14805,9 @@ let courses =
         "Instructors": [
             " Amartya Mukhopadhyay"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 113,
+        "AAAB_avg": 0.3893805309734513
     },
     "MM712": {
         "Code": "MM712",
@@ -13196,7 +14820,9 @@ let courses =
         "Instructors": [
             " Raja V. S."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 77,
+        "AAAB_avg": 0.37662337662337664
     },
     "MM718": {
         "Code": "MM718",
@@ -13209,7 +14835,9 @@ let courses =
         "Instructors": [
             " Shobha Shukla"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 74,
+        "AAAB_avg": 0.6756756756756757
     },
     "MM722": {
         "Code": "MM722",
@@ -13222,7 +14850,9 @@ let courses =
         "Instructors": [
             " Ajay Singh Panwar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 91,
+        "AAAB_avg": 0.5384615384615384
     },
     "MM739": {
         "Code": "MM739",
@@ -13235,7 +14865,9 @@ let courses =
         "Instructors": [
             " Aswani Yella"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.6818181818181818
     },
     "MM746": {
         "Code": "MM746",
@@ -13248,7 +14880,9 @@ let courses =
         "Instructors": [
             " Mithun Chowdhury"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 21,
+        "AAAB_avg": 0.5714285714285714
     },
     "MM749": {
         "Code": "MM749",
@@ -13261,7 +14895,9 @@ let courses =
         "Instructors": [
             " Hina Amol Gokhale"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 131,
+        "AAAB_avg": 0.2900763358778626
     },
     "MM750": {
         "Code": "MM750",
@@ -13274,7 +14910,9 @@ let courses =
         "Instructors": [
             " Shobha Shukla"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 45,
+        "AAAB_avg": 0.7777777777777778
     },
     "MM754": {
         "Code": "MM754",
@@ -13328,7 +14966,9 @@ let courses =
             " Mural S Prasanna Kumar",
             " Arup R. Bhattacharyya"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 270,
+        "AAAB_avg": 0.0
     },
     "MMS802": {
         "Code": "MMS802",
@@ -13338,7 +14978,9 @@ let courses =
         "Instructors": [
             " Dipti Gupta"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 67,
+        "AAAB_avg": 0.7910447761194029
     },
     "PH110-D1": {
         "Code": "PH110-D1",
@@ -13462,7 +15104,9 @@ let courses =
             " Punit Parmanand",
             " Sankar S.Uma"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 1364,
+        "AAAB_avg": 0.27419354838709675
     },
     "PH111-D2": {
         "Code": "PH111-D2",
@@ -13478,7 +15122,9 @@ let courses =
             " Punit Parmanand",
             " Sankar S.Uma"
         ],
-        "Division": "D2"
+        "Division": "D2",
+        "total": 335,
+        "AAAB_avg": 0.26865671641791045
     },
     "PH112": {
         "Code": "PH112",
@@ -13530,7 +15176,9 @@ let courses =
             " Vikram Rentala",
             " Mohamad Aslam"
         ],
-        "Division": "P1"
+        "Division": "P1",
+        "total": 160,
+        "AAAB_avg": 0.55
     },
     "PH117-P10": {
         "Code": "PH117-P10",
@@ -13550,7 +15198,9 @@ let courses =
             " Vikram Rentala",
             " Mohamad Aslam"
         ],
-        "Division": "P10"
+        "Division": "P10",
+        "total": 113,
+        "AAAB_avg": 0.5486725663716814
     },
     "PH117-P2": {
         "Code": "PH117-P2",
@@ -13569,7 +15219,9 @@ let courses =
             " Vikram Rentala",
             " Mohamad Aslam"
         ],
-        "Division": "P2"
+        "Division": "P2",
+        "total": 162,
+        "AAAB_avg": 0.5617283950617284
     },
     "PH117-P3": {
         "Code": "PH117-P3",
@@ -13588,7 +15240,9 @@ let courses =
             " Vikram Rentala",
             " Mohamad Aslam"
         ],
-        "Division": "P3"
+        "Division": "P3",
+        "total": 122,
+        "AAAB_avg": 0.5573770491803278
     },
     "PH117-P4": {
         "Code": "PH117-P4",
@@ -13607,7 +15261,9 @@ let courses =
             " Vikram Rentala",
             " Mohamad Aslam"
         ],
-        "Division": "P4"
+        "Division": "P4",
+        "total": 112,
+        "AAAB_avg": 0.5982142857142857
     },
     "PH117-P7": {
         "Code": "PH117-P7",
@@ -13628,7 +15284,9 @@ let courses =
             " Vikram Rentala",
             " Mohamad Aslam"
         ],
-        "Division": "P7"
+        "Division": "P7",
+        "total": 160,
+        "AAAB_avg": 0.7375
     },
     "PH117-P8": {
         "Code": "PH117-P8",
@@ -13649,7 +15307,9 @@ let courses =
             " Vikram Rentala",
             " Mohamad Aslam"
         ],
-        "Division": "P8"
+        "Division": "P8",
+        "total": 149,
+        "AAAB_avg": 0.6778523489932886
     },
     "PH117-P9": {
         "Code": "PH117-P9",
@@ -13670,7 +15330,9 @@ let courses =
             " Vikram Rentala",
             " Mohamad Aslam"
         ],
-        "Division": "P9"
+        "Division": "P9",
+        "total": 113,
+        "AAAB_avg": 0.5663716814159292
     },
     "PH216": {
         "Code": "PH216",
@@ -13710,7 +15372,9 @@ let courses =
         "Instructors": [
             " Pramod Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 226,
+        "AAAB_avg": 0.668141592920354
     },
     "PH252-M": {
         "Code": "PH252-M",
@@ -13723,7 +15387,9 @@ let courses =
         "Instructors": [
             " Das Pragya"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 35,
+        "AAAB_avg": 0.4857142857142857
     },
     "PH303": {
         "Code": "PH303",
@@ -13733,7 +15399,9 @@ let courses =
         "Instructors": [
             " Himadri Shekhar Dhar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 103,
+        "AAAB_avg": 0.8349514563106796
     },
     "PH307": {
         "Code": "PH307",
@@ -13797,7 +15465,9 @@ let courses =
         "Instructors": [
             " Siddhartha Santra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 192,
+        "AAAB_avg": 0.2708333333333333
     },
     "PH408-tut": {
         "Code": "PH408-tut",
@@ -13809,7 +15479,9 @@ let courses =
         "Instructors": [
             " Siddhartha Santra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 192,
+        "AAAB_avg": 0.2708333333333333
     },
     "PH410": {
         "Code": "PH410",
@@ -13823,7 +15495,9 @@ let courses =
         "Instructors": [
             " Raghunath Chelakkot"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 215,
+        "AAAB_avg": 0.2
     },
     "PH418": {
         "Code": "PH418",
@@ -13836,7 +15510,9 @@ let courses =
         "Instructors": [
             " Singh P.P."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 213,
+        "AAAB_avg": 0.22065727699530516
     },
     "PH422": {
         "Code": "PH422",
@@ -13849,7 +15525,9 @@ let courses =
         "Instructors": [
             " Shankaranarayanan Subramaniam"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 207,
+        "AAAB_avg": 0.21739130434782608
     },
     "PH424": {
         "Code": "PH424",
@@ -13863,7 +15541,9 @@ let courses =
         "Instructors": [
             " B Nandi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 198,
+        "AAAB_avg": 0.3282828282828283
     },
     "PH436": {
         "Code": "PH436",
@@ -13876,7 +15556,9 @@ let courses =
         "Instructors": [
             " Hridis Kumar Pal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 221,
+        "AAAB_avg": 0.22171945701357465
     },
     "PH438": {
         "Code": "PH438",
@@ -13890,7 +15572,9 @@ let courses =
         "Instructors": [
             " Mithun K. Mitra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 213,
+        "AAAB_avg": 0.19718309859154928
     },
     "PH441": {
         "Code": "PH441",
@@ -13903,7 +15587,9 @@ let courses =
         "Instructors": [
             " Pramod Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 186,
+        "AAAB_avg": 0.7204301075268817
     },
     "PH444": {
         "Code": "PH444",
@@ -13917,7 +15603,9 @@ let courses =
         "Instructors": [
             " Anshuman Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 208,
+        "AAAB_avg": 0.3894230769230769
     },
     "PH446": {
         "Code": "PH446",
@@ -13930,7 +15618,9 @@ let courses =
             " Mahajan Avinash V.",
             " Sadhana Dash"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 204,
+        "AAAB_avg": 0.5784313725490197
     },
     "PH500": {
         "Code": "PH500",
@@ -13943,7 +15633,9 @@ let courses =
         "Instructors": [
             " Pramod Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 102,
+        "AAAB_avg": 0.27450980392156865
     },
     "PH510": {
         "Code": "PH510",
@@ -13957,7 +15649,9 @@ let courses =
         "Instructors": [
             " Varun Bhalerao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 186,
+        "AAAB_avg": 0.43548387096774194
     },
     "PH512": {
         "Code": "PH512",
@@ -13970,7 +15664,9 @@ let courses =
             " Kundu Tapanendu",
             " P Vasa"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 175,
+        "AAAB_avg": 0.8971428571428571
     },
     "PH530": {
         "Code": "PH530",
@@ -13983,7 +15679,9 @@ let courses =
         "Instructors": [
             " Kundu Tapanendu"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 201,
+        "AAAB_avg": 0.2835820895522388
     },
     "PH534": {
         "Code": "PH534",
@@ -13997,7 +15695,9 @@ let courses =
             " Sai Vinjanampathy",
             " Himadri Shekhar Dhar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 220,
+        "AAAB_avg": 0.2909090909090909
     },
     "PH540": {
         "Code": "PH540",
@@ -14010,7 +15710,9 @@ let courses =
         "Instructors": [
             " Kumar Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 102,
+        "AAAB_avg": 0.16666666666666666
     },
     "PH544": {
         "Code": "PH544",
@@ -14023,7 +15725,9 @@ let courses =
         "Instructors": [
             " Vikram Rentala"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 173,
+        "AAAB_avg": 0.30057803468208094
     },
     "PH550": {
         "Code": "PH550",
@@ -14036,7 +15740,9 @@ let courses =
         "Instructors": [
             " Sunita Srivastava"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 72,
+        "AAAB_avg": 0.4444444444444444
     },
     "PH554": {
         "Code": "PH554",
@@ -14049,7 +15755,9 @@ let courses =
         "Instructors": [
             " Sumiran Pujari"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 39,
+        "AAAB_avg": 0.46153846153846156
     },
     "PH562": {
         "Code": "PH562",
@@ -14062,7 +15770,9 @@ let courses =
         "Instructors": [
             " Amitabha Nandi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 82,
+        "AAAB_avg": 0.45121951219512196
     },
     "PH564": {
         "Code": "PH564",
@@ -14075,7 +15785,9 @@ let courses =
         "Instructors": [
             " Sadhana Dash"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 25,
+        "AAAB_avg": 0.24
     },
     "PH566": {
         "Code": "PH566",
@@ -14087,7 +15799,9 @@ let courses =
         "Instructors": [
             " Aftab Alam"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 192,
+        "AAAB_avg": 0.3541666666666667
     },
     "PH570": {
         "Code": "PH570",
@@ -14099,7 +15813,9 @@ let courses =
         "Instructors": [
             " Mohamad Aslam"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 23,
+        "AAAB_avg": 0.5217391304347826
     },
     "PH574": {
         "Code": "PH574",
@@ -14113,7 +15829,9 @@ let courses =
         "Instructors": [
             " Dinesh Kabra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 118,
+        "AAAB_avg": 0.1864406779661017
     },
     "PH576": {
         "Code": "PH576",
@@ -14126,7 +15844,9 @@ let courses =
         "Instructors": [
             " Suddhasatta Mahapatra"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 13,
+        "AAAB_avg": 0.7692307692307693
     },
     "PH578": {
         "Code": "PH578",
@@ -14139,7 +15859,9 @@ let courses =
         "Instructors": [
             " Senthilkumar M."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 89,
+        "AAAB_avg": 0.4943820224719101
     },
     "PH580": {
         "Code": "PH580",
@@ -14152,7 +15874,9 @@ let courses =
         "Instructors": [
             " Suresh K.G."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 85,
+        "AAAB_avg": 0.4823529411764706
     },
     "PH587": {
         "Code": "PH587",
@@ -14162,7 +15886,9 @@ let courses =
         "Instructors": [
             " Himadri Shekhar Dhar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 96,
+        "AAAB_avg": 0.8020833333333334
     },
     "PH588": {
         "Code": "PH588",
@@ -14172,7 +15898,9 @@ let courses =
         "Instructors": [
             " Himadri Shekhar Dhar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 50,
+        "AAAB_avg": 0.88
     },
     "PH596": {
         "Code": "PH596",
@@ -14182,7 +15910,9 @@ let courses =
         "Instructors": [
             " Himadri Shekhar Dhar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 82,
+        "AAAB_avg": 0.8658536585365854
     },
     "PH601": {
         "Code": "PH601",
@@ -14209,7 +15939,9 @@ let courses =
         "Instructors": [
             " P Vasa"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 55,
+        "AAAB_avg": 0.0
     },
     "PHS802": {
         "Code": "PHS802",
@@ -14219,7 +15951,9 @@ let courses =
         "Instructors": [
             " Himadri Shekhar Dhar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 55,
+        "AAAB_avg": 0.8
     },
     "PS602": {
         "Code": "PS602",
@@ -14233,7 +15967,9 @@ let courses =
             " Malish C.M.",
             " N.C.Narayanan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.6136363636363636
     },
     "PS604": {
         "Code": "PS604",
@@ -14246,7 +15982,9 @@ let courses =
         "Instructors": [
             " Mehra A."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 78,
+        "AAAB_avg": 0.15384615384615385
     },
     "PS607": {
         "Code": "PS607",
@@ -14260,7 +15998,9 @@ let courses =
             " Malish C.M.",
             " N.C.Narayanan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 60,
+        "AAAB_avg": 0.55
     },
     "PS610": {
         "Code": "PS610",
@@ -14274,7 +16014,9 @@ let courses =
             " Malish C.M.",
             " Prabhir Vishnu Poruthiyil"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 94,
+        "AAAB_avg": 0.5106382978723404
     },
     "PS614": {
         "Code": "PS614",
@@ -14287,7 +16029,9 @@ let courses =
         "Instructors": [
             " N.C.Narayanan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 17,
+        "AAAB_avg": 0.6470588235294118
     },
     "PS619": {
         "Code": "PS619",
@@ -14300,7 +16044,9 @@ let courses =
         "Instructors": [
             " Santosh Noronha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 92,
+        "AAAB_avg": 0.6413043478260869
     },
     "PS630": {
         "Code": "PS630",
@@ -14313,7 +16059,9 @@ let courses =
         "Instructors": [
             " Anupam Guha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 34,
+        "AAAB_avg": 0.7058823529411765
     },
     "PS633": {
         "Code": "PS633",
@@ -14326,7 +16074,9 @@ let courses =
         "Instructors": [
             " Naveen Bharathi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 79,
+        "AAAB_avg": 0.4177215189873418
     },
     "PS634": {
         "Code": "PS634",
@@ -14340,7 +16090,9 @@ let courses =
             " Robinson Rowena",
             " Rahul Suresh Sapkal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 17,
+        "AAAB_avg": 0.29411764705882354
     },
     "PS636": {
         "Code": "PS636",
@@ -14353,7 +16105,9 @@ let courses =
         "Instructors": [
             " Jha Shishir Kumar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 50,
+        "AAAB_avg": 0.46
     },
     "PS637": {
         "Code": "PS637",
@@ -14367,7 +16121,9 @@ let courses =
             " Pradip P. Kalbar",
             " Ajay A Deshpande"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 25,
+        "AAAB_avg": 0.6
     },
     "PS640": {
         "Code": "PS640",
@@ -14380,7 +16136,9 @@ let courses =
         "Instructors": [
             " Ahonaa Roy"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 7,
+        "AAAB_avg": 0.5714285714285714
     },
     "PS641": {
         "Code": "PS641",
@@ -14394,7 +16152,9 @@ let courses =
             " Jha Shishir Kumar",
             " Sundeep Oberoi"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 4,
+        "AAAB_avg": 0.5
     },
     "PS642": {
         "Code": "PS642",
@@ -14407,7 +16167,9 @@ let courses =
         "Instructors": [
             " Malish C.M."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 4,
+        "AAAB_avg": 0.5
     },
     "PS644": {
         "Code": "PS644",
@@ -14430,7 +16192,9 @@ let courses =
         "Instructors": [
             " Malish C.M."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 58,
+        "AAAB_avg": 0.43103448275862066
     },
     "PS701": {
         "Code": "PS701",
@@ -14468,7 +16232,9 @@ let courses =
             " Anjali Sharma",
             " Anupam Guha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 46,
+        "AAAB_avg": 0.0
     },
     "PSS802": {
         "Code": "PSS802",
@@ -14478,7 +16244,9 @@ let courses =
         "Instructors": [
             " Prabhir Vishnu Poruthiyil"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 45,
+        "AAAB_avg": 0.6444444444444445
     },
     "SC202-M": {
         "Code": "SC202-M",
@@ -14491,7 +16259,9 @@ let courses =
         "Instructors": [
             " Navin Khaneja"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 114,
+        "AAAB_avg": 0.45614035087719296
     },
     "SC602": {
         "Code": "SC602",
@@ -14504,7 +16274,9 @@ let courses =
         "Instructors": [
             " Sukumar Srikant"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 94,
+        "AAAB_avg": 0.20212765957446807
     },
     "SC602-M": {
         "Code": "SC602-M",
@@ -14517,7 +16289,9 @@ let courses =
         "Instructors": [
             " Sukumar Srikant"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 13,
+        "AAAB_avg": 0.07692307692307693
     },
     "SC607": {
         "Code": "SC607",
@@ -14530,7 +16304,9 @@ let courses =
         "Instructors": [
             " Avishek Ghosh"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 155,
+        "AAAB_avg": 0.15483870967741936
     },
     "SC607-M": {
         "Code": "SC607-M",
@@ -14543,7 +16319,9 @@ let courses =
         "Instructors": [
             " Avishek Ghosh"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 40,
+        "AAAB_avg": 0.1
     },
     "SC624": {
         "Code": "SC624",
@@ -14556,7 +16334,9 @@ let courses =
         "Instructors": [
             " Debasish Chatterjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 17,
+        "AAAB_avg": 0.7647058823529411
     },
     "SC624-M": {
         "Code": "SC624-M",
@@ -14569,7 +16349,9 @@ let courses =
         "Instructors": [
             " Debasish Chatterjee"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 1,
+        "AAAB_avg": 1.0
     },
     "SC626": {
         "Code": "SC626",
@@ -14584,7 +16366,9 @@ let courses =
             " Debasish Chatterjee",
             " Vivek Natarajan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 50,
+        "AAAB_avg": 0.56
     },
     "SC627": {
         "Code": "SC627",
@@ -14598,7 +16382,9 @@ let courses =
         "Instructors": [
             " Arpita Sinha"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 35,
+        "AAAB_avg": 0.4857142857142857
     },
     "SC627-M": {
         "Code": "SC627-M",
@@ -14612,7 +16398,9 @@ let courses =
         "Instructors": [
             " Arpita Sinha"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 16,
+        "AAAB_avg": 0.6875
     },
     "SC641": {
         "Code": "SC641",
@@ -14625,7 +16413,9 @@ let courses =
         "Instructors": [
             " Navin Khaneja"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 11,
+        "AAAB_avg": 0.8181818181818182
     },
     "SC641-M": {
         "Code": "SC641-M",
@@ -14638,7 +16428,9 @@ let courses =
         "Instructors": [
             " Navin Khaneja"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 11,
+        "AAAB_avg": 0.8181818181818182
     },
     "SC645": {
         "Code": "SC645",
@@ -14651,7 +16443,9 @@ let courses =
         "Instructors": [
             " Leena Vachhani"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 75,
+        "AAAB_avg": 0.37333333333333335
     },
     "SC645-M": {
         "Code": "SC645-M",
@@ -14664,7 +16458,9 @@ let courses =
         "Instructors": [
             " Leena Vachhani"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 7,
+        "AAAB_avg": 0.2857142857142857
     },
     "SC646": {
         "Code": "SC646",
@@ -14677,7 +16473,9 @@ let courses =
         "Instructors": [
             " Mayank Baranwal"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 55,
+        "AAAB_avg": 0.509090909090909
     },
     "SC646-M": {
         "Code": "SC646-M",
@@ -14690,7 +16488,9 @@ let courses =
         "Instructors": [
             " Mayank Baranwal"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 20,
+        "AAAB_avg": 0.55
     },
     "SC651": {
         "Code": "SC651",
@@ -14703,7 +16503,9 @@ let courses =
         "Instructors": [
             " Banavar R.N."
         ],
-        "Division": ""
+        "Division": "",
+        "total": 9,
+        "AAAB_avg": 0.8888888888888888
     },
     "SC651-M": {
         "Code": "SC651-M",
@@ -14716,7 +16518,9 @@ let courses =
         "Instructors": [
             " Banavar R.N."
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 1,
+        "AAAB_avg": 1.0
     },
     "SC654": {
         "Code": "SC654",
@@ -14752,7 +16556,9 @@ let courses =
         "Instructors": [
             " Leena Vachhani"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 67,
+        "AAAB_avg": 0.582089552238806
     },
     "SC702": {
         "Code": "SC702",
@@ -14765,7 +16571,9 @@ let courses =
         "Instructors": [
             " Vivek Natarajan"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 7,
+        "AAAB_avg": 0.8571428571428571
     },
     "SC702-M": {
         "Code": "SC702-M",
@@ -14778,7 +16586,9 @@ let courses =
         "Instructors": [
             " Vivek Natarajan"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 6,
+        "AAAB_avg": 0.3333333333333333
     },
     "SCS802": {
         "Code": "SCS802",
@@ -14788,7 +16598,9 @@ let courses =
         "Instructors": [
             " Debasish Chatterjee"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 10,
+        "AAAB_avg": 0.8
     },
     "TD390": {
         "Code": "TD390",
@@ -14798,7 +16610,9 @@ let courses =
         "Instructors": [
             " Priyadarshani Jadhav"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 47,
+        "AAAB_avg": 0.6170212765957447
     },
     "TD490": {
         "Code": "TD490",
@@ -14808,7 +16622,9 @@ let courses =
         "Instructors": [
             " Priyadarshani Jadhav"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 4,
+        "AAAB_avg": 1.0
     },
     "TD491": {
         "Code": "TD491",
@@ -14832,7 +16648,9 @@ let courses =
             " Pankajkumar Sekhsaria",
             " Priyadarshani Jadhav"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 156,
+        "AAAB_avg": 0.4423076923076923
     },
     "TD619": {
         "Code": "TD619",
@@ -14845,7 +16663,9 @@ let courses =
         "Instructors": [
             " Anand B. Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 90,
+        "AAAB_avg": 0.26666666666666666
     },
     "TD620": {
         "Code": "TD620",
@@ -14858,7 +16678,9 @@ let courses =
         "Instructors": [
             " Vishal R. Sardeshpande"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 73,
+        "AAAB_avg": 0.3561643835616438
     },
     "TD626": {
         "Code": "TD626",
@@ -14871,7 +16693,9 @@ let courses =
         "Instructors": [
             " Pankajkumar Sekhsaria"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 200,
+        "AAAB_avg": 0.405
     },
     "TD627": {
         "Code": "TD627",
@@ -14884,7 +16708,9 @@ let courses =
         "Instructors": [
             " Bakul Rao"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 123,
+        "AAAB_avg": 0.6504065040650406
     },
     "TD632": {
         "Code": "TD632",
@@ -14898,7 +16724,9 @@ let courses =
             " Bakul Rao",
             " Parmeshwar Digamber Udmale"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 108,
+        "AAAB_avg": 0.5277777777777778
     },
     "TD634": {
         "Code": "TD634",
@@ -14911,7 +16739,9 @@ let courses =
         "Instructors": [
             " Pennan Chinnasamy"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 23,
+        "AAAB_avg": 0.7391304347826086
     },
     "TD638": {
         "Code": "TD638",
@@ -14924,7 +16754,9 @@ let courses =
         "Instructors": [
             " Subodh M. Wagle"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 38,
+        "AAAB_avg": 0.47368421052631576
     },
     "TD638-M": {
         "Code": "TD638-M",
@@ -14937,7 +16769,9 @@ let courses =
         "Instructors": [
             " Subodh M. Wagle"
         ],
-        "Division": "M"
+        "Division": "M",
+        "total": 38,
+        "AAAB_avg": 0.47368421052631576
     },
     "TD639": {
         "Code": "TD639",
@@ -14951,7 +16785,9 @@ let courses =
         "Instructors": [
             " Chaaruchandra Korde"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 35,
+        "AAAB_avg": 0.45714285714285713
     },
     "TD640": {
         "Code": "TD640",
@@ -14965,7 +16801,9 @@ let courses =
             " Rupal M Dalal",
             " Amit Y. Arora"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 78,
+        "AAAB_avg": 0.23076923076923078
     },
     "TD642": {
         "Code": "TD642",
@@ -14978,7 +16816,9 @@ let courses =
         "Instructors": [
             " Pennan Chinnasamy"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 14,
+        "AAAB_avg": 0.5714285714285714
     },
     "TD643": {
         "Code": "TD643",
@@ -14992,7 +16832,9 @@ let courses =
         "Instructors": [
             " Chaaruchandra Korde"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 4,
+        "AAAB_avg": 0.25
     },
     "TD656": {
         "Code": "TD656",
@@ -15005,7 +16847,9 @@ let courses =
         "Instructors": [
             " Parmeshwar Digamber Udmale"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 47,
+        "AAAB_avg": 0.851063829787234
     },
     "TD694": {
         "Code": "TD694",
@@ -15018,7 +16862,9 @@ let courses =
         "Instructors": [
             " Priyadarshani Jadhav"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 159,
+        "AAAB_avg": 0.6037735849056604
     },
     "TD695": {
         "Code": "TD695",
@@ -15101,7 +16947,9 @@ let courses =
         "Instructors": [
             " Arnab Jana"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 145,
+        "AAAB_avg": 0.5448275862068965
     },
     "US606": {
         "Code": "US606",
@@ -15114,7 +16962,9 @@ let courses =
         "Instructors": [
             " Pradip P. Kalbar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 63,
+        "AAAB_avg": 0.4603174603174603
     },
     "US612": {
         "Code": "US612",
@@ -15129,7 +16979,9 @@ let courses =
             " Pradip P. Kalbar",
             " Malini Krishnankutty"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 26,
+        "AAAB_avg": 0.9230769230769231
     },
     "US614": {
         "Code": "US614",
@@ -15142,7 +16994,9 @@ let courses =
         "Instructors": [
             " Himanshu Burte"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 44,
+        "AAAB_avg": 0.6363636363636364
     },
     "US694": {
         "Code": "US694",
@@ -15152,7 +17006,9 @@ let courses =
         "Instructors": [
             " Arnab Jana"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 26,
+        "AAAB_avg": 0.4230769230769231
     },
     "USS801": {
         "Code": "USS801",
@@ -15162,9 +17018,12 @@ let courses =
         "Instructors": [
             " Pradip P. Kalbar"
         ],
-        "Division": ""
+        "Division": "",
+        "total": 26,
+        "AAAB_avg": 0.6923076923076923
     }
 }
+
 
 new TomSelect("#select-tags",{
   plugins: ['remove_button'],
@@ -15187,7 +17046,36 @@ new TomSelect("#select-tags",{
       // const courseSlot = courses[ data.text.split(' ')[0]]['Slots']
       // console.log(`code ${courseCode} slot: ${courseSlot}`);
       // return '<div class="d-flex"><span class="ms-auto text-muted">' + escape(data.text) + '</span></div>';
-      return '<div class="flex-container"><span class="flex-item">' + escape( `${data.Code}: ${data.Name}`) + '</span><span class="flex-item text-muted">' + escape(`${data.Slots}`) + '</span></div>';
+      let score = 0;
+      if(data.AAAB_avg){
+        score = data.AAAB_avg
+        if(score<0.3){
+            score = 1;
+        }
+        else if(score>0.5){
+            score= 3;
+        }
+        else{
+            score = 2;
+        }
+      }
+      let color= 'white';
+      switch (score) {
+        case 0:
+            break;
+        case 1:
+          color = '#ff685743'
+          break;
+        case 2:
+          color = '#fff20097';
+          break;
+        case 3:
+            color = '#6dfb0862';
+            break;
+      }
+      
+      
+      return `<div class="flex-container" style="background-color: ${color}; margin-top: 3px;margin-bottom: 3px;"><span class="flex-item">` + escape( `${data.Code}: ${data.Name}  `) + '</span><span class="flex-item text-muted">' + escape(`${data.Slots}`) + '</span></div>';
       // return '<div>' + escape(`${data.id}: ${data.title}`) + '</div>';
 
     },
