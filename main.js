@@ -4507,8 +4507,8 @@ let courses =
         "Name": "Topics in Virtualization and Cloud Computing",
         "Venue": "CC 103 : Class Room",
         "Slots": [
-            "6B",
-            "6A"
+            "5B",
+            "5A"
         ],
         "Instructors": [
             " Purushottam Kulkarni"
