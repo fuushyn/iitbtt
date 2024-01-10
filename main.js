@@ -6,6 +6,42 @@ import TomSelect from 'tom-select';
 import Toastify from 'toastify-js'
 import "toastify-js/src/toastify.css"
 
+// Function to convert hexadecimal color to RGB
+function hexToRgb(hex) {
+    // Remove the hash if present
+    hex = hex.replace(/^#/, '');
+
+    // Parse the RGB values
+    var bigint = parseInt(hex, 16);
+    var r = (bigint >> 16) & 255;
+    var g = (bigint >> 8) & 255;
+    var b = bigint & 255;
+
+    return [r, g, b];
+}
+
+// Function to convert RGB to hexadecimal color
+function rgbToHex(r, g, b) {
+    return '#' + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+}
+
+// Function to find the mean of two colors
+function meanColor(color1, color2) {
+    var rgb1 = hexToRgb(color1);
+    var rgb2 = hexToRgb(color2);
+
+    // Calculate the mean RGB values
+    var meanRgb = [
+        Math.round((rgb1[0] + rgb2[0]) / 2),
+        Math.round((rgb1[1] + rgb2[1]) / 2),
+        Math.round((rgb1[2] + rgb2[2]) / 2)
+    ];
+
+    // Convert the mean RGB values back to hexadecimal
+    var meanHex = rgbToHex(meanRgb[0], meanRgb[1], meanRgb[2]);
+
+    return meanHex;
+}
 
 console.log("thanks for dropping by. uwu\n~iitbtt")
 let colors = [
@@ -18036,11 +18072,11 @@ for(let i = 8; i <= 20; i += 0.5) {
 }
 
 function render_courses(selected_courses){
-
+    let conflict = 0;
     for(let key of selected_courses){
         let course_code = key;
-        let color = colors[Math.floor(Math.random()*10)]
-        let course_venue = courses[key]['Venue'];
+        let color = colors[(Math.floor(Math.random()*20))]
+        let course_venue = courses[key]['Venue'].split(':')[1];
         let course_slots = courses[key]['Slots'];
         for(let course_slot of course_slots){
           for(let day of slots[course_slot].days){
@@ -18049,22 +18085,30 @@ function render_courses(selected_courses){
                 let slot = document.getElementById(slot_id);
                 if(slot.style.backgroundColor!==""){
                   // console.log(slot.style.backgroundColor);
-                  console.log("slot clash");
-                  Toastify({
-                    text: "Slot Clash!",
-                    duration: 2000,
-                    // close: true,
-                    gravity: "top", // `top` or `bottom`
-                    position: "center", // `left`, `center` or `right`
-                    // stopOnFocus: true, // Prevents dismissing of toast on hover
-                    style: {
-                      background: "red",
-                    },
-                    onClick: function(){} // Callback after click
-                  }).showToast();
-                  clean_timetable()
-                  return;
-                  
+                //   console.log("slot clash");
+                conflict+= 1;
+                if(conflict<2){
+                    Toastify({
+                        text: "Warning: conflicting slots",
+                        duration: 2000,
+                        // close: true,
+                        gravity: "top", // `top` or `bottom`
+                        position: "center", // `left`, `center` or `right`
+                        // stopOnFocus: true, // Prevents dismissing of toast on hover
+                        style: {
+                          background: "orange",
+                        },
+                        onClick: function(){} // Callback after click
+                      }).showToast();
+    
+                }
+                //   clean_timetable()
+                //   return;
+                  slot.style.backgroundColor = meanColor(slot.style.backgroundColor,color);
+                  let old_code = slot.querySelector('#course_code').innerText;
+                  let old_venue = slot.querySelector('#course_venue').innerText;
+                  slot.innerHTML = `<div id="course_code">${old_code} | ${course_code.split('-')[0]}</div><div id="course_venue">${old_venue} | ${course_venue}</div>`;
+                  continue;
                 }
                 slot.style.backgroundColor = color;
                 slot.innerHTML= `<div id="course_code">${course_code.split('-')[0]}</div><div id="course_venue">${course_venue}</div>`;
