@@ -18084,6 +18084,7 @@ function render_courses(selected_courses){
                 let slot_id = `${day.index}-${day.start_block+0.5*i}`;
                 let slot = document.getElementById(slot_id);
                 if(slot.style.backgroundColor!==""){
+                    slot.style.fontSize= '1.1em';
                   // console.log(slot.style.backgroundColor);
                 //   console.log("slot clash");
                 conflict+= 1;
