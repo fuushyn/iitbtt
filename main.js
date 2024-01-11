@@ -17454,6 +17454,45 @@ let slots = {
     ],
     color: colors[(Math.floor(Math.random() * colors.length))]
   },
+  '7A': {
+    days: [{
+        index: 2,
+        start: '8:30',
+        end: '9:25',
+        start_block: 8.5,
+        num_blocks: getNumBlocks('8:30', '9:25')
+    }],
+    color: colors[(Math.floor(Math.random() * colors.length))]
+  },
+  '7B': {
+    days: [{
+        index: 4,
+        start: '8:30',
+        end: '9:25',
+        start_block: 8.5,
+        num_blocks: getNumBlocks('8:30', '9:25')
+    }],
+    color: colors[(Math.floor(Math.random() * colors.length))]
+  },
+  '7': {
+    days: [
+        {
+            index: 2,
+            start: '8:30',
+            end: '9:25',
+            start_block: 8.5,
+            num_blocks: getNumBlocks('8:30', '9:25')
+        },
+        {
+            index: 4,
+            start: '8:30',
+            end: '9:25',
+            start_block: 8.5,
+            num_blocks: getNumBlocks('8:30', '9:25')
+        }
+    ],
+    color: colors[(Math.floor(Math.random() * colors.length))]
+  },
   'L5': {
     days: [{
         index: 2,
